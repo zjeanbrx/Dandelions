@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="whte-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simplesmente o melhor guia de como usar o Tartaglia">
+    <link rel="stylesheet" href="/cores-temas/hydro.css">
+    <link rel="stylesheet" href="/styleguia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Dandelions / Tartaglia</title>
+    <link rel="icon" href="/img/logo/Dandelions_white.png">
+    <meta property="og:site_name" content="By: Yuri, Shazowaq & Jean">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="O mais completo guia do Tartaglia">
+    <meta name="twitter:description" content="Simplesmente o melhor guia de como usar o Tartaglia">
+    <meta property="twitter:image" content="https://dandelions-tartaglia.vercel.app/img/banner_tartaglia.jpg">
+    <meta property="og:image" content="https://dandelions-tartaglia.vercel.app/img/banner_tartaglia.jpg">
+</head>
+<body>
+    <script defer src="/script.js"></script> 
+    <header>
+        <div>
+            <a href="https://dandelions.vercel.app/" class="home">
+                <img src="/img/logo/Dandelions.png">
+                <h1>Dandelions</h1>
+            </a>
+        </div>
+        <div>
+            <h1>Guia completo do Tartaglia</h1>
+        </div>
+        <div class="counterside"></div>
+    </header>
+    <main class="flex">
+        <section class="topo">
+            <div class="irtopo" id="topo"></div>
+            <div class="banner anima">
+                <img id="banner" src="/img/guias/tartaglia/Banner_Tartaglia.jpg">
+            </div>
+            <div class="autoria-mobile flex">
+                <p class="autoria2 anima2">By: Yuri, Shazowaq & Jean</p>
+                <div class="bgcolor flex">
+                    <div class="botao2">
+                        <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
+                        <label for="bblue" class="bblue flex animabotao">
+                            <img class="botao-img sun" src="/img/icones/sun.webp">
+                            <div class="ball"></div>
+                            <img class="botao-img moon" src="/img/icones/moon.webp">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div id="introducao" class="intro intro-anima">
+                <p>Tartaglia é um <span class="manter">enabler/DPS</span> em campo do elemento Hydro, usuário de Arco e que muda de instância durante sua Habilidade Elemental. Seus maiores trunfos são sua enorme aplicação elemental em área, o dano Frontloaded de seu Supremo e seu desempenho em AdE que escala com a quantidade de inimigos. 
+                </p>
+            </div>
+            <div class="razoes anima3">
+                <h2>Por que pegar ou skipar?</h2>
+                <div class="pros">
+                    <button id="pros">
+                        <h3>Prós:</h3>
+                    </button>
+                    <div class="txtpros">
+                        <p>Quando em campo, possui simplesmente a melhor aplicação Hydro em área do jogo.</p>
+                        <p>Forma junto com Bennett, Xiangling e Kazuha (ou Sucrose) o arquétipo conhecido como
+                            International que é considerado por muitos o melhor time para conteúdo de múltiplos alvos
+                            (AdE) do jogo. </p>
+                        <p>Extremamente versátil em sua Build com diversas opções de set (4 ou 2 peças). </p>
+                        <p>Excelente dano pessoal, principalmente usando Vaporizar em sua Ultimate que é extremamente
+                            forte no quesito Nuke, com um dos maiores multiplicadores em hit único do jogo e/ou em
+                            situações AdE devido ao Quadratic Scaling da Interceptação de Fluxo.</p>
+                        <p>Versáteis estilos de jogo, combos e rotações. Tartaglia se adapta bem aos desafios podendo
+                            ter durações em campo e requerimentos de recarga diferentes graças a mecânica de retorno de
+                            energia do seu Supremo e do Tempo de Recarga dinâmico de sua Habilidade Elemental.</p>
+                    </div>
+                </div>
+
+                <div class="contras">
+                    <button id="contras">
+                        <h3>Contras:</h3>
+                    </button>
+                    <div class="txtcontras">
+                        <p>Requer uma certa curva de aprendizado para tomar melhor proveito de suas mecânicas e dano.
+                        </p>
+                        <p>A complexidade de seu Kit pode ser maçante para alguns jogadores.
+                        </p>
+                        <p>Opções de armas T4 e F2P escassas.</p>
+                        <p>Não possui aplicação Hydro quando está fora de campo, tornando-o uma opção menos interessante
+                            em diversos arquétipos que necessitam dessa aplicação.
+                        </p>
+                        <p>Apesar de possuir diversos times, a maioria deles não são eficientes ou onde o Tartaglia é a
+                            melhor opção, se limitando a um único arquétipo realmente impactante - o International. </p>
+                        <p>Requer investimento nele e em seus companheiros de equipe para performar bem (Xiangling,
+                            Beidou, Fischl). Childe não é um Hypercarry.
+                        </p>
+                    </div>
+                </div>
+                <div class="m20" id="faq">
+                    <div class="passivas">
+                        <span>Dúvidas Frequentes:</span>
+                    </div>
+                    <div>
+                        <h3><span>"Childe tem outro time bom além do International?"</span></h3>
+                        <p>Se por <span>bom</span> se entende um time com dano suficiente para passar o abismo, então a resposta é <span>sim.</span> Tartaglia tem opções de time em diversos arquétipos, como se pode ver na seção de Equipes e Sinergias. O problema é que ele só é a melhor escolha em um único arquétipo realmente relevante: o International. Este é tão melhor que os demais que há a impressão que nele esteja sua única utilidade, o que não é bem verdade. </p>
+                        <p>Por outro lado, se por <span>“bom”</span> se considera um time com desempenho semelhante ao Rational, Nahida Hyperbloom, Ayaka Freeze, Nilou Bloom, Hu Tao Double Hydro etc., então a resposta é <span>não.</span> Seu único time no nível desses é com Bennett, Xiangling e Kazuha (ou Sucrose). Portanto, se seu interesse no personagem está atrelado a poder jogar com seus melhores times, então entenda que ele será, no que se refere à variabilidade de tais equipes, bem limitado. O International é basicamente sua única opção.
+                        </p>
+                        <p>Ainda assim, mesmo que se admita que Tartaglia só tem lugar num único time, não é de qualquer time que estamos falando e há um peso relevante em ser melhor escolha de uma das melhores equipes do jogo.</p>
+                    </div>
+                    <div>
+                        <h3><span>"O cooldown de sua Habilidade Elemental realmente é um problema? Preciso da C1 para
+                                corrigir isso?"</span></h3>
+                        <p>Não. Veremos em detalhes como funciona a administração de tempo de recarga de sua Habilidade
+                            Elemental na seção Entendendo o Kit. No mais, apenas entenda que essa é uma característica
+                            de sua jogabilidade e não um “problema”. Suas rotações, se bem executadas, não te farão
+                            sequer lembrar que essa mecânica existe.</p>
+                        <p>Sua primeira constelação não serve para consertar um problema inexistente, mas para te dar um
+                            pouco mais de liberdade (criativa) na execução de suas rotações, sendo muito mais relevante
+                            para speedruns que situações comuns do abismo.
+                        </p>
+                    </div>
+                    <div>
+                        <h3><span>"Childe dá pouco dano?"</span></h3>
+                        <p>Embora contribua com uma parcela significativa do dano da sua equipe, Tartaglia oferece pouco
+                            quando jogado como Hypercarry (DPS principal e único). Isso se deve a uma característica de
+                            função, não a um problema do personagem. Bem como a Xiangling, Childe não precisa ser todo o
+                            dano do time para ser um DPS relevante. Tanto sua aplicação quanto o dano dos seus ataques
+                            normais, carregados, Habilidade Elemental e Supremo o consolidam como um dos melhores
+                            personagens na relação utilidade vs. contribuição de dano: se Childe em seu melhor time tem
+                            por volta de metade do DPS total, saiba que a outra metade só subsiste graças a ele. É isto
+                            que significa ser um <span>Enabler.</span></p>
+                            <details class="accordion tabela-dano-div">
+                                <summary>Distribuição de dano do International</summary>
+                                <div class="tabela-dano">
+                                    <img loading="lazy" src="/img/guias/tartaglia/dano_distribuicao.png">
+                                </div>
+                            </details>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="talentos" class="talentos-1 anima4">
+                <h2 class="analise-c">Talentos</h2>
+                <div class="talento-titulo flex">
+                    <img loading="lazy" class="icone" src="img/atk_normal.png">
+                    <span class="talento "> Ataque Normal: <span class="talento-nome">Intercepção de Chuva</span></span>
+                </div>
+                <p>
+                    Os Ataques Normais desse talento não representam uma parcela significativa de seu dano e não serão
+                    utilizados. Já seus Ataques Carregados com mira podem ser usados para uma aplicação elemental rápida
+                    (útil para alguns setups e times), sendo essa sua única característica relevante. O Ataque Carregado
+                    Completo de Childe também aplica o chamado <span>Selo da Interceptação de Fluxo,</span> mecânica
+                    importante sobre a qual discutiremos a fundo mais adiante.
+                </p>
+                <div class="talento-titulo flex">
+                    <img loading="lazy" class="icone" src="img/skill.png">
+                    <span class="talento "> Habilidade Elemental: <span class="talento-nome">Legado do Mal - Ondas de
+                            Fúria</span></span>
+                </div>
+                <p>
+                    Muda a instância de Childe de "à distância" (arqueiro) para "Corpo a Corpo". Seu arco será
+                    substituído por Adagas de Hydro, ele ganhará um novo set de animações e ficará impossibilitado de
+                    realizar Ataques Imersivos. Seus Ataques Normais e Carregados serão convertidos para <span>Dano
+                        Hydro</span> e não poderão ser anulados por outras infusões elementais (ex.: Bennett C6,
+                    Chongyun). Seus ataques que entram em contato com inimigos afetados pela <span>Interceptação de
+                        Fluxo</span> desencadearão <span>Interceptação de Fluxo - Corte</span> que explode e causa dano
+                    em área. Além disso, <span>quanto mais tempo Tartaglia permanecer com essa habilidade ativa, maior
+                        será seu tempo de recarga.</span> Seu tempo máximo de uso é de 30s e sua recarga de 36s.
+                </p>
+                <p class="margintop0">Essa habilidade geralmente compete com o Supremo como maior parcela de dano feito
+                    pelo Childe e é sua maior fonte de aplicação Hydro contínua.</p>
+                <div class="talento-titulo flex">
+                    <img loading="lazy" class="icone" src="img/ult.png">
+                    <span class="talento "> Supremo: <span class="talento-nome">Devastação: Obliteração</span></span>
+                </div>
+                <p>Realiza ataques distintos dependendo de qual instância Tartaglia estava antes de ativar seu Supremo.
+                </p>
+                <p class="supremo-modo"><span>Habilidade Elemental desativada: </span> Dispara uma flecha de dano Hydro
+                    em uma área circular <span>à sua frente</span> e aplica o efeito de Interceptação de Fluxo. Além
+                    disso, regenera 20 de energia Elemental para Tartaglia.</p>
+                <p class="supremo-modo"><span>Habilidade Elemental ativada: </span> Realiza um corte de dano Hydro maior
+                    e em uma grande área <span>ao seu redor</span> e causa mais dano que na versão à distância. Além
+                    disso, aplica o efeito <span>Interceptação de Fluxo - Obliteração</span> por meio do qual seu
+                    Supremo limpa o estado de Interceptação de Fluxo atual dos inimigos atingidos e desencadeia uma nova
+                    explosão de dano Hydro em área.</p>
+                <div class="prioridades">
+                    <p class="prioridade-txt"><span>Prioridade de Talentos</span></p>
+                    <p>Há muitas nuances na distribuição de dano do Tartaglia. Há cenários em que a Ultimate será a mais importante, outros em que será sua Habilidade Elemental (Ataques Normais e Carregados e Interceptação de Fluxo). Nesse sentido, Tartaglia pode ser considerado tanto um <span>Burst DPS</span> (foco no dano Frontloaded de sua Ultimate) quanto um <span>Melee DPS</span> (foco no seu dano no modo corpo a corpo, ou na combinação do Supremo com esse modo), o que muda sua prioridade de Talentos da seguinte maneira:</p>
+                    <p class="prioridades-s"><span>Dano de Supremo: </span></p>
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/ult.png">
+                            <p>ULT</p>
+                        </div>
+                        <div class="comparacao c1"> > </div>
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/skill.png">
+                            <p>SKILL</p>
+                        </div>
+                        <div class="comparacao"> >> </div>
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/atk_normal.png">
+                            <p>AA</p>
+                        </div>
+                    </div>
+                    <p class="prioridades-s"><span>Dano corpo a corpo: </span></p>
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/skill.png">
+                            <p>SKILL</p>
+                        </div>
+                        <div class="comparacao c1"> > </div>
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/ult.png">
+                            <p>ULT</p>
+                        </div>
+                        <div class="comparacao"> >> </div>
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/atk_normal.png">
+                            <p>AA</p>
+                        </div>
+                    </div>
+                    <p class="prioridades-s">
+                        Ambas as opções são válidas e irão depender da combinação de set(s) utilizada, nível de investimento e equipe.  Para International, as duas são igualmente viáveis, sendo a que prioriza o Q geralmente útil para altos níveis de investimento (em artefatos, armas e constelações) e se o seu objetivo é maximizar as capacidades de dano Frontloaded de Tartaglia, o que será discutido na seção de Tópicos Avançados. A segunda é a melhor opção considerando o desempenho total do combo (Childe Q + E) e é mais útil com armas e sets que aumentam o poder de seus Ataques Normais, Carregados e da Interceptação de Fluxo - Corte, e em times que o Tartaglia não vaporiza sua Ultimate o que naturalmente fará seu dano corpo a corpo ser mais relevante. Na dúvida, <span>upe seu Supremo e sua Habilidade Elemental igualmente:</span>
+                    </p>
+                    <p class="prioridades-s"><span>Recomendado</span></p>
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/skill.png">
+                            <p>SKILL</p>
+                        </div>
+                        <div class="comparacao c1"> = </div>
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/ult.png">
+                            <p>ULT</p>
+                        </div>
+                        <div class="comparacao"> >> </div>
+                        <div class="flex-column">
+                            <img loading="lazy" src="img/atk_normal.png">
+                            <p>AA</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="set">
+                    <div class="passivas">
+                        <span>Passivas</span>
+                    </div>
+                    <div id="crisalida">
+                        <div class="talento-titulo flex">
+                            <img loading="lazy" class="icone" src="img/passiva_1.png">
+                            <span class="talento">Ascensão 1: <span class="talento-nome">Infinito Sem-Fim</span></span>
+                        </div>
+                        <p><span>A duração da Interceptação de Fluxo será estendida por 8s.</span></p>
+                        <p>Passiva de pouca relevância para a performance do personagem na maioria dos cenários já que o Selo da Interceptação de Fluxo já tem uma duração longa de 18s. 
+                        </p>
+                    </div>
+                    <div class="rot-sep"></div>
+                    <div id="sangue-fervendo">
+                        <div class="talento-titulo flex">
+                            <img loading="lazy" class="icone" src="img/passiva_4.png">
+                            <span class="talento">Ascensão 4: <span class="talento-nome">Espada das
+                                    Torrentes</span></span>
+                        </div>
+                        <p><span>Quando Tartaglia estiver na posição de corpo a corpo das Legado do Mal - Ondas de
+                                Fúria, ou se seus Ataques Normais ou Carregados causarem Dano Crítico, eles aplicarão o
+                                efeito de Interceptação de Fluxo no inimigo acertado.</span></p>
+                        <p>Essa passiva é a responsável por consolidar Tartaglia como o melhor aplicador de Hydro on
+                            field. Agora todos os acertos críticos do modo corpo a corpo aplicarão a marca da
+                            Interceptação de Fluxo, o que faz com que ele não dependa mais de seus ataques Carregados
+                            com Mira e Supremo no modo à distância para usufruir dessa mecânica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="anima5" id="habilidade">
+                <h2>Entendendo o Kit:</h2>
+                <h4 class="subtitulo" id="interceptacao-fluxo">
+                    <span>Como funciona a Interceptação de Fluxo?</span>
+                </h4>
+                <p class="adendo"><span>Adendo: </span> A tradução oficial em português do jogo nomeia como
+                    "Interceptação de Fluxo - Explosão" tanto o "Riptide Burst" quanto o "Riptide Blast". Como veremos,
+                    essas são mecânicas completamente distintas. Tendo isso em mente e para evitar ambiguidade dos
+                    termos resolvemos, por conveniência, chamá-las de <span>"Interceptação de Fluxo - Explosão"</span> e
+                    <span>"Interceptação de Fluxo - Obliteração",</span> respectivamente.
+                </p>
+                <p>Antes de nos aprofundarmos mais detalhadamente nos pormenores dos seus talentos, é importante
+                    entender esta que é sua mecânica central e responsável por caracterizar a funcionalidade (e dano
+                    AdE) do Tartaglia: a Interceptação de Fluxo (Riptide) e seus derivados (Instantâneo, Explosão, Corte
+                    e Obliteração).
+                </p>
+                <div class="talentos-img">
+                    <img loading="lazy" src="img/interceptacao_fluxo.png">
+                </div>
+                <p> 
+                    Existem 4 formas de aplicar o <span>selo da Interceptação de Fluxo (IdF)</span> nos inimigos: com seus Ataques Carregados com Mira, com os <span>acertos Críticos</span> de seus Ataques Normais e Carregados
+                    no modo corpo a corpo (graças a passiva de Ascenção 4), com o seu Supremo no modo <span>à distância</span> e
+                    quando inimigos marcados morrem próximo de outros inimigos não marcados. Esse selo reagirá de
+                    diferentes formas dependendo de qual foi a origem dos golpes que o acertarem:
+                </p>
+                <ul class="modos-lista">
+                    <li>
+                        <p class="fluxo-modo">
+                            <span>Carregado com mira causa IdF - Instantâneo.</span>
+                            Ocorre quando seu Carregado com mira atinge um inimigo marcado e causa 3 hits de dano Hydro
+                            em Área, tendo seu multiplicador no Talento do Ataque Normal.
+                        </p>
+                    </li>
+                    <div class="talentos-img">
+                        <img loading="lazy" src="img/image3.gif">
+                    </div>
+                    <li>
+                        <p><span>Ataques Normais e Carregados no modo corpo a corpo causam IdF - Corte.</span>
+                            Gera um corte de dano em área quando os Ataques Normais e Carregados no modo corpo a corpo
+                            atingem os inimigos marcados. Seu dano é considerado de Habilidade Elemental e pode ocorrer
+                            a cada 1.5s.
+                        </p>
+                    </li>
+                    <div class="talentos-img">
+                        <img loading="lazy" src="img/image30.gif">
+                    </div>
+                    <li>
+                        <p><span>O Supremo no modo Corpo à Corpo causa IdF- Obliteração.</span> Utilizar essa versão do
+                            Supremo <span>limpa</span> a marca preexistente no inimigo e desencadeia uma explosão de
+                            dano Hydro subsequente. O dano causado é considerado de Supremo.</p>
+                    </li>
+                    <div class="talentos-img">
+                        <img loading="lazy" src="img/image34.gif">
+                    </div>
+                    <li>
+                        <p><span>Matar um inimigo causa IdF - Explosão.</span> Essa IdF acontece sempre que um inimigo
+                            marcado é derrotado, independentemente do próprio Tartaglia tê-lo matado. Causa dano em área
+                            e tem o poder de aplicar a marca da Interceptação de Fluxo em todos os inimigos atingidos
+                            pela explosão. </p>
+                    </li>
+                    <div class="talentos-img">
+                        <img loading="lazy" src="img/image4.gif">
+                    </div>
+                </ul>
+
+            </div>
+            <div>
+                <h4 class="subtitulo" id="interceptacao-chuva">
+                    <span>Como funciona seu talento Interceptação da Chuva (Ataque Normal/Carregado à distância)?</span>
+                </h4>
+                <p>Como vimos, os ataques normais desse talento não serão usados. Já os Carregados com mira serão
+                    usados em algumas situações muito específicas, entre as quais:</p>
+                <ul class="modos-lista">
+                    <li>
+                        <p><span>Aplicação elemental no começo.</span> No início da rotação, ele pode ser usado para
+                            aplicar hydro em um inimigos distante, como exemplifica o Gif abaixo. Isso é relevante
+                            especialmente em situações em que se queira aplicar debuff do Sombra Verde em mais de um
+                            elemento (no caso do International, Hydro e Pyro), o que pode resultar em um aumento
+                            expressivo de dano. Contudo, como veremos adiante, o casting da habilidade elemental é
+                            normalmente preferível para estabelecer uma aura Hydro inicial.</p>
+                    </li>
+                    <div class="talentos-img">
+                        <img loading="lazy" src="img/image20.gif">
+                    </div>
+                    <li>
+                        <p><span>Entre rotações para possibilitar ou facilitar certos setups.</span> Em times como o
+                            International, seu Ataque Carregado com Mira pode ser utilizado entre rotações para
+                            restabelecer uma aura Hydro nos inimigos se sua Habilidade Elemental estiver em recarga.</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="subtitulo" id="legado-do-mal">
+                    <span>Como funciona seu talento “Legado do Mal” (Habilidade Elemental)?</span>
+                </h4>
+                <p>Com esse talento ativo, Tartaglia ganhará um novo set de animações e multiplicadores independentes para cada ataque. Com exceção do Casting e do dano da IdF -  Corte, todos os danos de seus ataques realizados sob esse efeito serão considerados <span>dano de Ataque Normal,</span> porém escalarão com os multiplicadores descritos em sua Habilidade Elemental, o que faz com que o upgrade desse talento tenha preponderância em relação a Interceptação da Chuva já que praticamente todo seu dano de Ataques Normais e Carregados vem da Habilidade Elemental. Além disso, por serem efetivamente Ataques Normais, eles ativarão habilidades que apresentam isso como requisito, a saber, o Supremo da Beidou, da Yelan e do Xingqiu. Entendamos agora as principais características desse talento.
+                </p>
+                <div>
+                    <h3 class="subtitulo2">Casting da Habilidade Elemental</h3>
+                    <p>Após Childe ativar sua Habilidade Elemental, ele causará dano Hydro em uma AdE ao seu redor. Esse é o dano de Casting. Por aplicar Hydro Forte (2U), será extremamente útil nos setups complexos de seu principal time, como veremos na seção sobre as rotações do International.</p>
+                </div>
+                <div>
+                    <h3 class="subtitulo2">Interceptação de Fluxo</h3>
+                    <p>Acertar inimigos afetados pelo selo da Interceptação de Fluxo causará um corte horizontal em área que atingirá inimigos próximos. Este é o aspecto mais importante desse talento, pois é nele que reside seu maior potencial de dano em área graças ao chamado “Quadratic Scaling”, mecânica que será discutida na seção de Tópicos Avançados.</p>
+                </div>
+                <div>
+                    <h3 class="subtitulo3">Tempo de Recarga da Habilidade Elemental</h3>
+                    <p>Outra característica importante desse talento é também sua mecânica mais infame: <span>a recarga de sua habilidade elemental aumenta quanto mais tempo se passa com ela ativa.</span> De maneira geral, para saber quanto tempo sua Habilidade Elemental ficará inativa basta somar 6s ao tempo que ficou em campo. Administrar quanto tempo é gasto sob o estado do Legado do Mal com base na situação de seu time e inimigos representará sua vitória ou derrota completa. Ficar tempo de menos pode ser perda de DPS e ficar tempo demais em campo, sem ter com o que preencher esse vácuo, também. A seguir, uma tabela com as durações dessa recarga em relação ao tempo em campo:</p>
+                    <table class="tabela-cd">
+                        <thead>
+                            <tr>
+                                <th>Tempo em Campo (sob o estado Legado do Mal)</th>
+                                <th>Tempo de recarga da Habilidade Elemental </th>
+                                <th>Tamanho mínimo da rotação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>7s</td>
+                                <td>13s</td>
+                                <td>19s</td>
+                            </tr>
+                            <tr>
+                                <td>9s</td>
+                                <td>15s</td>
+                                <td>24s</td>
+                            </tr>
+                            <tr>
+                                <td>12s</td>
+                                <td>18s</td>
+                                <td>30s</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>A linha do meio representa o que é tido genericamente como mais aceitável e/ou recomendável: <span>Ficar 9s batendo em campo com a Habilidade Elemental ativa e sair.</span> Não há contudo um valor exato, e cabe a você, com conhecimento de prática, determinar o que é preferível dado o caso concreto. Para ajudar nessa tarefa, existem diferente maneiras de saber quando se deve encerrar o estado do Legado do Mal:
+                    </p>
+                    <ul class="modos-lista">
+                        <li>Utilizando o relógio de recarga de seu Supremo: Se você ativou  a Habilidade Elemental logo após o Supremo, quando este marca 6s, significa que você já está há 9s em campo.</li>
+                        <div class="tartaglia-cd-img">
+                            <img loading="lazy" src="img/tartaglia_cd.png">
+                        </div>
+                        <li>Cronometrar a saída de campo com habilidades de outros personagens (Oz da Fischl, Pyronado, Ultimate do Bennett etc).</li>
+                        <li>Prática.</li>
+                    </ul>
+                    <div class="set" id="combos">
+                        <h3 class="subtitulo3">Combos</h3>
+                        <p>Além de saber administrar o tempo que se gasta em campo, é preciso saber como gastar esse tempo. De maneira geral, estes são seus combos possíveis enquanto se está com a Habilidade Elemental ativa:</p>
+                        <p><span>Legenda:</span></p>
+                        <div class="legenda">
+                            <p>N = Ataque Normal</p>
+                            <p>C = Ataque Carregado</p>
+                            <p>J = Pulo/Jump</p>
+                            <p>D = Esquiva/Dash</p>
+                        </div>
+                        <table class="combo-tabela">
+                            <thead>
+                                <tr>
+                                    <th>Combo + Cancel. opcional</th>
+                                    <th>Características </th>
+                                    <th>Como Fazer</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>N1C + J/D</td>
+                                    <td>Muito consumo de Stamina com Dash ou Jump, porém mais aplicação elemental.</td>
+                                    <td>Clique e segure > Pule ou Esquive </td>
+                                </tr>
+                                <tr>
+                                    <td>N2C + J/D</td>
+                                    <td>Menos consumo de Stamina e aplicação que N1C, porém mais dano. Em geral, a opção mais indicada.</td>
+                                    <td>Clique > Clique > Clique e segure > Pule ou Esquive</td>
+                                </tr>
+                                <tr>
+                                    <td>N3C + J/D</td>
+                                    <td>Menos consumo de Stamina que o anterior com Dash, e consumo de Stamina neutro com Jump. </td>
+                                    <td>Clique 3 vezes > Clique e segure > Pule ou Esquive
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>N5C + J/D</td>
+                                    <td>Menos consumo de Stamina que os anteriores com Dash, e ganho Stamina com Jump.</td>
+                                    <td>Clique 5 vezes > Clique e segure > Pule ou Esquive</td>
+                                </tr>
+                                <tr>
+                                    <td>N6C + J/D</td>
+                                    <td>Ganho de Stamina tanto com Dash quanto com Jump, porém menos dano que todos os anteriores.</td>
+                                    <td>Clique 6 vezes > Pule ou Esquive</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>Cancelamentos com Pulo naturalmente gastam menos Stamina em todos os casos, mas são uma forma de cancelamento de combo mais lenta que esquiva. </p>
+                        <p>Os combos <span>N2C e N3C são os mais recomendáveis.</span> Combos N5C são recomendados para armas que buffam Ataques Normais, como a Agitação Trovejante. Combos N6 são úteis contra inimigos leves, já que seus carregados podem lançá-los para longe e fora do alcance de seu dano.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4 class="subtitulo" id="supremo">
+                    <span>Como funciona seu Supremo? (Devastação: Obliteração)</span>
+                </h4>
+                <p>
+                    Como vimos na seção de talentos, seu Supremo tem duas versões: À distância (Habilidade Elemental desligada) e corpo a corpo (Habilidade Elemental ligada). O último tem um multiplicador consideravelmente mais alto, mas que não necessariamente o configura como melhor opção. Entendamos as características desses dois modos do Supremo a fim de determinar seus melhores usos.
+                </p>
+                <div class="set">
+                    <h3 class="subtitulo4">Supremo Corpo a Corpo ou à Distância? </h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Supremo Corpo a Corpo</th>
+                                <th>Supremo à distância</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aumenta mais ainda a duração de recarga da Habilidade Elemental</td>
+                                <td>Não afeta essa duração</td>
+                            </tr>
+                            <tr>
+                                <td>Causa mais dano no Hit</td>
+                                <td>Geralmente, causa mais dano de rotação</td>
+                            </tr>
+                            <tr>
+                                <td>Requerimentos de recarga muito altos para se usar toda rotação (140~150%)</td>
+                                <td>Requerimentos de Recarga muito baixos (~110%), pode ser usado toda rotação</td>
+                            </tr>
+                            <tr>
+                                <td>Setup mais complicado</td>
+                                <td>Setup mais simples</td>
+                            </tr>
+                            <tr>
+                                <td>Não pode ser usado quando a Habilidade Elemental está em recarga</td>
+                                <td>Pode ser usado a qualquer momento</td>
+                            </tr>
+                            <tr>
+                                <td>IdF - Obliteração, mas limpa a marca</td>
+                                <td>Não causa nenhuma IdF, mas aplica a marca</td>
+                            </tr>
+                            <tr>
+                                <td>Nuke (bomba de fusão)</td>
+                                <td>Nuke (bomba de fissão)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul class="modos-lista">
+                        <li><span>Duração da recarga da Habilidade Elemental: </span> o Supremo corpo a corpo só poderá ser usado depois de ativarmos a Habilidade Elemental, porém seu tempo de recarga não é pausado durante sua animação. Portanto, será somada a sua recarga o tempo que gastou fazendo esse Supremo, desde o início da animação até o corte subsequente.</li>
+                        <li><span>Dano: </span> a Ultimate no modo à distância causa menos dano, mas há 2 fatores que podem fazer com que a outra outra versão deste Supremo acabe contribuindo menos com o DPS total. Ter mais tempo em campo e não ser penalizado por isso pode te dar a chance de dar mais dano pessoal com o modo corpo a corpo e ao mesmo tempo aplicando mais Hydro para que outros personagem (sim, a Xiangling) possam se aproveitar disso. Além disso, usar essa Ultimate toda rotação pode significar ter que aumentar expressivamente seus requerimentos de recarga ao ponto de uma redistribuição de status hipotética acabar tornando-a menos efetiva que sua concorrente inclusive no dano único do hit. Portanto, abrir mão de status críticos, Ataque e Proficiência para stackar recarga não é indicado.</li>
+                        <li><span>Setup: </span> mudar para a postura corpo a corpo irá aplicar Hydro em uma pequena AdE e em demasia - 2U (mais sobre isso na seção de mecânicas avançadas). Isso pode fazer com que Tartaglia limpe uma aura Pyro ou impeça que ela seja estabelecida antes de sua Ultimate atingir o inimigo. Existem técnicas que podem evitar que isso aconteça (como se afastar dos inimigos antes de ativar seu modo corpo a corpo), porém nada disso é um problema para sua outra versão dessa Habilidade.</li>
+                        <li><span>Flexibilidade: </span> a Ultimate à distância também não está atrelada a nenhum outro talento, podendo ser utilizada tão logo esteja disponível, bastando desativar o E se ele já estiver ativo ou simplesmente trocar de personagem e depois voltar para o Tartaglia. Isso torna sua utilização mais flexível que sua outra versão, inclusive como método de preenchimento de downtime (de que comentamos no tópico anterior).</li>
+                        <li><span>Poder de Nuke: </span> seu Supremo no modo corpo a corpo possui uma sinergia específica com a marca da Interceptação de Fluxo. Ele explode a marca e causa um dano secundário em cada inimigo marcado atingido que irá causar dano em AdE e terá as mesmas propriedades quadráticas do Idf -  Corte (de sua habilidade elemental) e do IdF - Explosão. Além disso, seu dano é muito alto, o que é ideal para fazer HitKill em inimigos com muita vida quando sua Ultimate à distância não tiver dano suficiente para isso ou simplesmente se exibir com um número alto (showcase). Outro ponto desse tipo de Supremo é poder ser utilizado como finalizador nas últimas câmaras do abismo onde a necessidade de conservar energia para uma próxima sala inexiste. </li>
+                    </ul>
+                </div>
+                <div id="topicos-avancados-kit">
+                    <h2>Tópicos Avançados</h2>
+                    <div>
+                        <details class="accordion">
+                            <summary class="summary-style-2">
+                                Quadratic Scaling
+                            </summary>
+                            <p>Para entendermos melhor essa mecânica é importante explicar primeiro o que seria o <span>"Linear Scaling".</span> Imagine a Ultimate do Diluc em duas situações: contra um mob e depois contra 6 mobs. No primeiro caso ele deu, digamos, um dano unitário de 1000 contra o mob. Já na segunda situação, o dano será único também, porém em cada um dos mobs, logo 6x1000 = 6000. Podemos então concluir que o dano da Ultimate do Diluc, bem como da maioria das habilidades em AdE do jogo, escalam linearmente com a quantidade de inimigos. Se há 2 inimigos o dano será multiplicado por 2, se há 5, por 5 e assim por diante. Podemos formalizar essa interação com a seguinte fórmula:
+                            </p>
+                            <p><span>Dano total = Dano unitário x n</span></p>
+                            <p>Onde: n = número de inimigos.</p>
+                            <p>Agora imagine o Tartaglia nas 2 situações citadas. Suponhamos que os inimigos já se encontram marcados com o selo da Interceptação de Fluxo e que estejam relativamente próximos. Contra 1 único mob, Tartaglia o atingirá com um ataque normal em seu modo corpo a corpo e desencadeará IdF - Corte que causará 100 de dano (1 instância de dano de Habilidade Elemental) no inimigo. Já contra 6 inimigos, digamos que Tartaglia utilize um Ataque Carregado no seu modo corpo a corpo e os atinja. O dano causado por esse Ataque Carregado escalará linearmente, como ocorreu na situação da Ultimate do Diluc. Porém, agora o IdF - Corte será desencadeado em cada um dos inimigos acertados. Cada um receberá um dano de IdF - Corte do selo que está em si e causará 1 dano de IdF - Corte contra todos os inimigos à sua volta. Sendo assim o total de dano causado será o dano unitário em cada inimigo multiplicado pelo número de inimigos que desencadearam o IdF - Corte multiplicado pelo número de inimigos atingidos pelo IdF. Podemos então dizer que o dano total seria 100x6x6 ou, simplesmente, 100x6² = 3600.  Podemos então dizer que os IdFs de Tartaglia possuem <span>Quadratic Scaling,</span> ou seja, seu dano é multiplicado por n², o que pode ser expresso com a seguinte fórmula:</p>
+                            <p><span>Dano total = Dano unitário x n²</span></p>
+                            <p>Assim, quanto mais inimigos mais dano. Se há 2 inimigos, IdF causará 4 vezes o dano. Se contra 3, 9 vezes o dano. Contra 4, 16 vezes o dano e assim por diante. </p>
+                            <p>Com exceção do IdF - Instantâneo, todos os IdFs possuem esse tipo de Scaling, causarão dano a todos os inimigos próximos e aplicarão Hydro neles todas as vezes que ocorrerem, independentemente da aplicação causada por outras fontes de dano do Tartaglia ou por outros IdFs, o que resulta em um verdadeiro caos numérico na tela, bem característico da Gameplay do Fatuus.</p>
+                            <div class="talentos-img">
+                                <img loading="lazy" src="img/image19.gif">
+                            </div>
+                        </details>
+                        <details class="accordion">
+                            <summary class="summary-style-2">
+                                Distribuição de Dano: Burst vs Melee DPS & Dano Frontloaded vs Dano Sustentado
+                            </summary>
+                            <div>
+                                <p><span>"Dano Frontloaded"</span> é o dano que é concentrado em uma pequena parte de uma rotação, geralmente no início dela. Este tipo de dano existe por oposição ao chamado "Dano Sustentado", ou seja, dano que está distribuído mais ou menos igualmente durante um período de tempo maior. Observe o gráfico abaixo com o dano em relação ao tempo do time International ao longo de 4 rotações:</p>
+                            </div>
+                            <div class="talentos-img">
+                                <img loading="lazy" src="img/image28.png">
+                                <small class="source">Fonte: GCSim. Cenário simula o dano feito contra 2 inimigos com HP infinito.</small>
+                            </div>
+                            <p>Observe os grandes picos de dano e que eles ocorrem nos 8 primeiros segundos de cada rotação. Eis um exemplo paradigmático de dano Frontloaded. Isto ocorre devido aos hits iniciais do Pyronado seguido do Hit do Supremo a Distância do Tartaglia.</p>
+                            <p>Vê-se, no entanto, que a maior parte do dano na rotação é realizada <span>depois</span> desse grande pico, ou seja, quando Childe está em seu modo corpo a corpo causando dano com seus IdFs e aplicando Hydro para Xiangling vaporizar seus hits do Pyronado. Pode se dizer que o International tem um grande dano Frontloaded no início da rotação, seguido por +/- 10s de dano Sustentado. Esta é, na teoria, a fase que Childe causa mais dano, o que justifica a prioridade de talentos que falamos para Dano Sustentado na seção de Prioridade de Talentos. Mas a realidade nem sempre é assim.</p>
+                            <p>É possível atingir certos níveis de dano em que atingir uma horda de inimigos com um único hit do seu Supremo será suficiente para matá-los, o que pode mudar drasticamente a forma como Tartaglia é jogado. Tentar maximizar buffs de Proficiência, investimento em artefatos, sets com Proficiência ou Bônus de Supremo, e até mesmo ampulheta de Proficiência podem fazer com que você atinja tais thresholds de dano mais facilmente. Tem-se, então, a mudança de sua função de Sustained/Melee DPS (Foco no dano corpo a corpo) para Frontloaded/Burst DPS (Foco no dano do Supremo) em que o objetivo será priorizar suas capacidades de acabar rapidamente com uma horda de inimigos.</p>
+                            <p>Ambos DPS de Supremo e de dano corpo a corpo são opções válidas e é impossível realmente determinar objetivamente qual seja o melhor dado as inúmeras situações possíveis em que sejam relevantes. Vai, por tanto, do que o jogador tem em sua conta e/ou do que ele prefere jogar. Falaremos detalhadamente sobre as opções de armas e artefatos ideais para cada estilo de jogo nas seções de Artefatos e de Armas. </p>
+                        </details>      
+                    </div>
+                </div>
+            </div>
+            <div id="atributos" class="atributos">
+                <h2>Artefatos</h2>
+                <div>
+                    <p>Childe desempenha bem tanto com conjuntos específicos de 4 peças quanto com de 2 peças. Analisemos os prós e contras de cada um.</p>
+                    <h3 class="centered-set soyuz5">Conjuntos de 4 peças</h3>             
+                    <p>Childe possui 2 opções de conjuntos 4 peças. Na prática, as vantagens desses conjuntos, no entanto, não são tão grandes quanto parece. Vejamos cada uma dessas opções.</p>
+                </div>
+                <div id="set" class="set b9">
+                    <div class="artefato-img">
+                        <img loading="lazy" src="img/sonho_ninfa.webp">
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>Sonho de Ninfa</h4>
+                    </div>
+                    <p><span>2 peças: </span>Bônus de dano Hydro +15%.</p>
+                    <p><span>4 peças: </span>Quando um Ataque Normal, Carregado, Imersivo, Habilidade Elemental ou Supremo atingem um inimigo, gerarão um acúmulo do efeito "Ninfa Espelhada" por 8s. Quando possuir 1/2/3 acúmulos ou mais do efeito "Ninfa Espelhada", aumentará o ATQ em 7%/16%/25%, e aumentará o Bônus de Dano Hydro em 4%/9%/15%. Os acúmulos de "Ninfa Espelhada" gerados por Ataques Normais, Carregados, Imersivos, Habilidade Elemental ou Supremos existem independentemente.</p>
+                    <div class="rot-sep"></div>
+                    <div class="cb1">
+                        <div class="cb2">
+                            <h3>Prós:</h3>
+                            <p>Pode ser considerado seu set BiS. Seus stacks beneficiam todas as fontes de dano de Tartaglia o que faz com que esta seja teoricamente a opção definitiva desse personagem.</p>
+                        </div>
+                        <div class="cbsep"></div>
+                        <div class="cb2">
+                            <h3>Contras:</h3>
+                            <p>Difícil obtenção. Set ainda não está no Relicário e vem junto com outro conjunto de pouca utilidade.</p>
+                            <p>Requer que o jogador ative o set completamente antes de usar o Supremo para tomar proveito de todo seu Buff.</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="flex status">
+                    <div class="cards">
+                        <div class="artefato-card flor">
+                            <div>
+                                <h4>Vida</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Flor.webp">   
+                            <div class="stat-icon">
+                                <img src="/img/icones/HP.png"> 
+                            </div>                        
+                        </div>
+                        <div class="artefato-card pena">
+                            <div>
+                                <h4>Ataque</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Pena.webp">
+                            <div class="stat-icon">
+                                <img src="/img/icones/Ataque.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card ampu">
+                            <div class="profdiv">
+                                <h4>Ataque</h4>
+                            </div>
+                            <img loading="lazy" src="img/ampulheta.webp">
+                            <div class="stat-icon">
+                                <img loading="lazy" src="img/ataque.png"> 
+                            </div>
+                        </div>                                        
+                        <div class="artefato-card calice">
+                            <div class="profdiv">
+                                <h4>Dano Hydro</h4>                                                               
+                            </div>
+                            <img loading="lazy" src="img/calice.webp">
+                            <div class="stat-icon stat-icon-maior">
+                                <img loading="lazy" src="img/hydro.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card coroa">
+                            <div class="profdiv">
+                                <h4 class="prof">Taxa Crítica</h4>
+                                <h4 class="prof2">Taxa</h4>
+                                <h4 class="prof">Dano Crítico</h4>
+                                <h4 class="prof2">Dano</h4>
+                            </div>
+                            <img loading="lazy" src="img/coroa.webp"> 
+                            <div class="stat-icon stat-icon-maior">
+                                <img loading="lazy" src="img/taxa.png"> 
+                            </div>                         
+                        </div>
+                    </div>                  
+                </div>
+                <div id="set" class="set b9">
+                    <div class="artefato-img">
+                        <img loading="lazy" src="img/profundezas_coracao.webp">
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>Profundezas do Coração</h4>
+                    </div>
+                    <p><span>2 peças: </span>Bônus de dano Hydro +15%.</p>
+                    <p><span>4 peças: </span>Após usar uma Habilidade Elemental, aumenta o Dano do Ataque Normal e Carregado em 30% por 15s.</p>
+                    <div class="rot-sep"></div>
+                    <div class="cb1">
+                        <div class="cb2">
+                            <h3>Prós:</h3>
+                            <p>Buff de duas peças útil para todo o kit do Tartaglia.</p>
+                            <p>Buff de 4 peças é considerável para seus Ataques Normais e Carregados no modo corpo a corpo.</p>
+                            <p>Fácil obtenção. Está no Relicário e no mesmo domínio de outro set potencialmente útil.</p>
+                        </div>
+                        <div class="cbsep"></div>
+                        <div class="cb2">
+                            <h3>Contras:</h3>
+                            <p>Bônus de 4 peças não beneficia todas as suas fontes de dano. Atingir limites de dano suficientes para destruir uma horda de inimigos com um único Supremo é mais difícil com esse set que com as outras opções.</p>
+                            <p>Requer mais investimento em resina para ser melhor que opções 2-2 que são, quando muito, 1% inferiores considerando Supremo + dano corpo a corpo, e 5-12% superiores, considerando apenas Supremo.</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="flex status">
+                    <div class="cards">
+                        <div class="artefato-card flor">
+                            <div>
+                                <h4>Vida</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Flor.webp">   
+                            <div class="stat-icon">
+                                <img src="/img/icones/HP.png"> 
+                            </div>                        
+                        </div>
+                        <div class="artefato-card pena">
+                            <div>
+                                <h4>Ataque</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Pena.webp">
+                            <div class="stat-icon">
+                                <img src="/img/icones/Ataque.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card ampu">
+                            <div class="profdiv">
+                                <h4>Ataque</h4>
+                            </div>
+                            <img loading="lazy" src="img/ampulheta.webp">
+                            <div class="stat-icon">
+                                <img loading="lazy" src="img/ataque.png"> 
+                            </div>
+                        </div>                                        
+                        <div class="artefato-card calice">
+                            <div class="profdiv">
+                                <h4>Dano Hydro</h4>                                                               
+                            </div>
+                            <img loading="lazy" src="img/calice.webp">
+                            <div class="stat-icon stat-icon-maior">
+                                <img loading="lazy" src="img/hydro.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card coroa">
+                            <div class="profdiv">
+                                <h4 class="prof">Taxa Crítica</h4>
+                                <h4 class="prof2">Taxa</h4>
+                                <h4 class="prof">Dano Crítico</h4>
+                                <h4 class="prof2">Dano</h4>
+                            </div>
+                            <img loading="lazy" src="img/coroa.webp"> 
+                            <div class="stat-icon stat-icon-maior">
+                                <img loading="lazy" src="img/taxa.png"> 
+                            </div>                         
+                        </div>
+                    </div>                  
+                </div>
+                <div>
+                    <h3 class="centered-set soyuz5">Conjuntos de 2 peças</h3>
+                </div>
+                <div>
+                    Childe possui 4 combinações de bônus de 2 peças: ATQ, PROF, Bônus Hydro e Bônus de Ultimate. Há 10 sets de artefatos cujo bônus de 2 peças são um desses status: Sonho da Ninfa, Trupe Itinerante, Sonhos Dourados, Gladiador, Reminiscência, Profundezas, Ecos do Sacrifício, Além-Vida Cinábrio, Flor do Paraíso e Ritual Real. Complicado, não? Não. Na verdade é justamente isso que facilita e torna sua build muito mais versátil, pois há grandes chances de você já ter 2 pares de peças de qualquer um desses sets que já sejam bons o suficiente. Vejamos as combinações mais usuais e suas características.
+                </div>
+                <div class="set">
+                    <div class="artefato-nome">
+                        <h4>2 Hydro + 2 Hydro/ATQ</h4>
+                    </div>
+                    <p>Opção padrão. Buffa igualmente todas as suas fontes de dano.</p>
+                </div>
+                <div class="set">
+                    <div class="artefato-nome">
+                        <h4>2 Hydro/ATQ + 2 PROF/Bônus de Supremo</h4>
+                    </div>
+                    <p>Opção que tenta beneficiar mais o Supremo sem deixar de beneficiar a Habilidade Elemental. Mais indicado para quem busca uma Ultimate mais ofensiva sem perder muito desempenho no dano corpo a corpo. </p>
+                </div>
+                <div class="set">
+                    <div class="artefato-nome">
+                        <h4>2 PROF + 2 PROF/Bônus de Supremo</h4>
+                    </div>
+                    <p>Opção que beneficia somente seu Supremo. Ideal para quem quer maximizar o poder de Nuke do Tartaglia.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="subtitulo-tabela-artefatos">
+                        <span>
+                            Desempenho sustentado (Supremo + dano corpo a corpo)
+                        </span>
+                    </h4>
+                </div>
+                <div class="obs">
+                    <p>A seguir, uma tabela com a diferença de dano entre as opções citadas:</p>
+                    <p>Critérios: Bennett com Espada de Madeira, Kazuha com 1000 prof, Childe Combo: rQ + 6N2C + 4 mSlash. 25 Subs.</p>
+                </div>
+                <table class="tabela-artefatos">
+                    <thead>
+                        <tr>
+                            <th>Set/Combinação</th>
+                            <th>Diferença Relativa</th>
+                            <th>Observação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4 Sonho de Ninfa</td>
+                            <td>108.9%</td>
+                            <td>3 Stacks antes do Supremo</td>
+                        </tr>
+                        <tr>
+                            <td>4 Profundezas</td>
+                            <td>101.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 Hydro</td>
+                            <td>101.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 ATQ</td>
+                            <td>100%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 PROF</td>
+                            <td>99.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 ATQ 2 ATQ</td>
+                            <td>98%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 Ritual</td>
+                            <td>97.8%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 ATQ 2 PROF</td>
+                            <td>97.7%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 ATQ 2 Ritual</td>
+                            <td>96.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 PROF 2 Ritual</td>
+                            <td>96.1%</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <h4 class="subtitulo-tabela-artefatos">
+                        <span>
+                            Desempenho Frontloaded (Foco no Dano do Supremo)
+                        </span>
+                    </h4>
+                </div>
+                <div class="obs">
+                    <p>Critérios: Bennett com Espada de Madeira, Kazuha com 1000 prof, Harp Childe rQ. 25 Subs.</p>
+                </div>
+                <table class="tabela-artefatos">
+                    <thead>
+                        <tr>
+                            <th>Set/Combinação</th>
+                            <th>Diferença Relativa</th>
+                            <th>Observação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>4 Sonho de Ninfa amp ATQ</td>
+                            <td>104.5%</td>
+                            <td>3 Stacks</td>
+                        </tr>
+                        <tr>
+                            <td>2 PROF 2 Ritual</td>
+                            <td>103.8%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 PROF 2 PROF</td>
+                            <td>103.6%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 PROF</td>
+                            <td>101.6%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 ATQ 2 PROF</td>
+                            <td>100%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 Ritual</td>
+                            <td>99.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 ATQ 2 Ritual</td>
+                            <td>98.3%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 Hydro</td>
+                            <td>97.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 Hydro 2 ATQ</td>
+                            <td>96.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2 ATQ 2 ATQ</td>
+                            <td>94.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4 Profundezas</td>
+                            <td>91%</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="obs"><span>Utilize o que estiver disponível, se atentando mais aos status principais e secundários que nos bônus de 2 peças. Na dúvida consulte o Genshin Optimizer.</span></p>
+                <div class="set statusprincipais">
+                    <div class="passivas">
+                        <span>Status Principais</span>
+                    </div>
+                    <div class="rot-sep"></div>
+                    <div class="artefato-img">
+                        <img loading="lazy" src="img/ampulheta.webp">
+                    </div>
+                    <div class="principais-icon">
+                        <div>
+                            <h3>Relógio de Ataque</h3>
+                            <img loading="lazy" src="img/ataque.png">
+                        </div>
+                    </div>
+                    <p>O relógio pode ser de proficiência provisoriamente ou se o objetivo for maximizar o dano da Ultimate.</p>
+                    <div class="rot-sep"></div>
+                    <div class="artefato-img">
+                        <img loading="lazy" src="img/calice.webp">
+                    </div>
+                    <div class="principais-icon">
+                        <div>
+                            <h3>Cálice de Dano Hydro</h3>
+                            <img loading="lazy" src="img/hydro.png">
+                        </div>
+                    </div>
+                    <p>Única opção viável.</p>
+                    <div class="rot-sep"></div>
+                    <div class="artefato-img">
+                        <img loading="lazy" src="img/coroa.webp">
+                    </div>
+                    <div class="principais-icon">
+                        <div>
+                            <h3>Coroa de Taxa Crítica</h3>
+                            <img loading="lazy" src="img/taxa.png">
+                        </div>
+                        <div>
+                            <h3>ou Dano Crítico</h3>
+                            <img loading="lazy" src="img/dano.png">
+                        </div>
+                    </div>
+                    <p>
+                        Taxa ou dano, procurando manter a proporção 1:2 (taxa igual a metade do dano).
+                    </p>
+                </div>
+                <div class="set substatus">
+                    <div class="passivas">
+                        <span>Status Secundários</span>
+                    </div>
+                    <p><span>Dano Crítico ou Taxa > ATQ > PROF > Recarga (Foco corpo a corpo).</span></p>
+                    <p><span>Dano Crítico ou Taxa > PROF > ATQ > Recarga (Foco no Supremo).</span></p>
+                </div>
+            </div>
+            <div class="armas" id="armas">
+                <h2>Melhores Armas</h2>
+                <div>
+                    <p>As melhores armas de Tartaglia podem variar de acordo com o foco de sua build. A seguir, a
+                        disposição geral dessas armas dado o contexto:</p>
+                </div>
+                <div>
+                    <h4 class="subtitulo-armas">
+                        <span>
+                            Melhores armas para desempenho sustentado (Supremo + dano corpo a corpo)
+                        </span>
+                    </h4>
+                </div>
+                <div class="obs">
+                    <p>Critérios: Bennett com Espada de Madeira, Kazuha com 1000 prof, Childe 2-2 ATQ/Hydro%, Combo: rQ
+                        + 6N2C + 4 mSlash. 25 Subs.</p>
+                </div>
+                <table class="tabela-armas">
+                    <thead>
+                        <tr>
+                            <th>Arco</th>
+                            <th>Dano Relativo à Harpa Celestial</th>
+                            <th>Observação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Estrela Invernal R1</td>
+                            <td>111.3%</td>
+                            <td>3 acúmulos antes do Supremo</td>
+                        </tr>
+                        <tr>
+                            <td>Aqua Simulacra R1</td>
+                            <td>105.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Caminho do Caçador R1</td>
+                            <td>104.8%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Agitação Trovejante R1</td>
+                            <td>103.9%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arcana Original R1</td>
+                            <td>101.7%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Harpa Celestial R1</td>
+                            <td>100%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro R1</td>
+                            <td>92.6%</td>
+                            <td>3 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro R1</td>
+                            <td>89.8%</td>
+                            <td>2 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Arco de Amos R1</td>
+                            <td>89.8%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Último Acorde R5</td>
+                            <td>87.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro R1</td>
+                            <td>87%</td>
+                            <td>1 acúmulo</td>
+                        </tr>
+                        <tr>
+                            <td>Herdeiro do Sol R1</td>
+                            <td>86.9%</td>
+                            <td>Inimigo Atingido pela Flecha Solar</td>
+                        </tr>
+                        <tr>
+                            <td>Arco Esmeralda do Caçador R1</td>
+                            <td>85%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro</td>
+                            <td>84.3%</td>
+                            <td>0 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Lua de Mouun</td>
+                            <td>83.9%</td>
+                            <td>Custo de Supremo do time 260</td>
+                        </tr>
+                        <tr>
+                            <td>Herdeiro do Sol R1</td>
+                            <td>83.7%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arco Enferrujado R5</td>
+                            <td>83.6%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Último Acorde R1</td>
+                            <td>82.6%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arco Enferrujado R1</td>
+                            <td>80.8%</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <h4 class="subtitulo-armas">
+                        <span>
+                            Melhores armas para desempenho Frontloaded (Dano do Supremo)
+                        </span>
+                    </h4>
+                </div>
+                <div class="obs">
+                    <p>Critérios: Bennett com Espada de Madeira, Kazuha com 1000 prof, Childe 2-2 ATQ/PROF, Combo: rQ. 25 Subs.</p>
+                </div>
+                <table class="tabela-armas">
+                    <thead>
+                        <tr>
+                            <th>Arco</th>
+                            <th>Dano Relativo à Harpa Celestial</th>
+                            <th>Observação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Estrela Invernal R1</td>
+                            <td>109%</td>
+                            <td>3 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Aqua Simulacra R1</td>
+                            <td>106.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Caminho do Caçador R1</td>
+                            <td>105.4%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Último Acorde R5</td>
+                            <td>103.8%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Agitação Trovejante R1</td>
+                            <td>100.6%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Harpa Celestial R1</td>
+                            <td>100%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arcana Original R1</td>
+                            <td>99.6%</td>
+                            <td></td>
+                        </tr>  
+                        <tr>
+                            <td>Último Acorde R1</td>
+                            <td>94.3%</td>
+                            <td></td>
+                        </tr>                   
+                        <tr>
+                            <td>Penhasco Obscuro R1</td>
+                            <td>92.9%</td>
+                            <td>3 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Lua de Mouun</td>
+                            <td>91.9%</td>
+                            <td>Custo de Supremo do time 260</td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro R1</td>
+                            <td>90.2%</td>
+                            <td>2 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro R1</td>
+                            <td>87.5%</td>
+                            <td>1 acúmulo</td>
+                        </tr>
+                        <tr>
+                            <td>Arco de Amos R1</td>
+                            <td>87.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arco Esmeralda do Caçador R1</td>
+                            <td>85.9%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Penhasco Obscuro</td>
+                            <td>84.8%</td>
+                            <td>0 acúmulos</td>
+                        </tr>
+                        <tr>
+                            <td>Herdeiro do Sol R1</td>
+                            <td>86.9%</td>
+                            <td>Inimigo Atingido pela Flecha Solar</td>
+                        </tr>
+                        <tr>
+                            <td>Herdeiro do Sol R1</td>
+                            <td>84.2%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arco Enferrujado R1-R5</td>
+                            <td>79.7%</td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Arco Enferrujado R1</td>
+                            <td>80.8%</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <h4 class="subtitulo-armas">
+                        <span>
+                            Análise das melhores opções:
+                        </span>
+                    </h4>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Weapon_Polar_Star.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Estrela Invernal</h3>
+                        <p>
+                            Seu arco assinatura. Bom Ataque Base e Taxa Crítica. Para tirar melhor proveito da passiva
+                            requer que o jogador faça o "pré stack" da arma que geralmente consiste em dar um carregado
+                            com mira + Habilidade Elemental em algum ponto da rotação antes da Ultimate que, ainda
+                            assim, só terá acesso a até 3 Stacks. Esta quantidade, porém, já é suficiente para que esse
+                            seja seu melhor arco inclusive para dano de Supremo. Com essa quantidade, Tartaglia já
+                            possui 30% de ATQ para a Ultimate e, após isso, 48% de ATQ para o restante de seu combo.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 33.1%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/aqua.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Aqua Simulacra</h3>
+                        <p>
+                            Seu generosos 88% de Dano Crítico aliado ao seu Bônus de Dano Elemental universal fazem
+                            desta uma excelente opção e a mais próxima de sua arma assinatura.
+                        </p>
+                        <h4 class="statusbase">Dano Crítico: 88.2%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Arma_Caminho_do_Cacador.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Caminho do Caçador</h3>
+                        <p>
+                            Simplesmente 44% de Taxa Crítica. A arma ainda fornece um buff incondicional de 12% de dano
+                            elemental. Sua passiva aumenta o dano dos Ataques Carregados de Tartaglia baseados em sua
+                            Proficiência, porém não é aconselhável abrir mão de outros status apenas para stackar essa
+                            passiva.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 44.1%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Arma_Agitacao_Trovejante.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Agitação Trovejante</h3>
+                        <p>
+                            Possui um bom ATQ Base e Dano Crítico, além de um buff universal de ATQ%. Embora Childe
+                            consiga ter acesso a todos os seus stacks, estes só beneficiam seus Ataques Normais.
+                        </p>
+                        <h4 class="statusbase">Dano Crítico: 66.1%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Arcana_original.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Arcana Original</h3>
+                        <p>
+                            Embora a passiva seja anti sinérgica com o principal time de Tartaglia, seus status básicos
+                            a fazem uma opção viável para ele: Bom ATQ Base, status críticos e um modesto Bônus de
+                            Ataque Carregado.
+                        </p>
+                        <h4 class="statusbase">Dano Crítico: 66.1%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Harpa_celestial.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Harpa Celestial</h3>
+                        <p>
+                            ATQ Base alto e fornece em boa medida os status que Tartaglia mais quer: Dano e Taxa
+                            Crítica.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 22%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Arco_Amos.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Arco de Amos</h3>
+                        <p>
+                            Oferece um bom Base ATQ, um generoso status secundário de ATQ% e modestos 12% de Bônus de
+                            Ataque Normal e Carregado. O restante de sua passiva é inútil para Tartaglia. É a pior opção
+                            dentre as T5 mencionadas, porém geralmente melhor que a maioria das opções T4 em razão da
+                            quantidade de ATQ (Base e %) proporcionada.
+                        </p>
+                        <h4 class="statusbase">Ataque: 49.6%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Herdeiro_do_Sol.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Herdeiro do Sol</h3>
+                        <p>
+                            Ataque Base alto para uma T4 e Taxa Crítica. Sua passiva perde utilidade frente a cenários
+                            AdE já que só pode ser ativada a cada 10s contra apenas um inimigo de cada vez, o que limita
+                            o potencial dessa arma num personagem que se sobressai justamente em cenários de múltiplos
+                            alvos.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 18.3%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Esmeralda_do_Cacador.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Esmeralda do Caçador</h3>
+                        <p>
+                            Pode ser considerado seu melhor arco 4 estrelas até o momento. Possui um generoso Status
+                            Crítico e uma passiva interessante de controle de campo que pode ser facilmente ativada por
+                            Childe e será útil principalmente na ausência de um Kazuha.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 27.5%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Arma_Ultimo_Acorde.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Último Acorde</h3>
+                        <p>
+                            Seu Status principal e secundário a torna a melhor opção T4 para seu Supremo. Essa arma
+                            também beneficia o dano da Interceptação de Fluxo - Corte (da Habilidade Elemental) e
+                            Interceptação de Fluxo - Obliteração (do Supremo). Perde seu valor quanto mais outros bônus
+                            de PROF tartaglia tiver (como Sucrose, Bônus de 2 Peças, instrutor etc).
+                        </p>
+                        <h4 class="statusbase">Proficiência: 165</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/Arco_Enferrujado.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Arco Enferrujado</h3>
+                        <p>
+                            Geralmente a pior opção T4 tanto para dano sustentado, quanto para dano do Supremo. Uma
+                            passiva que só beneficia seus Ataques Normais e ainda diminui o dano de seus Ataques
+                            Carregados. Não é uma opção indicada para Childe.
+                        </p>
+                        <h4 class="statusbase">Ataque: 41.3%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img loading="lazy" src="img/penhasco_obscuro.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Penhasco Obscuro</h3>
+                        <p>
+                            Embora tenha bons Status Base e Críticos, sua passiva não é nada consistente. É inútil
+                            contra bosses e mesmo em cenários AdE não irá beneficiar Tartaglia até que ele consiga esses
+                            acúmulos. Tudo isso aliado ao fato da arma custar Poeiras Estelares, que são melhores gastas
+                            com tiros, faz dessa arma uma das opções menos desejáveis.
+
+                        </p>
+                        <h4 class="statusbase">Dano Crítico: 36.7%</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sinergia" class="sinergia section">
+                <h2>Equipes e sinergias</h2>
+                <h3>International: um pequeno guia</h3>
+                <p>O <b>International</b> consiste no núcleo clássico do National (Bennett & Xiangling + Hydro + Flex),
+                    mas com Childe como seu
+                    único enabler e Kazuha ou Sucrose no slot flex. Esse time difere do National tradicional no sentido
+                    de que, com Childe, Xiangling poderá vaporizar todos os Hits de seu Pyronado até em situações de
+                    múltiplos alvos, algo que não pode ser emulado por nenhum outro aplicador Hydro do jogo até o
+                    momento. Seus maiores trunfos são sua capacidade de realizar enormes quantidades de dano em um ou
+                    múltiplos alvos, sua eficiência contra as mais diversas variedades de inimigos e cenários, e,
+                    principalmente, a extrema flexibilidade de sua rotação graças ao cooldown dinâmico da Habilidade
+                    Elemental de Childe e do dano <em>Frontloaded</em> de seu Supremo. Entendamos agora sobre os
+                    integrantes dessa equipe.</p>
+                <h4>Equipe</h4>
+                <!-- Bennet -->
+                <div class="personagem bennett">
+                    <img loading="lazy" src="img/bennett.webp" alt="Bennett">
+                    <p>
+                        Bennett cumpre a função de <b>Buffer</b> e <b>Healer</b> do time e é a principal <b>bateria</b> da Xiangling. Proporciona
+                        junto com a Xiangling a ressonância Pyro e seu aumento expressivo de ataque perdura por toda duração
+                        do Pyronado graças à mecânica de <em>Snapshot</em> dessa habilidade e será útil na <em>Ultimate</em> do Tartaglia e
+                        nos primeiros segundos de seu uptime no modo corpo a corpo. Para mais informações, visite nosso <a href="https://dandelions-bennett.vercel.app/" target="_blank">guia do Bennett.</a></p>
+                    <p>
+                        <b>Armas: </b><b>Espada Celestial</b>, Cortadora da Neblina Reforjada, Falcão, Brilho do Beco, <b>Espada de Madeira</b>. Esta última e a primeira tendem a ser as melhores opção T4 e T5, respectivamente, apesar de não terem o maior ataque Base, possuem Recarga como atributo secundário, o que pode facilitar ainda mais sua build.</p>
+                    <p>
+                    <p>
+                        <b>Constelações Notáveis: </b>A <b>C1</b> remove a limitação de buff baseada na vida e aumenta o Buff em 20% de seu Ataque Base, a <b>C5</b> adiciona 3 níveis ao Supremo e a <b>C6</b> fornece 15% de Bônus de dano Pyro à Xiangling.
+                    </p>
+                    <p>
+                        <b>Requerimento de Recarga Recomendado:</b> 200-220%.
+                    </p>
+                    <p>
+                        <b>Artefatos: </b> <b>4 Ritual Real ou 4 Instrutor</b>. Instrutor é um set 4 estrelas e tende a ser a melhor opção desse time, porém é mais difícil de farmar. Ritual está no relicário e possibilita fazer uma build mais ofensiva para Bennett já que ele consegue Vaporizar seu Supremo nesse time.
+                    </p>
+                    <p>
+                        <b>Status: </b> <b>Recarga de Energia</b>, Ataque ou Proficiência no <b>Relógio</b>, <b>Vida%</b> ou Bônus Pyro no <b>Cálice</b> e, <b>Bônus de Cura</b>, Vida% ou Taxa Crítica na <b>Tiara</b>. Substatus devem priorizar recarga de energia sempre.
+                    </p>
+                </div>
+                <!-- Kazuha -->
+                <div class="personagem anemo-background">
+                    <img loading="lazy" src="img/kazuha.webp" alt="Kaedehara Kazuha">
+                    <p>
+                        <b>Kazuha</b> cumprirá a função de Controle de Campo, Buffer e Debuffer do time. Também ajudará na recarga do time se estiver de Favonius ou XIphos. A consistência de seu controle de campo, aliado ao baixo tempo de recarga de sua Habilidade Elemental o torna uma opção excepcional para esse time amplificando ainda mais sua flexibilidade. Seu supremo também é uma relevante fonte de dano quando em situações AdE, além de poder ser utilizado para certos Setups. Os Redemoinhos feitos por ele reduzirão a resistência elemental do inimigo (graças ao set Sombra Verde) e darão ao time Bônus de Dano Elemental baseado em sua Proficiência.
+                    </p>
+                    <p>
+                        <b>Armas:</b> <b>Juramento pela Liberdade</b>, Luz da Lua de Xiphos, <b>Espada de Favonius</b>, Espada do Sacrifício, Espinho de Ferro. Ao Kazuha só interessa Recarga de Energia e Proficiência, sendo sua arma assinatura e a Favonius as opções mais indicadas. 
+                    </p>
+                    <p>
+                        <b>Constelações notáveis:</b> a <b>C1</b> reseta a recarga de sua Habilidade Elemental após usar o supremo, o que pode ser interessante para gerar mais energia e garantir ainda mais controle de campo. Sua <b>C2</b> aumenta 200 de Proficiência para Kazuha e mais 200 para o personagem que estiver em campo. Ideal para amplificar ainda mais a Nuke do Childe e o Pyronado da Xiangling. 
+                    </p>
+                    <p>
+                        <b>Requerimento de Recarga Recomendado:</b> 180-200% (se quiser Ultar toda rotação, o que não é estritamente necessário, exceto se ele for C2).
+                    </p>
+                    <p>
+                        <b>Artefatos: </b> 4 Sombra Verde.
+                    </p>
+                    <p>
+                        <b>Status: </b> Recarga de Energia ou Proficiência no <b>Relógio</b>, <b>Proficiência</b> no <b>Cálice</b> e na <b>Tiara</b>. Substatus recarga de energia e Proficiência na Flor e na Pena.
+                    </p>
+                </div>
+                <!-- Sucrose -->
+                <div class="personagem anemo-background">
+                    <img loading="lazy" src="img/sucrose.webp" alt="Sucrose">
+                    <p>
+                        <b>Sucrose</b> divide o mesmo slot que o Kazuha e cumprirá a função de <b>Buffer</b>, <b>Debuffer</b> e <b>Controle de Campo</b>. Como é usuária de Catalisador, fará bom uso do Histórias Extraordinárias de Caçadores de Dragões (TTDS), uma arma T3 que aumenta 48% do ATQ do próximo personagem a entrar em campo. Seu dano pessoal não é tão expressivo, e seu controle de campo não é tão bom quanto o do Kazuha, mas Sucrose tenta compensar com uma quantidade massiva de Buffs. Sua primeira passiva dá 50 de prof para o personagem do elemento com o qual qual ela fez Redemoinho, e sua passiva A4 dará para todos os personagens da equipe 20% da Proficiência dela depois que sua Habilidade Elemental ou Supremo atingirem um inimigo. Isso, aliado aos 48% de  ATQ do TTDS e -40% Resistência Elemental do seu Set a faz a maior Buffer para esse slot.
+                    </p>
+                    <p>
+                        <b>Armas:</b> <b>Histórias Extraordinárias de Caçadores de Dragões</b> ou Memórias do Sacrifício. A primeira é a melhor opção, porém só irá buffar um personagem por vez a cada 20s, o que pode engessar um pouco sua rotação. Já a segunda é indicada para mais geração de partículas, melhor Controle de Campo e para rotações mais dinâmicas.
+                    </p>
+                    <p>
+                        <b>Constelações notáveis:</b> Sua <b>C1</b> aumenta uma carga de sua Habilidade Elemental. Sua <b>C6</b> dá 20% de Bônus de Dano ao elemento infundido em sua Ultimate, por 6s. 
+                    </p>
+                    <p>
+                        <b>Requerimento de Recarga Recomendado:</b> 200-220 (se quiser Ultar toda rotação, o que não é estritamente necessário inclusive sendo preferível não utilizar em algumas situações).
+                    </p>
+                    <p>
+                        <b>Artefatos: </b> 4 Sombra Verde.
+                    </p>
+                    <p>
+                        <b>Status: </b> <b>Proficiência</b> ou Recarga no relógio. <b>Proficiência</b> no Cálice e na <b>Tiara</b>. Proficiência e Recarga nos substatus.
+                    </p>
+                </div>
+                <!-- Kazuha ou Sucrose -->
+                <div class="set centered-set">
+                    <h5 style="font-size: 20px">Kazuha ou Sucrose?</h4>
+                    <p>Kazuha. Seu controle de campo mais efetivo, dano em AdE e flexibilidade compensam o excesso de buffs proporcionados por Sucrose. Em cenários estritamente de alvo único, no entanto, Sucrose tende a superá-lo.</p>
+                </div>
+                <!-- Xiangling -->
+                <div class="personagem pyro-background">
+                    <img loading="lazy" src="img/xiangling.webp" alt="Xiangling">
+                    <p>
+                        <b>Xiangling</b> fará função de DPS fora de Campo. Com seu forte supremo ela é capaz de atingir vários inimigos simultaneamente em uma generosa AdE. Com sua Habilidade Elemental ela invoca o Guoba que dá continuamente dano Pyro em alvos próximos por 8s. Seu Supremo (Pyronado) cria um tornado de fogo que circunda e acompanha o personagem em campo. É sua principal forma de dano e de onde vem a maior parte de sua reputação. Essa skill possui Snapshot e sua aplicação não tem ICD, o que torna essa habilidade extremamente relevante nesse time, dado que todos esses hits poderão ser vaporizados com ajuda do Tartaglia. 
+                    </p>
+                    <p>
+                        <b>Armas:</b>
+                        <ul>
+                            <li><b>Báculo das Areias Escarlates:</b> Melhor opção. Uma boa stat stick de taxa. Consegue tirar ainda mais proveito da ascensão e rolls de Proficiência da Xiangling. Sua passiva só ganha acúmulos depois que Guoba acerta um inimigo quando Xiangling está em campo. No entanto, não é recomendado esperar pelos 3 stacks.</li>
+                            <li><b>Barbatana do Quebra Ondas (R5):</b> Será melhor quanto melhor forem seus artefatos já que ela não dá Recarga, Taxa ou Dano Crítico, mas tem um ótimo base ATQ e buff de dano do supremo. </li>
+                            <li><b>Luz do Cortador de Grama:</b> Muito útil para situações em que ela precise de bastante recarga  já que além do status secundário da arma ela ainda concede 30% de recarga após usar seu supremo e tem a passiva que converte 28% da Recarga em ATQ.</li>
+                            <li><b>A Fisgada (R5):</b> Concede um generoso buff de 12% de taxa e 32% de Bônus de Dano do Supremo. A melhor opção F2P que temos até o momento.</li>
+                            <li><b>Perdição do Dragão (R5):</b> Um stat stick de Proficiência. Sua passiva também dá Bônus de Dano Elemental. Perde um pouco seu valor frente às demais se seu time já possuir buffs de proficiência.</li>
+                            <li><b>Menções Honrosas:</b> Homa, Jade e Lança do Duelo são excelentes Stats Sticks e também funcionam muito bem, principalmente a primeira.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        <b>Constelações notáveis:</b> Com sua <b>C1</b>, Guoba tira 15% da Resistência Pyro. Com sua <b>C3</b>, o Pyronado ganha 3 níveis. Sua <b>C4</b> dá 4s a mais de Supremo (sozinha, esta constelação pode representar de 40 a 50% aumento de dano, disparada a melhor). 
+                    </p>
+                    <p>
+                        <b>Requerimento de Recarga Recomendado:</b> 200-220%. Tudo depende da quantidade de Es do Bennett com Funneling você está disposto a fazer e do cenário. Salas com Boss tendem a elevar bastante seus requerimentos, já salas com muitos inimigos as diminuem.
+                    </p>
+                    <p>
+                        <b>Artefatos: </b> <b>4 Selo da insulação</b> Esse artefato é sem dúvida o melhor pra ela. Seu bônus de 2 peças ajuda na recarga e o de 4 peças aumenta o dano do Supremo baseado em 25% da recarga. Como a Xiangling tem um requerimento de recarga usualmente alto, este set de artefatos complementa perfeitamente o seu kit.
+                    </p>
+                    <p>
+                        <b>Status: </b> <b>PROF</b>, ATQ ou Recarga no <b>Relógio</b>, <b>Bônus Pyro</b> no <b>Cálice</b>, <b>Taxa</b> ou Dano Crítico na <b>Tiara</b>. Na presença de muitos Buffs de Proficiência (Sucrose, Instrutor, Kazuha C2 etc), Relógio de ATQ terá prioridade sobre o de Proficiência, caso contrário, este tende a ser melhor. <b>Substatus: Recarga > Proficiência > Dano ou Taxa > ATQ%</b>.
+                    </p>
+                </div>
+                <h2 id="rotacoes">Rotações</h2>
+                <p>
+                    Neste subtópico discutiremos as rotações padrão do International. Contudo, é esperado do próprio jogador que, de posse dos conhecimentos básicos desse time (Redemoinho Duplo, aplicação elemental, duração em campo, funneling etc), modifique essas rotações para que elas se adequem à situação concreta. Antes de adentrarmos nas rotações, conheçamos alguns desses conceitos básicos:
+                </p>
+                <p>
+                    <b>Funneling</b>: Consiste em gerar partículas com a Habilidade Elemental de um personagem e mudar para outro para que este receba as partículas ao invés daquele. No contexto do international, esse Funneling tipicamente ocorrerá do Bennett para Xiangling.
+                </p>
+                <p>
+                    <b>Redemoinho Duplo</b>: Consiste em quebrar a resistência elemental de ambos Hydro e Pyro. Essas rotações terão como prioridade a execução dessa técnica. Discorreremos em detalhes sobre esse conceito na seção International: Tópicos Avançados.
+                </p>
+                <p>
+                    Legenda:
+                    <ul class="ul-without-bullet">
+                        <li>AA = Auto Ataque </li>
+                        <li>E = Habilidade Elemental</li>
+                        <li>Q = Supremo</li>
+                    </ul>
+                </p>
+                <div class="set">
+                    <p>
+                        <b>Com Kazuha contra um inimigo:</b> Childe E, Bennett Q, Kazuha E (segurado) ou QE, Xiangling QE, Childe QE & Combo, Xiangling Funneling até recuperar sua Energia.
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/Kvck8Tqom1c?si=Drf46Z5LATO6Mn0b" title="Rotação Padrão com Kazuha (Alvo único)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="set">
+                    <p>
+                        <b>Com Kazuha contra dois ou mais inimigos:</b> Childe E (em um dos inimigos), Bennett Q, Kazuha QE, Xianling QE, Childe QE & Combo, Xiangling Funneling até recuperar sua Energia.
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/iVP8eVJ4g7I?si=IlOthUFLUqzpiCV8" title="Rotação Padrão com Kazuha (AdE)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="set">
+                    <p>
+                        <b>O que fazer no começo da segunda rotação quando o E do Tartaglia ainda estiver em recarga?</b> Bennett QE, Childe CA (Mira), Kazuha E (carregado), Xiangling QE, Childe Combo. Obs.: Caso o inimigo não esteja com a marca da Interceptação de Fluxo, aplique-a antes do Bennett.
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/omXtY-5h3fs" title="Ideia de segunda rotação com Kazuha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="set">
+                    <p>
+                        <b>Com Sucrose contra um inimigo:</b> Childe E, Bennett Q, Xiangling E, Sucrose AA E (Q opcional), Xiangling Q, Childe QE & Combo, Xiangling  Funneling até recuperar toda sua Energia.
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/taFjgIcR-sg?si=QJO3lGhwts3MpDEN" title="Rotação Padrão com Sucrose (Alvo Único)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="set">
+                    <p>
+                        <b>Com Sucrose contra dois ou mais inimigos:</b> Childe E (em um dos inimigos), Bennett Q, Sucrose E ou Q, Xiangling EQ, Childe QE & Combo, Xiangling Funneling até recuperar toda sua Energia.
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/YB8OuWtnMuw?si=C0lSLBVO_xBcN9kF" title="Rotação Padrão com Sucrose (AdE)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="set">
+                    <p>
+                        <b>O que fazer no começo da segunda rotação quando o E do Tartaglia ainda estiver em recarga?</b> Childe CA (Mira), Sucrose AA, Xiangling E (caso TTDS já tenha resetado), Bennett EQ, Sucrose E, Xiangling Q, Childe QE & Combo.
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/dp0emsG9BuI?si=42dsh7Wq_jVDxGET" title="Ideia de segunda rotação com Sucrose" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="avancado" class="section">
+                <h2>International: Tópicos Avançados (Infusões, Gauges e Técnicas)</h2>
+                <details class="accordion">
+                    <summary>Aplicação Elemental</summary>
+                    <p>
+                        Toda vez que um inimigo é atingido por um ataque elemental, uma certa quantidade de elemento será aplicada nele. O resultado dessa aplicação é uma Aura Elemental. Diferentes Habilidades aplicam diferentes quantidades de Elemento (ou Unidades Elementais) no inimigo, o que irá determinar quanto tempo essa aura ficará ativa no inimigo, como ela interagirá com aplicações de mesmo elemento, e <b>o que restará dela uma vez que essa aura seja utilizada numa reação elemental</b>. Essas e outras interações constituem a chamada <a href="https://library.keqingmains.com/evidence/combat-mechanics/elemental-effects/elemental-gauge-theory#gauge-unit-theory-testing-and-evidence">Elemental Gauge Theory</a>. Neste tópico, discutiremos o básico dessa teoria no que concerne o Tartaglia e seu principal time.
+                    </p>
+                </details>
+                <details class="accordion">
+                    <summary>Vaporização e Vaporização Reversa</summary>
+                    <p>
+                        Quando um inimigo afetado por <b>uma unidade elemental (1U) de Pyro</b> é atingido por uma
+                        habilidade que aplica <b>1U de Hydro</b>, a reação de <b>vaporização</b> ocorrerá e o dano deste
+                        ataque será multiplicado por <b>2</b>, mas nenhuma aura restará no inimigo. Já quando um
+                        inimigo afetado por <b>1U Hydro</b> é atingido por uma habilidade que aplica <b>1U de Pyro</b>,
+                        a reação de <b>vaporização reversa</b> ocorrerá e o dano deste ataque será multiplicado por <b>1.5</b>,
+                        mas <b>ainda restará 0.5U Hydro no inimigo que pode ser utilizada novamente para outra reação elemental</b>.
+                        O mesmo ocorrerá se ao invés de 1 fossem 2U de cada elemento, como demonstra o infográfico abaixo,
+                        onde cada quadrado colorido representa uma unidade elemental:
+                    </p>
+                    <figure>
+                        <img loading="lazy" class="media"  alt="Exemplos de vaporização" src="img/vaporize-tutorial.png">
+                        <figcaption>Créditos: Kaguu</figcaption>
+                    </figure>
+                    <p>
+                        Podemos então perceber que a reação de Vaporizar segue a lógica de 2:1, ou seja, são necessários 2U de Pyro para eliminar completamente 1U de Hydro. 
+                    </p>
+                </details>
+                <details class="accordion">
+                    <summary>Redemoinho vs Absorção Elemental</summary>
+                    <p>
+                        Quando a Habilidades Elemental do Kazuha e as Ultimates tanto do Kazuha quanto da Sucrose entram em contato com Pyro/Hydro/Electro/Cryo,
+                        eles irão absorver o elemento e causar dano elemental adicional do elemento correspondente, isso se chama <b>Absorção Elemental</b>.
+                        Como veremos mais à frente, isso pode ajudar a realizar um "<b>Redemoinho Duplo</b>". Entretanto, é importante notar que nem toda absorção
+                        elemental resulta em um redemoinho do respectivo elemento. Por exemplo, suponha que o Kazuha absorveu Pyro com sua Habilidade Elemental e,
+                        por algum motivo, seu Ataque imersivo atingiu um inimigo afetado por Hydro. Ele irá primeiro aplicar Pyro, fazendo a reação de Vaporização,
+                        e somente depois irá aplicar Anemo, sem fazer redemoinho Pyro. Para que a absorção resulte em redemoinho, o inimigo não pode estar afetado
+                        por nenhum elemento que consuma o Pyro.
+                    </p>
+                </details>
+                <details class="accordion">
+                    <summary>Redemoinho Duplo (Double VV Swirl)</summary>
+                    <p>
+                        Observe a tabela abaixo com a quantidade elemental aplicada pelos membros da equipe:
+                    </p>
+                    <table class="tabela-personagens">
+                        <thead>
+                            <tr>
+                                <th><div class="tabelahide1 preto">Personagem</div><div class="tabelahide2 preto">Char.</div></th>
+                                <th>Bennett</th>
+                                <th>Xiangling</th>
+                                <th>Tartaglia à distância</th>
+                                <th>Tartaglia corpo a corpo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ataque Normal</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>1U (Idf Instantâneo) 2U (Idf Explosão)</td>
+                                <td>1U</td>
+                            </tr>                  
+                            <tr>
+                                <td>Ataque Carregado</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>1U</td>
+                                <td>1U</td>
+                            </tr>                  
+                            <tr>
+                                <td><div class="tabelahide1 preto">Habilidade Elemental (pressionado)</div><div class="tabelahide2 preto">Hab. (pressionado)</div></td>
+                                <td>2U</td>
+                                <td>1U</td>
+                                <td>-</td>
+                                <td>1U (Idf Corte)</td>
+                            </tr>                  
+                            <tr>
+                                <td><div class="tabelahide1 preto">Habilidade Elemental (segurado)</div><div class="tabelahide2 preto">Hab. (segurado)</div></td>
+                                <td>1U</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>                  
+                            <tr>
+                                <td>Supremo</td>
+                                <td>2U</td>
+                                <td>1U</td>
+                                <td>2U</td>
+                                <td>2U (à distância) 2U (Idf Obliteração)</td>
+                            </tr>                  
+                        </tbody>
+                    </table>
+                    <p>
+                        Como vimos, Redemoinho Duplo é uma técnica que consiste em debuffar com o Sombra Verde dois elementos simultaneamente, neste caso, Hydro e Pyro. Saber os gauges das habilidades elementais de cada integrante desse time é relevante para compreender completamente a lógica interna dessa técnica e aplicá-la dinamicamente na prática. Com isso em mente, considere o cenário do vídeo abaixo:
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/rKLjqK7eXD8?si=Tx8SCR9aTaCTvgeB" title="International vs Terrorgumelo 12-2-1 (3.7) 18s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>
+                        Começamos a rotação aplicando Hydro forte no inimigo (2U) com o casting da Habilidade Elemental de Tartaglia.
+                        Em seguida, aplicamos Pyro forte (2U) com o Supremo do Bennett, mas, pela regra de 2:1, ainda restou 1U Hydro.
+                        Depois disso, seguimos com a Ult do Kazuha, que aplica Anemo na aura Hydro restante realizando <b>Redemoinho Hydro</b>
+                        e eliminando essa aura completamente. Finalmente, a Ultimate do Kazuha infundirá o Pyro que está em si
+                        (graças à Ultimate do Bennett). Com a Ultimate infundida de Pyro, basta agora esperar seu primeiro Tick e ambos
+                        Pyro e Anemo serão aplicados simultaneamente, causando <b>Redemoinho Pyro</b> e consolidando assim o Double Swirl.
+                        Agora tanto Hydro quanto Pyro terão acesso ao debuff do Sombra Verde e ao buff de Bônus Elemental proporcionado pelo Kazuha.
+                        Perceba que isso só foi possível porque a Habilidade Elemental de Tartaglia aplica 2U Hydro, caso contrário, se fosse apenas
+                        1U, o Supremo do Bennett (2U) o teria consumido completamente e nosso setup teria que ser completamente reformulado.
+                    </p>
+                    <p>
+                        Além disso, após termos ultado de Bennett poderíamos ter utilizado a versão segurada da Habilidade Elemental do Kazuha para
+                        causar Redemoinho Hydro e Pyro. Na subida do plunge Kazuha faz redemoinho Hydro e limpa essa aura e, na descida do plunge
+                        simultaneamente infunde Pyro e causa redemoinho com ele, consolidando então o Double VV Vape.
+                    </p>
+                    <p>
+                        Observe agora essa situação em AdE, mas com Sucrose:
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/o2GTRiB6WwU?si=4tx6Xe3gBEUTr4W2&t=11s" title="Childational vs Kenkis 12-3-2 (3.6)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>Começamos novamente aplicando 2U Hydro com Tartaglia. Em seguida, 2U Pyro com Bennett. Mas agora um dos Kenkis tem uma aura Pyro já que a AdE do casting da Habilidade Elemental de Tartaglia é menor que a do Supremo de Bennett. Com inimigos infundidos com Hydro e Pyro, Sucrose pode usar uma única Habilidade Elemental para abarcar os 3 inimigos, causando Redemoinho Pyro  e Hydro simultaneamente e consolidando então o Double VV Swirl. Perceba que neste caso o fato da Habilidade Elemental de Tartaglia aplicar 2U não é tão relevante quanto no caso anterior.  Seria possível, por exemplo, aplicar 1U Hydro com seu carregado em um dos Kenkis, e aplicar Pyro com o Supremo do Bennett nos outros dois, apenas procurando evitar que sua Habilidade entre em contato com a Aura Hydro fraca que queremos conservar. Isso pode ser bastante útil em situações que sua Habilidade Elemental ainda se encontra em recarga. Essas e outras formas de facilmente estabelecer uma aura Hydro são umas das razões que tornam o Childe tão bom nesse slot.</p>
+                    <p>Essas são só algumas das formas através das quais é possível consolidar essa técnica. Existem inúmeras rotações que conseguem atingir o mesmo resultado, variando a ordem, quais habilidade usadas, etc. As possibilidades são quase ilimitadas, portanto, concentre-se mais em compreender essa lógica buscando aplicá-la na situação concreta ao invés de se prender a uma rotação fixa.</p>
+                </details>
+                <details class="accordion">
+                    <summary>Outras Técnicas</summary>
+                    <p><b>Xiangling Backpadeling</b>: Consiste em girar ao redor do inimigo na direção contrária do Pyronado para conseguir mais Hits. Existe ainda o Double-Hit, uma técnica mais avançada que consiste em em atingir um mesmo inimigo com o Pyronado 2 vezes seguidas, mais sobre essa técnica nesse vídeo:</p>
+                    <div class="link-button">
+                        <a href="https://www.youtube.com/watch?v=P-qOArSVE_c">📽️ Nearly Double Xiangling's Damage? Top International Speedrunner Technique - Extreme</a>
+                    </div>
+                    <img loading="lazy" class="media image-border" alt="Amostra de Backpadeling" src="img/xiang-backpadeling2.gif">
+                    <p><b>IdF à Distância:</b> Consiste em aplicar a marca da Interceptação de Fluxo sem precisar utilizar um Ataque Carregado à distância. Mire no seu alvo, solte e rapidamente ative sua Habilidade Elemental. Essa técnica será especialmente útil em speedruns para setups rápidos como esse:</p>
+                    <div class="link-button">
+                        <a href="https://www.youtube.com/watch?v=P-qOArSVE_c">📽️ Vídeo amostra de IdF à Distância</a>
+                    </div>
+                    <img loading="lazy" class="media image-border" alt="IdF à Distância" src="img/childe-distance-idf.gif">
+                    <p>
+                        <b>Kazuha E Semihold</b>: Kazuha tem duas versões padrão de sua Habilidade Elemental: Uma pressionada e que gera um vácuo que atrai
+                        os inimigos com recarga de 5s, e outra segurada com recarga de 8s mas que tem um alcance e vácuo mais forte. O quão bom seria
+                        se pudéssemos ter a recarga pequena da versão pressionada mas com o poder de sucção quase tão bom quanto da versão segurada?
+                        Bom, eis o E Semihold do Kazuha:
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/UBJH1NGgfq4?si=B-LSuMT7ybdGGCxz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>
+                        Essa versão de sua Habilidade Elemental não irá substituir a versão pressionada em todos os casos mas pode contribuir para rotações ainda mais fluidas dependendo do cenário, como demonstra o vídeo a seguir:
+                    </p>
+                    <iframe loading="lazy" class="media video-combo-sample" src="https://www.youtube.com/embed/I20e2k_AsAU?si=Wb56wHohr8zVblPD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </details>
+            </div>
+            <div id="outras-equipes" class="section">
+                <h2>Outras Equipes</h2>
+                <h3>Taser</h3>
+                <p>Tartaglia, Beidou, Fischl, Flex. O Núcleo composto por Tartaglia, Beidou e Fischl forma essa equipe, deixando um quarto slot flex (Normalmente Bennett ou um terceiro electro como Kuki Shinobu, Yae Miko ou até mesmo Xingqiu), pode ser uma opção interessante para variação de times do Tartaglia caso possua uma Beidou e Fischl bem investida. A maior força do time se encontra no conteúdo AdE, graças ao supremo de Beidou, mas o time performa de forma relativamente bem em todas as situações.</p>
+                <h3>Germinação</h3>
+                <p><b>Tartaglia, Kazuha, Bennett, Nahida</b>. Uma versão do International que substitui o dano do pyronado pelo dano de Germinação. Childe ainda consegue vaporizar seu supremo, Graças a sua alta aplicação Hydro onfield, os procs de Dendro sempre criarão sementes para Thoma ou Kazuha ativar a germinação. É uma opção viável para quem ainda não possui uma Xiangling bem buildada.</p>
+                <p><b>Tartaglia, Thoma, Nahida, Bennett</b>. Burgeon mais tradicional em que o Thoma proca as Germinações e o downtime do Childe é usado para recarregá-lo.</p>
+            </div>
+
+            <div class="constelacoes" id="constelacoes">
+                <h2>Constelações</h2>
+                <div class="explicacao-nota">
+                    <p>
+                        As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de
+                        dano.
+                    </p>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C1</h1><img loading="lazy" src="img/c1.png">
+                    </div>
+                    <div>
+                        <h3>Diminui a Recarga de Legado do Mal - Ondas de Fúria por 20%.</h3>
+                    </div>
+                    <div>
+                        <p>Essa constelação pode representar certa de 9% aumento de DPS. Sua principal característica
+                            está em flexibilizar ainda mais as rotações de Tartaglia, permitindo que ele tenha sua
+                            habilidade elemental disponível mais cedo ou que ele possa estender mais sua presença em
+                            campo.
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C2</h1><img loading="lazy" src="img/c2.png">
+                    </div>
+                    <div>
+                        <h3>Quando os inimigos afetados pela Interceptação de Fluxo forem derrotados, Tartaglia ganha 4
+                            de Energia Elemental.</h3>
+                    </div>
+                    <div>
+                        <p>Tartaglia já tem um requerimento de recarga consideravelmente baixo quando utiliza seu
+                            Supremo à Distância e, ao contrário do que possa parecer, quanto mais inimigos ele derrota
+                            menor é o valor dessa constelação já que eles dropam orbs de energia elemental que podem já
+                            ser suficientes para encher sua Ult para a próxima rotação.</p>
+                    </div>
+                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C3</h1><img loading="lazy" src="img/c3.png">
+                    </div>
+                    <div>
+                        <h3>Aumenta a Habilidade Elemental em 3 níveis.</h3>
+                    </div>
+                    <div>
+                        <p>Um bom ponto de parada. Aumenta em cerca de 25% seu dano em modo corpo a corpo, porque afeta
+                            tanto os multiplicadores de seus ataques normais nesse estado como os da Interceptação de
+                            Fluxo - Corte.</p>
+                    </div>
+                    <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C4</h1><img loading="lazy" src="img/c4.png">
+                    </div>
+                    <div>
+                        <h3>Quando Interceptação de Fluxo é infligida por Tartaglia a cada 4s, se Tartaglia estiver na
+                            posição corpo a corpo de Legado do Mal - Ondas de Fúria ativa Interceptação de Fluxo·Corte;
+                            caso contrário, ativa Dano da Interceptação de Fluxo·Instantâneo. A Interceptação de
+                            Fluxo·Corte e Interceptação de Fluxo·Instantâneo não têm limitações de intervalo de ativação
+                            e não são afetados por outro intervalo de ativação.</h3>
+                    </div>
+                    <div>
+                        <p>Uma constelação que busca solucionar um de seus pontos negativos: aplicar Hydro Off-field. O
+                            problema dessa constelação é que, apesar de útil em outros times, acaba sendo anti sinérgica
+                            em sua principal equipe pois pode atrapalhar a vaporização de seu supremo se procar no
+                            momento errado. </p>
+                    </div>
+                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C5</h1><img loading="lazy" src="img/c5.png">
+                    </div>
+                    <div>
+                        <h3>Aumenta o Supremo em 3 níveis.</h3>
+                    </div>
+                    <div>
+                        <p>Teoricamente um aumenta de cerca de 8% de dano, mas que, especialmente em times que Childe
+                            Vaporiza seu Supremo, pode ser maior quanto mais bem investido for sua build (em termos de
+                            artefatos) e mais abundantes forem seus buffs (Kazuha C2, Juramento pela Liberdade,
+                            Instrutor, Bennett etc.).</p>
+                    </div>
+                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C6</h1><img loading="lazy" src="img/c6.png">
+                    </div>
+                    <div>
+                        <h3>Quando Devastação: Obliteração é lançada na Posição Corpo a Corpo, o Tempo de Recarga de
+                            Legado do Mal - Ondas de Fúria termina imediatamente. Esse efeito só acontecerá quando
+                            Tartaglia retornar à sua posição à distância.</h3>
+                    </div>
+                    <div>
+                        <p>Uma das constelações 6 menos impactantes de um personagem limitado. Pode ocasionalmente
+                            oferecer um pequeno conforto, mas não de maneira sustentável: seu Supremo no modo Corpo a
+                            Corpo apresenta requerimentos de recarga consideravelmente mais altos, o que faz com que ou
+                            você não tenha o efeito dessa constelação disponível todas as rotações ou tenha de investir
+                            em mais recarga em sua build ao ponto disso representar uma perda de potencial de Dano. De
+                            modo geral, essa constelação não é recomendada se seu objetivo é aumento de dano e/ou
+                            utilidade significativos.</p>
+                    </div>
+                    <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="subtitulo2">Crétidos</h3>
+                <p>Agradecimentos ao <span>hayrton2, tharick_arohm</span> e <span>italovs</span> pelas ideias e ajuda com o texto e ao <span>kawan022</span> pelo pequeno guia da Xiangling. </p>
+            </div>
+            <div class="gif-div banner-fim">
+                <img loading="lazy" src="img/tartaglia_banner_gif.gif">
+            </div>
+            <div class="flex footer">
+                <div class="contato2">
+                    <p>Tire dúvidas:</p>
+                    <div class="flex">
+                        <img src="/img/icones/discord.png">
+                        <p>Jean2051</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fim">
+
+            </div>
+        </section>
+        <nav class="contato">
+            <p>Tire dúvidas:</p>
+            <div class="flex">
+                <img loading="lazy" src="/img/icones/discord.png">
+                <p>Jean2051</p>
+            </div>
+        </nav>
+        <nav class="nav flex">
+            <div class="links">
+                <div class="flex">
+                    <a href="#topo">Introdução</a>
+                    <a href="#faq">Dúvidas Frequentes</a>
+                    <a href="#talentos">Talentos</a>
+                    <a href="#habilidade" class="sublink">- Habilidade</a>
+                    <a href="#interceptacao-fluxo" class="sublink2">Interceptação de Fluxo</a>
+                    <a href="#interceptacao-chuva" class="sublink2">Interceptação da Chuva</a>
+                    <a href="#legado-do-mal" class="sublink2">Legado do Mal</a>
+                    <a href="#supremo" class="sublink">- Supremo</a>
+                    <a href="#combos">Combos</a>
+                    <a href="#topicos-avancados-kit">Tópicos Avançados</a>
+                    <a href="#atributos">Artefatos</a>
+                    <a href="#armas">Armas</a>
+                    <a href="#sinergia">Equipe e Sinergias</a>
+                    <a href="#rotacoes" class="sublink">- Rotações</a>
+                    <a href="#avancado" class="sublink">- Avançado</a>
+                    <a href="#constelacoes">Constelações</a>
+                </div>
+            </div>
+            <div>
+                <p class="autoria">By: Yuri, Shazowaq & Jean</p>
+            </div>
+        </nav>
+    </main>
+    <div class="nav-mobile">
+        <a href="#talentos">
+            Kit Geral
+        </a>
+        <a href="#atributos">
+            Artefatos
+        </a>
+        <a href="#armas">
+            Armas
+        </a>
+        <a href="#sinergia">
+            Equipe e sinergias
+        </a>
+    </div>
+</body>
+
+</html>

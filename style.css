@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    color: white;
+    border: 0;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 0 26px 0 13px;
+    border-bottom: 1px solid rgb(70, 70, 70);
+    position: fixed;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.63);
+    backdrop-filter: blur(10px);
+    line-height: 16px;
+}
+header div, header div .home {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px
+}
+header .contato-link {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 6px;
+    height: 100%;
+    padding-right: 10px;
+    text-align: right;
+}
+header img {
+    height: 70%;
+}
+main {
+    padding: 80px 20px 120px 20px; 
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.start {
+    padding: 45px 10px 25px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.intro {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 100%;
+    max-width: 300px;
+}
+nav div {
+    width: 0;
+    height: 50px;
+}
+input {
+    width: 100%;
+    height: 50px;
+    max-width: 500px;
+    background-color: rgb(44, 44, 44);
+    border: none;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 320px;
+}
+input:focus-visible {
+    border: 1px solid rgb(68, 68, 68);
+    outline: none; 
+    outline-offset: none;
+}
+a:focus-visible {
+    border: 1px solid rgb(68, 68, 68);
+    outline: none; 
+}
+.search-icon {
+    width: 20px;
+    height: 20px;
+    transform: translate3d(-30px, 15px, 0);
+    opacity: .50;
+}
+.guias {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 60px;
+}
+.card {
+    width: calc((100% / 2) - 31px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.219) inset;
+    transition: all 0.7s;
+    max-width: 800px;
+}
+.card:hover {
+    scale: 105%;
+}
+.card-desc {  
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.card img {
+    width: 55%;
+    border-radius: 15px 0 0 15px;
+}
+
+.error {
+    display: none;
+}
+
+.banner {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+.next {
+    margin: 30px 0;
+}
+.cards-proximos-guias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.cards-proximos-guias div {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 150px;
+    padding: 5px 10px 0 10px;
+    border: 2px solid rgb(48, 48, 48);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.cards-proximos-guias img {
+    width: 100%;
+}
+.sep {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.288), rgba(255, 255, 255, 0.24));
+    margin: 10px 0;
+}
+
+
+
+
+.eula {
+    background: linear-gradient(180deg, rgba(122, 224, 255, 0.418), rgba(24, 127, 168, 0.521))
+}
+.bennett, .hutao {
+    background: linear-gradient(180deg, rgba(255, 112, 112, 0.363), rgba(150, 16, 16, 0.329))
+}
+.yelan, .tartaglia {
+    background: linear-gradient(180deg, rgba(19, 149, 255, 0.438), rgba(16, 87, 218, 0.308))
+}
+.opcoes {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .guias {
+        gap: 20px
+    }
+    .card {
+        width: calc((100% / 2) - 11px);
+    }
+}
+@media (max-width: 940px) {
+    .start {
+        flex-flow: column nowrap;
+        padding: 30px 10px 25px 10px;
+    }
+    nav {
+        height: 60px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 850px) {
+    .card {
+        flex-flow: column nowrap;
+    }
+    .card img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+}
+@media (max-width: 580px) {
+    .card-desc {
+        padding: 20px
+    }
+    .card-desc h2 {
+        font-size: 18px;
+    }
+    .card-desc p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 550px) {
+    header .contato-link {
+        flex-flow: column nowrap;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 18px;
+    }
+    header a p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 450px) {   
+    header {
+        padding: 0 10px
+    }
+}
+@media (max-width: 420px) {
+    .guias {
+        flex-flow: column nowrap;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 370px) {
+    .cards-proximos-guias div {
+        width: 120px;
+    }
+
+}

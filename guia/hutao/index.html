@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="whte-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simplesmente o melhor guia de como usar a Hu Tao">
+    <link rel="stylesheet" href="/cores-temas/pyro.css">
+    <link rel="stylesheet" href="/styleguia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Dandelions / Hu Tao</title>
+    <link rel="icon" href="/img/logo/Dandelions_white.png">
+    <meta property="og:site_name" content="By: Fabio & Jean">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="O mais completo guia da Hu Tao">
+    <meta name="twitter:description" content="Simplesmente o melhor guia de como usar a Hu Tao">
+    <meta property="twitter:image" content="https://dandelions-hutao.vercel.app/img/hutao_thumb1.png">
+    <meta property="og:image" content="https://dandelions-hutao.vercel.app/img/hutao_thumb1.png">
+</head>
+<body>
+    <script defer src="/script.js"></script> 
+    <header>
+        <div>
+            <a href="https://dandelions.vercel.app/" class="home">
+                <img src="/img/logo/Dandelions.png">
+                <h1>Dandelions</h1>
+            </a>
+        </div>
+        <div class="hutaot">
+            <h1>Guia completo</h1>
+            <h1>da Hu Tao</h1>
+        </div>
+        <div class="counterside">
+
+        </div>
+    </header>
+    <main class="flex">
+        <section class="topo">
+            <div class="irtopo" id="topo"></div>
+            <div class="banner anima">
+                <div class="banner-c">
+                    <small class="creditos">𝕏 @qixia66</small>
+                </div>
+                <img id="banner" src="/img/guias/hutao/Banner_Hutao.png">
+            </div>
+            <div class="autoria-mobile flex">
+                <p class="autoria2 anima2">By: Fabio & Jean</p>
+                <div class="bgcolor flex">
+                    <div class="botao2">
+                        <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
+                        <label for="bblue" class="bblue flex animabotao">
+                            <img class="botao-img sun" src="/img/icones/sun.webp">
+                            <div class="ball"></div>
+                            <img class="botao-img moon" src="/img/icones/moon.webp">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div id="introducao" class="intro intro-anima">
+                <p>
+                    Hu Tao é uma <span class="manter">DPS</span> Pyro usuária de Lança. Seu kit é voltado principalmente
+                    para seus Ataques Carregados e uma mecânica relacionada à sua Vida.
+                </p>
+            </div>
+            <div class="razoes anima3">
+                <h2>Por que pegar ou skipar?</h2>
+                <div class="pros">
+                    <button id="pros">
+                        <h3>Prós:</h3>
+                    </button>
+                    <div class="txtpros">
+                        <p>Combos de Ataques Carregados estão entre as maiores fontes de dano em alvo único no jogo.</p>
+                        <p>Independência total de sua Ultimate: Hu Tao é focada quase que totalmente em seus Carregados,
+                            cuja eficiência deriva somente de sua Habilidade Elemental.</p>
+                        <p>Consegue concentrar grande quantidade de DPS em um relativo curto espaço de tempo, o que faz
+                            com que ela seja extremamente efetiva contra inimigos que possuem janelas limitadas de dano
+                            (Bestas de Presa da Ossada Sagrada, Líder Lobo Dourado, Serpente das Ruínas, etc.) ou que se
+                            fortaleçam/protejam no decorrer da batalha (Dragão da Calamidade Eterna, Matriz de Controle
+                            Semi-Perpétua, etc.).</p>
+                        <p>Seus status base defensivos (Vida e Defesa) são relativamente altos. Isso, aliado ao fato de
+                            seu Supremo curar, proporciona uma gameplay com maior capacidade de sobrevivência mesmo na
+                            ausência de uma unidade defensiva na equipe. </p>
+                        <p>Rotações sempre bem fluidas (já que ela não depende de Recarga) e todo o esforço colocado em
+                            investimento ou em masterizar seus combos serão retribuídos com dano massivo. </p>
+                        <p>A Habilidade Elemental tem um tempo de recarga relativamente baixo e seus Ataques têm
+                            multiplicadores bem altos, o que faz com ela possa utilizá-lo de maneira mais ágil sem que
+                            você precise reiniciar uma rotação completa (ex.:finalizar inimigos com pouca vida).</p>
+                        <p>Suas melhores opções de set podem ser obtidas no Relicário (Bruxa e Reminiscência) e/ou
+                            farmadas em conjunto com o melhor set para seus melhores suportes (Selo).</p>
+                    </div>
+                </div>
+
+                <div class="contras">
+                    <button id="contras">
+                        <h3>Contras:</h3>
+                    </button>
+                    <div class="txtcontras">
+                        <p>Seu principal companheiro de equipe é disputado em vários times, como National e Hyperbloom
+                            (Xingqiu).</p>
+                        <p>Seus combos demandam prática para que sejam totalmente dominados. Embora não sejam condição
+                            necessária para um bom dano, eles devem ser aprendidos para reposicionamento: seus
+                            Carregados (quando não interrompidos) a impulsionam para frente, o que pode deixá-la longe
+                            de seu alvo primário.</p>
+                        <p>Na C0, o gerenciamento do gasto de estamina se torna uma necessidade. Gastar estamina de
+                            maneira desenfreada pode, em algumas situações, te impedir de usar a Esquiva ou correr até
+                            um inimigo distante.</p>
+                        <p>Seu desempenho pode cair bastante em cenários com mais de 3 alvos (sem agrupamento).</p>
+
+                    </div>
+                </div>
+                <div class="m20" id="faq">
+                    <div class="passivas">
+                        <span>Dúvidas Frequentes:</span>
+                    </div>
+                    <div>
+                        <h3><span>Hu Tao necessita de escudo? </span></h3>
+                        <p>Não exatamente. Além de possuir status sólidos (Defesa e Vida altos) e a sua Ultimate curar,
+                            ela também possui o Xingqiu que, além de aumentar a resistência à interrupção, também
+                            fornece redução de dano. Dessa forma, o uso de escudos é opcional. </p>
+                    </div>
+                    <div>
+                        <h3><span>Devo pegar a Constelação 1 ou a Homa?</span></h3>
+                        <p>Com a grande disponibilidade de Armas hoje em dia, a C1 é em geral a opção mais indicável
+                            porque, além de aumentar o dano quase tanto quanto a Homa, ela oferece uma série de
+                            melhorias na gameplay que impactam grandemente no conforto e na diversão de se jogar com a
+                            Hu Tao. Com essa Constelação, você não precisará se preocupar com a estamina, além de também
+                            quase não se preocupar com o dano tomado pois, com o combo da C1, você passará a maior parte
+                            do tempo invulnerável graças aos I-Frames criados por seus Carregados e Esquivas.</p>
+                    </div>
+                    <div>
+                        <h3><span>Posso usar o Bennett com a Hu Tao? </span></h3>
+                        <p>Sim, principalmente com sua Constelação 6 e em times de VV vaporize. A quantidade de Buffs
+                            que ele proporciona podem ser mais relevantes que a própria Passiva da Hu Tao.</p>
+                    </div>
+                    <div>
+                        <h3><span>Hu Tao só serve para conteúdo Single Target? </span></h3>
+                        <p>Ela possui a capacidade de acertar múltiplos alvos de uma vez, especialmente com agrupamento.
+                            A questão é que a Hu Tao é realmente superior contra inimigos únicos, mas de maneira alguma
+                            se torna incapacitada contra múltiplos alvos.<span> </span></p>
+                    </div>
+                    <div>
+                        <h3><span>Usar o Supremo no começo ou no final do uso da Habilidade Elemental? </span></h3>
+                        <p>Geralmente é usado no fim, prolongando o uso do estado da Dança da Borboleta: O hit do
+                            Supremo da Hu Tao é capaz de reter o Buff do E mesmo depois que este termina, basta que o Q
+                            seja pressionado mais ou menos no último frame do E ativo.
+                            Usar o Supremo no começo é aconselhável somente se o seu time estiver provendo de uma grande
+                            quantidade de Buffs. Exemplo: Kazuha C2, Yelan C4, Bennett C6.
+                        </p>
+                    </div>
+                    <div>
+                        <h3><span>Yelan C0 e Solo consegue fazer a Hu Tao vaporizar todos os Carregados?</span></h3>
+                        <p>De forma consistente não, pois a Yelan C0 aplica menos Hydro que o Xingqiu. O esperado é a Hu
+                            Tao vaporizar seus Carregados, mas pode acontecer o contrário e a Yelan começar a vaporizar
+                            e não a Hu Tao. Além da sua C2, uma forma consistente de evitar que isso aconteça é utilizar
+                            times que realizem a reação Eletricamente Carregado.
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div id="talentos" class="talentos-1 anima4">
+                <h2 class="analise-c">Talentos</h2>
+                <div class="talento-titulo flex">
+                    <img class="icone" src="img/atk_normal.webp">
+                    <span class="talento "> Ataque Normal: <span class="talento-nome">Lança Secreta de Wangsheng</span></span>
+                </div>
+                <p>
+                    Seus <span>Ataques Carregados</span> são sua principal fonte de dano e a marca registrada de seu
+                    estilo de gameplay. Eles são extremamente rápidos e podem ser cancelados bem cedo.
+                </p>
+                <div class="talento-titulo flex">
+                    <img class="icone" src="img/skill.webp">
+                    <span class="talento "> Habilidade Elemental: <span class="talento-nome">Guia do Além</span></span>
+                </div>
+                <p>
+                    Fornece à Hu Tao Ataque adicional e infusão Pyro. Ao usar essa Habilidade, ao custo de 30% da Vida
+                    atual, Hu Tao converterá uma porcentagem de sua Vida máxima em Ataque que não pode ultrapassar 400%
+                    de seu Ataque Base (Ataque Base do personagem + Ataque base da Arma). Basicamente, se quiser causar
+                    dano com a Hu Tao, então ative esta Habilidade. Sempre.
+                </p>
+                <div class="talento-titulo flex">
+                    <img class="icone" src="img/ult.webp">
+                    <span class="talento "> Supremo: <span class="talento-nome">Pacificadora de Espíritos</span></span>
+                </div>
+                <p>
+                    Balança a sua alma flamejante, causando Dano Pyro em uma grande área. Ao acertar nos inimigos,
+                    restaura a Vida da Hu Tao baseado na sua Vida máxima. Esse efeito pode ser aplicado até 5 inimigos
+                    acertados. Ao acertar, se a Vida de Hu Tao for inferior ou igual a 50%, pode causar um maior dano e
+                    cura.
+                    Essa é a sua maior fonte de dano em área. Geralmente equivale a 2 Carregados, mas pode ser utilizada
+                    como Nuke em situações específicas.
+
+                </p>
+                <div class="prioridades">
+                    <p class="prioridade-txt"><span>Prioridade de Talentos</span></p>
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <img src="img/atk_normal.webp">
+                            <p>AA</p>
+                        </div>
+                        <div class="comparacao c1"> > </div>
+                        <div class="flex-column">
+                            <img src="img/skill.webp">
+                            <p>SKILL</p>
+                        </div>
+                        <div class="comparacao"> > </div>
+                        <div class="flex-column">
+                            <img src="img/ult.webp">
+                            <p>ULT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="set">
+                    <div class="passivas">
+                        <span>Passivas</span>
+                    </div>
+                    <div id="crisalida">
+                        <div class="talento-titulo flex">
+                            <img class="icone" src="img/crisalida.png">
+                            <span class="talento">Ascensão 1: Crisálida</span>
+                        </div>
+                        <p><span>Após o estado da Dança de Borboleta aplicado por Guia do Além terminar, a Taxa Crítica
+                                de todos os personagens na equipe (menos Hu Tao) aumenta em 12% por 8s.</span></p>
+                        <p>Essa ascensão só é relevante a partir da segunda rotação. Proporciona um pequeno aumento de
+                            dano para os outros personagens da equipe e contribui para a consistência dos procs de
+                            Favonius, se o time às possuir.</p>
+                    </div>
+                    <div class="rot-sep"></div>
+                    <div id="sangue-fervendo">
+                        <div class="talento-titulo flex">
+                            <img class="icone" src="img/sangue_fervendo.png">
+                            <span class="talento">Ascensão 4: Sangue Fervendo</span>
+                        </div>
+                        <p><span>Quando a Vida de Hu Tao ficar inferior ou igual a 50%, obterá 33% de Bônus de Dano
+                                Pyro.</span></p>
+                        <p>É simplesmente sua mecânica mais importante. Sempre que possível, procure estar abaixo dos
+                            50% de HP para maximizar ao máximo o dano da Hu Tao. A Vida máxima alta e status defensivos
+                            de Hu Tao fazem com que a exigência dessa Passiva não se torne um problema.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="anima5" id="habilidade">
+                <h2>Entendendo o Kit:</h2>
+                <h4 class="subtitulo">
+                    <span>Habilidade Elemental, Combos e Cancelamento de animação:</span>
+                </h4>
+                <div>
+                    <p>
+                        Os Ataques Carregados infundidos da Hu Tao podem ser cancelados de forma extremamente rápida. Há
+                        2 indicadores que ajudam a saber quando cancelar a animação: Um som específico no acerto do
+                        Carregado e uma luz/faísca criada em sua animação. A seguir o tópico aborda os diferentes
+                        combos.
+                    </p>
+                    <div class="legenda">
+                        <p>
+                            <span>Legenda:</span>
+                        </p>
+                        <div class="l1">
+                            <div class="l2">
+                                <p><span>N</span> = Ataque Normal</p>
+                                <p><span>C</span> = Carregado</p>
+                            </div>
+                            <div class="l2">
+                                <p><span>D</span> = Esquiva/Dash</p>
+                                <p><span>J</span> = Pulo/Jump</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rot-sep"></div>
+                    <div class="combotitulo">
+                        <h3>Combos com Cancelamento</h3>
+                    </div>
+                    <p>Existem duas maneiras de executar o cancelamento de suas animações: com a Esquiva (Dash) ou com
+                        Pulo (Jump). Com Esquiva, são consumidas a estamina do Ataque Carregado e também da própria
+                        Esquiva. Com Pulo, é consumida apenas a estamina do Ataque Carregado. Sendo assim, na C0, devido
+                        ao gerenciamento de stamina da Hu Tao, sua única forma consistente de cancelamento de animações
+                        é com o Pulo.</p>
+                    <div class="set combo">
+                        <div class="passivas">
+                            <span>N1CJ</span>
+                        </div>
+                        <h3>Um Ataque Normal seguido de Ataque Carregado com Pulo.</h3>
+                        <div class="combo-spec">
+                            <p><span>Combo aconselhado para Hu Tao C0.</span></p>
+                            <div>
+                                <p>Combo: 9 N1CJ (Ataque Normal, Ataque Carregado e Pulo. 9x ).</p>
+                                <p>Como fazer: Clique e Segure > Pule</p>
+                                <p>Dificuldade: Simples</p>
+                                <p>Quantidade máxima possível: 9</p>
+                            </div>
+                        </div>
+                        <div class="combo-gif">
+                            <img src="img/n1cj.gif">
+                        </div>
+                        <div class="combo1">
+                            <div class="combo2">
+                                <h3>Prós:</h3>
+                                <p>Fáceis de serem realizados.</p>
+                            </div>
+                            <div class="combosep"></div>
+                            <div class="combo2">
+                                <h3>Contras:</h3>
+                                <p>Gasto maior de Estamina.</p>
+                                <p>Não é recomendado o uso com o Thoma, dessa forma a Hu Tao perderá reações de
+                                    vaporizar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set combo">
+                        <div class="passivas">
+                            <span>N2CJ</span>
+                        </div>
+                        <h3>Dois Ataques Normais seguidos de Ataque Carregado com Pulo.</h3>
+                        <div class="combo-spec">
+                            <p><span>Combo aconselhado para Hu Tao C0.</span></p>
+                            <div>
+                                <p>Combo: 8 N2CJ (Ataque Normal, Ataque Normal, Ataque Carregado e Pulo. 8x ).</p>
+                                <p>Como fazer: Clique > Clique > Clique e segure > Pule.</p>
+                                <p>Dificuldade: Demanda prática.</p>
+                                <p>Quantidade máxima possível: 8</p>
+                            </div>
+                        </div>
+                        <div class="combo-gif">
+                            <img src="img/n2cj.gif">
+                        </div>
+                        <div class="combo1">
+                            <div class="combo2">
+                                <h3>Prós:</h3>
+                                <p>Podem te levar a um teto maior de dano.</p>
+                                <p>Economia maior de estamina.</p>
+                                <p>Podem ser usados com Thoma.</p>
+                            </div>
+                            <div class="combosep"></div>
+                            <div class="combo2">
+                                <h3>Contras:</h3>
+                                <p>Demanda prática.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rot-sep"></div>
+                    <div class="esquiva set">
+                        <div class="passivas">
+                            <span>Combos e Conceitos de sua primeira Constelação (C1) </span>
+                        </div>
+                        <p>
+                            A Constelação 1 da Hu Tao cria novas possibilidades de combos que utilizam a Esquiva como
+                            método de cancelamento: N1CD e N2CD. Os combos N1CD, se forem realizados ininterruptamente,
+                            ativarão o chamado tempo de recarga da Esquiva. Essa é uma mecânica de restrição da Esquiva
+                            que ocorre sempre que duas Esquivas são utilizadas sequencialmente em rápida sucessão.
+                            Combos N1CD são realizados tão rapidamente que conseguem o atingir. Para que isso seja
+                            evitado, ao se utilizar desse combo, deve-se, a cada 2 Carregados, cancelar o terceiro com
+                            um Pulo (para posicionamento) ou não cancelar. Com o Combo N2CD as chances dessa recarga ser
+                            atingida é praticamente nula.
+                            <a href="https://tickets.deeznuts.moe/transcripts/consecutive-dash-cooldown-trigger-is-08s">Clique
+                                aqui para se aprofundar mais.</a>
+                        </p>
+                        <p>
+                            Normalmente, sem Constelação, a Hu Tao consegue performar 8-9 Carregados. Já com a C1 ela
+                            consegue de 10 a 12 Carregados, um aumento de aproximadamente 20% de dano. Além disso, por
+                            conta desse aumento dos Carregados, o dano do time também aumenta, porque aumenta a
+                            frequência de ativação de Habilidades que requerem Ataques Normais (ex.: Supremos da Yelan e
+                            Xingqiu).
+                        </p>
+                    </div>
+                    <div class="set combo">
+                        <div class="passivas">
+                            <span>N1CD</span>
+                        </div>
+                        <h3>Ataque Normal seguido de Carregado com Dash</h3>
+                        <div class="combo-spec">
+                            <p><span>Combo aconselhado para Hu Tao C1.</span></p>
+                            <div>
+                                <p>Combo: 10 N1CD (Ataque Normal, Ataque Carregado, Esquiva. 10x ).</p>
+                                <p>Basicamente, a cada dois N1CD intercale com um N1CJ.</p>
+                                <p>Como fazer: Clique e Segure > Esquive</p>
+                                <p>Dificuldade: Baixa.</p>
+                                <p>De forma normal é possível 10, mas com Hit Lag você pode conseguir 12 Carregados.</p>
+                            </div>
+                        </div>
+                        <div class="combo-gif">
+                            <img src="img/n1cd.gif">
+                        </div>
+                        <div class="combo1">
+                            <div class="combo2">
+                                <h3>Prós:</h3>
+                                <p>Mais fáceis de serem realizados.</p>
+                            </div>
+                            <div class="combosep"></div>
+                            <div class="combo2">
+                                <h3>Contras:</h3>
+                                <p>Maior chance de atingir o tempo de recarga da Esquiva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set combo">
+                        <div class="passivas">
+                            <span>N2CD</span>
+                        </div>
+                        <h3>Dois Ataques Normais seguidos de Carregado com Dash</h3>
+                        <div class="combo-spec">
+                            <p><span>Combo aconselhado para Hu Tao C1.</span></p>
+                            <div>
+                                <p>Combo: 10 N2CD (Ataque Normal, Ataque Normal, Ataque Carregado e Esquiva 10x ).</p>
+                                <p>Como fazer: Clique > Clique > Clique e Segure > Esquive</p>
+                                <p>Dificuldade: Média</p>
+                                <p>Geralmente ela performa de 9 a 10 Carregados, mas, com Hitlag pode alcançar até 12.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="combo-gif">
+                            <img src="img/n2cd.gif">
+                        </div>
+                        <div class="combo1">
+                            <div class="combo2">
+                                <h3>Prós:</h3>
+                                <p>Podem te levar a um teto maior de dano.</p>
+                                <p>Mínima chance de atingir o tempo de recarga da Esquiva.</p>
+                            </div>
+                            <div class="combosep"></div>
+                            <div class="combo2">
+                                <h3>Contras:</h3>
+                                <p>Demanda prática para masterizar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="combotitulo">
+                        <h3>Combos sem Cancelamento</h3>
+                    </div>
+                    <div class="set combo">
+                        <p>Embora na grande maioria dos casos utilizemos os cancelamentos supracitados, existem
+                            situações em que o melhor a ser feito é não cancelar. Em situações de múltiplos alvos, não
+                            cancelar um Carregado pode significar um aumento expressivo de DPS. </p>
+                        <div class="combo-gif2">
+                            <img src="img/image63.gif">
+                        </div>
+                        <p>É teoricamente possível executar a mesma quantidade de Carregados com ou sem cancelamento. No
+                            entanto, se você se distanciar do seu alvo, combos não cancelados deixam de ser um ganho e
+                            passam a ser perda de dano.</p>
+                        <h4>Os prós e contras de cada um são os mesmos dos N1CJ e N2CJ.</h4>
+                        <div class="rot-sep"></div>
+                        <div class="passivas sn20">
+                            <span>N1C</span>
+                        </div>
+                        <h3>Ataque Normal seguido de Carregado</h3>
+                        <div class="combo-spec">
+                            <div>
+                                <p>Combo: 9 N1C (Ataque Normal, Ataque Carregado. 9x ).</p>
+                                <p>Como fazer: Clique e Segure.</p>
+                                <p>Dificuldade: Extremamente Simples</p>
+                                <p>Quantidade máxima possível: 9</p>
+                            </div>
+                        </div>
+                        <div class="passivas">
+                            <span>N2C</span>
+                        </div>
+                        <h3>Dois Ataques Normais seguidos de Carregado</h3>
+                        <div class="combo-spec">
+                            <div>
+                                <p>Combo: 8 N2CJ (Ataque Normal, Ataque Normal, Ataque Carregado 8x).</p>
+                                <p>Como fazer: Clique > Clique > Clique e segure.</p>
+                                <p>Dificuldade: Demanda prática.</p>
+                                <p>Quantidade máxima possível: 8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="atributos" class="atributos">
+                <h2>Artefatos</h2>
+                <div class="set b9">
+                    <div class="artefato-img">
+                        <img src="img/bruxa.webp">
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>A Bruxa das Chamas Carmesim</h4>
+                    </div>
+                    <p><span>2 peças: </span>+15% Dano Pyro</p>
+                    <p><span>4 peças: </span>Aumenta o dano causado por sobrecarga e queimadura em 40%. Aumenta o dano
+                        causado por vaporização e fusão em 15%. Ao usar a Habilidade Elemental aumenta o efeito do
+                        conjunto de 2 peças em 50% por 10 segundos. Pode acumular 3x</p>
+                    <div class="rot-sep"></div>
+                    <p>
+                        Em geral o melhor set se considerarmos o combo com a ult.
+                        Não possui nenhuma desvantagem de jogabilidade.
+                    </p>
+                    <p>
+                        O Conjunto de 4 peças se torna mais valioso quanto mais Proficiência você tiver. Pode ser obtido
+                        no relicário (na mesa de alquimia).
+                    </p>
+                </div>
+                <div class="flex status">
+                    <div class="cards">
+                        <div class="artefato-card flor">
+                            <div>
+                                <h4>Vida</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Flor.webp">   
+                            <div class="stat-icon">
+                                <img src="/img/icones/HP.png"> 
+                            </div>                        
+                        </div>
+                        <div class="artefato-card pena">
+                            <div>
+                                <h4>Ataque</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Pena.webp">
+                            <div class="stat-icon">
+                                <img src="/img/icones/Ataque.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card ampu">
+                            <div>
+                                <h4>Vida</h4>
+                                <h4 class="prof">Proficiência</h4>
+                                <h4 class="prof2">Prof.</h4>
+                            </div>
+                            <img src="img/ampulheta.webp">
+                            <div class="stat-icon">
+                                <img src="img/hp.png">
+                            </div>
+                        </div>
+                        <div class="artefato-card calice">
+                            <div>
+                                <h4>Dano Pyro</h4>
+
+                            </div>
+                            <img src="img/calice.webp">
+                            <div class="stat-icon pyro-icon">
+                                <img src="img/pyro.png">
+                            </div>
+                        </div>
+                        <div class="artefato-card coroa">
+                            <div>
+                                <h4 class="prof">Taxa Crítica</h4>
+                                <h4 class="prof2">Taxa</h4>
+                                <h4 class="prof">Dano crítico</h4>
+                                <h4 class="prof2">Dano</h4>
+
+                            </div>
+                            <img src="img/coroa.webp">
+                            <div class="stat-icon">
+                                <img src="img/taxa.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="set b9">
+                    <div class="artefato-img">
+                        <img src="img/remi.webp">
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>Reminiscência Nostálgica</h4>
+                    </div>
+                    <p><span>2 peças: </span>+18% Ataque</p>
+                    <p><span>4 peças: </span>Ao usar sua Habilidade Elemental, se a Energia do personagem for maior ou
+                        igual a 15, ele perderá 15 pontos de Energia e nos próximos 10s, seus Ataques Normais, Ataques
+                        Carregados, Ataques Imersivos terão um aumento de 50% de dano. Esse efeito só pode ser
+                        desencadeado uma vez dentro desse intervalo de tempo</p>
+                    <div class="rot-sep"></div>
+                    <p>
+                        Em relação a desempenho, este set é bem semelhante a Bruxa Carmesim. Porém, há consequências na
+                        jogabilidade. Existem situações de pânico em que você precisará se curar com ult e não
+                        conseguirá já que o set retira energia do personagem. Em alguns casos raros, mesmo que você use
+                        o Supremo no final, você pode acabar ficando sem energia para ativação dele na próxima rotação.
+                    </p>
+                    <p>
+                        Aumenta a eficiência do gasto da resina, pois no mesmo domínio você pode farmar para a Yelan,
+                        Xingqiu, Xiangling, Rosaria e Beidou.
+                    </p>
+                </div>
+                <div class="flex status">
+                    <div class="cards">
+                        <div class="artefato-card flor">
+                            <div>
+                                <h4>Vida</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Flor.webp">   
+                            <div class="stat-icon">
+                                <img src="/img/icones/HP.png"> 
+                            </div>                        
+                        </div>
+                        <div class="artefato-card pena">
+                            <div>
+                                <h4>Ataque</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Pena.webp">
+                            <div class="stat-icon">
+                                <img src="/img/icones/Ataque.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card ampu">
+                            <div>
+                                <h4>Vida</h4>
+                                <h4 class="prof">Proficiência</h4>
+                                <h4 class="prof2">Prof.</h4>
+                            </div>
+                            <img src="img/ampulheta.webp">
+                            <div class="stat-icon">
+                                <img src="img/hp.png">
+                            </div>
+                        </div>
+                        <div class="artefato-card calice">
+                            <div>
+                                <h4>Dano Pyro</h4>
+
+                            </div>
+                            <img src="img/calice.webp">
+                            <div class="stat-icon pyro-icon">
+                                <img src="img/pyro.png">
+                            </div>
+                        </div>
+                        <div class="artefato-card coroa">
+                            <div>
+                                <h4 class="prof">Taxa Crítica</h4>
+                                <h4 class="prof2">Taxa</h4>
+                                <h4 class="prof">Dano crítico</h4>
+                                <h4 class="prof2">Dano</h4>
+
+                            </div>
+                            <img src="img/coroa.webp">
+                            <div class="stat-icon">
+                                <img src="img/taxa.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="set b9">
+                    <div class="artefato-img">
+                        <img src="img/sonhos_dourados.webp">
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>Sonhos Dourados</h4>
+                    </div>
+                    <p><span>2 peças: </span> Aumenta a Proficiência Elemental em 80</p>
+                    <p><span>4 peças: </span> Dentro de 8s após causar uma Reação Elemental, o personagem irá obter
+                        aprimoramentos baseados no tipo Elemental dos outros membros da equipe. O ATQ é aumentado em 14%
+                        para cada membro da equipe cujo tipo Elemental seja o mesmo que o personagem equipando o
+                        conjunto. A Proficiência Elemental é aumentada em 50 para cada membro da equipe com tipos
+                        elementais diferentes. Cada um desses aprimoramentos mencionados anteriormente irá contar para
+                        até 3 personagens. Esse efeito pode ser desencadeado uma vez a cada 8s. O personagem que equipar
+                        este conjunto ainda pode ativar seu efeito mesmo que não esteja em campo</p>
+                    <div class="rot-sep"></div>
+                    <p>
+                        Quatro peças de Sonhos dourados pode ser uma opção forte com o máximo de stacks de Proficiência,
+                        mas, mesmo com isso, atrás dos outros dois sets. Pode ser eficiente de se farmar se estiver
+                        buildando times Dendro.
+                    </p>
+
+                </div>
+                <div class="flex status">
+                    <div class="cards">
+                        <div class="artefato-card flor">
+                            <div>
+                                <h4>Vida</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Flor.webp">   
+                            <div class="stat-icon">
+                                <img src="/img/icones/HP.png"> 
+                            </div>                        
+                        </div>
+                        <div class="artefato-card pena">
+                            <div>
+                                <h4>Ataque</h4>
+                                
+                            </div>
+                            <img src="/img/icones/Pena.webp">
+                            <div class="stat-icon">
+                                <img src="/img/icones/Ataque.png"> 
+                            </div>
+                        </div>
+                        <div class="artefato-card ampu">
+                            <div>
+                                <h4>Vida</h4>
+                                <h4 class="prof">Proficiência</h4>
+                                <h4 class="prof2">Prof.</h4>
+                            </div>
+                            <img src="img/ampulheta.webp">
+                            <div class="stat-icon">
+                                <img src="img/hp.png">
+                            </div>
+                        </div>
+                        <div class="artefato-card calice">
+                            <div>
+                                <h4>Dano Pyro</h4>
+
+                            </div>
+                            <img src="img/calice.webp">
+                            <div class="stat-icon pyro-icon">
+                                <img src="img/pyro.png">
+                            </div>
+                        </div>
+                        <div class="artefato-card coroa">
+                            <div>
+                                <h4 class="prof">Taxa Crítica</h4>
+                                <h4 class="prof2">Taxa</h4>
+                                <h4 class="prof">Dano crítico</h4>
+                                <h4 class="prof2">Dano</h4>
+
+                            </div>
+                            <img src="img/coroa.webp">
+                            <div class="stat-icon">
+                                <img src="img/taxa.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="set b9">
+                    <div class="artefato-img">
+                        <img class="caçadorimg" src="img/caçador_das_sombras.png">
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>Caçador das Sombras</h4>
+                    </div>
+                    <p><span>2 peças: </span> Aumenta o dano do Ataque Normal e do Ataque Carregado em 15%.</p>
+                    <p><span>4 peças: </span> Quando a Vida atual aumenta ou diminui, aumenta a Taxa CRIT em 12%. Esse
+                        efeito dura 5s e pode ser acumulado até 3 vezes </p>
+                    <div class="rot-sep"></div>
+                    <p>Uma menção honrosa ao novo set de artefatos Caçador das Sombras, apesar do que muitos pensam, não
+                        é consistente. Hu Tao consegue apenas 1 stack em situações normais. Existem expectativas de que
+                        em times com Bennett, este set seja o melhor, mas isso demandará testes futuros.</p>
+                </div>
+                <div class="set">
+                    <div class="artefato-img2pc">
+                        <div>
+                            <img src="img/bruxa.webp">
+                        </div>
+                        <div>
+                            <img src="img/sonhos_dourados.webp">
+                        </div>
+                        <div>
+                            <img src="img/trupe.webp">
+                        </div>
+                        <div>
+                            <img src="img/millelith.webp">
+                        </div>
+                        <div>
+                            <img src="img/paraiso_perdido.webp">
+                        </div>
+                        <div>
+                            <img class="caçador" src="img/caçador_das_sombras.png">
+                        </div>
+                    </div>
+                    <div class="artefato-nome">
+                        <h4>Sets de 2 peças:</h4>
+                    </div>
+                    <p>Os conjuntos de 2 peças são variados, você pode escolher os seguintes: Sonhos dourados, Trupe
+                        Itinerante, Bruxa Carmesim, Millelith Firmes, Flor do Paraíso Perdido, Caçador das Sombras+.</p>
+                </div>
+
+                <div class="set statusprincipais">
+                    <div class="passivas">
+                        <span>Status Principais</span>
+                    </div>
+                    <div class="rot-sep"></div>
+                    <div class="artefato-img">
+                        <img src="img/ampulheta.webp">
+                    </div>
+                    <div class="principais-icon">
+                        <div>
+                            <h3>Relógio de Vida</h3>
+                            <img src="img/hp.png">
+                        </div>
+                        <div>
+                            <h3>ou Proficiência</h3>
+                            <img class="proficon" src="img/Icon_Attribute_Elemental_Mastery.webp">
+                        </div>
+                    </div>
+                    <p>Depende do seu time, status e sua arma. O Relógio de Vida, além de aumentar significativamente a
+                        sobrevivência da Hu Tao, fará com que ela se aproveite melhor de Buffs externos de Proficiência,
+                        como Instrutor, Sucrose e Kazuha C2.
+                    </p>
+                    <p>
+                        Se compararmos ambos os Relógios lado a lado com os mesmos status, sem nenhum Buff externo, o
+                        Relógio de Proficiência dará mais dano e será uma escolha melhor. Porém, como os Relógios com
+                        status principal de Vida são mais frequentes, é mais fácil ter um bom Relógio de Vida que de
+                        Proficiência.
+                    </p>
+                    <p>Na dúvida use o <a href="https://www.youtube.com/watch?v=JKw5Qx9jD1A&ab_channel=NimBow"
+                            class="redirect" target="_blank">Genshin Optimizer</a></p>
+                    <div class="rot-sep"></div>
+                    <div class="artefato-img">
+                        <img src="img/calice.webp">
+                    </div>
+                    <div class="principais-icon">
+                        <div>
+                            <h3>Cálice de Dano Pyro</h3>
+                            <img src="img/pyro.png">
+                        </div>
+                    </div>
+                    <p>
+                        Hu Tao é um <span>DPS pyro,</span> não há outra opção.
+                    </p>
+                    <div class="rot-sep"></div>
+                    <div class="artefato-img">
+                        <img src="img/coroa.webp">
+                    </div>
+                    <div class="principais-icon">
+                        <div>
+                            <h3>Coroa de Taxa Crítica</h3>
+                            <img src="img/taxa.png">
+                        </div>
+                        <div>
+                            <h3>ou Dano Crítico</h3>
+                            <img src="img/dano.png">
+                        </div>
+                    </div>
+                    <p>
+                        Na maioria dos casos você vai usar chapéu de <span>Taxa Crítica,</span> isso se deve
+                        principalmente ao fato da dificuldade de buildar taxa, devido a sua ascensão de Dano Crítico e
+                        sua Arma assinatura também ser de Dano Crítico. Taxa Crítica é muito importante. Isso não deve
+                        ser negligenciado e você deve tentar conseguir ao menos <span>70%</span> de taxa para uma maior
+                        consistência.
+                    </p>
+
+                </div>
+                <div class="set substatus">
+                    <div class="passivas">
+                        <span>Status Secundários</span>
+                    </div>
+                    <p><span>Proficiência > Taxa / Dano Crítico > Vida% > Ataque% > Vida flat > Ataque flat</span></p>
+                    <p>Abaixo de 100 de Proficiência, status secundários de Proficiência podem ser mais valiosos que
+                        status de crítico</p>
+                    <p>Hu Tao escala mais com Vida do que Ataque</p>
+                </div>
+            </div>
+            <div class="armas" id="armas">
+                <h2>Melhores Armas</h2>
+                <img class="tabela" src="img/armas.png">
+                <div class="kaguu">
+                    <a href="https://docs.google.com/spreadsheets/d/1dpAB9eqDZbS3P_isGNbWq0MrLAIlmShJGQu0heobqL0/edit#gid=661246444"
+                        target="_blank">🔗 Créditos ao Kaguu</a>
+                </div>
+                <div>
+                    <h4 class="subtitulo-armas">
+                        <span>
+                            Análise das melhores opções:
+                        </span>
+                    </h4>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/Weapon_Staff_of_Homa.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>
+                            Báculo de Homa
+                        </h3>
+                        <p>
+                            Sua Arma assinatura, normalmente reconhecida como uma das melhores lanças na maioria dos
+                            personagens, porém apenas a Hu Tao se aproveita 100% da sua passiva.
+                            O Bônus de Vida% e o Bônus de Ataque Flat quando a Vida está abaixo de 50% combina
+                            perfeitamente com a Hu Tao e sua passiva, aumentando significativamente seu dano.
+                        </p>
+                        <h4 class="statusbase">Dano Crítico: 66.2%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/Arma_Baculo_das_Areias_Escarlates.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>
+                            Báculo das Areias Escarlates
+                        </h3>
+                        <p>
+                            A segunda melhor Arma 5 estrelas. Conforme suas Pétalas Sangrentas causem dano, aumenta
+                            gradualmente o Buff da passiva. Possui um aumento gradual de dano até que Pétalas Sangrentas
+                            seja ativado e consiga stacks (a cada 4 s).
+                            Aprecia Buffs de Proficiência, pode ser boa ou ainda melhor que Báculo de Homa quando jogado
+                            com Bennett.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 44.1%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/lanca_de_jade.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>
+                            Lança de Jade Primitiva
+                        </h3>
+                        <p>
+                            É uma Arma 5 estrelas OK. Ela se equipara à Perdição do Dragão e à Lança do Duelo. No
+                            entanto, a partir do refinamento 4, a Perdição do Dragão se torna uma opção melhor. Hu Tao
+                            consegue stackar o máximo da sua passiva somente no quarto combo do N2C.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 22.1%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div fiorde">
+                        <img src="img/cancao_do_fiorde.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Canção do Fiorde</h3>
+                        <p>
+                            Uma menção honrosa à nova Arma do passe. Se estiver no refino 5 e sua passiva estiver ativa,
+                            pode ser considerada a melhor Arma 4 estrelas. Passiva R5: Quando houver pelo menos 3
+                            personagens de Tipos Elementais diferentes na equipe, aumenta a Proficiência Elemental em
+                            240 pontos.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 27.6%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/Weapon_Dragons_Bane.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Perdição do Dragão</h3>
+                        <p>
+                            A Perdição do dragão é uma das melhores Armas 4 estrelas e é de fácil obtenção. Pode ser
+                            significantemente melhor que a Lança do Duelo em times que fazem a reação de sobrecarga e
+                            vaporizar simultaneamente.
+                        </p>
+                        <h4 class="statusbase">Proficiência: 221</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/Arma_Lanca_do_Duelo.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Lança do Duelo</h3>
+                        <p>
+                            Praticamente equivalente a Perdição do Dragão, mas se destaca por tornar a Build mais fácil
+                            (já que dá Taxa) e por poder ser melhor que Perdição do Dragão com Buffs de Proficiência.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 36.8%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/Arma_Borla_Branca_Base.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Borla Branca</h3>
+                        <p>
+                            Uma opção para jogadores iniciantes. Pode ser encontrada em baús sofisticados na região de
+                            Liyue. Com o combo N2C, ela se torna um pouco melhor que a Lança do Penhasco Obscuro.
+                        </p>
+                        <h4 class="statusbase">Taxa Crítica: 23.4%</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="img/Arma_Lanca_do_Penhasco_Obscuro.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Lança do Penhasco Obscuro</h3>
+                        <p>
+                            Apesar da quantidade atraente de Dano Crítico é um gasto a toa de Brilho Estrelar
+                            Abandonado, pois com ele você poderia comprar a Constelação de um personagem importante como
+                            o Xingqiu ou Bennet. No geral, não recomendada.
+                        </p>
+                        <h4 class="statusbase">Dano Crítico: 55.1%</h4>
+                    </div>
+                </div>
+                <div class="limite">
+                    <h3>Limite de Conversão</h3>
+                    <p>
+                        A Dança de Borboleta aumenta o Ataque de Hu Tao com base em sua Vida Máxima.
+                    </p>
+                    <p>O Ataque obtido dessa forma não poderá ultrapassar 400% do seu Ataque Básico.</p>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Ataque base</th>
+                            <th>Vida máxima</th>
+                            <th>Vida máxima</th>
+                        </tr>
+                        <tr>
+                            <th>Arma</th>
+                            <th>Arma + Hu Tao</th>
+                            <th>Talento lvl 10</th>
+                            <th>Talento lvl 13</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Báculo de Homa</td>
+                            <td>715</td>
+                            <td>45687</td>
+                            <td>40000</td>
+                        </tr>
+                        <tr>
+                            <td>Báculo das Areias</td>
+                            <td>648</td>
+                            <td>41406</td>
+                            <td>36252</td>
+                        </tr>
+                        <tr>
+                            <td>Canção do Fiorde</td>
+                            <td>617</td>
+                            <td>39425</td>
+                            <td>34517</td>
+                        </tr>
+                        <tr>
+                            <td>Lança de Millelith</td>
+                            <td>672</td>
+                            <td>42939</td>
+                            <td>37594</td>
+                        </tr>
+                        <tr>
+                            <td>Perdição do Dragão</td>
+                            <td>561</td>
+                            <td>35847</td>
+                            <td>31385</td>
+                        </tr>
+                        <tr>
+                            <td>Lança do Duelo</td>
+                            <td>561</td>
+                            <td>35847</td>
+                            <td>31385</td>
+                        </tr>
+                        <tr>
+                            <td>Borla Branca</td>
+                            <td>508</td>
+                            <td>32460</td>
+                            <td>28420</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="limite" id="status-medios">
+                    <h3>Status médios recomendados</h3>
+        
+                    <p>Esses status não consideram Buffs externos ou de Ressonância. Foram obtidos por cálculos que
+                        consideram 20 status secundários médios e altos no total dos artefatos</p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Arma</th>
+                            <th>Relógio</th>
+                            <th>Vida</th>
+                            <th>Prof.</th>
+                            <th>Critíco</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Báculo de Homa R1</td>
+                            <td>Prof.</td>
+                            <td>27.8 K</td>
+                            <td>265</td>
+                            <td>75/200</td>
+                        </tr>
+                        <tr>
+                            <td>Báculo das Areias R1</td>
+                            <td>Prof.</td>
+                            <td>24.6 K</td>
+                            <td>265</td>
+                            <td>88/196</td>
+                        </tr>
+                        <tr>
+                            <td>Canção do Fiorde R5</td>
+                            <td>Vida</td>
+                            <td>31.1 K</td>
+                            <td>279</td>
+                            <td>90/180</td>
+                        </tr>
+                        <tr>
+                            <td>Lança de Millelith R5</td>
+                            <td>Prof.</td>
+                            <td>23.9 K</td>
+                            <td>226</td>
+                            <td>90/180</td>
+                        </tr>
+                        <tr>
+                            <td>Perdição do Dragão R5</td>
+                            <td>Vida</td>
+                            <td>29.6 K</td>
+                            <td>260</td>
+                            <td>75/167</td>
+                        </tr>
+                        <tr>
+                            <td>Lança do Duelo R1</td>
+                            <td>Prof.</td>
+                            <td>23.9 K</td>
+                            <td>226</td>
+                            <td>81/216</td>
+                        </tr>
+                        <tr>
+                            <td>Borla Branca R5</td>
+                            <td>Prof.</td>
+                            <td>23.9 K</td>
+                            <td>226</td>
+                            <td>86/180</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <input type="checkbox" id="rank" class="botao-tierlist" name="tierlist">
+
+            <div id="sinergia" class="sinergia">
+                <h2>Sinergias</h2>
+
+                <div class="botao-vermais">
+                    <div class="prioridade-txt">
+                        <h3>TierList</h3>
+                    </div>
+                    <div>
+                        Aqui um rank resumido dos personagens com melhores sinergias com a Hu Tao. Este rank separa os
+                        personagens nos possíveis times onde eles seriam teoricamente úteis. A ordem horizontal também
+                        foi considerada, ou seja, quanto mais a esquerda, mais sinérgico o personagem é com Hu Tao, e
+                        vice-versa.
+                    </div>
+
+                    <label class="expandir" for="rank">
+                        Mostrar
+                    </label>
+
+                    <div class="tierlist">
+                        <div class="flex tierlinha">
+                            <div class="tier1">
+                                <p>
+                                    Melhor dupla
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#xingqiu"><img src="img/Xingqiu_Icon.webp"></a>
+                                <a href="#yelan"><img src="img/yelan.webp"></a>
+                            </div>
+                        </div>
+                        <div class="flex tierlinha">
+                            <div class="tier2">
+                                <p>
+                                    Double Hydro Flex
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#xiangling"><img src="img/Xiangling_Icon.webp"></a>
+                                <a href="#fischl"><img src="img/fischl.webp"></a>
+                                <a href="#zhongli"><img src="img/Zhongli.webp"></a>
+                                <a href="#mona"><img src="img/Mona_Icon.webp"></a>
+                                <a href="#nilou"><img src="img/Nilou_Icon.webp"></a>
+                                <a href="#layla"><img src="img/Layla_Icon.webp"></a>
+                            </div>
+                        </div>
+                        <div class="flex tierlinha">
+                            <div class="tier3">
+                                <p>
+                                    VV Vape
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#kazuha"><img src="img/Kaedehara_Kazuha_Icon.webp"></a>
+                                <a href="#sucrose"><img src="img/Sucrose_Icon.webp"></a>
+                                <a href="#bennett"><img src="img/bennett.webp"></a>
+                                <a href="#amber"><img src="img/Amber_Icon.webp"></a>
+                                <a href="#thoma"><img src="img/Thoma_Icon.webp"></a>
+                                <a href="#yanfei"><img src="img/Yanfei_Icon.webp"></a>
+                                <a href="#klee"><img src="img/klee-skin-icon.png"></a>
+                            </div>
+                        </div>
+                        <div class="flex tierlinha">
+                            <div class="tier3">
+                                <p>
+                                    Double Cryo
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#rosaria"><img src="img/rosaria.webp"></a>
+                                <a href="#layla"><img src="img/Layla_Icon.webp"></a>
+                                <a href="#diona"><img src="img/diona.webp"></a>
+                                <a href="#kaeya"><img src="img/kaeya.webp"></a>
+                                <a href="#ganyu"><img src="img/Ganyu_Icon.webp"></a>
+                            </div>
+                        </div>
+                        <div class="flex tierlinha">
+                            <div class="tier4">
+                                <p>
+                                    Menção Honrosa
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#beidou"><img src="img/Beidou.webp"></a>
+                                <a href="#albedo"><img src="img/Albedo_Icon.webp"></a>
+                                <a href="#ayaka"><img src="img/cabeçato.webp"></a>
+                            </div>
+                        </div>
+                        <div class="flex tierlinha">
+                            <div class="tier5">
+                                <p>
+                                    Não recomendado
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#yunjin"><img src="img/YunJin_Icon.webp"></a>
+                                <a href="#yae"><img src="img/yae-miko.png"></a>
+                            </div>
+                        </div>
+                        <div class="tiernota">
+                            <p>⭐ 4 estrelas C6 (exceto mochileiro)</p>
+                            <p>Klee C2 e Ayaka C4</p>
+                            <p>Nilou com sua Arma assinatura</p>
+                        </div>
+                    </div>
+                    <label class="retrair" for="rank">
+                        Retrair
+                    </label>
+                </div>
+
+                <div class="personagem xingqiu" id="xingqiu">
+                    <img class="imgtreme" src="img/Xingqiu_Icon.webp">
+                    <div>
+                        <h4>
+                            Xingqiu
+                        </h4>
+                        <p>
+                            Um dos principais suportes de dano fora do campo de batalha. Através do seu Supremo Hu Tao
+                            consegue vaporizar todos os seus Ataques Carregados. Além disso, Xingqiu através da sua
+                            Habilidade Elemental Espada de Guhua: Chuva Torrencial, ativa orbitais que aplicam Hydro
+                            adicional, aumenta a resistência à interrrupção do personagem que estiver em campo e também
+                            provê pelo menos 29% de redução de dano (Talento lvl 10).
+                        </p>
+                        <div class="sn15arma set">
+                            <h4>Sacrifício, Favonius ou Arma de CRIT/ATK?</h4>
+                            <div>
+                                <img src="img/sac.webp">
+                                <img src="img/favonius_espada.webp">
+                                <img src="img/jade_espada.png">
+                            </div>
+                        </div>
+                        <p>Devido ao requerimento de energia, Favonius e Sacrifício são geralmente as melhores quando
+                            você está usando o Xingqiu no time da Hu Tao. Através da sua passiva, a Espada de Favonius
+                            ajuda na recarga do time, além de diminuir o requerimento de recarga do próprio Xingqiu. Já
+                            a Espada do Sacrifício contribui ainda mais para ele e outro Hydro do time, mas faz com que
+                            ele tome mais tempo em campo e, consequentemente, prolongue a rotação, o que pode acarretar
+                            em perda de dano na rotação.</p>
+                        <p>Se a recarga do time não estiver em questão, Xingqiu pode usar Armas de Ataque e Crítico
+                            (como Jade) desde que os requerimentos de energia dele sejam respeitados. A seguir um
+                            ranking completo de Armas para ele:</p>
+                        <div class="excel">
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/1tUJGq4RT37X3CDIvXeQZi4F8KaIljTFMKG9cNkmgpS4/edit#gid=661246444">Ranking
+                                completo de Armas <img src="img/excel.png"></a>
+                        </div>
+                        <div class="sn15armas set">
+                            <h4>Ritual ou Selo?</h4>
+                            <div>
+                                <img src="img/ritual-icon.webp">
+                                <img src="img/selo.webp">
+                            </div>
+                        </div>
+                        <p>Comparando ambos com mesmo requerimento de recarga, selo obviamente se sairá na frente como
+                            melhor opção para seu dano particular, mas, considerando o Buff do Bônus de 4 peças do
+                            Ritual Real, eles se tornam bem equiparáveis. Ritual terá uma pequena vantagem para times em
+                            que mais de um personagem faz uso de Ataque e contribui com dano (Xiangling, Fischl,
+                            Rosária, etc.). Já Selo se sairá melhor em times sem tais personagens (VV Vape). Esse set
+                            tem ainda a vantagem de possuir um Bônus de 2 peças que dá 20% de recarga, o que pode
+                            facilitar a Build do Xingqiu, especialmente em times com alto requerimento de recarga. Como
+                            regra geral, utilize o set que tiver os melhores substatus.</p>
+                        <div class="excel">
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/1fc6NPlE6FoY35PZoGAuGRRL7FKeUCD80tt6cxZiNb8I/edit?usp=sharing">Algumas
+                                simulações de dano <img src="img/excel.png"></a>
+                        </div>
+                        <div class="sn15armas">
+                            <h4>Recarga</h4>
+                        </div>
+                        <div>
+                            <p>A recarga pode depender do time e do mob que estamos enfrentando, mas aqui está uma
+                                estimativa para se basear.</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>C0 - C5</th>
+                                        <th>C6</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sem Sac / Fav</td>
+                                        <td>300% ~ 280%</td>
+                                        <td>230% ~ 210%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Favonius</td>
+                                        <td>260% ~ 230%</td>
+                                        <td>200% ~ 180%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sacrifício</td>
+                                        <td>220% ~ 180%</td>
+                                        <td>180%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Com Yelan C0</td>
+                                        <td>240% ~ 230%</td>
+                                        <td>190%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Com Yelan C1</td>
+                                        <td>200% ~ 190%</td>
+                                        <td>180% ~ 160%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="personagem yelan" id="yelan">
+                    <img class="imgtreme" src="img/yelan.webp">
+                    <div>
+                        <h4>
+                            Yelan
+                        </h4>
+                        <p>
+                            Conhecido como o Xingqiu 5 estrelas, Yelan possui forte sinergia com a Hu Tao, tanto em seu
+                            Kit quanto em suas constelações, porém, possui uma aplicação menor que o Xingqiu. Além de
+                            não possuir orbitais e conceder redução de dano, seu uso como solo na C0, torna difícil a
+                            vaporização consistente de todos os Carregados da Hu Tao, sendo recomendável seu uso em
+                            conjunto com outro Hydro (XIngqiu) ou Electro (FIschl). Algumas de suas constelações
+                            notáveis:
+                        </p>
+                        <p><span>C1: </span> Diminui o requerimento de energia.</p>
+                        <p><span>C2: </span> Além de aplicar mais Hydro, aumenta o seu dano pessoal.</p>
+                        <p><span>C4: </span> Concede ao time 10 % de Vida com base na quantidade de inimigos marcados
+                            por sua Habilidade Elemental. O máximo a ser concedido é 40%.
+                        </p>
+                        <div class="sn15arma set">
+                            <h4>Elegia, Aqua ou Favonius?</h4>
+                            <div>
+                                <img src="img/elegia.webp">
+                                <img src="img/aqua.webp">
+                                <img src="img/Arma_Arco_de_Favonius.webp">
+                            </div>
+                        </div>
+                        <p>Elegia é em geral a melhor Arma para a Yelan quando ela estiver sendo usada junto com a Hu
+                            Tao. Devido ao requerimento de Recarga, Aqua Simulacra acaba tendo seu potencial um pouco
+                            diluído nesse time mas ainda assim com rendimento bem próximo (em alguns casos superior) ao
+                            da Elegia. Aqui está uma comparação direta das duas Armas no mesmo time.
+                        </p>
+                        <div class="excel">
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/18Yih0z9y9_1QAZRAcK8VXI7fLHle-FGvNL30oj-b8Uk/edit#gid=0">Aqua
+                                vs Elegia<img src="img/excel.png"></a>
+                        </div>
+                        <p>
+                            Já a Favonius é a melhor opção T4 F2P (o jogo te dá uma no começo). Diminui o requerimento
+                            de energia para todos do time. Deve ser utilizada sempre que a equipe realmente precisar da
+                            energia que ela fornece.
+                        </p>
+                        <div class="excel">
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/1uTuqJPISNKStsHTwxZm631ndi5yMsy9WNzx3YXEWD8c/edit#gid=661246444">Rank
+                                de Armas da Yelan (dano pessoal) <img src="img/excel.png"></a>
+                        </div>
+                        <div class="sn15armas set">
+                            <h4>Artefato Recomendado</h4>
+                            <div>
+                                <img src="img/selo.webp">
+                            </div>
+                        </div>
+                        <div class="sn15armas">
+                            <h4>Recarga</h4>
+                        </div>
+                        <div>
+                            <p>A recarga pode depender do time e do mob que estamos enfrentando, mas aqui está uma
+                                estimativa para se basear.</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Yelan 1 E (C0)</th>
+                                        <th>Yelan 2 E (C1+)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sem Favonius</td>
+                                        <td>260% ~ 250%</td>
+                                        <td>185% ~ 175%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Favonius</td>
+                                        <td>220% ~ 210%</td>
+                                        <td>160% ~ 150%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Com Xingqiu</td>
+                                        <td>180% ~ 170%</td>
+                                        <td>140%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="personagem mona" id="mona">
+                    <img class="imgtreme" src="img/Mona_Icon.webp">
+                    <div>
+                        <h4>
+                            Mona
+                        </h4>
+                        <p>
+                            Recomendada somente em times de Double Hydro. Através de sua C1 + Histórias Extraordinárias
+                            de Caçadores de Dragões consegue dar um bom aumento temporário de dano
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem nilou" id="nilou">
+                    <img class="imgtreme" src="img/Nilou_Icon.webp">
+                    <div>
+                        <h4>
+                            Nilou
+                        </h4>
+                        <p>
+                            É uma opção OK, ficando por volta de 5~6% atrás do
+                            time tradicional com Xingqiu de Favonius.
+                            Nilou pode ser uma opção em Double Hydro, mas somente com sua
+                            Arma assinatura que irá fornecer por volta de 140~150 de
+                            Proficiência para o time.
+                            Se utilizada junto com a Yelan C0, a aplicação Hydro total não é
+                            suficiente para manter a aura Hydro no inimigo, o que pode fazer
+                            com que perca algumas reações de vaporização no meio do combo.
+                            Sendo aconselhável o uso com a Yelan C0 somente com
+                            a Fischl, pois a reação de electricamente Carregado irá manter a
+                            consistência das reações dos Carregados da Hu Tao.
+                        </p>
+                        <div class="excel">
+                            <a
+                                href="https://docs.google.com/spreadsheets/d/1P5zKkansjSQzUQwtpO7RuFQnDq5-L-tm7-IyLoqKfRo/edit?usp=sharing">Comparações
+                                de Nilou vs Double Hydro tradicional <img src="img/excel.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="personagem xiangling" id="xiangling">
+                    <img class="imgtreme" src="img/Xiangling_Icon.webp">
+                    <div>
+                        <h4>
+                            Xiangling
+                        </h4>
+                        <p>
+                            Altamente recomendada no time de Double Hydro ou Mono
+                            Pyro.
+                            Em sua primeira Constelação, o Gouba tira 15% de
+                            resistência Pyro.
+                            Em sua sexta, o Pyronado dará 15% de Bônus pyro.
+                        </p>
+                        <p>Recomendações: 215~220% de recarga com Favonius, 230~240% com Fisgada (Double Hydro). 4 peças
+                            Selo da Insulação</p>
+                    </div>
+                </div>
+                <div class="personagem bennett" id="bennett">
+                    <img class="imgtreme" src="img/bennett.webp">
+                    <div>
+                        <h4>
+                            Bennett
+                        </h4>
+                        <p>
+                            Umas das melhores opções em times de VV Vaporize, porém
+                            aconselhável somente com sua C6. Seu Buff de Ataque facilmente compensa a perda dos 33% de
+                            Dano Pyro que a passiva da Hu Tao proveria.
+                        </p>
+                        <p>Recomendações: 210~240% de Recarga. Espada Celestial, Falcão ou Espada de Madeira.</p>
+                    </div>
+                </div>
+                <div class="personagem thoma" id="thoma">
+                    <img class="imgtreme" src="img/Thoma_Icon.webp">
+                    <div>
+                        <h4>
+                            Thoma
+                        </h4>
+                        <p>
+                            Uma opção para escudo e times de VV Vape. Use o combo N2C para diminuir a perda de reação da
+                            Hu Tao.
+                        </p>
+                        <p>Recomendações: 210% de Recarga. 4 peças do Antigo Ritual Real ou Instrutor. Lança de
+                            Favonius. </p>
+                    </div>
+                </div>
+                <div class="personagem amber" id="amber">
+                    <img class="imgtreme" src="img/Amber_Icon.webp">
+                    <div>
+                        <h4>
+                            Amber
+                        </h4>
+                        <p>
+                            Unidade Grátis. Seu Supremo é de custo bem barato, apenas 40 de energia. Aplicação massiva
+                            de Pyro em sua ultimate, facilitando setups de redemoinho pyro. Sua habilidade elemental
+                            provê um taunt.
+                        </p>
+                        <p>Recomendações: Elegia ou Favonius. 4 peças do Instrutor.</p>
+                    </div>
+                </div>
+                <div class="personagem yanfei" id="yanfei">
+                    <img class="imgtreme" src="img/Yanfei_Icon.webp">
+                    <div>
+                        <h4>
+                            Yanfei
+                        </h4>
+                        <p>
+                            Usável somente em sua C4, tem escudo forte e serve como slot Pyro de VV vape.
+                        </p>
+                        <p>Recomendações: ~210% de Recarga. Codex de Favonius. 4 peças do Antigo Ritual Real.</p>
+                    </div>
+                </div>
+                <div class="personagem klee" id="klee">
+                    <img class="imgtreme" src="img/klee-skin-icon.png">
+                    <div>
+                        <h4>
+                            Klee
+                        </h4>
+                        <p>
+                            Pode somente ser viável como slot Pyro em VV Vape se tiver sua segunda Constelação.
+                            O uso do Histórias Extraordinárias de Caçadores de Dragões
+                            passará para o Xingqiu.
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem sucrose" id="sucrose">
+                    <img class="imgtreme" src="img/Sucrose_Icon.webp">
+                    <div>
+                        <h4>
+                            Sucrose
+                        </h4>
+                        <p>
+                            Melhor opção F2P no quesito Sombra Verde.
+                            Buffa Proficiência.
+                            Buffa 48% de Ataque com a Arma Histórias Extraordinárias
+                            de Caçadores de Dragões.
+                            Tem um agrupamento OK.
+                        </p>
+                        <p>Recomendações: A arma citada. 4 peças do Sombra Verde.</p>
+                    </div>
+                </div>
+                <div class="personagem kazuha" id="kazuha">
+                    <img class="imgtreme" src="img/Kaedehara_Kazuha_Icon.webp">
+                    <div>
+                        <h4>
+                            Kazuha
+                        </h4>
+                        <p>
+                            Capaz de Buffar a equipe inteira com Bônus Elemental.
+                            Através da absorção Elemental em seu Supremo pode
+                            ajudar a aplicar mais Hydro nos inimigos.
+                            Aumenta o dano pessoal da Hu Tao com C2 ou
+                            Arma Assinatura.
+                            Diminui o gasto de Stamina em 20% ao correr.
+                            Seu agrupamento é muito bom.
+                        </p>
+                        <p>Recomendações: Favonius, Chuva Floral, Xiphos, Espinho de Ferro, Juramento pela Liberdade ou
+                            Sacrifício. Set 4 peças do Sombra verde. 180~200% de recarga.</p>
+                    </div>
+                </div>
+                <div class="personagem diona" id="diona">
+                    <img class="imgtreme" src="img/diona.webp">
+                    <div>
+                        <h4>
+                            Diona
+                        </h4>
+                        <p>
+                            Escudo forte.
+                            Os personagens protegidos por seu escudo ganham 10% de
+                            velocidade de movimento e 10% de redução de consumo de
+                            estamina. Cura em sua Ultimate quando for necessário.
+                            Gera energia para o time com Favonius.
+                        </p>
+                        <p> Recomendações: Set Instrutor. Arma Favonius. </p>
+                    </div>
+                </div>
+                <div class="personagem layla" id="layla">
+                    <img class="imgtreme" src="img/Layla_Icon.webp">
+                    <div>
+                        <h4>
+                            Layla
+                        </h4>
+                        <p>
+                            Escudo mais forte que Diona, 100% de tempo ativo.
+                            Pode causar um pouco de dano.
+                            Supremo de custo bem barato, apenas 40 de energia.
+                            Faz um bom uso do set de artefatos Millelith.
+                            C4 Buffa Ataques Normais e Carregados baseado em sua
+                            Vida máxima.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem rosaria" id="rosaria">
+                    <img class="imgtreme" src="img/rosaria.webp">
+                    <div>
+                        <h4>
+                            Rosaria
+                        </h4>
+                        <Recomenda-se>
+                            Fornece Bônus de Taxa Crítica.
+                            12 segundos de tempo de Supremo com sua C2.
+                            Seu Supremo proca a cada 2 segundos, o que faz com que a Hu Tao
+                            consiga fundir de 2 a 3 Carregados.
+                            <p>Recomendações: 140~150% de Recarga. Lança de Favonius ou Fisgada. 4 peças do Antigo
+                                Ritual Real ou Selo da Insulação. </p>
+                            </p>
+                    </div>
+                </div>
+                <div class="personagem ganyu" id="ganyu">
+                    <img class="imgtreme" src="img/Ganyu_Icon.webp">
+                    <div>
+                        <h4>
+                            Ganyu
+                        </h4>
+                        <p>
+                            Apesar de seu Supremo ser de longa duração de 15
+                            segundos, seu Supremo depende de RNG, sendo aconselhável seu uso
+                            em salas com muitos alvos.</p>
+                        <p>Recomendações: 4 peças do Antigo Ritual Real. Arco de Favonius ou Elegia.</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem ayaka" id="ayaka">
+                    <img class="imgtreme" src="img/cabeçato.webp">
+                    <div>
+                        <h4>
+                            Ayaka
+                        </h4>
+                        <p>
+                            Uma das melhores unidades para SpeedRun, principalmente
+                            se você possuir sua Constelação 4.
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem kaeya" id="kaeya">
+                    <img class="imgtreme" src="img/kaeya.webp">
+                    <div>
+                        <h4>
+                            Kaeya
+                        </h4>
+                        <p>
+                            Diminui o gasto de Stamina em 20% ao correr.
+                            Gera uma boa quantidade de energia principalmente com
+                            Favonius. Baixo tempo de funcionamento.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem zhongli" id="zhongli">
+                    <img class="imgtreme" src="img/Zhongli.webp">
+                    <div>
+                        <h4>
+                            Zhongli
+                        </h4>
+                        <p>
+                            Atualmente o escudo mais forte do jogo.
+                            Enquanto protegido por seu escudo, os inimigos em uma pequena área terão todas as suas
+                            resistências elementais e física reduzidas em 20%. </p>
+
+                        <p>Recomendações: 4 peças do Instrutor, Millelith ou Pedra arcaica. Lança de Favonius
+                        </p>
+                        <div class="samambaia">
+                            <p>Instrutor requer que o portador faça uma reação Elemental enquanto está em campo.</p>
+                            <p>Millelith requer que o pilar do zhongli continue ressonando para que seu Buff continue
+                                renovando.</p>
+                            <p>Pedra Arcaica requer que o portador pegue o cristal Hydro em campo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="personagem albedo" id="albedo">
+                    <img class="imgtreme" src="img/Albedo_Icon.webp">
+                    <div>
+                        <h4>
+                            Albedo
+                        </h4>
+                        <p>
+                            Causa dano fora de campo. Fornece 125 de Proficiência após usar seu Supremo. Caso você
+                            esteja usando Double Geo com o Zhongli e o pilar dele estiver próximo da sua Habilidade
+                            Elemental, pode acontecer de você perder alguma reação de vaporização.
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem yunjin" id="yunjin">
+                    <img class="imgtreme" src="img/YunJin_Icon.webp">
+                    <div>
+                        <h4>
+                            Yunjin
+                        </h4>
+                        <p>
+                            Alguns pensam que Yunjin é uma opção viável em Double Geo e até recomendam o uso do combo
+                            N3C para maximizar a relevância de seu Buff nos Ataques Normais da Hu Tao. Essa, porém, não
+                            é nem de longe uma boa opção. O foco da Hu Tao é o Ataque Carregado, o combo N3C causará
+                            menos reação de vaporizar e leva mais tempo pra ser feito, o que diminui a quantidade de
+                            Carregados por rotação.
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem fischl" id="fischl">
+                    <img class="imgtreme" src="img/fischl.webp">
+                    <div>
+                        <h4>
+                            Fischl
+                        </h4>
+                        <p>
+                            A melhor unidade electro atualmente. Permite que a Hu Tao faça a reação de vaporização e
+                            sobrecarga simultaneamente. Sua passiva A4 e sua C6 vão procar constantemente.
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem beidou" id="beidou">
+                    <img class="imgtreme" src="img/Beidou.webp">
+                    <div>
+                        <h4>
+                            Beidou
+                        </h4>
+                        <p>
+                            Geralmente usada junto com a Fischl. Grande potencial de dano contra 2 a 3 alvos. Fornece
+                            resistência à interrupção e redução de dano.
+                        </p>
+                        <p> Recomendações: 165% de recarga (com Fischl). 4 peças do Selo da Insulação.</p>
+                    </div>
+                </div>
+                <div class="personagem yae" id="yae">
+                    <img class="imgtreme" src="img/yae-miko.png">
+                    <div>
+                        <h4>
+                            Yae Miko
+                        </h4>
+                        <p>
+                            Não recomendada.
+                            Toma muito tempo em campo e você perde dano com isso.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="composicoes" id="composicoes">
+                <h2>Composições</h2>
+                <h4 class="subtitulo">
+                    <span>
+                        Exemplos de Times:
+                    </span>
+                </h4>
+                <div class="times">
+                    <div class="set">
+                        <div class="comp cima">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t4 charmostrar" src="img/fischl.webp">
+                        </div>
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t4" src="img/Xingqiu_Icon.webp">
+                            <img class="t5" src="img/yelan.webp">
+                            <div class="charmais">
+                                <img class="t4" src="img/Xiangling_Icon.webp">
+                                <div class="btnmais">+</div>
+                            </div>
+                        </div>
+                        <div class="comp baixo">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t5 charmostrar2" src="img/Zhongli.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>Double Hydro</h4>
+                        </div>
+                        <p>
+                            Uma das equipes mais recomendadas de se jogar. Este time é composto principalmente por
+                            Xingqiu e Yelan, permitindo que a Hu Tao faça proveito da Ressonância Hydro (+25% de vida).
+                            Em baixo/médio investimento este time se destaca ainda mais.
+                        </p>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação: Xingqiu E + ULT > Yelan E + ULT > Xiangling ULT + E > Hu Tao E + Combo.
+                        </p>
+                        <p>É possível fazer rotações mais elaboradas, como por exemplo: </p>
+                        <p>Xingqiu E + ULT + Ataque Normal > Yelan E+ Ataque Normal + ULT + Ataque Normal > Xiangling
+                            ULT + E + ATK > Hu Tao E + Combo.</p>
+                        <div class="rot-video">
+                            <a href="https://www.youtube.com/watch?v=UPa3xnP-uGg&ab_channel=Fabinhoz"
+                                target="_blank">Vídeo da rotação</a>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <div class="comp cima">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t4" src="img/Sucrose_Icon.webp">
+                            <img class="t4" src="img/Amber_Icon.webp">
+                        </div>
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t4" src="img/Xingqiu_Icon.webp">
+                            <img class="t5" src="img/Kaedehara_Kazuha_Icon.webp">
+                            <img class="t4" src="img/bennett.webp">
+                        </div>
+                        <div class="comp baixo">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t4" src="img/Thoma_Icon.webp">
+                        </div>
+                        <div class="comp baixo2">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t4" src="img/Yanfei_Icon.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>VV Vape</h4>
+                        </div>
+                        <p>
+                            Os times de VV VAPE irão prover um grande aumento de dano pessoal para a Hu Tao.
+                            Demanda um pouco mais de investimento que Double Hydro para valer a pena. Sendo normalmente
+                            usado para fazer speedruns.
+                            Todas as variações devem incluir um dos anemos citados anteriormente que irá permitir o
+                            agrupamento dos inimigos, a aplicação do redemoinho Pyro e por consequência o deBuff do
+                            Sombra Verde.
+                        </p>
+                        <p>
+                            O uso da Yelan Solo somente é aconselhável com sua Constelação 2.
+                        </p>
+
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação com Sucrose, Bennett e Xingqiu:
+                        </p>
+                        <p>Xingqiu E + ULT > Bennett Ataque Normal + E + Esquiva se afastando (Para evitar a aplicação
+                            Hydro do Orbital do Xingqiu) + ULT > Sucrose Ataque Normal 3x + (Assim que a Ult do Xingqiu
+                            atacar) use o E > Hu Tao E + Combo</p>
+                        <div class="rot-video">
+                            <a href="https://www.youtube.com/watch?v=qQhd6YJh1iA&ab_channel=Fabinhoz"
+                                target="_blank">Vídeo da rotação</a>
+                        </div>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação com Kazuha C0 e Xingqiu:
+                        </p>
+                        <p>Xingqiu E + ULT > Kazuha ULT > Bennett Ataque Normal + E + ULT > Kazuha SEGURE O E + Faça o
+                            imersivo > Hu Tao E + Combo</p>
+                        <div class="rot-video">
+                            <a href="https://www.youtube.com/watch?v=ip8VPDnGqME&ab_channel=Fabinhoz"
+                                target="_blank">Vídeo da rotação</a>
+                        </div>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação com Kazuha C2 e Yelan C2:
+                        </p>
+                        <p>Yelan E + E + ULT > Kazuha ULT > Bennett ULT + E > Kazuha E > Hu Tao E + Combo</p>
+                        <div class="rot-video">
+                            <a href="https://www.youtube.com/watch?v=BE3Kuex_Gm0&ab_channel=Fabinhoz"
+                                target="_blank">Vídeo da rotação</a>
+                        </div>
+                    </div>
+                    <div class="set">
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t4" src="img/Xingqiu_Icon.webp">
+                            <img class="t4" src="img/fischl.webp">
+                            <img class="t5" src="img/Zhongli.webp">
+                        </div>
+                        <div class="comp baixo">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t5" src="img/Albedo_Icon.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>Zhongli + Flex</h4>
+                        </div>
+                        <p></p>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação com Fischl: Zhong Segure o E > Xingqiu E + ULT + Ataque Normal > Fischl E + Ataque
+                            Normal > Hu Tao E + Combo
+                        </p>
+                        <p>Rotação com Albedo: Albedo E > Zhongli segure o E (De preferência quebre o pilar na flor do
+                            Albedo) > Xingqiu E + ULT + Ataque Normal > Albedo ULT + Ataque Normal > Hu Tao E + Combo
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp cima">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t4" src="img/kaeya.webp">
+                            <img class="inv">
+                        </div>
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t4" src="img/Xingqiu_Icon.webp">
+                            <img class="t4" src="img/rosaria.webp">
+                            <img class="t4" src="img/diona.webp">
+                        </div>
+                        <div class="comp baixo">
+                            <img class="inv">
+                            <img class="inv">
+                            <img class="t5" src="img/Ganyu_Icon.webp">
+                            <img class="t4" src="img/Layla_Icon.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>Double Cryo</h4>
+                        </div>
+                        <p></p>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação: Xingqiu E + ULT + Ataque Normal > Diona Segure o E > Rosaria Ataque Normal + E +
+                            ULT > Hu Tao E + Combo
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t5" src="img/cabeçato.webp">
+                            <img class="t5" src="img/Kaedehara_Kazuha_Icon.webp">
+                            <img class="t4" src="img/bennett.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>Ayaka C4 e Kazuha C2</h4>
+                        </div>
+                        <p></p>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação: Bennett ULT > Kazuha ULT > Ayaka ULT > Hu Tao E + ULT + Carregado (Se o inimigo
+                            sobreviveu).
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t4" src="img/Xingqiu_Icon.webp">
+                            <img class="t4" src="img/fischl.webp">
+                            <img class="t4" src="img/Beidou.webp">
+                        </div>
+                        <div class="comp baixo">
+                            <img class="inv">
+                            <img class="t5" src="img/yelan.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>Double Electro</h4>
+                        </div>
+                        <p>
+
+                        </p>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação: Xingqiu E + ULT + Ataque Normal > Fischl E + Ataque Normal > Beidou Ult > Hu Tao E
+                            + Combo
+
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp meio">
+                            <img class="t5" src="img/Hu_Tao_Icon.webp">
+                            <img class="t5" src="img/Kaedehara_Kazuha_Icon.webp">
+                            <img class="t4" src="img/Xiangling_Icon.webp">
+                            <img class="t4" src="img/bennett.webp">
+                        </div>
+                        <div class="comp-nome">
+                            <h4>Mono Pyro</h4>
+                        </div>
+                        <p>
+
+                        </p>
+                        <section class="rot-sep"></section>
+                        <p>
+                            Rotação: Bennett E > Kazuha Segure o E + Imersivo + Ult > Bennett ULT + E > Xiangling Ult +
+                            E > Kazuha segure o E + Imersivo > Hu Tao E + Combo
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="constelacoes" id="constelacoes">
+                <h2>Constelações</h2>
+
+                <div class="explicacao-nota">
+                    <p>
+                        As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de
+                        dano.
+                    </p>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C1</h1><img src="img/c1.png">
+                    </div>
+                    <div>
+                        <h3>
+                            Sob o estado da Dança de Borboleta aplicado por Guia do
+                            Além, o Ataque Carregado de Hu Tao não consome Stamina.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>
+                            Em geral sua melhor Constelação. Aumenta o conforto da
+                            gameplay através de mais iframes com as esquivas e mais
+                            mobilidade, e aumenta o dano dela e do time (se aproveitando mais
+                            do Supremo da Yelan e/ou do Xingqiu).
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C2</h1><img src="img/c2.png">
+                    </div>
+                    <div>
+                        <h3>
+                            Pétalas Sangrentas causa dano adicional equivalente a
+                            10% da Vida Máxima de Hu Tao.
+                            Além disso, Pacificadora de Espíritos pode aplicar efeito de
+                            Pétalas Sangrentas aos inimigos acertados.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>
+                            É uma Constelação OK. Se aproveita melhor de Buffs, mas
+                            não afeta tanto no dano total da rotação.
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C3</h1><img src="img/c3.png">
+                    </div>
+                    <div>
+                        <h3>
+                            Aumenta a Habilidade Elemental em 3 níveis.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>
+                            É uma boa Constelação. Aproxima você do limite de conversão, te
+                            dando mais ataque.
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C4</h1><img src="img/c4.png">
+                    </div>
+                    <div>
+                        <h3>
+                            Quando os inimigos sob estado de Pétalas Sangrentas
+                            aplicado por Hu Tao forem derrotados, a taxa CRIT de
+                            todos os aliados ao redor (menos Hu Tao) aumenta em 12%
+                            por 15s.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>
+                            Uma Constelação ok, sendo útil nas próximas rotações.
+                            Caso combe com a <a class="redirect" href="#crisalida">passiva Crisálida</a>
+                            irá fornecer 24% de Taxa Crítica para o time no total.
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C5</h1><img src="img/c5.png">
+                    </div>
+                    <div>
+                        <h3>
+                            Aumenta o Supremo em 3 níveis.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>
+                            Constelação OK, aumenta o dano do Supremo.
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="set cons flex">
+                    <div class="cons-head">
+                        <h1>C6</h1><img src="img/c6.png">
+                    </div>
+                    <div>
+                        <h3>
+                            O seguinte efeito será ativado quando a Vida de Hu Tao for inferior a
+                            25%, ou o dano recebido for suficiente para derrotá-la:
+                            O dano recebido não irá derrubar Hu Tao, e nos primeiros
+                            10s, a RES Elemental e RES Física irão aumentar em 200%,
+                            entretanto, a taxa CRIT aumenta em 100%, e a sua
+                            Resistência contra Interrupção aumenta significativamente.
+                            O efeito será ativado automaticamente quando a Vida for 1.
+                            O efeito apenas pode ser ativado a cada 60s.
+                        </h3>
+                    </div>
+                    <div>
+                        <p>
+                            É uma boa Constelação para Speedrunners, mas se demonstra inconsistente em usos normais.
+                            Quanto menos Taxa Crítica você tiver, mais você se aproveitará dessa Constelação, porém não
+                            é aconselhável usar
+                            abaixo de 60% ~ 65% em casos normais, devido ao seu tempo de recarga de
+                            1 minuto.
+                        </p>
+                    </div>
+                    <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="passivas">
+                    <h3>Créditos</h3>
+                </div>
+                <p>
+                    Parte das informações e estrutura contidas neste guia foram inspiradas no conteúdo produzido pelo <a
+                        href="https://www.twitch.tv/jstern25"> <img src="img/twitch-logo.png" class="yuridisc">
+                        <span>Jstern.</span></a>
+                    Os cálculos de comparação foram realizados com a ajuda do site <a href="https://gcsim.app/"> <img
+                            src="img/gcsim.png" class="yuridisc"> <span>Gcsim.</span></a>
+                    Gostariamos de agradacer também ao <img src="/img/icones/discord.png" class="yuridisc">
+                    <span>yurionosu</span> por sua valiosa contribuição na revisão dos textos.
+                </p>
+            </div>
+            <div class="gif-div banner-fim">
+                <img src="img/hutao_gif.gif">
+            </div>
+            <div class="flex footer">
+                <div class="contato2">
+                    <p>Tire dúvidas:</p>
+                    <div class="flex">
+                        <img src="/img/icones/discord.png">
+                        <p>fabinhoz & Jean2051</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fim">
+
+            </div>
+        </section>
+        <nav class="contato">
+            <p>Tire dúvidas:</p>
+            <div class="flex">
+                <img src="/img/icones/discord.png">
+                <p>fabinhoz & Jean2051</p>
+            </div>
+        </nav>
+        <nav class="nav flex">
+            <div class="links">
+                <div class="flex">
+                    <a href="#topo">Introdução</a>
+                    <a href="#faq">Dúvidas Frequentes</a>
+                    <a href="#talentos">Talentos</a>
+                    <a href="#habilidade" class="sublink">- Habilidade</a>
+                    <a href="#atributos">Artefatos</a>
+                    <a href="#armas">Armas</a>
+                    <a href="#status-medios">Status</a>
+                    <a href="#sinergia">Sinergias</a>
+                    <a href="#composicoes">Composições</a>
+                    <a href="#habilidade">Combos</a>
+                    <a href="#constelacoes">Constelações</a>
+                </div>
+            </div>
+            <div>
+                <p class="autoria">By: Fabio & Jean</p>
+            </div>
+        </nav>
+    </main>
+    <div class="nav-mobile">
+        <a href="#talentos">
+            Kit Geral
+        </a>
+        <a href="#atributos">
+            Artefatos
+        </a>
+        <a href="#armas">
+            Armas
+        </a>
+        <a href="#sinergia">
+            Sinergias
+        </a>
+        <a href="#composicoes">
+            Equipes
+        </a>
+    </div>
+</body>
+
+</html>
