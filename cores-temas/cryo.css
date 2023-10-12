@@ -32,9 +32,11 @@
     --js-pros-hover: rgba(144, 255, 144, 0.521);
     --js-contras-hover: rgba(253, 135, 135, 0.507);
     --js-botao: rgb(43, 43, 43);
+    --cons-head: linear-gradient(90deg, rgba(120, 233, 253, 0.788), rgba(16, 138, 160, 0.76) );
 }
 
 .themeblue:root {
+    --cons-head: linear-gradient(90deg, rgba(120, 233, 253, 0.788), rgba(16, 138, 160, 0.76) );
     --js-botao: rgb(231, 231, 231);
     --js-pros-hover: rgba(144, 255, 144, 0.521);
     --js-contras-hover: rgba(253, 135, 135, 0.507);

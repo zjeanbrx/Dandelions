@@ -7,6 +7,29 @@
 }
 p {
     font-size: 16px;
+    color: var(--font-color);
+    line-height: 24px;
+}
+h1 {
+    color: var(--h1color);
+    font-size: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+h2 {
+    color: var(--h2color);
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px 10px;
+    font-size: 28px;
+}
+h3 {
+    font-size: 21px;
+    color: var(--white-color);
+}
+h4 {
+    font-size: 20px;
+    color: var(--white-color);
 }
 html {
     background-color: var(--black-color);
@@ -14,6 +37,29 @@ html {
 main section, html {
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
+}
+main {
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 80px !important;
+    overflow: hidden;
+}
+main section {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+    width: 760px;
+    flex: 0 1 auto;
+    padding: 0px 30px;
+    overflow-y: scroll;
+    border-right: 1px solid var(--main-border-color);
+    background-color: var(--bg-color);
+    transition: all 0.5s;
+    order: 2;
 }
 ::-webkit-scrollbar {
     width: 0;
@@ -27,6 +73,15 @@ a:focus-visible {
     border: 1px solid rgb(68, 68, 68);
     outline: none; 
 }
+.rot-video {
+    margin-top: 15px;
+}
+.rot-video a {
+    padding: 5px 10px;
+    background-color: var(--subtitulo-color);
+    border-radius: 5px;
+    margin-top: 15px;
+}
 nav a {
     border-top: 2px solid rgba(0, 0, 0, 0) ;
     border-bottom: 2px solid rgba(0, 0, 0, 0) ;
@@ -34,6 +89,30 @@ nav a {
 }
 nav a:hover {
     border-bottom: 2px solid var(--white-color) ;
+}
+.set {
+    padding: 20px;
+    border: 2px solid var(--set-border);
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: all 0.3s;
+}
+.txt-icon {
+    height: 14px;
+}
+.imgfull, .imghalf {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.imgfull img {
+    width: 100%;
+}
+.imghalf img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 15px;
 }
 .flex, .artefato-img {
     display: flex;
@@ -53,37 +132,18 @@ nav a:hover {
 .titulo-padding {
     padding-right: 5px;
 }
-
 nav a:first-of-type {
     margin-top: 0
-}
-
-h2 {
-    color: var(--h2color);
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px 10px;
-    font-size: 29px;
-}
-p {
-    padding-top: 15px;
-    color: var(--font-color)
-}
-p:first-of-type {
-    padding-top: 0
 }
 span {
     font-weight: bolder;
     color: var(--white-color)
 }
-h3 {
-    margin-bottom: 8px;
-}
-
 .banner {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     width: 100%; 
-    margin-top: 20px;
-    margin-bottom: 20px;
     position: relative;
 }
 .banner img {
@@ -97,6 +157,7 @@ h3 {
     left: 10px;
 }
 .banner-c small {
+    line-height: 0px;
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.603);
 }
@@ -236,17 +297,17 @@ header div, header div .home {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+}
+header div {
+    gap: 5px;
+}
+.home {
     gap: 10px
 }
 header img {
     height: 70%;
 }
-h1 {
-    color: var(--h1color);
-    font-size: 22px;
-    text-align: center;
-    line-height: 22px;
-}
+
 @keyframes header {
 	0% {
 		background-position: 0% 0%;
@@ -261,27 +322,6 @@ h1 {
 .talento-nome {
     margin-left: 5px;
     font-weight: normal;
-}
-
-main {
-    flex-flow: row nowrap;
-    justify-content: center;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    height: 100%;
-    padding-top: 80px !important;
-    overflow: hidden;
-}
-main section {
-    width: 760px;
-    flex: 0 1 auto;
-    padding: 0px 30px;
-    overflow-y: scroll;
-    border-right: 1px solid var(--main-border-color);
-    background-color: var(--bg-color);
-    transition: all 0.5s;
-    order: 2;
 }
 
 .fim {
@@ -379,6 +419,16 @@ nav {
 .autoria {
     padding: 0 15px;
 }
+.autoria-mobile {
+    height: 20px;
+}
+.autoria2 {
+    text-align: left;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 17px;
+    display: none;
+}
 .sublink {
     margin-left: 14px;
     margin-top: 0px;
@@ -449,13 +499,6 @@ nav {
 .destaque span {
     background-color:   var(white);
     color:  var(--black-color);
-}
-.set {
-    padding: 20px;
-    border: 2px solid var(--set-border);
-    border-radius: 10px;
-    margin: 20px 0;
-    transition: all 0.3s;
 }
 
 .fonte-maior {
@@ -859,7 +902,7 @@ iframe {
     align-self: flex-start;
     display: flex;
     flex-flow: row nowrap;
-    background: linear-gradient(90deg, rgba(120, 151, 253, 0.788), rgba(16, 78, 160, 0.76) );
+    background: var(--cons-head);
     border-radius: 20px;
     font-size: 25px;
     margin-bottom: 10px;
@@ -887,13 +930,6 @@ iframe {
     padding: 15px;
     border-radius: 10px;
 }
-.autoria2 {
-    text-align: left;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    font-size: 17px;
-    display: none;
-}
 .gif-div {
     display: flex;
     flex-flow: row nowrap;
@@ -915,12 +951,6 @@ iframe {
 }
 .prioridades-s {
     margin-top: 15px;
-}
-.razoes {
-    margin-top: 20px;
-}
-.razoes h2 {
-    margin-bottom: 20px;
 }
 .arma-linha {
     background: var(--arma-linha);
@@ -1200,6 +1230,27 @@ iframe {
 .soyuz5 {
     margin: 15px 0 0 0;
 }
+.excel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.excel a {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px 10px;
+    background: var(--nav-border);
+    border-radius: 15px;
+    text-decoration: underline;
+    color: white;
+}
+.excel a img {
+    width: 20px;
+    height: 20px;
+}
 .cb1 {
     display: flex;
     flex-flow: row nowrap;
@@ -1211,6 +1262,7 @@ iframe {
 }
 .cb2 p {
     font-size: 14px !important;
+    line-height: 16px;
 }
 .cb2 {   
     padding: 15px 0px;
@@ -1235,6 +1287,9 @@ iframe {
 .status p {
     margin: 0;
     padding: 0;
+}
+.status h4 {
+    font-size: 14px;
 }
 .status {
     margin-top: 13px;
@@ -1318,11 +1373,11 @@ iframe {
 .table td, table td {
     font-size: 12px;
     text-align: center;
-    color: black;
+    color: var(--white-color);
 }
 .table th, table th {
     font-size: 14px;
-    color: black;
+    color: var(--white-color);
 }
 .tabela-artefatos th, .tabela-artefatos td {
     height: 25px !important;
@@ -1362,9 +1417,10 @@ iframe {
 @media (max-width: 1298px) {
     .bgcolor {
         position: initial; 
-        transform: translate3d(-60px, -20px, 0px);    
+        transform: translate3d(-60px, -9px, 0px);    
     }  
     .autoria-mobile {
+        display: flex;
         justify-content: flex-end;
     }
     .animabotao {
@@ -1403,10 +1459,6 @@ iframe {
         padding: 0 20px;
         border-left: 1px solid rgb(110, 110, 110);   
     }
-    .banner {
-        margin-bottom: 10px;
-        margin-top: 20px;
-    }
     .autoria2 {
         display: block;
     }
@@ -1420,7 +1472,7 @@ iframe {
         justify-content: space-between;
     }
     .bgcolor {
-        transform: translate3d(-60px, -5px, 0px);
+        transform: translate3d(-60px, -9px, 0px);
     } 
     .atributos .set {
         margin-bottom: 10px;
@@ -1435,7 +1487,7 @@ iframe {
     width: 100%;
     height: 3px;
     background: var(--arma-linha-x);
-    margin-top: 15px;
+    margin: 15px 0;
 }
 .b9 .rot-sep, .rot-sep2 {
     margin-bottom: 10px;
@@ -1584,9 +1636,6 @@ iframe {
         height: 2px;
         width: 60%;
         background: var(--arma-linha-x);
-    }
-    h2 {
-        font-size: 24px;
     } 
     .nav-mobile a {
         font-size: 12px;
@@ -1617,13 +1666,6 @@ iframe {
     }
 }
 @media (max-width: 400px) {
-    p {
-        line-height: 20px;
-    }
-    
-    .bgcolor {
-        transform: translate3d(-60px, -7px, 0px); 
-    }
     .status .cards {
         justify-content: space-evenly;
         gap: 15px 10px
