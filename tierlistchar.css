@@ -1,0 +1,29 @@
+.botao-tierlist:checked + .sinergia .botao-vermais .tierlist {
+    display: block;
+    animation: tierlist 1s;
+}
+.botao-tierlist:checked + .sinergia .botao-vermais .retrair {
+    display: flex;
+}
+.botao-tierlist:checked + .sinergia .botao-vermais .expandir {
+    display: none;
+}
+.botao-tierlist:not(:checked) + .sinergia .personagem {
+    animation: mika 1s;
+}
+@keyframes mika {
+    from {
+        transform: translateY(570px);
+    }   
+    to {
+        transform: translateY(0px);
+    } 
+}
+@keyframes tierlist {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 

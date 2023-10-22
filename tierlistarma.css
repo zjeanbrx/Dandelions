@@ -1,0 +1,29 @@
+.botao-tierlist:checked + .armas .botao-vermais .tierlist {
+    display: block;
+    animation: tierlist 1s;
+}
+.botao-tierlist:checked + .armas .botao-vermais .retrair {
+    display: flex;
+}
+.botao-tierlist:checked + .armas .botao-vermais .expandir {
+    display: none;
+}
+.botao-tierlist:not(:checked) + .armas .arma, .botao-tierlist:not(:checked) + .armas .subt-div {
+    animation: mika 1s;
+}
+@keyframes mika {
+    from {
+        transform: translateY(564px);
+    }   
+    to {
+        transform: translateY(0px);
+    } 
+}
+@keyframes tierlist {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
