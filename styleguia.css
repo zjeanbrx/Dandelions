@@ -172,9 +172,6 @@ nav a:hover {
 .flex, .artefato-img {
     display: flex;
 }
-.artefato-img {
-    margin-bottom: 10px;
-}
 .artefato-img2pc {
     display: flex;
     flex-flow: row wrap;
@@ -255,9 +252,6 @@ body {
     height: 100vh;
     flex-flow: column nowrap;
     transition: all 0.2s;
-}
-.obs {
-    margin: 15px 0;
 }
 .bgblue {
     opacity: 0;
@@ -423,7 +417,7 @@ nav {
     flex-flow: column-reverse;
     align-items: center;
     gap: 40px;
-
+    margin-bottom: 30vh;
 }
 .imgcredit {
     margin-top: 15px;
@@ -502,7 +496,7 @@ nav {
 .intro h2, .margintop0 {
     margin-top: 0;
 }
-.supremo-modo {
+.supremo-modo, .reqt {
     margin-top: 7px;
 
 }
@@ -515,18 +509,6 @@ nav {
 }
 .source {
     margin-top: 10px;
-}
-.talentos-img {
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    margin: 20px 0
-}
-.talentos-img img {
-    width: 100%;
-    max-width: 560px;
-    border-radius: 15px;
 }
 .destaque {  
     padding: 15px;
@@ -617,8 +599,6 @@ nav {
 .artefato-nome, .comp-nome {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
     font-size: 18px;
 }
 .times .set p {
@@ -806,10 +786,6 @@ iframe {
 .tabela-cd {
     margin-top: 20px;
 }
-.subtitulo2 {
-    text-align: center;
-    margin: 20px 0;
-}
 .subtitulo3 {
     text-align: center;
     margin: 20px 0;
@@ -948,7 +924,6 @@ iframe {
 }
 .artefato-img img {
     width: 80px;
-
 }
 .no-bold {
     font-weight: 100;
@@ -997,19 +972,18 @@ iframe {
     padding: 15px;
     border-radius: 10px;
 }
-.talento-gif {
+.talento-img {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     margin: 15px 0;
 }
-.talento-gif img {
+.talento-img img {
     width: 90%;
     border-radius: 15px;
     margin: 5px 0;
 }
 .banner-fim {
-    margin-bottom: 30vh;
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
@@ -1162,7 +1136,7 @@ iframe {
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.11) inset;
     border-radius: 10px;
 }
-.manter, .personagem h4, .nav-mobile a, .personagem p, .personagem span, .personagem li {
+.manter, .personagem h4, .nav-mobile a, .personagem p, .personagem span, .personagem li, .personagem b {
     color: white
 }
 .nseipq {
@@ -1269,9 +1243,6 @@ iframe {
 .tiernota {
     margin-top: 20px;
 }
-.soyuz5 {
-    margin: 15px 0 0 0;
-}
 .excel {
     width: 100%;
     display: flex;
@@ -1376,22 +1347,15 @@ iframe {
     height: 40px;
     transform: translateY(5px); 
 }
-.stat-icon-maior img, .pyro-icon img {
+.calice .stat-icon img {
     width: 50px;
     height: 50px;
     transform: translateY(0px); 
 }
-
 .atributos .set p {
     line-height: 22px;
-    padding-top: 5px;
     font-size: 15px;
 }
-.er img {
-    width: 42px;
-    height: 38px;
-}
-
 .statusbase {
     margin-top: 5px;
     font-size: 16px;
@@ -1438,10 +1402,14 @@ table th {
 .principais-icon div {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
+}
+.principais-icon div h3 {
+    font-size: 19px;
 }
 .principais-icon img {
     width: 30px;
-    margin-bottom: 10px;
+    height: 30px;
     margin-left: 5px;
 }
 .statusprincipais .artefato-img {
@@ -1534,8 +1502,8 @@ table th {
 .comp-divisao {
     margin: 0px 0 18px 0 !important;
 }
-.b9 .rot-sep, .rot-sep2 {
-    margin-bottom: 10px;
+.b9 .rot-sep{
+    margin: 0px;
 }
 
 
@@ -1562,14 +1530,10 @@ table th {
         height: 25px;
         transform: translateY(5px); 
     }
-    .stat-icon-maior img, .pyro-icon img {
-        width: 32px;
-        height: 32px;
-        transform: translateY(0px); 
-    }
-    .er img {
-        width: 26px;
-        height: 23px;
+    .calice .stat-icon img {
+        width: 30px;  
+        height: 30px;
+        transform: translateY(2px); 
     }
 }
 @media (max-width: 600px) { 
@@ -1629,10 +1593,6 @@ table th {
     }
     .atributos .set p {
         line-height: 20px;
-    }
-    .er img {
-        width: 26px;
-        height: 23px;
     }
     .tabela-personagens th {
         font-size: 10px;
@@ -1730,6 +1690,12 @@ table th {
     main .topo {
         padding: 0 12px
     }
+    .b109 th {
+        font-size: 12px;
+    }
+    .b109 td:first-of-type {
+        font-size: 11px;
+    }
 }
 
 /* TODO: Dependendo do dispositivo a legibilidade fica prejudicada, com texto branco num fundo claro */
@@ -1754,9 +1720,6 @@ table th {
 .electro-background {
     background: linear-gradient(90deg, rgba(226, 5, 255, 0.74), rgba(114, 4, 148, 0.658));
 }
-.centered-set {
-    text-align: center;
-}
 .personagem ul {
     text-align: left;
     padding-left: 28px;
@@ -1779,21 +1742,6 @@ table th {
         height: 315px;
     }
 }
-.section > h3 {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-size: 24px;
-}
-.section > h4 {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-size: 20px;
-}
-.section > p {
-    margin-bottom: 8px;
-    padding-top: 0;
-    margin-top: 8px;
-}
 .link-button {
     width: -moz-fit-content;
     width: fit-content;
@@ -1814,7 +1762,6 @@ table th {
     background-color: var(--nav-border);
     padding: 8px 16px;
     border-radius: 4px;
-    margin-bottom: 16px;
 }
 .accordion summary {
     cursor: pointer;
@@ -1831,8 +1778,11 @@ table th {
     font-size: 20px;
     padding: 10px 0;
 }
-.column, .times, .faq {
+.column, .times, .faq, .b9, .substatus {
     display: flex;
     flex-flow: column nowrap;
     gap: 15px
+}
+.faq h3 {
+    margin-bottom: 10px;
 }
