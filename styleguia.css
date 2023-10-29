@@ -1562,6 +1562,21 @@ table th {
     }
 }
 
+.desktop-only {
+    display: none;
+}
+.mobile-only {
+    display: block;
+}
+@media (max-width: 600px) {
+    .desktop-only {
+        display: block;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+
 @media (max-height: 563px) {
     .nav a {
         margin-top: 9px
