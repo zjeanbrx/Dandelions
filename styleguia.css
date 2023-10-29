@@ -1558,6 +1558,7 @@ table th {
     }
     .prof2 {
         display: flex;
+        align-self: center;
     }
 }
 
