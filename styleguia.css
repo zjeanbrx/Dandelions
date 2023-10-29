@@ -1802,3 +1802,7 @@ table th {
         height: 50px;
     }
 }
+
+.set-ul {
+    padding-left: 20px;
+}
