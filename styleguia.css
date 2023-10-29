@@ -52,7 +52,7 @@ main {
     overflow: hidden;
 }
 main section {
-    /* display: flex; */
+    display: flex;
     flex-flow: column nowrap;
     gap: 20px;
     width: 760px;
