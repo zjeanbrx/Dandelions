@@ -1730,13 +1730,13 @@ table th {
 
 /* TODO: Dependendo do dispositivo a legibilidade fica prejudicada, com texto branco num fundo claro */
 .dendro-background {
-    background: linear-gradient(270deg, rgba(12, 219, 29, 0.678), rgba(3, 211, 90, 0.719));
+    background: linear-gradient(270deg, rgba(12, 219, 29, 0.753), rgba(3, 211, 90, 0.719));
 }
 .anemo-background {
     background: linear-gradient(270deg, rgba(11, 206, 147, 0.808), rgba(4, 201, 168, 0.836));
 }
 .pyro-background {
-    background: linear-gradient(90deg, rgba(253, 56, 56, 0.74), rgba(189, 5, 5, 0.267));
+    background: linear-gradient(90deg, rgba(253, 56, 56, 0.74), rgba(177, 13, 13, 0.651));
 }
 .hydro-background {
     background: linear-gradient(90deg, rgba(56, 108, 253, 0.74), rgba(5, 121, 189, 0.658));
