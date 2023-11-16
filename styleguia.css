@@ -1354,11 +1354,6 @@ iframe {
     height: 40px;
     transform: translateY(5px); 
 }
-.calice .stat-icon img {
-    width: 50px;
-    height: 50px;
-    transform: translateY(0px); 
-}
 .atributos .set p {
     line-height: 22px;
     font-size: 15px;
@@ -1543,11 +1538,6 @@ table th {
         width: 25px;  
         height: 25px;
         transform: translateY(5px); 
-    }
-    .calice .stat-icon img {
-        width: 30px;  
-        height: 30px;
-        transform: translateY(2px); 
     }
 }
 @media (max-width: 600px) { 
