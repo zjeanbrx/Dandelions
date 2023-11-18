@@ -605,7 +605,7 @@ nav {
     font-size: 18px;
 }
 .comp-nome {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .times .set p {
     margin: 10px 0;
@@ -1602,14 +1602,9 @@ table th {
         font-size: 11px;
     }
     .stat-icon img {
-        width: 25px;  
-        height: 25px;
+        width: 30px;  
+        height: 30px;
         transform: translateY(5px); 
-    }
-    .stat-icon-maior img, .pyro-icon img {
-        width: 32px;
-        height: 32px;
-        transform: translateY(0px); 
     }
     .atributos .set p {
         line-height: 20px;
@@ -1825,4 +1820,8 @@ table th {
 
 .text-center {
     text-align: center;
+}
+
+.text-nowrap {
+    text-wrap: nowrap;
 }

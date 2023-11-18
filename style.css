@@ -199,7 +199,7 @@ a:focus-visible {
 .bennett, .hutao {
     background: linear-gradient(180deg, rgba(255, 112, 112, 0.363), rgba(150, 16, 16, 0.329))
 }
-.yelan, .tartaglia {
+.yelan, .tartaglia, .kokomi, .furina {
     background: linear-gradient(180deg, rgba(19, 149, 255, 0.438), rgba(16, 87, 218, 0.308))
 }
 .opcoes {
