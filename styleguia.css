@@ -454,13 +454,11 @@ nav {
 .autoria {
     padding: 0 15px;
 }
-.autoria-mobile {
-    height: 20px;
-}
 .autoria2 {
     text-align: left;
     margin-bottom: 0px;
     padding-left: 10px;
+    padding-right: 60px;
     font-size: 17px;
     display: none;
 }
@@ -1440,7 +1438,7 @@ table th {
 @media (max-width: 1298px) {
     .bgcolor {
         position: initial; 
-        transform: translate3d(-60px, -9px, 0px);    
+        transform: translate3d(-60px, -6px, 0px);    
     }  
     .autoria-mobile {
         display: flex;
@@ -1494,9 +1492,6 @@ table th {
     }
     .autoria-mobile {
         justify-content: space-between;
-    }
-    .bgcolor {
-        transform: translate3d(-60px, -9px, 0px);
     } 
     
 }
