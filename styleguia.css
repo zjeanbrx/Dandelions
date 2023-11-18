@@ -1821,3 +1821,7 @@ table th {
 .text-center {
     text-align: center;
 }
+
+.text-nowrap {
+    text-wrap: nowrap;
+}
