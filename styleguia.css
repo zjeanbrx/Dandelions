@@ -1730,6 +1730,13 @@ table th {
 .electro-background {
     background: linear-gradient(90deg, rgba(226, 5, 255, 0.74), rgba(114, 4, 148, 0.658));
 }
+.talento-lista {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+.talento-lista ul li {
+    color: var(--font-color);
+}
 .personagem ul {
     text-align: left;
     padding-left: 28px;
