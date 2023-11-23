@@ -194,13 +194,16 @@ a:focus-visible {
 
 
 .eula {
-    background: linear-gradient(180deg, rgba(122, 224, 255, 0.418), rgba(24, 127, 168, 0.521))
+    background: linear-gradient(180deg, rgba(122, 224, 255, 0.514), rgba(24, 127, 168, 0.521))
 }
 .bennett, .hutao {
-    background: linear-gradient(180deg, rgba(255, 112, 112, 0.363), rgba(150, 16, 16, 0.329))
+    background: linear-gradient(180deg, rgba(255, 112, 112, 0.432), rgba(150, 16, 16, 0.329))
 }
 .yelan, .tartaglia, .kokomi, .furina {
-    background: linear-gradient(180deg, rgba(19, 149, 255, 0.438), rgba(16, 87, 218, 0.308))
+    background: linear-gradient(180deg, rgba(19, 149, 255, 0.486), rgba(16, 87, 218, 0.308))
+}
+.nahida {
+    background: linear-gradient(180deg, rgba(162, 255, 150, 0.466), rgba(42, 151, 20, 0.308))
 }
 .opcoes {
     display: none;

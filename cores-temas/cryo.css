@@ -23,9 +23,11 @@
     --js-contras-hover: rgba(253, 135, 135, 0.507);
     --js-botao: rgb(43, 43, 43);
     --cons-head: linear-gradient(90deg, rgba(120, 233, 253, 0.788), rgba(16, 138, 160, 0.76) );
+    --subt-armas: linear-gradient(90deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.089));
 }
 
 .themeblue:root {
+    --subt-armas: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.027));
     --cons-head: linear-gradient(90deg, rgba(120, 233, 253, 0.788), rgba(16, 138, 160, 0.76) );
     --js-botao: rgb(231, 231, 231);
     --js-pros-hover: rgba(144, 255, 144, 0.521);

@@ -1,17 +1,19 @@
 :root {
     --bg-color: black;
-    --bg-header-color: -webkit-linear-gradient(150deg, rgba(105, 0, 0, 0.247), rgba(252, 87, 87, 0.774), rgba(145, 19, 19, 0.466), rgba(255, 95, 95, 0.747), rgba(95, 0, 0, 0.192));
-    --bg-intro-color: linear-gradient(90deg, rgba(216, 119, 119, 0.356), rgba(235, 97, 97, 0.432),  rgba(194, 75, 75, 0.308));
-    --img-background: transparent; 
-    --h2color: rgb(212, 109, 109);
-    --intro-color: rgb(241, 172, 172);
+    --bg-header-color: -webkit-linear-gradient(150deg, rgba(0, 105, 0, 0.247), rgba(87, 252, 87, 0.774), rgba(19, 145, 36, 0.466), 
+    rgba(95, 255, 135, 0.747), rgba(0, 95, 24, 0.192));
+    --bg-intro-color: linear-gradient(90deg, rgba(35, 212, 59, 0.459), rgba(104, 197, 108, 0.726), rgba(45, 201, 105, 0.514));
+    --img-background: transparent;
+    --h2color: rgb(109, 212, 109);
+    --intro-color: rgb(172, 241, 178);
     --arma-border: rgba(255, 255, 255, 0.274);
     --botao-border-color: rgba(255, 255, 255, 0.233);
     --mobile-nav-bg: rgba(0, 0, 0, 0.301);
     --personagem-txt: rgb(241, 241, 241);
     --icone-background: transparent;
     --ball-color: rgb(53, 53, 53);
-    --hover: linear-gradient(160deg,  rgba(255, 255, 255, 0.164), rgba(255, 255, 255, 0.048), rgba(255, 255, 255, 0.048), rgba(255, 255, 255, 0.171));
+    --hover: linear-gradient(160deg, rgba(255, 255, 255, 0.164), rgba(255, 255, 255, 0.048), rgba(255, 255, 255, 0.048),
+     rgba(255, 255, 255, 0.171));
     --hover-shadow: transparent;
     --arma-linha: linear-gradient(0deg, rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.151));
     --arma-linha-x: linear-gradient(90deg, rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.151));
@@ -23,11 +25,13 @@
     --js-contras-hover: rgba(253, 135, 135, 0.507);
     --btn-border: transparent;
     --hydro-border: rgba(255, 255, 255, 0.274);
-    --cons-head: linear-gradient(90deg, rgba(253, 120, 120, 0.788), rgba(160, 16, 16, 0.76));
+    --cons-head: linear-gradient(90deg, rgba(120, 253, 142, 0.788), rgba(16, 160, 35, 0.76));
+    --subt-armas: linear-gradient(90deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.089));
 }
 
 .themeblue:root {
-    --cons-head: linear-gradient(90deg, rgba(253, 120, 120, 0.788), rgba(160, 16, 16, 0.76));
+    --subt-armas: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.027));
+    --cons-head: linear-gradient(90deg, rgba(120, 253, 142, 0.788), rgba(16, 160, 35, 0.76));
     --hydro-border: rgba(255, 255, 255, 0.425);
     --btn-border: rgba(0, 0, 0, 0.247);
     --js-pros-hover: rgba(116, 255, 116, 0.521);
@@ -40,16 +44,17 @@
     --arma-linha-x: linear-gradient(90deg, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.048));
     --hover-shadow: rgba(0, 0, 0, 0.068);
     --bg-color: rgb(252, 252, 252);
-    --bg-header-color:  -webkit-linear-gradient(150deg, rgba(114, 47, 47, 0.438), rgba(214, 27, 27, 0.836), rgba(173, 33, 33, 0.644), rgba(230, 28, 28, 0.822), rgba(112, 14, 14, 0.637));
-    --bg-intro-color: linear-gradient(90deg, rgba(216, 119, 119, 0.856), rgba(235, 97, 97, 0.808),  rgba(194, 75, 75, 0.753));
-    --img-background: linear-gradient(180deg, rgba(243, 165, 165, 0.493), rgb(241, 125, 125)); 
-    --h2color: rgb(212, 109, 109);
+    --bg-header-color: -webkit-linear-gradient(150deg, rgba(14, 124, 14, 0.438), rgba(87, 252, 87, 0.856), rgba(19, 145, 36, 0.699), 
+    rgba(95, 255, 135, 0.842), rgba(12, 109, 36, 0.192));
+    --bg-intro-color: linear-gradient(90deg, rgba(87, 201, 103, 0.74), rgba(62, 211, 70, 0.753), rgba(75, 194, 121, 0.76));
+    --img-background: linear-gradient(180deg, rgba(158, 255, 134, 0.89), rgba(35, 204, 44, 0.521));
+    --h2color: rgb(109, 212, 109);
     --intro-color: rgb(248, 231, 231);
     --arma-border: rgba(46, 46, 46, 0.322);
     --botao-border-color: rgba(184, 184, 184, 0.178);
     --mobile-nav-bg: rgba(0, 0, 0, 0.623);
     --personagem-txt: rgb(255, 255, 255);
-    --icone-background: linear-gradient(90deg, rgba(145, 37, 37, 0.753) 10%, rgba(241, 125, 125, 0.842) 90%, rgba(255, 95, 95, 0.247)) ;
+    --icone-background: linear-gradient(90deg, rgba(37, 145, 51, 0.753) 10%, rgba(125, 241, 141, 0.842) 90%, rgba(122, 255, 95, 0.247));
     --ball-color: rgb(243, 243, 243);
     --hover: linear-gradient(150deg, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.055));
 }
