@@ -168,6 +168,7 @@ nav a:hover {
 }
 .imgtabela img {
     width: 100%;
+    border-radius: 10px;
 }
 .flex, .artefato-img {
     display: flex;
@@ -590,6 +591,8 @@ nav {
     justify-content: flex-start;
     width: fit-content;
     margin-bottom: 15px;
+    background: var(--black-color);
+    transition: all 0.5s;
 }
 .comp img {
     width: 60px;
@@ -722,7 +725,7 @@ nav {
 }
 
 .fundo-generico {   
-    background: linear-gradient(0deg, rgba(74, 154, 207, 0.767), rgb(12, 55, 90)) ;
+    background: linear-gradient(180deg, rgba(68, 167, 233, 0.349), rgba(35, 156, 255, 0.452)) ;
 }
 .t5 {
     background: linear-gradient(0deg, rgba(238, 157, 7, 0.788), rgb(179, 124, 5)) ;
