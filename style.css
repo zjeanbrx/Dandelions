@@ -199,7 +199,7 @@ a:focus-visible {
 .bennett, .hutao {
     background: linear-gradient(180deg, rgba(255, 112, 112, 0.432), rgba(150, 16, 16, 0.329))
 }
-.yelan, .tartaglia, .kokomi, .furina {
+.yelan, .tartaglia, .kokomi, .furina, .ayato, .nilou {
     background: linear-gradient(180deg, rgba(19, 149, 255, 0.486), rgba(16, 87, 218, 0.308))
 }
 .nahida {
@@ -300,7 +300,7 @@ a:focus-visible {
         padding: 0 10px
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 530px) {
     .guias {
         flex-flow: column nowrap;
     }

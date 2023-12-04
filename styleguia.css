@@ -127,8 +127,10 @@ nav a:hover {
     --set-border: rgba(255, 255, 255, 0.274);
     --h1color: rgb(255, 255, 255);
     --tabela-link: white ;
+    --fundo-generico: linear-gradient(0deg, rgb(27, 91, 134), rgb(6, 66, 116));
 }
 .themeblue:root {
+    --fundo-generico: linear-gradient(0deg, rgb(36, 121, 179), rgb(66, 137, 196));
     --tabela: rgba(255, 255, 255, 0);
     --font-color: black;
     --white-color: black;
@@ -735,13 +737,13 @@ nav {
 }
 
 .fundo-generico {   
-    background: linear-gradient(180deg, rgba(68, 167, 233, 0.349), rgba(35, 156, 255, 0.452)) ;
+    background: var(--fundo-generico);
 }
 .t5 {
-    background: linear-gradient(0deg, rgba(238, 157, 7, 0.788), rgb(179, 124, 5)) ;
+    background: linear-gradient(0deg, rgb(238, 157, 7), rgb(179, 124, 5)) ;
 }
 .t4 {
-    background: linear-gradient(0deg, rgba(178, 57, 235, 0.836), rgb(109, 9, 134)) ;
+    background: linear-gradient(0deg, rgb(179, 57, 235), rgb(109, 9, 134)) ;
 }
 .inv {
     opacity: 0;

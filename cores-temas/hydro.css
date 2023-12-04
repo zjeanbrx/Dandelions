@@ -31,7 +31,7 @@
 
 .themeblue:root {
     --subt-armas: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.027));
-    --cons-head: linear-gradient(90deg, rgba(120, 151, 253, 0.788), rgba(16, 78, 160, 0.76) );
+    --cons-head: linear-gradient(90deg, rgba(120, 151, 253, 0.788), rgba(25, 120, 245, 0.76) );
     --redirect: rgb(0, 0, 0);
     --redirect-hover: rgb(166, 237, 255);
     --tabela-arma-color: rgb(255, 255, 255);
