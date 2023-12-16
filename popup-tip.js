@@ -6,6 +6,14 @@ import {
 } from 'https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.5.3/+esm';
 
 const ARTIFACT_DATABASE = {
+    "artefato_eco_do_sacrificio": {
+        img: "/img/artefatos/Eco_do_Sacrificio.webp",
+        name: "Eco do Sacrifício",
+        pieces: {
+            "2": "ATQ +18%.",
+            "4": "Quando o Ataque Normal atinge um inimigo, tem 36% de chance de ativar o Rito do Vale, que aumenta o Dano do Ataque Normal em 70% do ATQ. Esse efeito desaparece 0.05s após um Ataque Normal causar dano. Quando o Ataque Normal não ativar o Rito do Vale, aumenta a probabilidade de ativação em 20% na próxima vez. Essa ativação pode ocorrer 1 vez a cada 0.2s.",
+        },
+    },
     "artefato_brilho_vourukasha": {
         img: "/img/artefatos/Brilho_Vourukasha.webp",
         name: "Brilho Vourukasha",
