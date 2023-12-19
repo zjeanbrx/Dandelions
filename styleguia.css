@@ -128,8 +128,10 @@ nav a:hover {
     --h1color: rgb(255, 255, 255);
     --tabela-link: white ;
     --fundo-generico: linear-gradient(0deg, rgb(27, 91, 134), rgb(6, 66, 116));
+    --pyro: rgba(255, 117, 117, 0.911);
 }
 .themeblue:root {
+    --pyro: rgba(255, 117, 117, 0.829);
     --fundo-generico: linear-gradient(0deg, rgb(36, 121, 179), rgb(66, 137, 196));
     --tabela: rgba(255, 255, 255, 0);
     --font-color: black;
@@ -144,6 +146,9 @@ nav a:hover {
     --tabela-link: rgb(218, 218, 218);
 }
 
+.pyro {
+    color: var(--pyro);
+}
 .set {
     padding: 20px;
     border: 2px solid var(--set-border);
