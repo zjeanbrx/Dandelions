@@ -741,6 +741,10 @@ nav {
     font-weight: bold;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .fundo-generico {   
     background: var(--fundo-generico);
 }
