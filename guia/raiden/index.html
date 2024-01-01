@@ -23,7 +23,7 @@
         rel="stylesheet">
     <title>Dandelions / Raiden Shogun</title>
     <link rel="icon" href="/img/logo/Dandelions_white.png">
-    <meta property="og:site_name" content="By: Quinn">
+    <meta property="og:site_name" content="By: Quinn, Shazowaq & Jean">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="O mais completo guia da Raiden Shogun">
     <meta name="twitter:description" content="Simplesmente o melhor guia de como usar a Raiden Shogun">
@@ -56,7 +56,7 @@
                 <img id="banner" src="/img/guias/raiden/Banner.png">
             </div>
             <div class="autoria-mobile flex">
-                <p class="autoria2 anima2">By: Quinn</p>
+                <p class="autoria2 anima2">By: Quinn, Shazowaq & Jean</p>
                 <div class="bgcolor flex">
                     <div class="botao2">
                         <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
@@ -206,7 +206,7 @@
                             <li><b>0.4% de Bônus de Dano Electro.</b></li>
                         </ul>
                         <p>A segunda passiva da Raiden é o que torna ela uma ótima bateria, aumentando sua regeneração de energia flat baseado na Recarga de Energia dela. Abaixo, a quantidade de energia que a Shogun gera baseado na Recarga dela considerando o Supremo nos níveis 9 e 10 (lembrando que o nível de talento influencia diretamente na recuperação de energia, aumentando a cada level).</p>
-                        <table>
+                        <table class="raiden-tabela-passiva">
                             <thead>
                               <tr>
                                 <th>Quantidade de Recarga na Raiden</th>
@@ -302,8 +302,8 @@
                         </div>
                         <div class="artefato-card ampu">
                             <div>
-                                <h4 class="prof">Recarga</h4>
-                                <h4 class="prof">Ataque</h4>
+                                <h4>Recarga</h4>
+                                <h4>ou Ataque</h4>
                             </div>
                             <img src="/img/icones/Ampulheta.webp">
                             <div class="stat-icon">
@@ -313,8 +313,8 @@
                         </div>
                         <div class="artefato-card calice">
                             <div>
-                                <h4 class="prof">Dano Electro</h4>
-                                <h4 class="prof">Ataque</h4>
+                                <h4>Dano Electro</h4>
+                                <h4>ou Ataque</h4>
                             </div>
                             <img src="/img/icones/Calice.webp">
                             <div class="stat-icon">
@@ -381,7 +381,7 @@
                     <p>Novamente, utilize o Genshin Optimizer para obter a melhor combinação para cada caso específico.</p>
                 </div>
                 <div class="set b9">
-                    <div class="artefato-img">
+                    <div class="artefato-img2pc">
                         <img loading="lazy" src="/img/artefatos/Sonhos_Dourados.webp">
                         <img loading="lazy" src="/img/artefatos/Paraiso_Perdido.webp">
                         <img loading="lazy" src="/img/artefatos/Trupe_Itinerante.webp">
@@ -460,17 +460,12 @@
             </div>
             <div class="estilos" id="estilos-de-gameplay">
                 <h2>Estilos de Gameplay</h2>
-                <h3 id="suporte-driver">Raiden Driver/Suporte</h3>
+                <div class="h2sep"></div>
+                <h2 class="margintop0" id="suporte-driver">Raiden Suporte/Driver</h2>
                 <p>Possivelmente o melhor papel que uma Raiden C0 pode cumprir. Os times com Raiden Driver/Suporte não focam no dano dela, mas sim nas suas capacidades de ajudar a equipe principalmente no quesito energia. Ser uma bateria universal que proporciona um pequeno buff e possui uma resistência infinita à interrupção é algo bastante raro, tendo muito valor para times com Supremos caros, aliviando os requerimentos de Recarga de qualquer personagem além de causar um bom dano com seus ataques infundidos, podendo ficar em campo ativando unidades como Yelan, Xingqiu, etc.</p>
-                <div id="suporte-driver-armas">
-                    <h4 class="subtitulo-armas">
-                        <span>
-                            Melhores Armas:
-                        </span>
-                    </h4>
-                </div>
                 <p>Na função de Driver/Suporte fica difícil determinar um ranking definitivo de melhores armas, pois os buffs e até mesmo a função da Raiden variam muito de time para time. Abaixo, uma análise das melhores opções explicando os destaques de cada uma.
                 </p>
+                <h4 class="subtitulo" id="suporte-driver-armas"><span>Melhores armas:</span></h4>
                 <div class="arma">
                     <div class="img-div">
                         <img src="/img/armas/lanca/Luz_do_Cortador_de_Grama.png">
@@ -553,23 +548,14 @@
                         <h4 class="statusbase">Taxa Crítica: 36.8%</h4>
                     </div>
                 </div>
+                <br>
                 <div class="times">
-                    <h2 id="suporte-driver-comps">Composições de Destaque</h2>
-                    <div class="legenda">
-                        <p>
-                            <span>Legenda:</span>
-                        </p>
-                        <div class="l1">
-                            <div class="l2">
-                                <p><span>E</span> = Habilidade Elemental</p>
-                                <p><span>Q</span> = Supremo</p>
-                            </div>
-                            <div class="l2">
-                                <p><span>N</span> = Ataque Normal</p>
-                                <p><span>D</span> = Dash/Esquiva</p>
-                            </div>
-                        </div>
-                    </div>
+                    <h4 class="subtitulo" id="suporte-driver-comps">
+                        <span>
+                            Composições de destaque:
+                        </span>
+                    </h4>
+                    <p><span>Glossário: </span>E = Habilidade Elemental, Q = Supremo, N = Ataque Normal, D = Dash/Esquiva.</p>
                     <div class="set">
                         <div class="comp-nome">
                             <h4>National Raiden</h4>
@@ -592,6 +578,7 @@
                             <div class="comp-empty-slot"></div>
                             <div class="comp-empty-slot"></div>
                         </div>
+                        <p>Raiden, Yelan/Furina/Xingqiu, Xiangling, Bennett</p>
                         <p>Potencialmente o melhor time da Raiden na C0, onde a recuperação de energia dela é extremamente valiosa pelos Supremos caros do Xingqiu e principalmente da Xiangling. Se num International (Tartaglia, Xiangling, Kazuha e Bennett) a Xiangling normalmente precisa de 200-220% de Recarga, com Raiden, esse valor pode ser reduzido para 145-180% (dependendo da arma, rotação e quantidade de ER da sua Raiden). O Rational é com certeza um dos mais fortes times do jogo, sendo bastante simples de utilizar e buildar justamente pelo conforto que a Shogun como driver traz.</p>
                         <p>Os artefatos recomendados para os companheiros de equipe da Raiden no National são: Bennett = Instrutor (sendo possível também utilizar Ritual, mas é, em todos os casos, uma perda de DPS);  Xingqiu = Ritual Real ou Selo da Insulação; Yelan, Xiangling = Selo da Insulação; Furina = Trupe Dourada ou Millelith Firmes. </p>
                         <div class="rot-sep"></div>
@@ -601,7 +588,7 @@
                         <p><span>Rotação recomendada com Furina:</span> Raiden E  > Furina  E Q > Bennett Q E > Xiang Q E > Bennett E > Raiden Q N4 E N4 D N4 D N4 > Bennett E. </p>
                         <div class="rot-sep"></div>
                         <h4>Necessidades de Recarga dos membros da equipe considerando o Supremo da Raiden no nível 9 e 3 usos de Habilidade do Bennett durante a rotação:</h4>
-                        <table>
+                        <table class="raiden-tabela-comp1">
                             <thead>
                                 <tr>
                                     <th>Recarga na Raiden</th>
@@ -653,75 +640,212 @@
                     </div>
                     <div class="set">
                         <div class="comp-nome">
-                            <h4></h4>
+                            <h4>Furina e Yelan</h4>
                         </div>
-                        <div class="comp">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
+                        <div class="comp meio">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
+                            <img class="t5" src="/img/personagens/Furina.webp">
+                            <img class="t5" src="/img/personagens/Yelan.webp">
+                            <img class="t5" src="/img/personagens/Jean.webp">
                         </div>
-                        <p></p>
+                        <div class="comp baixo">
+                            <div class="comp-empty-slot"></div>
+                            <div class="comp-empty-slot"></div>
+                            <img class="t4" src="/img/personagens/Bennett.webp">
+                            <div class="comp-empty-slot"></div>
+                        </div>
+                        <p>Raiden, Furina, Yelan/Bennett, Jean</p>
+                        <p>Raiden possui uma boa sinergia com unidades como Furina e Yelan, as quais normalmente teriam um alta necessidade de Recarga, sendo uma boa opção de driver com seus ataques Electros, que ainda causam Eletricamente Carregado, e sua imunidade à interrupção, que garante conforto ao jogador.
+                        </p>
+                        <p>No time com Yelan e Furina juntas com Jean de Favonius, as necessidades de Recarga de ambas são de menos de 110%. Sendo assim, utilizar armas para o dano pessoal da Raiden é a melhor escolha, não sendo necessário possuir muita Recarga de Energia nela para recuperação da energia do Time.</p>
+                        <p>Já no Sunfire Raiden, o dano da Arconte é bastante relevante, e utilizar uma arma como a Lança de Favonius seria uma perda DPS. Sendo assim, é recomendado possuir ao menos 240% de Recarga de Energia na Raiden para que Furina possa ser utilizada com 120-130% e a Jean com ~160%.</p>
+                        <div class="rot-sep"></div>
+                        <p>
+                            <span>Rotação com Furina, Yelan e Jean:</span> Raiden E > Furina  E Q > Yelan Q N1 > Jean Q N1 E > Yelan N1 E N1 > Raiden Q N4 E N4 D N4 D N4 > Yelan E N1 > Jean N1 E.
+                        </p>
+                        <p><span>Rotação com Furina, Jean e Bennett:</span> Raiden E > Furina E Q > Bennett E Q > Jean E Q > Raiden Q N4 E N4 D N4 D N4 > Jean E > Bennett E.
+                        </p>
                     </div>
                     <div class="set">
                         <div class="comp-nome">
-                            <h4></h4>
+                            <h4>Intensificação</h4>
                         </div>
                         <div class="comp">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="t4" src="/img/personagens/Fischl.webp">
+                            <img class="t5" src="/img/personagens/Kazuha.webp">
                         </div>
-                        <p></p>
+                        <p>Raiden, Nahida, Fischl, Kazuha</p>
+                        <p>Diferente do que a maioria pensa, Raiden pode ser sim uma boa opção para times de aceleração com Fischl. Shogun não usa a reação de Intensificar tão bem quanto outros DPS Electro, mas ainda assim, é uma boa Driver por ativar de forma constante a A4 da Fischl, além de causar um dano considerável com seus ataques. </p>
+                        <div class="rot-sep"></div>
+                        <p><span>Rotação:</span> Raiden E > Kazuha E > Nahida E Q > Fischl Q > Kazuha Q E >  Raiden Q N4 E N4 D N4 D N4 > Fischl E</p>
                     </div>
                     <div class="set">
                         <div class="comp-nome">
-                            <h4></h4>
+                            <h4>Eula</h4>
                         </div>
                         <div class="comp">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
+                            <img class="t5" src="/img/personagens/Eula.webp">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
                         </div>
-                        <p></p>
+                        <p>Eula, Raiden, Flex e Flex</p>
+                        <p>Por algum motivo, convencionou-se que times de Eula e Raiden são mais fracos que outras variações de times da DPS física, uma concepção bastante errada. É verdade que essas equipes pouco fazem pela Raiden, mas a Eula aproveita muito bem as Habilidades da Arconte Electro. Shogun consegue reduzir em até 35% as necessidades de Recarga da Eula em relação à Fischl no mesmo slot, o que representa um aumento considerável para o DPS da Eula e do time no geral, pois Raiden ainda pode reduzir as necessidades de Recarga de outros potenciais companheiros de equipe como Shenhe, Furina, Yelan, etc. Além disso, a Habilidade Elemental da Raiden buffa o time e proporciona uma aplicação Electro constante, mas não forte o suficiente para atrapalhar a ressonância Cryo.</p>
+                        <p>Talvez a maior mentira reproduzida sobre times de Eula e Raiden seja a “enorme duração da rotação”, o que, mais uma vez, não faz sentido. Eula possui um Supremo com 20 segundos de cooldown, o que obriga rotações com ao menos 21-22 segundos de duração. O que a Shogun faz é estender em ~3 segundos esse tempo base, recuperando a energia do time após a detonação do Supremo da Eula. Dizer que times com as duas tem 28-30 segundos de rotação não tem nenhum sentido, visto que Eula leva 10 segundos para executar o combo do seu Supremo e Raiden ~7 para recuperar a energia do time. 24-25 segundos de rotação não é algo anormal, sendo o padrão de diversos personagens e algo extremamente válido tendo em vista os benefícios que a Shogun traz para o time.</p>
+                        <p>Para mais detalhes sobre o funcionamento dos times de Eula-Raiden, acesse o <a href="/guia/eula"><span>guia da Eula.</span></a></p>
                     </div>
                 </div>
 
-
+                <h2 id="hypercarry">Raiden Hypercarry</h2>
+                <p>Raiden pode atuar também como uma Hypercarry, com times totalmente focados no dano dela, porém, não é seu estilo de gameplay mais forte na C0. Isso se dá principalmente pelo fato da Raiden não possuir um potencial de dano pessoal alto o suficiente para que seus times de HC se equiparem aos times em que ela desempenha o papel de Driver/Suporte, algo que muda com sua segunda constelação, que aumenta muito esse potencial da personagem.</p>
+                <h4 class="subtitulo" id="hypercarry-armas"><span>Melhores armas:</span></h4>
+                <p> Abaixo, uma tabela com as melhores opções de armas para Raiden como Hypercarry.</p>
+                <div class="imgtabela">
+                    <img src="/img/guias/raiden/armas.png">
+                </div>
+                <br>
                 <div class="times">
-                    <h2 id="hypercarry-comps">Composições</h2>
-                    <p></p>
+                    <h4 class="subtitulo" id="hypercarry-comps">
+                        <span>Melhor composição:</span>
+                    </h4>
+                    <p><span>Glossário: </span>E = Habilidade Elemental, Q = Supremo, N = Ataque Normal, D = Dash/Esquiva, C = Ataque Carregado.</p>
                     <div class="set">
                         <div class="comp-nome">
-                            <h4></h4>
+                            <h4>Raiden Hypercarry</h4>
                         </div>
                         <div class="comp">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
+                            <img class="t4" src="/img/personagens/Kujou_Sara.webp">
+                            <img class="t5" src="/img/personagens/Kazuha.webp">
+                            <img class="t5" src="/img/personagens/Bennett.webp">
                         </div>
-                        <p></p>
+                        <p>Atualmente, essa é a melhor composição de Raiden Hypercarry. Com sua suporte dedicada e dois ótimos buffers, esse time proporciona o maior aumento de dano possível para a Shogun.</p>
+                        <div class="rot-sep"></div>
+                        <p><span>Rotação:</span> Raiden E > Kazuha E > Sara E CA > Bennett Q > Kazuha Q > Sara Q > Raiden Q N4 E N4 D N4 D N4 > Bennett E.</p>
                     </div>
                 </div>
-
-
+                <br>
+                <h4 id="hypercarry-comps">Análise dos companheiros de equipe</h4>
+                <div class="personagem bennett electro-background" id="kujou-sara">
+                    <img src="/img/personagens/Kujou_Sara.webp">
+                    <div>
+                        <h4>
+                            Kujou Sara
+                        </h4>
+                        <p>
+                            Sara é a suporte dedicada da Raiden, e sem sombra de dúvidas sua melhor buffer. Mesmo sem sua sexta constelação, o buff de Ataque da Sara (que funciona igual o do Bennett, sendo baseado no Ataque base da personagem) é bastante interessante e já compensaria seu uso, porém, é com a C6 que ela se torna definitivamente a melhor companheira de equipe da Raiden HC, garantindo 60% de Dano Crítico Electro para a Arconte. Além disso, a Kujou possui um bom potencial de dano, sendo interessante investir nela visando também sua contribuição com o DPS da equipe.
+                        </p>
+                        <p><span>Melhores opções de Arma:</span> Elegia, Harpa, Crepúsculo Desvanecido, Arco do Sacrifício e Arco do Favonius.</p>
+                    </div>
+                </div>
+                <div class="personagem bennett pyro-background" id="bennett">
+                    <img src="/img/personagens/Bennett.webp">
+                    <div>
+                        <h4>
+                            Bennett
+                        </h4>
+                        <p>
+                            Bennett é o Bennett. Sem muitos segredos, seu massivo buff de Ataque é extremamente relevante para a Raiden, assim como para qualquer outro personagem que escale com esse atributo. Vale citar que ele buffa também a Kujou Sara, o que contribui ainda mais com o DPS da equipe.
+                        </p>
+                    </div>
+                </div>
+                <div class="personagem bennett anemo-background" id="kazuha">
+                    <img src="/img/personagens/Kazuha.webp">
+                    <div>
+                        <h4>
+                            Kazuha
+                        </h4>
+                        <p>
+                            Kazuha é o Kazuha. Apesar de ser possível utilizar outros Anemos, nenhum outro proporcionará um aumento de dano maior que o Kazuha. Venti pode ser interessante em situações de múltiplas waves, mas, no geral, o ideal seria utilizar o Kazuha para aumentar o dano da Shogun. 
+                        </p>
+                    </div>
+                </div>
+                <h2 id="hyperbloom">Raiden Hyperbloom</h2>
+                <p>A forma como a Habilidade Elemental da Raiden funciona permite que ela seja também usada como ativadora de Superflorescimento. A skill dela acerta diretamente o inimigo com uma generosa AdE, não sendo necessário estar próximo dele como é o caso da Kuki Shinobu, além de durar 25 segundos com um cooldown de apenas 10, sendo possível manter uptime em qualquer rotação. Além disso, Raiden proporciona ainda um pequeno buff para os Supremos da equipe, algo interessante para times com personagens cujo dano seja focado nesse talento. </p>
+                <h4 class="subtitulo" id="hyperbloom-armas">
+                    <span>
+                        Melhores armas:
+                    </span>
+                </h4>
+                <p>Como o único atributo importante para Raiden Hyperbloom é proficiência, uma lança de Proficiência é praticamente sempre a melhor opção.</p>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="/img/armas/lanca/Perdicao_do_Dragao.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Perdição do Dragão</h3>
+                        <p>No geral, a melhor opção justamente por possuir o maior subatributo de Proficiência dentre as armas disponíveis. </p>
+                        <h4 class="statusbase">Proficiência: 221</h4>
+                    </div>
+                </div>
+                <div class="arma">
+                    <div class="img-div">
+                        <img src="/img/armas/lanca/Perfurador_de_Luas.webp">
+                    </div>
+                    <div class="arma-linha"></div>
+                    <div class="arma-texto">
+                        <h3>Perfurador de Luas</h3>
+                        <p>A lança fabricável do ferreiro de Sumeru é também uma ótima opção, podendo superar a Perdição em times que façam uso do Ataque da passiva. </p>
+                        <h4 class="statusbase">Proficiência: 110</h4>
+                    </div>
+                </div>
+                <br>
                 <div class="times">
-                    <h2 id="hyperbloom-comps">Composições</h2>
-                    <p></p>
+                    <h4 class="subtitulo" id="hyperbloom-comps">
+                        <span>
+                            Composições de destaque:
+                        </span>
+                    </h4>
                     <div class="set">
-                        <div class="comp-nome">
-                            <h4></h4>
+                        <div class="comp meio">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="t5" src="/img/personagens/Yelan.webp">
+                            <img class="t4" src="/img/personagens/Xingqiu.webp">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
                         </div>
+                        <div class="comp baixo">
+                            <img class="t5" src="/img/personagens/Baizhu.webp">
+                            <img class="t5" src="/img/personagens/Furina.webp">
+                        </div>
+                        <p>Nahida/Baizhu, Yelan/Furina, Xingqiu e Raiden</p>
+                    </div>
+                    <div class="set">
+                        <div class="comp meio">
+                            <img class="t5" src="/img/personagens/Alhaitham.webp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Hydro.png">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
+                        </div>
+                        <div class="comp baixo">
+                            <div class="comp-empty-slot"></div>
+                            <img class="t5" src="/img/personagens/Baizhu.webp">
+                        </div>
+                        <p>Al Haitham, Nahida/Baizhu, Hydro e Raiden</p>
+                    </div>
+                    <div class="set">
+                        <div class="comp meio">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="t5" src="/img/personagens/Yelan.webp">
+                            <img class="t4" src="/img/personagens/Fischl.webp">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
+                        </div>
+                        <div class="comp baixo">
+                            <div class="comp-empty-slot"></div>
+                            <img class="t4" src="/img/personagens/Xingqiu.webp">
+                        </div>
+                        <p>Nahida, Yelan/Xingqiu, Fischl e Raiden</p>
+                    </div>
+                    <div class="set">
                         <div class="comp">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
-                            <img class="t5" src="/img/personagens/">
+                            <img class="t5" src="/img/personagens/Neuvilette.webp">
+                            <img class="t5" src="/img/personagens/Furina.webp">
+                            <img class="t5" src="/img/personagens/Chibi_Nahida.png">
+                            <img class="t5" src="/img/personagens/Raiden.webp">
                         </div>
-                        <p></p>
+                        <p>Neuvilette, Furina, Nahida e Raiden</p>
                     </div>
                 </div>
             </div>
@@ -812,7 +936,7 @@
                     <div class="nota">⭐⭐⭐⭐⭐</div>
                 </div>
                 <div class="gif-div banner-fim">
-                    <img loading="lazy" src="/img/guias/raiden/ending-banner.gif">
+                    <img loading="lazy" src="/img/guias/raiden/Ending_Banner.gif">
                 </div>
                 <div class="flex footer">
                     <div class="contato2">
@@ -857,15 +981,15 @@
                 </div>
             </div>
             <div>
-                <p class="autoria">By: Quinn</p>
+                <p class="autoria">By: Quinn, Shazowaq & Jean</p>
             </div>
         </nav>
     </main>
     <div class="nav-mobile">
-        <a href="#habilidade">Kit Geral</a>
+        <a href="#talentos">Kit Geral</a>
         <a href="#artefatos">Artefatos</a>
-        <a href="#armas">Armas</a>
-        <a href="#composicoes">Comps</a>
+        <a href="#combos">Armas</a>
+        <a href="#estilos-de-gameplay">Gameplays</a>
     </div>
 </body>
 
