@@ -64,7 +64,7 @@ main section {
     transition: all 0.5s;
     order: 2;
 }
-main section > div {
+main section > div, .times {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px
@@ -81,6 +81,7 @@ a:focus-visible {
     border: 1px solid rgb(68, 68, 68);
     outline: none; 
 }
+
 .mikinha img, .joinha img {
     width: 80px;
 }
@@ -115,6 +116,11 @@ nav a {
 nav a:hover {
     border-bottom: 2px solid var(--white-color) ;
 }
+.h2sep {
+    background: var(--bg-intro-color);
+    width: 100%;
+    height: 2px;
+}
 :root {
     --tabela: rgba(24, 24, 24, 0);
     --font-color: rgba(255, 255, 255, 0.774);
@@ -128,9 +134,11 @@ nav a:hover {
     --h1color: rgb(255, 255, 255);
     --tabela-link: white ;
     --fundo-generico: linear-gradient(0deg, rgb(27, 91, 134), rgb(6, 66, 116));
+    --txt05: rgba(255, 255, 255, 0.5);
     --pyro: rgba(255, 117, 117, 0.911);
 }
 .themeblue:root {
+    --txt05: rgba(0, 0, 0, 0.5);
     --pyro: rgba(255, 117, 117, 0.829);
     --fundo-generico: linear-gradient(0deg, rgb(36, 121, 179), rgb(66, 137, 196));
     --tabela: rgba(255, 255, 255, 0);
@@ -741,6 +749,10 @@ nav {
     font-weight: bold;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .fundo-generico {   
     background: var(--fundo-generico);
 }
@@ -1035,7 +1047,7 @@ iframe {
 .arma .img-div {
     height: fit-content;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     padding-top: 10px;
     width: 150px;
 }
@@ -1433,6 +1445,7 @@ table th {
 }
 .principais-icon div h3 {
     font-size: 19px;
+    text-align: center;
 }
 .principais-icon img {
     width: 30px;
@@ -1442,7 +1455,12 @@ table th {
 .statusprincipais .artefato-img {
     margin-top: 15px;
 }
-
+.statusprincipais p {
+    margin: 10px 0 
+}
+.txt05 {
+    color: var(--txt05);
+}
 @media (max-width: 1300px) {
     .contato {
         display: none;
@@ -1650,7 +1668,7 @@ table th {
     .arma .img-div {   
         padding-bottom: 15px;
         justify-content: center;
-        
+        flex-flow: row nowrap
     }
     .arma-linha {
         height: 2px;
@@ -1669,6 +1687,12 @@ table th {
     .tabela-personagens td:first-of-type {
         font-size: 9px;
         padding: 4px 1px;
+    }
+    .raiden-tabela-passiva th, .raiden-tabela-comp1 th {
+        font-size: 11px;
+    }
+    .raiden-tabela-passiva td, .raiden-tabela-comp1 td {
+        font-size: 10px;
     }
 }
 @media (max-width: 420px) {
@@ -1700,6 +1724,8 @@ table th {
     align-items: center;
     gap: 7px;
     }
+    
+    
 }
 @media (max-width: 380px) {
     .tabela-personagens td {
@@ -1707,6 +1733,9 @@ table th {
     }
     .tabela-personagens th {
         font-size: 8px;
+    }
+    .raiden-tabela-comp1 td:first-of-type {
+        font-size: 10px;
     }
 }
 @media (max-width: 360px) {
@@ -1725,6 +1754,9 @@ table th {
     }
     .b109 td:first-of-type {
         font-size: 11px;
+    }
+    .raiden-tabela-comp1 th {
+        font-size: 9px;
     }
 }
 
@@ -1815,7 +1847,7 @@ table th {
     font-size: 20px;
     padding: 10px 0;
 }
-.column, .times, .faq, .b9, .substatus {
+.column, .faq, .b9, .substatus {
     display: flex;
     flex-flow: column nowrap;
     gap: 15px
