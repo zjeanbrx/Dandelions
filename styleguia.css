@@ -128,9 +128,11 @@ nav a:hover {
     --h1color: rgb(255, 255, 255);
     --tabela-link: white ;
     --fundo-generico: linear-gradient(0deg, rgb(27, 91, 134), rgb(6, 66, 116));
+    --txt05: rgba(255, 255, 255, 0.5);
     --pyro: rgba(255, 117, 117, 0.911);
 }
 .themeblue:root {
+    --txt05: rgba(0, 0, 0, 0.5);
     --pyro: rgba(255, 117, 117, 0.829);
     --fundo-generico: linear-gradient(0deg, rgb(36, 121, 179), rgb(66, 137, 196));
     --tabela: rgba(255, 255, 255, 0);
@@ -1039,7 +1041,7 @@ iframe {
 .arma .img-div {
     height: fit-content;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     padding-top: 10px;
     width: 150px;
 }
@@ -1446,7 +1448,12 @@ table th {
 .statusprincipais .artefato-img {
     margin-top: 15px;
 }
-
+.statusprincipais p {
+    margin: 10px 0 
+}
+.txt05 {
+    color: var(--txt05);
+}
 @media (max-width: 1300px) {
     .contato {
         display: none;
