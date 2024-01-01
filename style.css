@@ -205,6 +205,9 @@ a:focus-visible {
 .nahida {
     background: linear-gradient(180deg, rgba(162, 255, 150, 0.466), rgba(42, 151, 20, 0.308))
 }
+.raiden {
+    background: linear-gradient(180deg, rgba(219, 123, 228, 0.514), rgba(144, 26, 168, 0.404))
+}
 .opcoes {
     display: none;
 }
