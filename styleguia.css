@@ -850,6 +850,9 @@ iframe {
     flex-flow: column nowrap;
     padding: 0 10px;
 }
+.l2 p {
+    margin: 0 !important;
+}
 .nav-mobile {
     width: 100%;
     height: fit-content;
