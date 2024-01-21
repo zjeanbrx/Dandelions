@@ -1,0 +1,27 @@
+---
+titulo: National Childe
+personagens:
+    - Childe
+    - Sucrose
+    - Xiangling
+    - Bennett
+lados:
+    - SS
+    - S
+youtube: https://www.youtube.com/embed/abZdO3rWoVc?si=oTYnZ1Ckb-rro3GI
+---
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Duis quam dui, imperdiet nec congue sed, fermentum tincidunt mauris. In interdum et sapien at bibendum. Sed pretium, justo nec elementum mollis, nisl justo pellentesque sapien, ac fringilla ligula quam et metus. Duis eget lobortis mauris. Duis tellus sapien, varius sed convallis non, maximus a arcu. Sed id velit feugiat, laoreet massa nec, egestas ipsum. Vivamus vitae justo quis nisi imperdiet faucibus tincidunt vehicula lacus. Sed eleifend mattis congue. Vestibulum vestibulum ipsum sed cursus bibendum. Nam fermentum felis nec dui fermentum laoreet. Integer vel ex non justo iaculis dictum. Integer aliquet eleifend dapibus. Nullam maximus tellus libero, bibendum auctor risus malesuada eu.
+Pellentesque in tortor aliquam, pellentesque metus vitae, scelerisque sapien. Donec aliquam interdum nulla, vitae tristique nunc hendrerit at.
+---
+titulo: Hutaozinha
+personagens:
+    - Hu Tao
+    - Furina
+    - Yelan
+    - Jean
+lados:
+    - 
+    - A
+---
+**Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Duis quam dui, imperdiet nec congue sed, fermentum tincidunt mauris. In interdum et sapien at bibendum. Sed pretium, justo nec elementum mollis, nisl justo pellentesque sapien, ac fringilla ligula quam et metus. Duis eget lobortis mauris. Duis tellus sapien, varius sed convallis non, maximus a arcu. Sed id velit feugiat, laoreet massa nec, egestas ipsum. Vivamus vitae justo quis nisi imperdiet faucibus tincidunt vehicula lacus. Sed eleifend mattis congue. Vestibulum vestibulum ipsum sed cursus bibendum. Nam fermentum felis nec dui fermentum laoreet. Integer vel ex non justo iaculis dictum. Integer aliquet eleifend dapibus. Nullam maximus tellus libero, bibendum auctor risus malesuada eu.
+Pellentesque in tortor aliquam, pellentesque metus vitae, scelerisque sapien. Donec aliquam interdum nulla, vitae tristique nunc hendrerit at.
