@@ -1,0 +1,55 @@
+:root {
+    --bg-color: black;
+    --bg-header-color: -webkit-linear-gradient(150deg, #634200, #dd9d1d, #c69124, #FAB72E, #412b00);
+    --bg-intro-color: linear-gradient(90deg, #c69124, #634200);
+    --img-background: transparent;
+    --h2color: #c69124;
+    --intro-color: #c69124;
+    --cryo-color: rgb(200, 249, 255);
+    --arma-border: rgba(255, 255, 255, 0.274);
+    --botao-border-color: rgba(255, 255, 255, 0.233);
+    --mobile-nav-bg: rgba(0, 0, 0, 0.301);
+    --personagem-txt: rgb(241, 241, 241);
+    --icone-background: transparent;
+    --ball-color: rgb(53, 53, 53);
+    --hover: linear-gradient(160deg, rgba(255, 255, 255, 0.164), rgba(255, 255, 255, 0.048), rgba(255, 255, 255, 0.048), rgba(255, 255, 255, 0.171));
+    --hover-shadow: transparent;
+    --arma-linha: linear-gradient(0deg, rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.151));
+    --arma-linha-x: linear-gradient(90deg, rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.151));
+    --tierlist-botao: rgba(255, 255, 255, 0.192);
+    --botao-hover: rgba(255, 255, 255, 0.295);
+    --card-shadow: rgba(0, 0, 0, 0.062);
+    --js-pros-hover: rgba(144, 255, 144, 0.521);
+    --js-contras-hover: rgba(253, 135, 135, 0.507);
+    --js-botao: rgb(43, 43, 43);
+    --cons-head: linear-gradient(90deg, #c69124, #634200);
+    --subt-armas: linear-gradient(90deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.089));
+}
+
+.themeblue:root {
+    --subt-armas: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.027));
+    --cons-head: linear-gradient(90deg, rgba(120, 233, 253, 0.788), rgba(16, 138, 160, 0.76) );
+    --js-botao: rgb(231, 231, 231);
+    --js-pros-hover: rgba(144, 255, 144, 0.521);
+    --js-contras-hover: rgba(253, 135, 135, 0.507);
+    --card-shadow: rgba(255, 255, 255, 0.041);
+    --tierlist-botao: rgba(0, 0, 0, 0.13);
+    --botao-hover: rgba(0, 0, 0, 0.185);
+    --arma-linha: linear-gradient(0deg, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.048));
+    --arma-linha-x: linear-gradient(90deg, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.048));
+    --hover-shadow: rgba(0, 0, 0, 0.068);
+    --bg-color: rgb(252, 252, 252);
+    --bg-header-color: -webkit-linear-gradient(150deg, rgb(125, 191, 241), rgba(70, 212, 231, 0.651), rgb(104, 187, 235), rgba(70, 211, 230, 0.637), rgb(103, 145, 173));
+    --bg-intro-color: linear-gradient(90deg, rgba(28, 140, 155, 0.582), rgba(16, 187, 255, 0.582), rgba(43, 154, 245, 0.568));
+    --img-background: linear-gradient(180deg, rgba(165, 231, 243, 0.493), rgb(125, 191, 241));
+    --h2color: rgb(28, 214, 247);
+    --intro-color: rgb(255, 255, 255);
+    --cryo-color: rgb(101, 183, 194);
+    --arma-border: rgba(46, 46, 46, 0.322);
+    --botao-border-color: rgba(184, 184, 184, 0.178);
+    --mobile-nav-bg: rgba(0, 0, 0, 0.623);
+    --personagem-txt: rgb(255, 255, 255);
+    --icone-background: linear-gradient(90deg, rgba(37, 98, 145, 0.753) 10%, rgba(125, 191, 241, 0.842) 90%, rgba(95, 223, 255, 0.247));
+    --ball-color: rgb(243, 243, 243);
+    --hover: linear-gradient(150deg, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.055));
+}
