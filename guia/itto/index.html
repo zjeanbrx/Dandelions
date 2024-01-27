@@ -37,6 +37,7 @@
 
 <body>
     <script defer src="/script.js"></script>
+    <script defer src="/vermais.js"></script> 
     <header>
         <div>
             <a href="https://dandelions.vercel.app/" class="home">
@@ -471,6 +472,375 @@
                         <h4 class="statusbase">Ataque Base: 510</h4>
                         <h4 class="statusbase">Defesa: 51.7%</h4>
                     </div>
+                </div>
+            </div>
+            <div id="sinergia" class="sinergia">
+                <h2>A Gangue Arataki: Sinergias</h2>
+                <div class="botao-vermais">
+                    <h3 class="subtituloh3">TierList</h3>
+                    <div>
+                        Nesta seção há um ranking resumido dos personagens que possuem sinergia com Itto. Esse rank separa os personagens em categorias de times e elementos onde seriam relevantes, levando em consideração os seguintes critérios: Geração de Energia, Capacidade de Buffs, criar escudos ou manter aplicação Elemental consistente para Cristalização (Mantendo ressonância Geo). 
+                        A ordem horizontal foi considerada. Quanto mais a esquerda, maior a sinergia com Arataki Itto.
+                    </div>
+
+                    <label class="expandir" for="rank">
+                        Mostrar
+                    </label>
+
+                    <div class="tierlist">
+                        <div class="flex tierlinha">
+                            <div class="tier1 geo-background">
+                                <p>
+                                    Melhores opções de Monogeo
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#gorou"><img src="/img/personagens/Gorou.webp"></a>
+                                <a href="#albedo"><img src="/img/personagens/Albedo.webp"></a>
+                                <a href="#zongli"><img src="/img/personagens/Zhongli.webp"></a>
+                                <a href="#traveler"><img src="/img/personagens/Traveler.png"></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="flex tierlinha">
+                            <div class="tier1 pyro-background">
+                                <p>
+                                    Melhor Opção de Triple Geo (Pyro)
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#bennett"><img src="/img/personagens/Bennett.webp"></a>
+                                <a href="#thoma"><img src="/img/personagens/Thoma.webp"></a>
+                                <a href="#xinyan"><img src="/img/personagens/Xinyan.webp"></a>
+                                <a href="#yanfei"><img src="/img/personagens/Yanfei.webp"></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="flex tierlinha">
+                            <div class="tier1 cryo-background">
+                                <p>Melhor Opção de Triple Geo (Cryo)</p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#layla"><img src="/img/personagens/Layla.webp"></a>
+                                <a href="#rosaria"><img src="/img/personagens/Rosaria.webp"></a>
+                                <a href="#charlotte"><img src="/img/personagens/Charlotte.webp"></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="flex tierlinha">
+                            <div class="tier1 eletro-background">
+                                <p>Melhor Opção de Triple Geo (Electro)</p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#kuki"><img src="/img/personagens/Kuki.webp"></a>
+                                <a href="#fischl"><img src="/img/personagens/Fischl.webp"></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="flex tierlinha">
+                            <div class="tier1 hydro-background">
+                                <p>Melhor Opção de Triple Geo (Hydro)</p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#kokomi"><img src="/img/personagens/Kokomi.webp"></a>
+                                <a href="#mona"><img src="/img/personagens/Mona.webp"></a>
+                                <a href="#xingqiu"><img src="/img/personagens/Xingqiu.webp"></a>
+                                <a href="#yelan"><img src="/img/personagens/Yelan.webp"></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="flex tierlinha">
+                            <div class="tier4">
+                                <p>
+                                    Menção Honrosa
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#kirara"><img src="/img/personagens/Kirara.webp"></a>
+                                <a href="#furina"><img src="/img/personagens/Furina.webp"></a>
+                                <a href="#tartaglia"><img src="/img/personagens/Tartaglia.webp"></a>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="flex tierlinha">
+                            <div class="tier5">
+                                <p>
+                                    Não recomendado
+                                </p>
+                            </div>
+                            <div class="tierlist-linha">
+                                <a href="#ninguangg"><img src="/img/personagens/Ninguangg.webp"></a>
+                                <a href="#noelle"><img src="/img/personagens/Noelle.webp"></a>
+                                <a href="#yunjin"><img src="/img/personagens/Yunjin.webp"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="retrair" for="rank">
+                        Retrair
+                    </label>
+                </div>
+                <div class="personagem gorou geo-background" id="gorou">
+                    <img src="/img/personagens/Gorou.webp">
+                    <div>
+                        <h4>
+                            Gorou
+                        </h4>
+                        <p>O principal suporte do Itto. Gorou é extremamente funcional e sinérgico com ele, fornecendo boa geração de energia, excelente buff de Defesa, bônus de dano Geo, atrai cristalizações (para times de Triple Geo), além de Dano Crítico Geo em sua Sexta Constelação. Sem dúvidas o melhor companheiro do Itto em todos os casos.</p>
+                    </div>
+                    <div>
+                        <h4>Exilado vs Ritual Real</h4>
+                        <div class="miniguia-img">
+                            <img src="/img/artefatos/Exilado.webp">
+                            <img src="/img/artefatos/Ritual_Real.webp">
+                        </div>
+                        <p>Em times mono geo completo, onde itto terá baixíssimos critérios de Energia, ritual real é a melhor opção de conjunto para Gorou. Porém em alguns casos (como quando não é possível manter a Flor de Albedo ou a Estela de Pedra de Zhongli) e nos times de triple geo, 4 Exilados será a melhor opção.</p>
+                    </div>
+                    <div>
+                        <h4>Ritual ou Selo?</h4>
+                        <p>É de longe a melhor opção de arma para Gorou, fornecendo alta recarga de energia nos substatus e uma passiva que ajuda todo o time reduzindo os requerimentos de energia do Itto. Gorou não depende de nenhum status para seu buff, usando sua defesa apenas para cálculo da cura de sua C4, por isso é aconselhável buscar apenas Recarga de Energia e Taxa Crítica (para ativar a passiva do Arco de Favonius).</p>
+                    </div>
+                    <div>
+                        <p>Recarga de energia (200-240%) / DEF% / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem albedo geo-background" id="albedo">
+                    <img src="/img/personagens/Albedo.webp">
+                    <div>
+                        <h4>
+                            Albedo
+                        </h4>
+                        <p>Principal DPS off field para times do Itto. Albedo é capaz de sinergizar muito bem tanto com Itto, quanto com Gorou e Zhongli, sendo um personagem que oferece bom dano fora de campo, que escala com defesa (Se beneficiando dos buffs de Gorou), além de boa geração de partículas Geo. O Supremo de albedo não é usado em rotações de Monogeo (com algumas exceções como finalizar uma sala ou onda de inimigos).</p>
+                    </div>
+                    <div>
+                        <h4>Trupe Dourada vs Casca de Sonhos Opulentos.</h4>
+                        <div class="miniguia-img">
+                            <img src="/img/artefatos/Trupe Dourada.webp">
+                            <img src="/img/artefatos/Casca_Sonhos_Opulentos.png">
+                        </div>
+                        <p>4 Peças de Trupe Dourada é levemente superior ao Casca de Sonhos Opulentos. Isso implica em vantagens e desvantagens, visto que o conjunto da Trupe Dourada é ótimo em eficiência de resina no domínio compartilhado com o incrível Caçador das Sombras, porém está em um domínio diferente do usado para farmar os artefatos do Itto. Felizmente Casca de Sonhos opulentos está na síntese, e pode ser adaptado à necessidade de cada conta</p>
+                    </div>
+                    <div>
+                        <h4>Melhor Arma: Haste de Cinábrio ou Prenúncio do Alvorecer R5</h4>
+                        <p>A melhor arma de Albedo (Haste de Cinábrio) é ,infelizmente, limitada, tendo sido fornecida no evento da versão 2.3 “Poeira e Neve Escura” sem nenhuma expectativa de retorno. Entretanto, diferente do que se acredita, Prenúncio do Alvorecer é uma arma tão incrível quanto, perdendo por uma margem de 3 a 5% de desempenho.</p>
+                    </div>
+                    <div>
+                        <p>DEF% / Dano Geo / Crítico(DEF% é uma opção, caso use Prenúncio do Alvorecer e 4 Trupe Dourada)</p>
+                    </div>
+                </div>
+                <div class="personagem zongli geo-background" id="zongli">
+                    <img src="/img/personagens/Zhongli.webp">
+                    <div>
+                        <h4>
+                            Zongli
+                        </h4>
+                        <p>Principal escudeiro para os times do Itto. O Arconte Geo não poderia estar de fora, tendo atualmente o melhor escudo do jogo, que além de fornecer um meio seguro e confiável de manter a ressonância Geo sempre ativa, ainda fornece uma quebra de 20% de resistência Geo para inimigos próximos enquanto seu Escudo de Jade está ativo [Sendo a única fonte de quebra de resistência Geo além da própria ressonância Geo]. Seu escudo possui ainda mais valor para jogadores que estiverem usando Espinha Dorsal da Serpente.</p>
+                    </div>
+                    <div>
+                        <h4>Milelith Firmes</h4>
+                        <div class="miniguia-img">
+                            <img src="/img/artefatos/Millelith.webp">
+                        </div>
+                        <p>Seu conjunto assinatura, fornece um bônus de Vida% com 2 peças, e um buff de Ataque e Força de Escudo com 4 peças. Em um time onde não há um curandeiro dedicado, seu confiável escudo faz muita diferença</p>
+                    </div>
+                    <div>
+                        <h4>Melhor Arma: Lança de Favonius</h4>
+                        <p>Sua melhor opção de arma. Fornece ainda mais partículas para o time, o que ajuda a reduzir os critérios de recarga do Itto tanto em Monogeo, quanto em times de triple geo.
+                            Não é recomendável buildar Zhongli pensando em dano nos times do Itto, seu supremo, assim como o de Albedo, é usado em situações muito específicas.</p>
+                    </div>
+                    <div>
+                        <p>HP% / HP% - Bônus de dano Geo% (Viajante apenas) / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem traveler geo-background" id="traveler">
+                    <img src="/img/personagens/Traveler.png">
+                    <div>
+                        <h4>
+                            Viajante Geo
+                        </h4>
+                        <p>Uma opção considerável para substituir Albedo em times de Monogeo. Possui uma boa geração de partículas, e seu supremo fornece consistentes 10% de taxa para Itto além de sinergizar bem com a ressonância do Pilar do Zhongli, fazendo com que uma build mais ofensiva para Zhongli seja o ideal. Entretanto, a utilização de sua habilidade elemental pode ser uma dor de cabeça para alguns jogadores, podendo criar situações problemáticas em inimigos menores e em pior casos, prejudicando a rotação.</p>
+                        <p><b>Conjunto de Artefato:</b> 4 Ritual Real / 4 Selo da Insulação / 2 Petra Arcaica - 2 Ritual Real.</p>
+                        <p>Qualquer opção de artefato focado em seu supremo é bem vindo, visto que será a maior fonte de seu dano nesse time.</p>
+                    </div>
+                    <div>
+                        <h4>Melhor arma: Espada de Favonius</h4>
+                        <p>Espada de Favonius pode ser a melhor opção para ajustar a energia do time, mas caso sinta que não há necessidade da Recarga extra na equipe, sinta-se livre para usar uma arma com melhor potencial ofensivo como Amenoma Kageuchi, Espada Negra, Farpa ou algumas opções T5 como Espada Celestial, Cortador de Montanha, Cortador de Jade Primordial.</p>
+                    </div>
+                    <div>
+                        <p>Recarga de energia (110-120%)ATK% / Dano Geo% / Crítico</p>
+                    </div>
+                </div>
+                <div class="personagem bennett pyro-background" id="bennett">
+                    <img src="/img/personagens/Bennett.webp">
+                    <div>
+                        <h4>
+                            Bennett
+                        </h4>
+                        <p>Ótima opção para substituir o Albedo em times de Triplegeo, visto que Bennett não é capaz de aplicar elemento fora de campo, será necessário um escudeiro confiável para manter a ressonância Geo. Fornece um buff de ataque massivo e cura para Itto e pode ser usado como aplicador pyro para lidar com escudos elementai (Especial em sua C6, que não afeta a infusão elemental do Supremo do Itto)</p>
+                        <p><b>Recomendações:</b> 220%-230% de recarga de energia. 4 Ritual Real. Espada de Favonius</p>
+                    </div>
+                    <div>
+                        <p>Recarga de Energia% - Vida% / Vida % / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem thoma pyro-background" id="thoma">
+                    <img src="/img/personagens/Thoma.webp">
+                    <div>
+                        <h4>
+                            Thoma
+                        </h4>
+                        <p>Uma opção de escudeiro pyro para substituir Zhongli, apesar do seu escudo ganhar acúmulos apenas com Ataques Normais (que serão pouco usados devido a natureza do kit do Itto), ele aplica elemento para manter uma cristalização, mantendo a ressonância Geo.  Ele também possui também em seu kit um buff de Força de Escudo e Dano para Ataque Normal, Carregados e Imersivo em sua C6. Todavia, devido aos alto critério de recarga, ele não é recomendado sem sua C4.</p>
+                        <p><b>Recomendações:</b> 220%-230% de recarga de energia com C4. 2 Selo/2 Vida% - 4 Ritual Real. Lança de Favonius.</p>
+                    </div>
+                    <div>
+                        <p>Vida% - Recarga de Energia / Vida % / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem yanfei pyro-background" id="yanfei">
+                    <img src="/img/personagens/Yanfei.webp">
+                    <div>
+                        <h4>
+                            Yanfei
+                        </h4>
+                        <p>Yanfei C4 pode ser uma opção de escudeira para Itto. Seu escudo é considerável e com boa duração, e ela pode carregar códex de Favonius, servir como aplicadora pyro para lidar com escudos elementais, entretanto não contribui com o dano do time, fazendo com que Itto precise estar melhor investido do em que em outras variações de Triple Geo.</p>
+                        <p><b>Recomendações:</b> Sua C4 é obrigatória e não deve ser usada sem. 260% de recarga de energia. 2 Selo/ 2 Vida% -. Códex de Favonius</p>
+                    </div>
+                    <div>
+                        <p>Vida% / Vida% / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem xinyan pyro-background" id="xinyan">
+                    <img src="/img/personagens/Xinyan.webp">
+                    <div>
+                        <h4>
+                            Xinyan
+                        </h4>
+                        <p>Pode ser usada como escudeira acumulando defesa em seus status. Seu escudo é baseado em sua habilidade elemental o que deixa sem critérios de recarga para uso. Não ajuda no dano do time em geral, mas consegue usar 4 peças do milelith firmes, fornecendo um buff modesto para o Itto.</p>
+                        <p><b>Recomendações:</b> 4 Milelith Firmes, Sombra Branca.</p>
+                    </div>
+                    <div>
+                        <p>Def%/Def%/Def%</p>
+                    </div>
+                </div>
+                <div class="personagem layla cryo-background" id="layla">
+                    <img src="/img/personagens/Xinyan.webp">
+                    <div>
+                        <h4>Layla</h4>
+                        <p>Layla é a melhor escudeira do elemento Cryo disponível. Ela possui uma aplicação elemental modesta e pode fornecer algum buff em suas constelações. Seu escudo é confiável e baseado na habilidade elemental, e ela ainda pode carregar 4 Milelith firmes e espada de Favonius.</p>
+                        <p><b>Recomendações:</b> 4 Milelith Firmes, Espada de Favonius.</p>
+                    </div>
+                    <div>
+                        <p>Vida% / Vida%/ Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem rosaria cryo-background" id="rosaria">
+                    <img src="/img/personagens/Rosaria.webp">
+                    <div>
+                        <h4>Rosária</h4>
+                        <p>Rosária é recomendada com pelo menos sua C2 para melhor duração de seu supremo. Fornece um buff de Taxa Crítica e boa aplicação Cryo fora de campo para manter cristalização, além de colaborar decentemente no dano da equipe. Serve como aplicadora Cryo para lidar com escudos elementais.</p>
+                        <p><b>Recomendações:</b> 4 Selo da Insulação, 150% recarga de energia (Pré C4) 160% (C4), Lança de Favonius.</p>
+                    </div>
+                    <div>
+                        <p>ATK% / Bônus de Dano Cryo% / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem charlotte cryo-background" id="charlotte">
+                    <img src="/img/personagens/Charlotte.webp">
+                    <div>
+                        <h4>Charlotte</h4>
+                        <p>Charlotte é uma Healer e Catalisadora Cryo, podendo carregar 4 peças de Milelith enquanto mantém bom uptime de aplicação Cryo off Field para cristalização com sua Habilidade Elemental. Seus requerimentos de recarga não são tão altos já que sua Ultimate não precisa ser usada toda rotação.Seu Supremo fornece uma cura potente na ativação e uma pequena cura contínua. Serve como aplicadora elemental cryo para lidar com escudos elementais. Entretanto para ter boa duração é necessário utilizar sua habilidade elemental segurada (que tem uma longa canalização), o que atrapalha a rotação do time padrão reduzindo o potencial de dano.</p>
+                        <p><b>Recomendações:</b> 4 Milelith Firmes, Códex de Favonius.</p>
+                    </div>
+                    <div>
+                        <p>ATK% / ATK% / Taxa Crítica</p>
+                    </div>
+                </div>
+                <div class="personagem kuki electro-background" id="kuki">
+                    <img src="/img/personagens/Kuki.webp">
+                    <div>
+                        <h4>Kuki Shinobu</h4>
+                        <p>A Vice-líder da Gangue Arataki não poderia ser diferente em sua sinergia com o chefe: a melhor unidade electro para usar com Itto. Capaz de curar com sua habilidade elemental, consegue carregar 4 peças do Milelith, fornece boa aplicação electro off field para manter a cristalização e não depende de seu supremo, o que exclui seus requerimentos de recarga. Apesar de ser efetiva em sua C0, sua C2 é aconselhável para melhor duração de sua Habilidade Elemental.</p>
+                        <p><b>Recomendações:</b> 4 Milelith Firmes, Espada de Favonius ou Luz Lunar de Xiphos.</p>
+                    </div>
+                    <div>
+                        <p>Vida % / Vida % / Taxa Crítica (Com Espada de Favonius) / 3 Peças de Proficiência Elemental (Com Luz Lunar de Xiphos)</p>
+                    </div>
+                </div>
+                <div class="personagem fischl electro-background" id="fischl">
+                    <img src="/img/personagens/Fischl.webp">
+                    <div>
+                        <h4>Fischl</h4>
+                        <p>A Princesa do pecado é uma unidade decente para se usar em times de Triple geo, possui uma boa aplicação elemental off field e um bom dano. Seu melhor conjunto é 4 Trupe Dourada e não é aconselhável buildá-la com Milelith Firmes pensando no time do Itto, mesmo sem o efeito de 4 peças do conjunto, sua boa aplicação electro renova cristalizar com frequência por toda a duração do Supremo do Itto, fazendo com que sua contribuição de dano com 4 Trupe Dourada seja mais relevante do que o buff fornecido pelo 4 Milelith.</p>
+                        <p><b>Recomendações:</b> 4 Trupe Dourada, 150% recarga de energia, opções de Armas ofensivas para times sem Dendro como Caçador do Beco, Canção do Silêncio (Apenas se Gorou C4), Arco Esmeralda do Caçador, Herdeiro do Sol ou Lua de Mooun ou opções T5 como Aqua Simulacra, Harpa Celestial ou Elegia do Suspiro Final.</p>
+                    </div>
+                    <div>
+                        <p>ATK% / Bônus Dano Electro% / Crítico</p>
+                    </div>
+                </div>
+                <div class="personagem kokomi hydro-background" id="kokomi">
+                    <img src="/img/personagens/Kokomi.webp">
+                    <div>
+                        <h4>Sangonomiya Kokomi</h4>
+                        <p>Kokomi é uma opção fantástica. É melhor unidade Hydro para se usar em times de triple geo, e uma das melhores no geral. Sua habilidade elemental fornece cura excelente e aplicação hydro consistente para manter cristalização sempre ativa, além disso pode carregar 4 peças do Milelith Firmes e Histórias Extraordinárias de Caçadores de Dragões ou Protótipo âmbar.  Seu supremo é capaz de reiniciar a duração de habilidade elemental fazendo com que tenha máximo de duração, e finalmente serve como uma excelente aplicadora Hydro para lidar com escudo elementais, funcionando de forma muito sinérgica tanto fora de campo como em campo.</p>
+                        <p><b>Recomendações:</b> 4 Peças de Milelith Firmes- 210%-220% de Recarga de Energia (Se Histórias Extraordinárias de caçadores de Dragões) 180%-200% de recarga de energia (se Protótipo Âmbar).</p>
+                        <p><b>Obs:</b> Apenas a primeira rotação se aproveita do buff fornecido pela História Extraordinárias dos caçadores de Dragão, nas demais rotações, Itto deverá receber as partículas de gorou para rotacionar bem. O Protótipo  mbar é uma opção mais consistente no geral.</p>
+                    </div>
+                </div>
+                <div class="personagem mona hydro-background" id="mona">
+                    <img src="/img/personagens/Mona.webp">
+                    <div>
+                        <h4>Mona</h4>
+                        <p>Mona é uma opção excelente para usar com Itto em Triple geo. Assim como Kokomi pode carregar 4 peças de Milelith Firmes, Histórias Extraordinárias de Caçadores de Dragões ou Protótipo  mbar, possui uma boa aplicação Hydro com sua habilidade elemental para manter o cristalizar, e um excelente “impulso” de dano em seu Supremo, que apesar de não durar toda o combo do Itto, é capaz de aumentar bastante o dano frontload dele, em especial. Mona serve como uma excelente aplicadora Hydro para lidar com escudos elementais.</p>
+                        <p><b>Recomendações:</b> 4 Peças de Milelith Firmes, 210%-230% recarga de energia,  Histórias Extraordinárias de Caçadores de Dragões ou Protótipo  mbar (Sobrevivência) ou Códex de Favonius (Caso tenha problemas de recarga com Itto)</p>
+                        <p><b>Obs:</b> Apenas a primeira rotação se aproveita do TTDS, nas demais, itto deverá receber as partículas de Gorou para fluir bem, o que também reduz o uptime do supremo de Mona. Entretanto sua habilidade elemental ainda é valiosa para o time.</p>
+                    </div>
+                </div>
+                <div class="personagem xingqiu hydro-background" id="xingqiu">
+                    <img src="/img/personagens/Xingqiu.webp">
+                    <div>
+                        <h4>Xingqiu</h4>
+                        <p>Xingqiu é uma unidade fantástica no jogo em geral, e, apesar de ter sua sinergia com Itto bem limitada (considerando que Itto não usa muitos ataques normal para ativar seu supremo), é ainda uma ótima opção em casos de Triple geo. Seu Supremo e sua Habilidade Elemental conseguem manter hydro consistente para cristalização juntamente com a ativação de seu Supremo durantes os poucos Ataques Normais do combo. Ele também fornece uma redução de dano de até 29% e uma pequena recuperação de vida, o que torna a sobrevivência muito tranquila, mesmo em cenário onde depende unicamente da cristalização. Xingqiu ainda é excelente como aplicador Hydro para lidar com escudos elementais, e funciona muito bem como Solo Hydro do time.</p>
+                        <p><b>Recomendações:</b> 4 Selo da Insulação,220%-230% de recarga de energia (Pré C6)</p>
+                        <p>200-210% (C6) Espada do Sacrifício ou Espada de Favonius, ATK% / Bônus de Dano Hydro% / Crítico</p>
+                    </div>
+                </div>
+                <div class="personagem yelan hydro-background" id="yelan">
+                    <img src="/img/personagens/Yelan.webp">
+                    <div>
+                        <h4>Yelan</h4>
+                        <p>Semelhante ao Xingqiu (quanto ao funcionamento de seu supremo), Yelan irá conseguir manter a ressonância Geo ativa com sua aplicação hydro consistente, porém ao invés da redução de dano fornecida por Xingqiu, ela irá fornecer um buff de Bônus de Dano% Universal, que é muito valioso para Itto. Yelan também é muito boa como aplicadora Hydro para lidar com escudos elementais, e assim como Xingqiu, funciona muito bem como Solo Hydro.</p>
+                        <p><b>Recomendações:</b> 4 selo da Insulação, 220%-230% de recarga de energia , Arco de Favonius</p>
+                        <p>Vida% / Bônus de Dano Hydro% / Crítico</p>
+                    </div>
+                </div>
+                <div class="personagem furina hydro-background" id="furina">
+                    <img src="/img/personagens/Furina.webp">
+                    <div>
+                        <h4>Furina</h4>
+                        <p>Furina é uma opção complicada para usar com Arataki Itto. Tal como mona e Kokomi, ela possui uma boa aplicação Hydro off field para manter a cristalização, porém diferente delas, contribui significativamente para o dano da equipe graças a seu próprio dano pessoal e ao seu massivo buff de Bônus DMG% universal. Entretanto, devido às características únicas que Furina possui (Dreno de Vida, e mecânica dos acúmulos de Fanfarra) é necessário adicionar um healer a equipe, e nisto Itto ficará muito sem opções, sendo o mais próximo de funcional com Bennett. Furina também limita a eficácia do Gorou (em especial sem a C6) visto que exclui um personagem geo da Equipe, precisando ser usada em times de Double Geo.  Em Geral, é uma opção inconsistente para Itto por vários fatores, mas que pode ser funcional com adaptação de rotação, mas é na maioria é um desperdício do potencial de Furina visto que é uma suporte extremamente disputada e não representa uma grande melhoria para os times do Itto, pelo menos não por enquanto.</p>
+                        <p><b>Recomendações:</b> 4 Trupe Dourada, 200%-220% de recarga de energia, Espada de Favonius</p>
+                        <p>Vida % / Vida% / Crítico</p>
+                    </div>
+                </div>
+                <div class="personagem kirara dendro-background" id="kirara">
+                    <img src="/img/personagens/Kirara.webp">
+                    <div>
+                        <h4>Furina</h4>
+                        <p>Kirara é uma unidade de suporte escudeira do Elemento Dendro, sua única função em um time com Itto seria fornecer um confiável escudo Dendro. Sua C4 fornece alguma aplicação elemental Dendro Off Field, e sua C6 fornece 12% de Bônus para todos os elementos por 15 segundos após usar a habilidade elemental ou seu supremo, que é bem valioso para Itto.
+                            Fora isso, Kirara não é uma unidade realmente recomendada para triple geo, apenas em cenários onde aplicação Dendro mediana seja necessária, e de preferência caso você possua constelações. Seu escudo é baseado em sua habilidade elemental, o que reduz em muitos os critérios de recarga para funcionar.</p>
+                        <p><b>Recomendações:</b> 4 Ritual Real / 2 Vida% - 2Vida%, 200% Recarga de Energia, Espada de Favonius</p>
+                        <p>Vida % / Vida % / Taxa Crítica </p>
+                    </div>
+                </div>
+                <div class="personagem hydro hydro-background" id="hydro">
+                    <img src="/img/personagens/Tartaglia.webp">
+                    <div>
+                        <h4>Tartaglia</h4>
+                        <p>Tartaglia é uma opção que existe unicamente pelo seu talento passivo “Mestre de Armamento” que aumenta o nível do Talento de Ataque Normal, e fornece maiores multiplicadores para itto em cenários específicos de Showcase. Não deve ser utilizado em times normais, apenas para fins de diversão.</p>
+                    </div>
+                </div>
+                <div class="set">
+                    <h4>Não recomendados</h4>
+                    Ningguang, Noelle e Yunjin se encontram aqui pelo mesmo motivo. Esses personagens possuem nenhuma, ou quase nenhuma sinergia com os times do Itto, sendo melhores opções em times próprios ou parelhas com outras unidades. Por serem unidades Geo, é possível encontrar outras opções mais relevantes para Itto, e mesmo algumas unidades fora do elemento Geo são mais interessantes (Como Bennett ou Kokomi)
                 </div>
             </div>
             <div class="times">
