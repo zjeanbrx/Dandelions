@@ -1776,6 +1776,9 @@ table th {
 .hydro-background {
     background: linear-gradient(90deg, rgba(56, 108, 253, 0.74), rgba(5, 121, 189, 0.658));
 }
+.black-background {
+    background: linear-gradient(90deg, rgba(19, 19, 19, 0.856), rgb(46, 46, 46));
+}
 .cryo-background {
     background: linear-gradient(90deg, rgba(56, 223, 253, 0.74), rgba(5, 177, 189, 0.658));
 }

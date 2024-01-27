@@ -129,6 +129,7 @@ a:focus-visible {
     box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.219) inset;
     transition: all 0.7s;
     max-width: 800px;
+    max-height: 200px;
 }
 .card:hover {
     scale: 105%;
@@ -201,6 +202,9 @@ a:focus-visible {
 }
 .yelan, .tartaglia, .kokomi, .furina, .ayato, .nilou {
     background: linear-gradient(180deg, rgba(19, 149, 255, 0.486), rgba(16, 87, 218, 0.308))
+}
+.itto {
+    background: linear-gradient(180deg, #dd9d1d, #412b00);
 }
 .nahida {
     background: linear-gradient(180deg, rgba(162, 255, 150, 0.466), rgba(42, 151, 20, 0.308))
