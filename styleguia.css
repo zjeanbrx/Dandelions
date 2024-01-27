@@ -1022,6 +1022,18 @@ iframe {
     border-radius: 15px;
     margin: 5px 0;
 }
+.talento-doubleimg {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+.talento-doubleimg > div {
+    width: 50%;
+}
+.talento-doubleimg img {
+    width: 100%;
+    border-radius: 10px;
+}
 .banner-fim {
     display: flex;
     flex-flow: column nowrap;
