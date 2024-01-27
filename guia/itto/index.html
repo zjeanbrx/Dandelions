@@ -899,8 +899,57 @@
                 <p>O outro bônus de resistência de um escudo, é o atributo “Força de Escudo” que é indicado nos status do Personagem. Esse atributo serve apenas para o personagem que está usando um escudo, e fornece uma redução de dano sofrido pelo escudo usado por esse personagem.</p>
                 <p>A Fórmula de Cálculo do dano em um escudo é a seguinte:</p>
                 <div class="set">
-                    <p></p>
+                    Dano Recebido pelo Escudo = Dano de Entrada / ((Bônus do Elemento) * (1 + % Força de Escudo do Personagem Ativo))
                 </div>
+                <p>Dessa forma, quanto maior forem os atributos defensivos de um personagem (Defesa, Resistências Elementais e Força de Escudo), mais resistente será os escudos que ele utiliza.</p>
+                <p>Para melhorar a eficácia de um escudo (além do nível de talento / Proficiência Elemental) procuramos por Força de Escudo adicional. Fontes de Força de Escudo incluem:</p>
+                <br />
+                <p><b>Ressonância Geo:</b> 15% de Força de Escudo</p>
+                <p><b>Talentos Passivos de Personagens:</b> 1 Ascensão de Zhongli, Layla,Thoma etc</p>
+                <p><b>Conjunto de Artefatos:</b> 4 Peças do Milelith Firmes ou 2 Peças do Meteoro Invertido</p>
+                <p><b>Armas da Série de Pedra:</b> Espada Áspera, Memórias de Poeira, Cortador de Montanha e Perfuradora Prismática. </p>
+                <br />
+                <p>Para um personagem como Itto que possui muito atributo de Defesa, normalmente a Ressonância Geo e o conjunto de 4 partes do Millelith é mais que suficiente para seus times rodarem sem healer e sem se preocupar com dano dos inimigos.</p>
+                <p>Um Escudo Geo com 4 peças de Milelith e ressonância Geo recebe apenas 34% de todas as fontes de dano.</p>
+                <p>Um Escudo de Cristalizar sobre as mesmas circunstâncias recebe 25% do dano de seu próprio elemento e 68% de outras fontes de dano.</p>
+                <p>Caso um dano quebre um escudo, o excesso de dano será causado como dano ao jogador após ser multiplicado pelos valores de Força de Escudo e bônus de resistência do elemento (ou seja, o dano excedente não será reduzido pelos bônus de resistência que o escudo possuía).</p>
+                <h3 class="subtitulo">Escudo dos Inimigos</h3>
+                <p>Os escudos dos monstros são separados em 4 tipos:</p>
+                <p><b>Escudo de Força:</b> Que Reduz todo o dano recebido, eles possuem aura permanente do elemento do escudo (Como os Magos e Bardos do Abismo).</p>
+                <p><b>Escudo de Armadura:</b> Aumenta a resistência e reduz o dano recebido (Como o Cavalo Marinho Perolado ou os Escaramuçadores Fatui).</p>
+                <p><b>Escudos de Guarda:</b> São “Objetos” separados carregados por monstros como os Mitachurls. Podem ser ignorados ou destruídos separadamente.</p>
+                <p><b>Escudo de Objetos:</b> Esse tipo de escudo não protege o inimigo de forma alguma, mas aumenta a sua resistência a interrupção e é considerado uma aura a parte (Como as infusões elemental via Pedestal).</p>
+                <p>Quando adaptamos o time do Itto para lidar com escudos elementais, quase sempre estaremos lidando com os Escudos de Força ou de Armadura. Abaixo um pequeno informativo de qual os melhores elementos para lidar com quais tipo de escudo</p>
+                <div class="talento-img">
+                    <img loading="lazy" class="" src="/img/guias/itto/escudos.png" />
+                </div>
+                <p><i>A ordem horizontal foi considerada no infográfico, quanto mais a esquerda melhor para lidar com o escudo. Exemplo Dendro é melhor que Cryo para lidar com escudos Hydro.</i></p>
+                <p>Esse informativo, juntamente com a Tier de sinergia, lhe dá boa noção de como lidar com os escudos elementais de forma mais eficiente. Tenha em mente que um bom aplicador é necessário para alguns pesados escudos elementais como dos Bardos e Arauto do abismo, enquanto para outros escudos mais fracos como dos Magos do Abismo, o próprio cristalizar (Aliado com o Supremo de Zhongli) é mais que suficiente para lidar com escudos elementais mais fracos, não sendo necessário adaptar os times nesse tipo de situação.</p>
+                <h3 class="subtitulo">Construções Geo</h3>
+                <p>As construções Geo são estruturas criadas por personagens Geo (e alguns inimigos). Cada construção Geo possui suas características únicas descritas nos talentos dos personagens, tal como características gerais.</p>
+                <p>As Características gerais das construções Geo são:</p>
+                <ul class="set-ul">
+                    <li>Limite de 3 Construções ativas ao mesmo tempo (A Tentativa de criar uma quarta destrói a mais antiga, sendo ela criada ou não)</li>
+                    <li>Precisa de um local válido de construção.</li>
+                    <li>Desaparecem com distância</li>
+                    <li>Podem ser quebradas por dano, ou por “Sobreposição de local válido”.</li>
+                    <li>Habilidades que criam construções Geo não possuem mira automática.</li>
+                </ul>
+                <p>As características acima são comuns a todas as construções, existindo exceções entre elas (Como Ushi descrito na seção de Entendendo o kit, ou as paredes criadas pelo supremo do Viajante Geo que não contam para o limite de construções).</p>
+                <p>O principal ponto de entender como elas funcionam é saber a melhor forma de posicioná-las, e para isso é importante tomar vantagem do fato que as habilidades que criam construções Geo não possuem mira automática.</p>
+                <p>“Local válido” de construção considera o peso e tamanho dos inimigos. Inimigos leves e pequenos normalmente são empurrados ou levantados pela criação da construção, e sua presença não impede a criação delas, entretanto inimigos grandes ou pesados (Chefes em geral) são locais inválido de criação. Alguns chefes são problemáticos, como o Suíte Criozéfira, sua área de existência é muito maior que seu indicador visual, considerando tanto Coppelia, Coppelius e uma pequena área círculo adicional que o chefe usa para se locomover em torno de si como “Local inválido” para construção. </p>
+                <p>Nesta situação, é importante abusar das características únicas de Ushi e do fato de outras habilidades de construção não possuírem mira (como a Flor de Albedo ou a Estela de Pedra de Zhongli).</p>
+                <div class="talento-img">
+                    <img loading="lazy" class="" src="/img/guias/itto/batizador.gif" />
+                </div>
+                <p><i>Construção geo sendo criada sem a mira automática de inimigo</i></p>
+                <p>Uma forma inteligente de posicionar as construções Geo é virando o personagem de costa para Chefes, e as posicionando um pouco mais distante (considerando ainda o alcance das construções, como a Flor de Albedo), e então se posicionando de forma contrária a elas, fazendo com que os ataques não as mirem e elas continuem intactas por toda rotação. </p>
+                <div class="talento-img">
+                    <img loading="lazy" class="" src="/img/guias/itto/esquema.png" />
+                </div>
+                <p><i>Exemplo visual de como manter o posicionamento das construções, Enquanto Itto se manter de forma contrária as construções, elas se manterão intactas (Na maior parte dos casos) </i></p>
+                <p>Alguns chefes possuem ataques AdE, que mesmo na estratégia acima as construções serão destruídas, neste cenário é recomendado manter a flor de albedo no seu alcance máximo (mesmo perdendo a ressonância com a Estela de Pedra de Zhongli). Caso o alcance desses ataques seja maior que o alcance das construções, não há o que fazer, elas serão destruídas com frequência.</p>
+                <p>Apesar de não ser algo exatamente necessário, saber como posicionar as construções corretamente não só garante mais eficiência de dano, como também melhora muito seus requerimentos de recarga, podendo rodar até mesmo com 100% de recarga de energia (se feito corretamente), visto que as partículas geradas por Zhongli e Albedo são MUITO reduzidas se suas construções forem destruídas</p>
             </div>
             <div class="constelacoes" id="constelacoes">
                 <h2>Arataki “O Oni Real” Itto: Constelações</h2>
