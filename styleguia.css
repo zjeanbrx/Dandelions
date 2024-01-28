@@ -566,6 +566,16 @@ nav {
 .personagem > img {
     width: 120px;
 }
+.multi-personagem {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 10px;
+}
+.multi-personagem > img {
+    width: 120px;
+}
 @keyframes tremida {
     0% {
         transform: rotate(0deg);
