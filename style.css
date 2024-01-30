@@ -129,7 +129,6 @@ a:focus-visible {
     box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.219) inset;
     transition: all 0.7s;
     max-width: 800px;
-    max-height: 200px;
 }
 .card:hover {
     scale: 105%;
