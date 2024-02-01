@@ -542,6 +542,13 @@ nav {
     border-radius: 10px;
     background-color: var(--white-color);
 }
+.destaque b {
+    color: var(--black-color);
+}
+.destaque a {
+    color: var(--black-color);
+    text-decoration: underline;
+}
 .destaque p {
     color:  var(--black-color);
 }
