@@ -1,0 +1,198 @@
+{
+    "teams": [
+        {
+            "id": "cfc11539-ee9b-4caf-be75-89a9684d1272",
+            "team": "Sucrose Taser",
+            "tierSideA": "SS",
+            "tierSideB": "",
+            "characters": [[
+                "Sucrose",
+                "Xingqiu",
+                "Fischl",
+                "Beidou"
+            ]],
+            "description": "Sucrose Taser é um dos mais antigos e baratos times de Genshin. Contendo apenas personagens 4 estrelas, esse time precisa de poucas constelações nos personagens, sendo recomendado apenas possuir a C2 da Beidou e C1 da Sucrose. Este time é sempre uma boa opção para salas com múltiplos inimigos pelo scaling quadrático das reações Anemo e o fato do Supremo da Beidou atingir 2 ou mais alvos simultaneamente. No Abismo 12 atual, o fato de TODAS as salas do Lado 1 possuírem 2 ondas de 2 inimigos cada torna esse time uma opção extremamente forte e que libera todos os personagens limitados da sua conta para o outro lado. Caso você esteja preocupado com a sobrevivência pela falta de healer, a enorme redução de dano do Xingqiu aliada ao escudo da Beidou, o qual também reduz o dano recebido, tornam a gameplay bastante confortável e basicamente ininterrompível. É possível ainda utilizar outras variações de taser com diferentes opções de Hydro([Kokomi](/guia/kokomi), [Ayato](/guia/ayato), [Yelan](/guia/yelan), [Childe](/guia/tartaglia), Neuvillette e até mesmo Bárbara caso seja sua única opção), Electro(Yae Miko, [Raiden](/guia/raiden), Kuki ou Keqing) e Anemo(Kazuha ou Venti).",
+            "linkYoutube": ["https://www.youtube.com/embed/vA53xzrrBGo?si=PAAMLJ-xbFO2Gyfu"]
+        },
+        {
+            "id": "e7c65dc2-8ca0-4396-b1ff-92a64f9c4f81",
+            "team": "Overload Chev",
+            "tierSideA": "",
+            "tierSideB": "S",
+            "characters": [
+                [
+                    "Chevreuse",
+                    "Flex Pyro",
+                    "Flex Pyro",
+                    "Flex Electro"
+                ]
+            ],
+            "description": "Com a chegada da Chevreuse, times de sobrecarga tornaram-se ótimas opções contra alvos únicos. Por mais que possuir constelações na Chevreuse seja um bom aumento de dano, ela funciona bem já na C0 e forma arquétipos fortes com variados personagens Electro e Pyro. Pelo fato do lado 2 ser unicamente composto de chefes, times de sobrecarga entregam um ótimo desempenho mesmo sem 5 estrelas limitados, além de normalmente possuírem arqueiros para o Dragão das Ruínas do 12-3-2. Contudo, dois dos três Bosses do Lado 2 possuem curtas janelas de tempo para receber dano, então sem um personagem com um bom dano frontloaded como Liney ou Raiden você pode acabar encontrando dificuldades para encaixar o dano.",
+            "linkYoutube": ["https://www.youtube.com/embed/IlY-KD9C1ug?si=1LqBBEOiCEdo0-EG"]
+        },
+        {
+            "id": "b45b8dcb-e7fa-45da-8674-0e755efe074c",
+            "team": "Lyney Carry",
+            "tierSideA": "SS",
+            "tierSideB": "SS",
+            "characters": [
+                [
+                    "Lyney",
+                    ["Kaedehara Kazuha"],
+                    ["Xiangling", "Furina"],
+                    "Bennett"
+                ],
+                [
+                    "Lyney",
+                    "Fischl",
+                    "Chevreuse",
+                    "Bennett"
+                ]
+            ],
+            "description": "Lyney é um DPS muito forte, com um bom dano frontloaded e times simples de usar com setups fáceis. Ele consegue lidar muito bem com todos os inimigos do lado 2 aproveitando as curtas janelas de dano dos Bosses para encaixar um bom dano com suas habilidades e possuindo um arco para derrubar o Boss da terceira sala. Já no lado 1 seu time MonoPyro se destaca devido à presença do Kazuha e da Xiangling que lidam muito bem com mais de 2 inimigos, minimizando o “problema” do Lyney em lidar com mais de um alvo.",
+            "linkYoutube": ["https://www.youtube.com/embed/HsayqVbLiqY?si=fg_GOHBW6HiOswmi"]
+        },
+        {
+            "id": "3ac94c40-76a9-444b-ad22-47789358de00",
+            "team": "Mono Hydro",
+            "tierSideA": "SS",
+            "tierSideB": "SS",
+            "characters": [
+                [
+                    "Sangonomiya Kokomi",
+                    "Yelan",
+                    "Furina",
+                    ["Kaedehara Kazuha", "Xingqiu"]
+                ],
+                [
+                    "Yelan",
+                    "Furina",
+                    "Xingqiu",
+                    ["Jean", "Xianyun"]
+                ]
+            ],
+            "description": "Times de mono Hydro são ótimas opções, especialmente contra alvos únicos. Na variação com Kokomi, a alta resistência à interrupção proporcionada pelo Supremo dela somada ao do Xingqiu permitem uma gameplay extremamente confortável. Com Yelan em campo, o uso da sua Habilidade Elemental permite a ativação de mais waves de dano em um curto período de tempo. Por possuir vários geradores de partículas do mesmo elemento, times mono elementais possuem baixíssimas necessidades de Recarga, o que permite, além do uso de mais status ofensivos, uma grande facilidade na obtenção dos Supremos de maneira consistente. A única desvantagem é utilizar quase todos os aplicadores Hydro do jogo numa mesma equipe, mas caso seu outro time do Abismo não necessite deles, são fortes e sólidas opções contra ambos os lados do Abismo.\n[Guia Kokomi](/guia/kokomi)\n[Guia Yelan](/guia/yelan)\n[Guia Furina](/guia/furina)",
+            "linkYoutube": ["https://www.youtube.com/embed/bPBBInvrW04?si=snxZmkxAM4ZTnMIJ", "https://www.youtube.com/embed/6nL8-MmXehc?si=CkZjgEtNWdTheC5Q"]
+        },
+        {
+            "id": "5a8076b9-8f16-474d-9455-d6b33eaf5ab5",
+            "team": "Neuvillette",
+            "tierSideA": "SS",
+            "tierSideB": "SS",
+            "characters": [[
+                "Neuvillette",
+                "Flex",
+                "Flex",
+                ["Flex Arco", "Flex"]
+            ]],
+            "description": "Neuvillette dispensa apresentações, sendo um dos DPSs mais versáteis de jogo, tanto em cenários de alvo único quanto em cenários de múltiplos inimigos, ele não deixa a desejar nesse Abismo, performando bem em ambos os lados e, a depender do investimento, dispensa até mesmo arqueiros no Dragão Calamitoso.",
+            "linkYoutube": ["https://www.youtube.com/embed/ePvaFpESieo?si=kZvJnRiK_cl6ghoK", "https://www.youtube.com/embed/OJeEu_76Ea0?si=I-nOYeKSyJd4RIN-"]
+        },
+        {
+            "id": "d1b45851-0b21-435e-97fb-849b173738b2",
+            "team": "Andarilho / Xiao",
+            "tierSideA": "SS",
+            "tierSideB": "",
+            "characters": [
+                [
+                    "Andarilho",
+                    "Faruzan",
+                    "Bennett",
+                    "Flex Escudo"
+                ],
+                [
+                    "Xiao",
+                    "Faruzan",
+                    "Furina",
+                    "Xianyun"
+                ]
+            ],
+            "description": "Tendo em vista que o atual Lado 1 do Abismo tem como desafio 2 inimigos por vez, não é de se estranhar que tanto Xiao como Andarilho tenham um ótimo desempenho, especialmente o Xiao devido à mais nova suporte Xianyun. Além disso, Xiao também se destaca por ter uma área de dano maior e mais eficaz, enquanto Scara depende de um certo RNG dos inimigos para que seu Carregado consiga acertar simultaneamente todos eles. Ambos sofrem com a necessidade de uma Faruzan C6 para atingir o seus respectivos ápices, mas mesmo sem ela o desempenho de cada time continua aceitável.",
+            "linkYoutube": ["https://www.youtube.com/embed/9AOJMf7eSbk?si=E_bzWLd4ZskgsdVK"]
+        },
+        {
+            "id": "1be18b27-4ae4-48dc-81ac-eefb33ce2ca8",
+            "team": "Nilou Bloom",
+            "tierSideA": "SS",
+            "tierSideB": "",
+            "characters": [[
+                "Nilou",
+                "Flex Dendro",
+                "Flex Hydro",
+                "Flex Hydro"
+            ]],
+            "description": "Como é de conhecimento geral, Nilou Bloom é, com certeza, um dos times mais fortes quando o assunto são desafios com vários inimigos. Apesar do Abismo atual conter inimigos de padrão errático e/ou que tornam difícil seu agrupamento, Nilou continua sendo uma das melhores opções.",
+            "linkYoutube": ["https://www.youtube.com/embed/vxBMJjtypIo?si=b3iqGk8IsDTUj1MJ"]
+        },
+        {
+            "id": "da5e0095-369e-4fa3-bc5e-358dcd478138",
+            "team": "Ayaka Freeze",
+            "tierSideA": "S",
+            "tierSideB": "",
+            "characters": [[
+                "Kamisato Ayaka",
+                "Flex Anemo",
+                "Flex Hydro",
+                "Flex Cryo"
+            ]],
+            "description": "Apesar da falta de destaque nos abismos passados, times de congelamento são boas opções para o piso 12 atual pelas hordas de 2 inimigos que podem ser facilmente congelados, garantindo além de conforto um forte e consistente desempenho. Há também a opção de usar uma Ganyu no lugar da Ayaka, porém, a diferença é considerável, já que devido às hordas de inimigos não serem tão numerosas, o ponto forte da Ganyu que seria o seu Scalling quadrático não é utilizado de forma eficaz.",
+            "linkYoutube": ["https://www.youtube.com/embed/eQ117MAqw2Q?si=dsieSsUQpwJ-obcL"]
+        },
+        {
+            "id": "09ea0062-63d1-47e7-be4c-ce4dc0229ff7",
+            "team": "National",
+            "tierSideA": "SS",
+            "tierSideB": "SS",
+            "characters": [[
+                "Xiangling",
+                "Bennett",
+                "Flex Hydro",
+                ["Flex Electro", "Flex Anemo"]
+            ]],
+            "description": "O bom e velho National como sempre é excelente em ambos os lados desse Abismo, tendo muitas variações como International, Rational, entre outros. A única “regra” é a necessidade de um arqueiro para o último Boss do Lado 2 do Abismo. Para isso existem algumas opções, como Tartaglia, Yelan e Fischl.\nPara mais detalhes sobre [Rational](/guia/raiden)\nPara mais detalhes sobre [International](/guia/childe)\nPara mais detalhes sobre [National Ayato](/guia/ayato)",
+            "linkYoutube": ["https://www.youtube.com/embed/qHZVBkAStk0?si=j6L-dHUdj3UZf4IX", "https://www.youtube.com/embed/Yo4KNZFrSTo?si=1ciY9_0HySBH9Z3t"]
+        },
+        {
+            "id": "1cf32fc3-dc2d-4c05-9046-c5c3255412d8",
+            "team": "Hyperbloom",
+            "tierSideA": "",
+            "tierSideB": "SS",
+            "characters": [[
+                "Flex Dendro",
+                "Flex Hydro",
+                ["Kuki Shinobu", "Raiden Shogun"],
+                "Flex Arco"
+            ]],
+            "description": "Todos sabem da força desse time contra alvos únicos, e o Lado 2 está repleto de Bosses. O único detalhe que você precisará se atentar é a necessidade de um arqueiro para o último Boss. Para esse propósito, opções como Fischl, Yelan ou Collei são muito bem vindas.",
+            "linkYoutube": ["https://www.youtube.com/embed/ilZgg2O3NvQ?si=gWHZmZfJDHzSuL-w"]
+        },
+        {
+            "id": "07170d6f-0292-44d2-96db-a204e1e52015",
+            "team": "Quicken",
+            "tierSideA": "",
+            "tierSideB": "SS",
+            "characters": [
+                [
+                    ["Tighnari", "Alhaitham", "Flex Anemo"],
+                    ["Nahida", "Yaoyao", "Kirara"],
+                    "Fischl",
+                    ["Yae Miko", "Zhongli"]
+                ]
+            ],
+            "description": "O destaque desse time se dá pelo forte dano em alvo único de seus personagens. Yae, Fischl,  Alhaitham e Tighnari têm forte dano em alvo único e dois deles ainda possuem arcos que ajudam no último Boss do Lado 2. Já nos outros Bosses, o time consegue encaixar rápidas rajadas de dano nas janelas de vulnerabilidade que cada Boss oferece. Mesmo escolhendo uma versão mais ofensiva desse time, o baixo dano causado pelos Bosses do Lado 2 torna viável equipes sem escudeiros ou curandeiros.",
+            "linkYoutube": ["https://www.youtube.com/embed/xH8sRkSlb_w?si=M1Rf2LfluOTbQ2u6"]
+        },
+        {
+            "id": "fe6375cb-63bd-4d06-a3d9-64c01026e291",
+            "team": "Hu Tao",
+            "tierSideA": "",
+            "tierSideB": "S",
+            "characters": [[
+                "Hu Tao",
+                ["Xingqiu", "Furina"],
+                ["Yelan", "Fischl"],
+                ["Zhongli", "Jean", "Xianyun"]
+            ]]
+        }
+    ]
+}
