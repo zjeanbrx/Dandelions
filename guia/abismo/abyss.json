@@ -38,7 +38,7 @@
             "characters": [
                 [
                     "Lyney",
-                    ["Kaedehara Kazuha"],
+                    "Kaedehara Kazuha",
                     ["Xiangling", "Furina"],
                     "Bennett"
                 ],
@@ -85,13 +85,13 @@
                 "Flex",
                 ["Flex Arco", "Flex"]
             ]],
-            "description": "Neuvillette dispensa apresentações, sendo um dos DPSs mais versáteis de jogo, tanto em cenários de alvo único quanto em cenários de múltiplos inimigos, ele não deixa a desejar nesse Abismo, performando bem em ambos os lados e, a depender do investimento, dispensa até mesmo arqueiros no Dragão Calamitoso.",
+            "description": "O Juiz Supremo de Fontaine, Iudex Neuvillette, é um dos mais potentes e versáteis DPSs do jogo. O Dragão Soberano Hydro desempenha com excelência tanto em cenários de múltiplos inimigos do lado 1, quanto contra alvos únicos no lado 2. A depender do investimento, dispensa até mesmo arqueiros no Dragão Calamitoso.",
             "linkYoutube": ["https://www.youtube.com/embed/ePvaFpESieo?si=kZvJnRiK_cl6ghoK", "https://www.youtube.com/embed/OJeEu_76Ea0?si=I-nOYeKSyJd4RIN-"]
         },
         {
             "id": "d1b45851-0b21-435e-97fb-849b173738b2",
-            "team": "Andarilho / Xiao",
-            "tierSideA": "SS",
+            "team": "Andarilho",
+            "tierSideA": "S",
             "tierSideB": "",
             "characters": [
                 [
@@ -99,15 +99,9 @@
                     "Faruzan",
                     "Bennett",
                     "Flex Escudo"
-                ],
-                [
-                    "Xiao",
-                    "Faruzan",
-                    "Furina",
-                    "Xianyun"
                 ]
             ],
-            "description": "Tendo em vista que o atual Lado 1 do Abismo tem como desafio 2 inimigos por vez, não é de se estranhar que tanto Xiao como Andarilho tenham um ótimo desempenho, especialmente o Xiao devido à mais nova suporte Xianyun. Além disso, Xiao também se destaca por ter uma área de dano maior e mais eficaz, enquanto Scara depende de um certo RNG dos inimigos para que seu Carregado consiga acertar simultaneamente todos eles. Ambos sofrem com a necessidade de uma Faruzan C6 para atingir o seus respectivos ápices, mas mesmo sem ela o desempenho de cada time continua aceitável.",
+            "description": "O Andarilho possui um dano em área relevante no seu Ataque Carregado e Supremo, ideal para atingir vários inimigos de uma vez. Porém, ainda assim, ele ainda depende de certos RNGs para que seu Carregado consiga acertá-los simultaneamente, já que, por se tratarem de inimigos pesados, o controle de campo da Faruzan não é suficiente para juntá-los.\nEsse personagem não é dependente da constelação C6 da Faruzan para funcionar, porém, sem essa constelação, Faruzan se torna substituível por opções mais ofensivas como Xiangling ou Yelan.",
             "linkYoutube": ["https://www.youtube.com/embed/9AOJMf7eSbk?si=E_bzWLd4ZskgsdVK"]
         },
         {
@@ -135,7 +129,7 @@
                 "Flex Hydro",
                 "Flex Cryo"
             ]],
-            "description": "Apesar da falta de destaque nos abismos passados, times de congelamento são boas opções para o piso 12 atual pelas hordas de 2 inimigos que podem ser facilmente congelados, garantindo além de conforto um forte e consistente desempenho. Há também a opção de usar uma Ganyu no lugar da Ayaka, porém, a diferença é considerável, já que devido às hordas de inimigos não serem tão numerosas, o ponto forte da Ganyu que seria o seu Scalling quadrático não é utilizado de forma eficaz.",
+            "description": "Apesar da falta de destaque nos abismos passados, times de congelamento são boas opções para o piso 12 atual pelas hordas de 2 inimigos que podem ser facilmente congelados, garantindo além de conforto um forte e consistente desempenho. Há também a opção de usar uma Ganyu no lugar da Ayaka, porém, a diferença é considerável, já que devido às hordas de inimigos não serem tão numerosas, o ponto forte da Ganyu que seria o seu Scaling quadrático não é utilizado de forma eficaz.",
             "linkYoutube": ["https://www.youtube.com/embed/eQ117MAqw2Q?si=dsieSsUQpwJ-obcL"]
         },
         {
@@ -192,7 +186,9 @@
                 ["Xingqiu", "Furina"],
                 ["Yelan", "Fischl"],
                 ["Zhongli", "Jean", "Xianyun"]
-            ]]
+            ]],
+            "description": "O desempenho dessa personagem em alvo único já vem sendo reafirmado a cada nova iteração do Abismo, e no atual não é diferente. Seus poderosos Carregados, sua versatilidade em times e sua capacidade de se aproveitar de diversos tipos de Buffs a consolidam como uma das melhores personagens para o lado 2. Caso a utilize juntamente com a Furina, a presença de um healer é impreterível. Yelan e Fischl são excelentes opções para o slot do arqueiro que é necessário para lidar com o Dragão Calamitoso. Zhongli é uma boa escolha especialmente contra o Verme da Areia Setekh já que seu escudo garante a quebra de resistência de todos os elementos do time, o que torna mais fácil retirar o máximo de Vida dele no início da sala em que suas resistências elementais estão no máximo.",
+            "linkYoutube": ["https://www.youtube.com/embed/e8_v6rsQuG8?si=NMElXIotw3-9YcN7"]
         }
     ]
 }
