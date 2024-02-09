@@ -128,6 +128,22 @@ a:focus-visible {
     box-shadow: 0 0 1px 5px rgba(0, 0, 0, 0.219) inset;
     transition: all 0.7s;
     max-width: 800px;
+    position: relative;
+}
+.card::after {
+    content: "";
+    position: absolute;
+    top:-50%;
+    left:-50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(0deg, transparent, transparent,  rgba(199, 199, 199, 0.151), rgba(255, 255, 255, 0.082), transparent);
+    rotate: -45deg;
+    transition: all 0.5s;
+    translate: 100% 100%;
+}
+.card:hover::after {
+    translate: 0px 0px;
 }
 .card:hover {
     scale: 105%;
