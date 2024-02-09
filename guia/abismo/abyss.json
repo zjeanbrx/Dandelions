@@ -85,7 +85,7 @@
                 "Flex",
                 ["Flex Arco", "Flex"]
             ]],
-            "description": "O Juiz Supremo de Fontaine, Iudex Neuvillette, é um dos mais potentes e versáteis DPSs do jogo. O Dragão Soberano Hydro desempenha com excelência tanto em cenários de múltiplos inimigos do lado 1, quanto contra alvos únicos no lado 2. A depender do investimento, dispensa até mesmo arqueiros no Dragão Calamitoso.",
+            "description": "O Juiz Supremo de Fontaine, Iudex Neuvillette, é um dos mais potentes e versáteis DPSs do jogo. O Dragão Soberano Hydro desempenha com excelência tanto em cenários de múltiplos inimigos do lado 1, quanto contra alvos únicos no lado 2. A depender do investimento, dispensa até mesmo arqueiros no Dragão Calamitoso. Se os inimigos do lado 1 se mostrarem dificultosos quanto a interrupções nos Ataques Carregados do Iudex de Fontaine, considere reservar um slot para um personagem Cryo (Charlotte, Rosária, etc.) ou um Escudeiro (Zhongli, Layla, Kirara, etc.).",
             "linkYoutube": ["https://www.youtube.com/embed/ePvaFpESieo?si=kZvJnRiK_cl6ghoK", "https://www.youtube.com/embed/OJeEu_76Ea0?si=I-nOYeKSyJd4RIN-"]
         },
         {
@@ -189,6 +189,62 @@
             ]],
             "description": "O desempenho dessa personagem em alvo único já vem sendo reafirmado a cada nova iteração do Abismo, e no atual não é diferente. Seus poderosos Carregados, sua versatilidade em times e sua capacidade de se aproveitar de diversos tipos de Buffs a consolidam como uma das melhores personagens para o lado 2. Caso a utilize juntamente com a Furina, a presença de um healer é impreterível. Yelan e Fischl são excelentes opções para o slot do arqueiro que é necessário para lidar com o Dragão Calamitoso. Zhongli é uma boa escolha especialmente contra o Verme da Areia Setekh já que seu escudo garante a quebra de resistência de todos os elementos do time, o que torna mais fácil retirar o máximo de Vida dele no início da sala em que suas resistências elementais estão no máximo.",
             "linkYoutube": ["https://www.youtube.com/embed/e8_v6rsQuG8?si=NMElXIotw3-9YcN7"]
+        },
+        {
+            "id": "4c359fac-0d09-480b-9338-6ae0c8b83d82",
+            "team": "Xiao",
+            "tierSideA": "SS",
+            "tierSideB": "",
+            "characters": [[
+                "Xiao",
+                "Faruzan",
+                ["Furina", "Zhongli"],
+                ["Xianyun", "Bennett"]
+            ]],
+            "description": "Xiao apresenta um interessante desempenho nessa versão do abismo, especialmente no lado 1 em que sua generosa AdE é colocada à prova contra os inimigos pesados desse lado que não são afastados por seus Ataques Imersivos, o que torna seu DPS muito mais consistente e sua gameplay mais confortável.",
+            "linkYoutube": ["https://www.youtube.com/embed/UG854UQoYJM?si=Dqk6XIAeRArzVOgv"]
+        },
+        {
+            "id": "bcf51e61-b949-4bd0-9757-1d682f89b189",
+            "team": "Navia",
+            "tierSideA": "S",
+            "tierSideB": "A",
+            "characters": [[
+                "Navia",
+                ["Flex Geo", "Xiangling"],
+                ["Flex Arco", "Furina"],
+                ["Bennett"]
+            ]],
+            "description": "Navia é claramente focada em dano em poucos alvos, devido ao funcionamento de sua Habilidade Elemental, e é exatamente o que esse Abismo traz. Enquanto no Lado 2 temos 3 Bosses, no Lado 1 temos poucas hordas de 2 inimigos. Porém cada lado apresenta alguns problemas para ela que podem ser corrigidos com alguma mudança no time ou maior investimento na personagem. Nos Bosses temos curtas janelas de dano, que pedem um bom investimento em sua Navia para performar bem, e no outro lado temos 2 alvos difíceis de agrupar, o que pode pedir mudanças no time para facilitar sua vida.",
+            "linkYoutube": ["https://www.youtube.com/embed/CZuKY830IaQ?si=3gh1q5ZXrRhd60pY"]
+        },
+        {
+            "id": "02d510b2-cf0a-4fd6-93f1-8c0e63fff384",
+            "team": "Yoimiya",
+            "tierSideA": "",
+            "tierSideB": "S",
+            "characters": [
+                [
+                    "Yoimiya",
+                    "Chevreuse",
+                    "Fischl",
+                    "Bennett"
+                ],
+                [
+                    "Yoimiya",
+                    ["Yelan", "Xingqiu"],
+                    ["Yun Jin", "Fischl"],
+                    ["Zhongli", "Bennett"]
+                ],
+                [
+                    "Yoimiya",
+                    "Kaedehara Kazuha",
+                    "Xiangling",
+                    "Bennett"
+                ]
+            ],
+            "description": "Não há muito o que ser dito sobre Yoimiya, todos sabem sobre o foco dela, alvos únicos, e o Abismo traz um lado repleto deles. Recentemente, além dos times tradicionais dela como MonoPyro ou Vape, Yoimiya ganhou também a opção de times de overload, jogando junto da nova suporte Chevreuse.",
+            "linkYoutube": ["https://www.youtube.com/embed/QZAjz3kBeBA?si=lry_uTtSPsQi8-br"]
         }
     ]
 }
