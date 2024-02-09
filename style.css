@@ -19,7 +19,6 @@ a {
 h1 {
     font-size: 22px;
 }
-
 body {
     background-color: black;
 }
@@ -319,5 +318,14 @@ a:focus-visible {
     .cards-proximos-guias div {
         width: 120px;
     }
+}
 
+@media (max-width: 768px) {
+    .abyss-text {
+        display: none;
+    }
+}
+
+.abyss-link {
+    display: flex; flex-direction: row; justify-content: center; align-items: center;
 }
