@@ -64,11 +64,11 @@ main section {
     transition: all 0.5s;
     order: 2;
 }
-main section > div, .times {
+/* main section > div, .times {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px
-}
+} */
 ::-webkit-scrollbar {
     width: 0;
 }
