@@ -38,21 +38,49 @@
 
 <body>
     <script defer src="/script.js"></script>
-    <header>
-        <div>
-            <a href="https://dandelions.vercel.app/" class="home">
-                <img src="/img/logo/Dandelions.png">
-                <h1>Dandelions</h1>
-            </a>
-        </div>
-        <div>
+    <div id="topo"></div>
+    <div>
+        <header class="navbar">
+            <div class="logo">
+                <a href="/">
+                    <img src="/img/logo/Dandelions.png">
+                </a>
+                <p>Dandelions</p>
+            </div>
             <h1>Guia rápido do Gaming</h1>
-        </div>
-        <div class="counterside"></div>
-    </header>
-    <main class="flex">
-        <section class="topo">
-            <div class="irtopo" id="topo"></div>
+            <div class="counterside"></div>
+        </header>
+        <nav class="summary-lg">
+            <ol>
+                <li><a href="#topo">Introdução</a></li>
+                <li><a href="#faq">Dúvidas Frequentes</a></li>
+                <li>
+                    <a href="#talentos">Talentos</a>
+                    <ul>
+                        <li><a href="#habilidade">Habilidade</a></li>
+                        <li><a href="#supremo">Supremo</a></li>
+                    </ul>
+                </li>
+                <li><a href="#artefatos">Artefatos</a></li>
+                <li><a href="#armas">Armas</a></li>
+                <li><a href="#sinergias">Sinergias</a></li>
+                <li><a href="#composicoes">Composições</a></li>
+                <li><a href="#constelacoes">Constelações</a></li>
+            </ol>
+        </nav>
+        <nav class="summary-md">
+            <ol>
+                <li><a href="#topo">Introdução</a></li>
+                <li><a href="#faq">Dúvidas</a></li>
+                <li><a href="#talentos">Talentos</a></li>
+                <li><a href="#artefatos">Artefatos</a></li>
+                <li><a href="#armas">Armas</a></li>
+                <li><a href="#sinergias">Sinergias</a></li>
+                <li><a href="#composicoes">Composições</a></li>
+                <li><a href="#constelacoes">Constelações</a></li>
+            </ol>
+        </nav>
+        <main class="main">
             <div class="autoria-mobile flex">
                 <p class="autoria2 anima2">By: Quinn, Shazowaq & Yuri</p>
                 <div class="bgcolor flex">
@@ -66,9 +94,11 @@
                     </div>
                 </div>
             </div>
-            <div class="typography">
+            <section class="section typography">
                 <img src="/img/guias/gaming/Banner.jpg"/>
                 <p class="intro pyro">Gaming é um DPS Pyro 4 estrelas, usuário de espadão. Seu kit é focado em Ataques Imersivos, sua principal fonte de dano.</p>
+            </section>
+            <section class="section typography">
                 <h2>Por que pegar ou skipar?</h2>
                 <details class="typography">
                     <summary>Prós</summary>
@@ -89,7 +119,9 @@
                         <li>Performa consideravelmente pior contra múltiplos alvos.</li>
                     </ul>
                 </details>
-                <h2>Dúvidas Frequentes</h2>
+            </section>
+            <section class="section typography">
+                <h2 id="faq">Dúvidas Frequentes</h2>
                 <h3>Gaming precisa do Bennett C6 e da Xianyun?</h3>
                 <p>Depende. Pela maneira como o Kit do Gaming funciona, ele possui um “downtime” sem dano Pyro entre seus Ataques Imersivos por não possuir infusão, algo que é “corrigido” com a C6 do Bennett. Nos times com Kazuha isso não faz tanta diferença, mas, com a Xianyun, essa infusão é muito importante tanto pelo fato dos multiplicadores de Ataques Imersivos serem maiores, quanto pelo Dano Flat que ela adiciona, o que nos leva à segunda questão.</p>
                 <p>Xianyun integra, sem sombra de dúvidas, os times mais fortes do Gaming, mas nem por isso ele é dependente dela. Gaming consegue ter um bom desempenho em times com Kazuha/Sucrose no lugar da Retentora, mas caso você queira formar as melhores composições dele, vai precisar sim da suporte Anemo.</p>
@@ -97,7 +129,9 @@
                 <p>Não. Gaming pode tanto ser utilizado com outros personagens Hydro quanto em times de Fusão (Melt) com a Rosaria, mas suas composições mais fortes usam sim a Furina. Ela possui uma ótima sinergia com a forma de dano do Gaming, aplicando Hydro sem precisar de Ataques Normais, algo extremamente importante principalmente em times com a Retentora. </p>
                 <h3>Gaming precisa da sua C6 para ser bom?</h3>
                 <p>Depende. Caso você possua Bennett C6, a Xianyun e consiga realizar seus setups mais complicados, Gaming tem um bom desempenho já na C0, sendo inclusive equiparável a vários personagens 5 estrelas no quesito DPS. Porém, sem esses dois suportes e com rotações medianas o desempenho dele cai bastante, tornando-o um personagem bastante mediano. Já na C6, o massivo aumento de dano que suas constelações representam compensam a eventual falta de suportes perfeitos, fazendo com que o Gaming performe bem mesmo em times fora do “ideal”. Por ser um DPS 4 estrelas é compreensível que grande parte do potencial dele esteja “trancado” nas suas constelações, mas mesmo assim, na situação certa, ele consegue ser um ótimo personagem mesmo na C0.</p>
-                <h2>Talentos</h2>
+            </section>
+            <section class="section typography">
+                <h2 id="talentos">Talentos</h2>
                 <div class="talent">
                     <img loading="lazy" src="/img/guias/gaming/atk_normal.png">
                     <p><b>Ataque Normal:</b> Lâmina Estelar</p>
@@ -109,14 +143,14 @@
                     <li>Pelo fato da Retentora possibilitar que personagens pulem mais alto para causarem Ataques Imersivos, ela permite que o Gaming cause mais danos de imersivo para além da sua Habilidade Elemental, algo extremamente relevante considerando que a Xianyun consegue buffar até 8 Ataques Imersivos por uso do Supremo. Esse buff dela é tão alto, que mesmo os Ataques fora da Habilidade do Gaming tornam-se extremamente relevantes e uma grande parte do seu dano. </li>
                     <li>Existe um dano especial que os Ataques Imersivos causam ao atingirem inimigos grandes, o chamado Dano de Colisão. É um dano que acontece antes do Imersivo realmente acertar o inimigo e escala com o nível do Ataque Normal do personagem. Apesar de não poderem causar reações como Vaporizar, esse Dano de Colisão é um bom extra, e pelo fato do Gaming ser um usuário de Espadão, é mais fácil de causá-lo.</li>
                 </ul>
-                <div class="talent">
+                <div id="habilidade" class="talent">
                     <img loading="lazy" src="/img/guias/gaming/skill.png">
                     <p><b>Habilidade Elemental:</b> Ascensão Bestial</p>
                 </div>
                 <p>Para entender como o Gaming funciona, bem como seus combos, é necessário primeiro entender sua Habilidade Elemental que é o alicerce do seu Kit e a sua maior fonte de dano. Ao utilizar sua Habilidade Elemental, Gaming pulará e causará um grande dano aos inimigos em uma AdE, consumindo sua própria Vida em 15%. Esse ataque é chamado de “Caminhador das Nuvens".</p>
                 <img src="/img/guias/gaming/gaming_E.gif">
                 <p>Por mais que os multiplicadores estejam na Habilidade Elemental, o dano desse talento é <b>considerado dano de Ataque Imersivo</b>. Buffs para Habilidades Elementais, como Trupe Dourada, não afetam o dano desse Ataque, porém, buffs para imersivos, como o da Retentora, sim. A Elemental do Gaming tem, normalmente, um cooldown de 6 segundos, porém, o Supremo dele consegue aumentar a frequência de uso dessa Habilidade ao longo da rotação, como será explicado abaixo. </p>
-                <div class="talent">
+                <div id="supremo" class="talent">
                     <img loading="lazy" src="/img/guias/gaming/ult.png">
                     <p><b>Supremo:</b> Dança das Chamas Douradas</p>
                 </div>
@@ -141,7 +175,9 @@
                     <p><b>Quando a Vida de Gaming é inferior a 50%, obtém 20% de Bônus de Cura. Quando a Vida de Gaming é maior ou equivalente a 50%, Ataque Imersivo: Caminhador das Nuvens causa 20% a mais de Dano.</b></p>
                     <p>Todos os melhores times de Gaming possuem um ou mais healers, então, é extremamente fácil manter-se acima dos 50% de Vida. Um bom bônus de Dano para a principal fonte do DPS dele.</p>
                 </div>
-                <h2>Artefatos</h2>
+            </section>
+            <section class="section typography">
+                <h2 id="artefatos">Artefatos</h2>
                 <div class="box typography">
                     <h3 class="text-center">Caçador das Sombras</h3>
                     <img class="artefato_cacador_das_sombras t5" loading="lazy" src="/img/artefatos/Cacador_das_Sombras.webp" width="80" height="80">
@@ -168,7 +204,7 @@
                 <p>O cálice deve ser, preferencialmente, de Bônus de Dano Pyro, porém, na ausência de um bom cálice elemental, um de ATQ% ou Prof pode ser usado provisoriamente. Utilize o Genshin Optimizer para determinar a melhor opção para o seu caso.</p>
                 <h3 class="subtitle" id="tabela-recarga">Recarga de Energia</h3>
                 <table><thead><tr><th>Equipes</th><th>Recarga Recomendada</th></tr></thead><tbody><tr><td>Xianyun, Furina, Bennett, Gaming C0</td><td>152-163%</td></tr><tr><td>Xianyun, Furina, Bennett, Gaming C0 + 1 Favonius</td><td>139-149%</td></tr><tr><td>Xianyun, Furina, Bennett, Gaming C4</td><td>127-142%</td></tr><tr><td>Xianyun, Furina, Bennett, Gaming C4 + 1 Favonius</td><td>116-129%</td></tr><tr><td>Kazuha (Favonius), Furina, Bennett, Gaming C0</td><td>131-139%</td></tr><tr><td>Kazuha (Favonius), Furina, Bennett, Gaming C4</td><td>105-111%</td></tr><tr><td>Xianyun, Rosaria (Favonius), Bennett, Gaming C0</td><td>158%</td></tr><tr><td>Xianyun (Favonius), Rosaria (Favonius), Bennett, Gaming C0</td><td>145%</td></tr><tr><td>Xianyun, Rosaria (Favonius), Bennett, Gaming C4</td><td>133%</td></tr><tr><td>Xianyun (Favonius), Rosaria (Favonius), Bennett, Gaming C4</td><td>121%</td></tr><tr><td>Rosaria (Favonius), Kazuha (Favonius), Bennett, Gaming C0</td><td>148%</td></tr><tr><td>Rosaria (Favonius), Kazuha (Favonius), Bennett, Gaming C4</td><td>123%</td></tr><tr><td>Xianyun, Yelan (Favonius), Furina, Gaming C0</td><td>167%</td></tr><tr><td>Xianyun, Yelan (Favonius), Furina, Gaming C4</td><td>139%</td></tr></tbody></table>
-                <h2>Armas</h2>
+                <h2 id="armas">Armas</h2>
                 <p>A ordem das melhores armas para o Gaming tende a variar com diferentes buffs e times. A maior diferença costuma ser possuir ou não a Xianyun no time, pois o buff flat dela costuma desvalorizar Ataque e valorizar Proficiência. Abaixo, algumas tabelas de armas considerando o atual melhor time do Gaming com e sem a Retentora:</p>
                 <details>
                     <summary>Gaming C6 com Xianyun</summary>
@@ -206,7 +242,9 @@
                         </a>
                     </div>
                 </details>
-                <h2>Sinergias</h2>
+            </section>
+            <section class="section typography">
+                <h2 id="sinergias">Sinergias</h2>
                 <p>Nesse tópico, os personagens serão classificados em quatro categorias: Sobrevivência, Buffer, DPS fora de campo e Bateria.</p>
                 <div class="box box-pyro typography text-center">
                     <img src="/img/personagens/Bennett.webp" width="120" height="120">
@@ -262,7 +300,9 @@
                     <p><b>Arma Recomendada:</b> Lança de Favonius.</p>
                     <p><b>Recarga Recomendada:</b> 216% com Retentora, 181% com Kazuha.</p>
                 </div>
-                <h2>Composições</h2>
+            </section>
+            <section class="section typography">
+                <h2 id="composicoes">Composições</h2>
                 <p><b>AVISO:</b> Por ser um personagem extremamente novo com poucos testes até então, as rotações sugeridas podem mudar ao longo do tempo.</p>
                 <div class="box legenda">
                     <p>
@@ -340,7 +380,9 @@
                     <hr />
                     <p><b>Rotação:</b> Furina E Q > Yelan E Q N1 > Xianyun N1 E Q > Gaming N1 Q N1 EP N1 EP N1 EP N1 EP N1 EP</p>
                 </div>
-                <h2>Constelações</h2>
+            </section>
+            <section class="section typography">
+                <h2 id="constelacoes">Constelações</h2>
                 <p class="disclaimer">As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de dano.</p>
                 <div class="box typography">
                     <div class="constellation pyro">
@@ -396,8 +438,7 @@
                     <p>De leãozinho para leãozão, Gaming na C6 torna-se um dos melhores DPS em campo do jogo, competindo inclusive com opções 5 estrelas limitadas. Sua sexta constelação garante um ótimo bônus de Taxa e Dano Crítico para sua principal fonte de dano, além de um aumento da área de acerto da sua Habilidade Elemental. Essa constelação faz com que a Taxa máxima para o Gaming fique em torno dos 80% (desconsiderando buffs externos como da Rosaria ou Xianyun), sendo necessário ficar atento ao excesso de Taxa ao utilizar o Caçador das Sombras.</p>
                     <p>⭐⭐⭐⭐⭐</p>
                 </div>
-            </div>
-            </div>
+            </section>
             <div id="talentos" class="talentos-1 anima4">
                 <div class="prioridades">
                     <p class="prioridade-txt"><span>Prioridade de Talentos com Xianyun</span></p>
@@ -489,39 +530,13 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <nav class="contato">
-            <p>Tire dúvidas:</p>
-            <div class="flex">
-                <img loading="lazy" src="/img/icones/discord.png">
-                <p class="text-nowrap">quinnzin</p>
-            </div>
-        </nav>
-        <nav class="nav flex">
-            <div class="links">
-                <div class="flex">
-                    <a href="#topo">Introdução</a>
-                    <a href="#faq">Dúvidas Frequentes</a>
-                    <a href="#talentos">Talentos</a>
-                    <a href="#habilidade" class="sublink">Habilidade</a>
-                    <a href="#supremo" class="sublink">Supremo</a>
-                    <a href="#artefatos">Artefatos</a>
-                    <a href="#armas">Armas</a>
-                    <a href="#sinergias">Sinergias</a>
-                    <a href="#composicoes">Composições</a>
-                    <a href="#constelacoes">Constelações</a>
-                </div>
-            </div>
-            <div>
-                <p class="autoria">By: Quinn, Shazowaq & Yuri</p>
-            </div>
-        </nav>
-    </main>
-    <div class="nav-mobile">
-        <a href="#habilidade">Kit Geral</a>
-        <a href="#artefatos">Artefatos</a>
-        <a href="#armas">Armas</a>
-        <a href="#composicoes">Comps</a>
+        </main>
+        <div class="nav-mobile">
+            <a href="#habilidade">Kit Geral</a>
+            <a href="#artefatos">Artefatos</a>
+            <a href="#armas">Armas</a>
+            <a href="#composicoes">Comps</a>
+        </div>
     </div>
     <script type="module" src="/popup-tip.js"></script>
 </body>
