@@ -174,6 +174,14 @@ const ARTIFACT_DATABASE = {
             "4": "Aumenta o Dano do Ataque Carregado em 35% se o personagem estiver usando Catalisador ou Arco.",
         },
     },
+    "artefato_alem_vida_cinabrio": {
+        img: "/img/artefatos/Alem_Vida_Cinabrio.png",
+        name: "Além Vida: Cinábrio",
+        pieces: {
+            "2": "ATQ +18%.",
+            "4": "Depois do Supremo ser usado, será desencadeado o efeito de \"Luz Nascente\" por 16s: o ATQ será aumentado em 8% e quando a Vida do personagem diminuir, o ATQ aumentará mais 10%. Esse aumento pode ocorrer desta forma no máximo 4 vezes, e pode ser desencadeado 1 vez a cada 0.8s. O efeito de \"Luz Nascente\" desaparece quando o personagem sai do campo de batalha. Quando o personagem lança novamente o Supremo durante o efeito, o efeito original de \"Luz Nascente\" será removido.",
+        },
+    }
 };
 Object.freeze(ARTIFACT_DATABASE);
 
@@ -208,6 +216,7 @@ function PopupPiecesCount(count) {
 }
 
 function update(parent, popupElement) {
+    console.log(parent.tagName)
     return new Promise((resolve) => {
         computePosition(parent, popupElement, {
             placement: "top",

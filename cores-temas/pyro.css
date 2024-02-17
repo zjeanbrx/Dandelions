@@ -1,9 +1,11 @@
 :root {
+    --primary-color: #d46d6d;
+
     --bg-color: black;
     --bg-header-color: -webkit-linear-gradient(150deg, rgba(105, 0, 0, 0.247), rgba(252, 87, 87, 0.774), rgba(145, 19, 19, 0.466), rgba(255, 95, 95, 0.747), rgba(95, 0, 0, 0.192));
     --bg-intro-color: linear-gradient(90deg, rgba(216, 119, 119, 0.356), rgba(235, 97, 97, 0.432),  rgba(194, 75, 75, 0.308));
     --img-background: transparent; 
-    --h2color: rgb(212, 109, 109);
+    --h2color: ;
     --intro-color: rgb(241, 172, 172);
     --arma-border: rgba(255, 255, 255, 0.274);
     --botao-border-color: rgba(255, 255, 255, 0.233);
@@ -16,15 +18,6 @@
     --arma-linha: linear-gradient(0deg, rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.151));
     --arma-linha-x: linear-gradient(90deg, rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.192), rgba(255, 255, 255, 0.151));
     --tierlist-botao: rgba(255, 255, 255, 0.192);
-    --botao-hover: rgba(255, 255, 255, 0.295);
-    --card-shadow: rgba(0, 0, 0, 0.062);
-    --js-botao: rgb(43, 43, 43);
-    --js-pros-hover: rgba(144, 255, 144, 0.521);
-    --js-contras-hover: rgba(253, 135, 135, 0.507);
-    --btn-border: transparent;
-    --hydro-border: rgba(255, 255, 255, 0.274);
-    --cons-head: linear-gradient(90deg, rgba(253, 120, 120, 0.788), rgba(160, 16, 16, 0.76));
-    --subt-armas: linear-gradient(90deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.089));
 }
 
 .themeblue:root {
