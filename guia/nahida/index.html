@@ -37,609 +37,611 @@
 
 <body>
     <script defer src="/script.js"></script>
-    <header>
-        <div>
-            <a href="https://dandelions.vercel.app/" class="home">
-                <img src="/img/logo/Dandelions.png">
-                <h1>Dandelions</h1>
-            </a>
-        </div>
-        <div>
-            <h1>Guia rápido da Nahida</h1>
-        </div>
-        <div class="counterside"></div>
-    </header>
-    <main class="flex">
-        <section class="topo">
-            <div class="irtopo" id="topo"></div>
-            <div class="banner anima">
-                <div class="banner-c">
-                    <small class="creditos">mangaka: enmmm</small>
-                </div>
-                <img id="banner" src="/img/guias/nahida/Banner.png">
-            </div>
-            <div class="autoria-mobile flex">
-                <p class="autoria2 anima2">By: Quinn, Yuri & Jean</p>
-                <div class="bgcolor flex">
-                    <div class="botao2">
-                        <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
-                        <label for="bblue" class="bblue flex animabotao">
-                            <img class="botao-img sun" src="/img/icones/sun.webp">
-                            <div class="ball"></div>
-                            <img class="botao-img moon" src="/img/icones/moon.webp">
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div id="introducao" class="intro intro-anima">
-                <p>Nahida é uma Suporte/DPS fora de campo Dendro usuária de catalisador. Seus maiores destaques são sua enorme aplicação elemental e seu generoso buff de Proficiência.</p>
-            </div>
-            <div class="razoes anima3">
-                <h2>Por que pegar ou skipar?</h2>
-                <div class="pros">
-                    <button id="pros">
-                        <h3>Prós:</h3>
-                    </button>
-                    <div class="txtpros">
-                        <p>Altíssima e duradoura aplicação Dendro dentro e fora de campo em área;</p>
-                        <p>Possui um bom dano tanto contra alvos únicos quanto múltiplos inimigos;</p>
-                        <p>Uma das únicas e melhores buffers de Proficiência Elemental do jogo;</p>
-                        <p>Ótima, se não a melhor, opção em qualquer time que use reações Dendro;</p>
-                        <p>Grande variedade de armas, com ótimas opções de fácil obtenção;</p>
-                        <p>Pode coletar flores e frutos a distância com sua Habilidade Elemental… e quem sabe algo mais.</p>
-                    </div>
-                </div>
-
-                <div class="contras">
-                    <button id="contras">
-                        <h3>Contras:</h3>
-                    </button>
-                    <div class="txtcontras">
-                        <p>Pouca/nenhuma utilidade em times que não sejam focados em reações Dendro, com exceção de fusão (melt);</p>
-                        <p>Requer que a marca da Purificação Tricármica (Habilidade Elemental) seja reaplicada todas as vezes que uma nova horda de inimigos surgir, o que pode ser um problema para personagens que precisam ficar em campo, como Cyno e Al Haitham.</p>
-                        
-                    </div>
-                </div>
-                <div class="faq" id="faq">
-                    <h2>Dúvidas Frequentes:</h2>
-                    <div>
-                        <h3>Nahida da pouco dano? Só o buff do seu Supremo é relevante?</h3>
-                        <p>Para responder essa pergunta adequadamente, é preciso primeiro entender que dano não é apenas os números que o personagem causa, mas também sua contribuição para com o time. Nahida, no geral, só tem um dano pessoal significativo em composições que conseguem manter a reação de “Propagação” (reação de Dendro em cima de “Aceleração”, que é Dendro com Electro), porém, vale lembrar que times como Superflorescimento (Hyperbloom) e Germinação (Burgeon) se beneficiam muito da alta aplicação Dendro da Nahida, a qual permite gerar mais sementes e consequentemente causar mais dano. A contribuição para o DPS do time sempre é significativa por parte da Nahida, seja direta ou indiretamente.</p>
-                    </div>
-                    <div>
-                        <h3>Quanta diferença Nahida faz nas composições de reações Dendro?</h3>
-                        <p>Em times focados nas reações de Dendro, se a função do slot que ela disputa for aplicação e/ou dano fora de campo, então Nahida é certamente a melhor opção para aquele Slot. O seu impacto em relação às demais opções depende do time, de quais partes de seu Kit (se seu dano,  aplicação, ou ambos) terão preponderância naquele arquétipo e contra quem ela está sendo comparada. Em alguns times, a adição da Kusanali pode representar 40% de aumento de dano, em outros, somente 4%. Em suma, pode-se dizer que seu impacto é quase sempre positivo, mas nem sempre significativo.</p>
-                    </div>
-                </div>
-            </div>
-            <div id="talentos" class="talentos-1 anima4">
-                <h2 class="analise-c">Talentos</h2>
-                <div class="talento-titulo flex">
-                    <img loading="lazy" class="icone" src="/img/guias/nahida/atknormal.png" width="40" height="40">
-                    <span class="talento "> Ataque Normal: <span class="talento-nome">Akara</span></span>
-                </div>
-                <p>Diferente do resto do seu kit, o Ataque Normal da Nahida escala unicamente com Ataque, um atributo que possui pouco valor para ela. Mesmo em times que a Kusanali fica em campo, upar ou não o AA é irrelevante.</p>
-                <div class="talento-img">
-                    <img src="/img/guias/nahida/atknormal_gif.webp">
-                </div>
-                <div class="talento-titulo flex" id="habilidade">
-                    <img loading="lazy" class="icone" src="/img/guias/nahida/skill.png" width="40" height="40">
-                    <span class="talento ">Habilidade Elemental: <span class="talento-nome">Esquemas Universais</span></span>
-                </div>
-                <p>A principal e basicamente única fonte de dano da Nahida. Sua Habilidade Elemental possui dois modos: Pressionar e segurar. Ao pressionar, causa um pequeno dano Dendro em uma pequena área, marcando até 8 inimigos que estejam próximos à Arconte.</p>
-                <div class="talento-img">
-                    <img src="/img/guias/nahida/skill_gif.webp">
-                </div>
-                <p>Ao manter pressionado, Nahida entra no modo de mira e marca até 8 oponentes, os quais podem estar próximos ou distantes. O modo pressionado garante imunidade à interrupção e permite que Kusanali gire para marcar os inimigos ao redor.</p>
-                <div class="talento-img">
-                    <img src="/img/guias/nahida/skill_hold_gif.webp">
-                </div>
-                <p>Após marcá-los, quando eles forem atingidos por uma Reação Elemental (seja ela qual for, até mesmo Cristalização) ou quando recebem dano de Núcleos Dendro (seja de Florescimento, Germinação ou Superflorescimento), essas marcações aplicarão Dendro e causarão dano baseado no Ataque (uma porcentagem praticamente irrelevante) e Proficiência da Nahida. Inicialmente, esse efeito pode ser ativado uma vez a cada 2,5 segundos, porém, esse cooldown interno pode ser diminuído, algo que será abordado abaixo na explicação do seu Supremo. As marcas duram 25 segundos em qualquer modo de aplicação.</p>
-                <div class="talento-titulo flex" id="supremo">
-                    <img loading="lazy" class="icone" src="/img/guias/nahida/ult.png" width="40" height="40">
-                    <span class="talento">Supremo: <span class="talento-nome">Coração Ilusório</span></span>
-                </div>
-                <p>Apesar de não causar dano, o Supremo da arconte Dendro possui várias mecânicas diferentes. Ao invocar o Santuário de Maya, Nahida ganha efeitos diversos dependendo dos personagens da sua equipe. Quanto mais personagens do mesmo elemento, mais intensos são os efeitos do Supremo, sendo eles:
-                </p>
-                <div class="talento-lista">
-                    <ul>
-                        <li>Se a equipe tiver personagens Pyro, aumenta o dano da Habilidade Elemental;</li>
-                        <li>Se a equipe tiver personagens Electro, reduz o cooldown de ativação da Habilidade Elemental da Nahida, ou seja, ela causará dano em menos de 2,5 segundos;
-                        </li>
-                        <li>Se a equipe tiver personagens Hydro, aumenta a duração do Santuário invocado pelo Supremo.</li>
-                    </ul>
-                </div>
-                <p>Esses buffs, no geral, não representam um grande aumento de Dano, sendo bastante negligenciáveis na maioria dos casos. O grande valor do Supremo da arconte está na sua primeira Passiva de Ascensão, a qual será explicada abaixo.</p>
-                <div class="talento-img">
-                    <img src="/img/guias/nahida/ult_gif.gif">
-                </div>
-                <div class="prioridades">
-                    <p class="prioridade-txt"><span>Prioridade de Talentos</span></p>
-                    <div class="flex-row">
-                        <div class="flex-column">
-                            <img loading="lazy" src="/img/guias/nahida/skill.png" width="45" height="45">
-                            <p>Skill</p>
-                        </div>
-                        <div class="comparacao c1"> >> </div>
-                        <div class="flex-column">
-                            <img loading="lazy" src="/img/guias/nahida/ult.png" width="45" height="45">
-                            <p>Ult</p>
-                        </div>
-                        <div class="comparacao"> > </div>
-                        <div class="flex-column">
-                            <img loading="lazy" src="/img/guias/nahida/atknormal.png" width="45" height="45">
-                            <p>AA</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="set passivas">
-                    <h3 class="subtituloh3">Passivas</h3>
-                    <div>
-                        <div class="talento-titulo flex">
-                            <img loading="lazy" class="icone" src="/img/guias/nahida/ascensao1.png" width="40" height="40">
-                            <span class="talento">Ascensão 1: <span class="talento-nome">Compaixão Iluminada</span></span>
-                        </div>
-                        <p><b>Ao lançar Coração Ilusório, o Santuário de Maya obterá os seguintes efeitos: Aumenta a Proficiência Elemental (PE) do personagem ativo no campo de batalha dentro da AdE baseado em 25% da Proficiência Elemental do personagem da equipe com maior Proficiência Elemental. É possível obter um aumento de até 250 pontos de Proficiência Elemental desta forma.</b></p>
-                        <p>A primeira passiva da Nahida é o seu buff, sendo baseado no personagem com a maior PE do time, e não necessariamente nos status da arconte. Por isso, se algum personagem da equipe já estiver buildado com muita Proficiência, não é necessário fazer o mesmo com a Kusanali, principalmente se for um time que foca nos derivados da Aceleração, onde o dano dela é considerável.  </p>
-                    </div>
-                    <div class="rot-sep"></div>
-                    <div>
-                        <div class="talento-titulo flex">
-                            <img loading="lazy" class="icone" src="/img/guias/nahida/ascensao4.png" width="40" height="40">
-                            <span class="talento">Ascensão 4: <span class="talento-nome">Despertar da Sabedoria</span></span>
-                        </div>
-                        <p><b>Cada 1 ponto de Proficiência Elemental de Nahida que ultrapasse 200 aumentará o Dano infligido por Purificação Tricármica de Esquemas Universais em 0.1% e a Taxa CRIT em 0.03%. É possível aumentar o Dano em até 80% e a Taxa CRIT em até 24% dessa forma.
-                        </b></p>
-                        <p>A segunda passiva da Nahida, apesar de valorizar ainda mais o status de Proficiência na Arconte, não significa que você deve utilizar apenas isso nela. É um bom bônus de Dano% e Taxa, mas não necessariamente supera outros status principais obtíveis nos artefatos.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div id="artefatos">
-                <h2>Artefatos</h2>
-                <div class="set b9">
-                    <div class="artefato-img">
-                        <img loading="lazy" src="/img/artefatos/Memorias_da_Floresta.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Memórias da Floresta</h4>
-                    </div>
-                    <p><b>2 peças:</b> Bônus de Dano Dendro +15%</p>
-                    <p><b>4 peças:</b> Depois que as Habilidades Elementais ou Supremos acertam os oponentes, a Resistência Dendro dos alvos serão reduzidas em 30% por 8s. Esse efeito pode ser desencadeado mesmo se o personagem equipando este conjunto não estiver em campo</p>
-                    <div class="rot-sep"></div>
-                    <p>No geral, é a melhor opção de set para a Nahida em times onde o dano Dendro (seja de um DPS ou de sementes) for relevante. Por depender de acertos de Habilidade Elemental ou Supremo para aplicar seu efeito de 4 peças e diminuir a resistência Dendro (algo extremamente relevante), Kusanali torna-se uma exemplar ativadora do conjunto, contribuindo tanto para seu dano pessoal quanto para o do time.</p>
-                </div>
-                <div class="set b9">
-                    <div class="artefato-img2pc">
-                        <img loading="lazy" src="/img/artefatos/Trupe Dourada.webp">
-                        <img loading="lazy" src="/img/artefatos/Sonhos_Dourados.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Trupe Dourada ou Sonhos Dourados</h4>
-                    </div>
-                    <p>Existem algumas raras exceções de times em que a Nahida não precisa usar Memórias da Floresta por já existir outro personagem com o set na equipe. Se o dano da Nahida for relevante nesse time, 4 peças 
-                    do Trupe Dourada é a melhor opção para ela off field, seguido de Sonhos Dourados, que pode ganhar se a Nahida permanecer mais tempo em campo que a passiva do Trupe permite. 
-                    </p>
-                </div>
-                <div class="set b9">
-                    <div class="artefato-img">
-                        <img loading="lazy" src="/img/artefatos/Instrutor.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Instrutor</h4>
-                    </div>
-                    <p><b>2 peças:</b> Aumenta a Proficiência elemental em 80</p>
-                    <p><b>4 peças:</b> Após realizar uma reação elemental, aumenta a Proficiência de toda a equipe em 120 por 8 segundos</p>
-                    <div class="rot-sep"></div>
-                    <p>No geral, em times em que a Nahida serve apenas para aplicar Dendro e buffar o personagem em campo com seu Supremo, o qual não é um DPS Dendro que precise do Memórias da Floresta, Instrutor torna-se seu melhor set, buffando o dano das reações elementais da equipe.</p>
-                    <p>Apesar da situação citada acima parecer bastante específica, é o caso de times de Fusão (Melt) ou Intensificação (Yae Miko, Keqing, Lisa, Fischl, etc.), onde o dano da Nahida não é muito relevante e buffar os outros personagens é mais valioso.</p>
-                </div>
-                <div class="set b9">
-                    <div class="artefato-img">
-                        <img loading="lazy" src="/img/artefatos/Millelith.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Millelith Firmes</h4>
-                    </div>
-                    <p><b>2 peças:</b> Vida +20%</p>
-                    <p><b>4 peças:</b> Quando a Habilidade Elemental atinge um oponente, o ATQ de todos os membros da equipe próximos aumenta em 20% e sua Força do Escudo aumenta em 30% por 3s. Esse efeito ainda pode ser ativado mesmo quando o personagem que está usando esse conjunto de Artefatos não está em campo.</p>
-                    <div class="rot-sep"></div>
-                    <p>Outra opção de set para a Nahida em times que apenas sua aplicação/buff são relevantes e o DPS se beneficia do Ataque que o efeito de 4 peças proporciona. Com Nahida C2, é comum utilizá-la não só com DPS de reações Dendro, mas com outros personagens pela redução de Defesa. Se esse personagem escalar com Ataque, 4 Millelith Firmes é uma opção bastante válida. </p>
-                </div>
-                <div class="flex status">
-                    <div class="cards">
-                        <div class="artefato-card flor">
-                            <div>
-                                <h4>Vida</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Flor.webp">   
-                            <div class="stat-icon">
-                                <img src="/img/icones/HP.png"> 
-                            </div>                        
-                        </div>
-                        <div class="artefato-card pena">
-                            <div>
-                                <h4>Ataque</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Pena.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/Ataque.png"> 
-                            </div>
-                        </div>
-                        <div class="artefato-card ampu">
-                            <div>
-                                <h4 class="prof">Proficiência</h4>
-                                <h4 class="prof2">Prof.</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Ampulheta.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/EM.webp"> 
-                            </div>
-                        </div>                                        
-                        <div class="artefato-card calice">
-                            <div>
-                                <h4 class="prof">Proficiência</h4>    
-                                <h4 class="prof">ou</h4>  
-                                <h4 class="prof">Dano Dendro</h4>
-                                <h4 class="prof2">Prof.</h4>  
-                                <h4 class="prof2">Dendro</h4>
-                            </div>
-                            <img src="/img/icones/Calice.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/EM.webp"> 
-                                <img src="/img/icones/Dendro.png"> 
-                            </div>
-                        </div>
-                        <div class="artefato-card coroa">
-                            <div>
-                                <h4 class="prof">Proficiência</h4>
-                                <h4 class="prof2">Prof.</h4>
-                                <h4 class="prof">ou Crítico</h4>
-                                <h4 class="prof2">Crit.</h4>
-                            </div>
-                            <img src="/img/icones/Coroa.webp"> 
-                            <div class="stat-icon">
-                                <img src="/img/icones/EM.webp"> 
-                                <img src="/img/icones/Taxa_crit.png">
-                            </div>                         
-                        </div>
-                    </div>                  
-                </div>
-                <div class="set">
-                    <h3 class="subtituloh3">Status Principais</h3>
-                    <p>Nahida não tem uma prioridade fixa de atributos principais. Esses podem variar dependendo da arma, do set, do time e de outros buffs. Em geral, dentre as opções disponíveis, use a que tiver melhores substats, <span>dando preferência aos status principais de Proficiência</span> quando ela estiver sendo jogada <span>fora de campo</span> (até entre 900-1000), e Dendro%/Taxa/Dano Crítico quando estiver <span>em campo</span> (supondo que esteja usufruindo significativamente de sua passiva de Ascenção 1). Utilize o Genshin Optimizer para obter a melhor build definitiva dependendo de cada situação particular.</p>
-                </div>
-            </div>
-            <div class="armas">
-                <h2 id="armas">Armas</h2>
-                <div class="set">
-                    <p>A escolha de armas para Nahida costuma ser bem direta ao ponto, armas com substatus ofensivos para o dano pessoal ou Proficiência para aumentar o buff.</p>
-                </div>
-                <h3 class="subtituloh3">Tabela com propagação</h3>
-                <div class="imgtabela">
-                    <img src="/img/guias/nahida/armas_com_spread.png">
-                </div>
-                <h3 class="subtituloh3">Tabela sem propagação</h3>
-                <div class="imgtabela">
-                    <img src="/img/guias/nahida/armas_sem_spread.png">
-                </div>
-                <div class="tabela-link">
-                    <a href="https://docs.google.com/spreadsheets/d/1n48Xsik5BSWeZKrc9zKCujlPI4oYY3VIHQqWgc0li34/edit?usp=drivesdk">🔗 Créditos ao Kaguu</a>
-                </div>
-                <div>
-                    <h4 class="subtitulo-armas">
-                        <span>Menção Honrosa</span>
-                    </h4>
-                </div>
-                <div class="arma">
-                    <div class="img-div">
-                        <img src="/img/armas/catalisador/Anel_Hakushin.png">
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>
-                            Anel de Hakushin
-                        </h3>
-                        <p>
-                            Apesar de ser meio inútil para o dano pessoal da Nahida, é uma ótima opções para times onde ela está presente exclusivamente pelo buff e aplicação. Uma arma fabricável que proporciona um ótimo bônus de dano para DPS elementais. 
-                        </p>
-                    </div>
-                </div>
-                <div class="arma">
-                    <div class="img-div">
-                        <img src="/img/armas/catalisador/historias.png">
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>
-                            Histórias Extraordinárias dos Caçadores de Dragões
-                        </h3>
-                        <p>
-                            Assim como o Anel de Hakushin, é bastante inútil para o dano da Nahida, mas uma ótima opção por aumentar o Ataque do próximo personagem a entrar em campo em 48% (R5).
-                        </p>
-                    </div>
-                </div>
-                <div class="arma">
-                    <div class="img-div">
-                        <img src="/img/armas/catalisador/Codex_de_Favonius.webp">
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>
-                            Codex de Favonius
-                        </h3>
-                        <p>
-                            Em times cujo dano da Nahida for pouco relevante e ela estiver pareada com personagens que possuem Supremos caros, o Catalisador de Favonius torna-se uma boa opção por reduzir as necessidades de Recarga da equipe, aumentando o dano geral. 
-                        </p>
-                    </div>
-                </div>
-                <div class="arma">
-                    <div class="img-div">
-                        <img src="/img/armas/catalisador/Prototipo_Ambar.png">
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>
-                            Protótipo Âmbar
-                        </h3>
-                        <p>
-                            Se estiver tendo dificuldades de sobreviver em times sem Healer/com muito dano de sementes, nos quais o dano pessoal da Nahida for irrelevante, o Protótipo é uma opção válida, dando mais conforto ao jogador.
-                        </p>
-                        <h4 class="statusbase"></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="times">
-                <h2 id="composicoes">Composições</h2>
-                <p>Como dito anteriormente, Nahida é a melhor opção para praticamente qualquer time de reações Dendro. Abaixo, alguns exemplos de times e o foco deles:</p>
-                <div class="set">
-                    <div class="comp-nome">
-                        <h4>Superflorescimento (Hyperbloom)</h4>
-                    </div>
-                    <div class="comp">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Hydro.png">
-                        <img class="fundo-generico" src="/img/icones/Electro.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Nahida, Hydro, Electro e Flex</p>
-                    <p>Times de Superflorescimento, mais conhecidos como HB, são opções extremamente fortes para situações de alvos únicos. O foco do time está no dano das sementes, que escalam com o nível do personagem Electro, o ativador da reação, e a Proficiência dele. No geral, são times extremamente baratos e eficientes, a única desvantagem é o fato das sementes acertarem apenas um alvo por vez, diminuindo a eficiência contra vários inimigos.</p>
-                </div>
-                <div class="set">
-                    <div class="comp-nome">
-                        <h4>Aceleração (Quicken)</h4>
-                    </div>
-                    <div class="comp">
-                        <img class="fundo-generico" src="/img/icones/Dendro.png">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Electro.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Dendro, Nahida, Electro e Flex</p>
-                    <div class="comp">
-                        <img class="fundo-generico" src="/img/icones/Electro.png">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Electro, Nahida, Flex e Flex</p>
-                    <p>Times de Aceleração envolvem duas variantes, sendo times de Propagação (Com um DPS Dendro) ou de Intensificação (Com um DPS Electro). Ambas variações envolvem o uso da aura de Aceleração, desencadeando o máximo de Intensificações/Propagações possíveis. Os slots flexíveis variam de acordo com as necessidades do DPS, apenas tenha em mente que aplicação Hydro ou Pyro irá remover a aura de Aceleração, perdendo consistência de dano nessas equipes.
-                    </p>
-                </div>
-                <div class="set">
-                    <div class="comp-nome">
-                        <h4>Acelerar + Hyperbloom (Quickbloom)</h4>
-                    </div>
-                    <div class="comp">
-                        <img class="t5" src="/img/personagens/Alhaitham.webp">
-                        <img class="fundo-generico" src="/img/icones/Hydro.png">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Electro.png">
-                    </div>
-                    <p>Al Haitham, Hydro, Nahida e Electro</p>
-                    <div class="comp">
-                        <img class="t5" src="/img/personagens/Cyno.webp">
-                        <img class="fundo-generico" src="/img/icones/Hydro.png">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Cyno, Hydro, Nahida e Flex</p>
-                    <p>Diferente do Hyperbloom, times de Quickbloom buscam fazer uso tanto das sementes quanto das reações aditivas de dano derivadas da Aceleração (Intensificar e Propagação), aumentando o dano de um potencial DPS Electro ou Dendro. Para que tal feito seja possível, é necessário um aplicador de Hydro lento, pois o excesso de aplicação remove a aura de Aceleração, que possibilita as outras duas reações. São exemplos de aplicadores lentos de Hydro: Furina, Yelan C0 e Kokomi.</p>
-                </div>
-                <div class="set">
-                    <div class="comp-nome">
-                        <h4>Florescimento (Bloom)</h4>
-                    </div>
-                    <div class="comp">
-                        <img class="t5" src="/img/personagens/Nilou.webp">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Nilou, Nahida, Flex e Flex</p>
-                    <div class="comp">
-                        <img class="t4" src="/img/personagens/Kaveh.webp">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Kaveh, Nahida, Flex e Flex</p>
-                    <p>Times de Florescimento focam no dano dos Núcleos Dendro sem nenhuma outra reação em cima deles. Por serem naturalmente mais fracos que a versão com Electro ou Pyro, times de Bloom geralmente levam algum suporte que aumente o dano dessas sementes brutas, sendo eles o Kaveh e a Nilou, que muda a reação. Vale ressaltar que a explosão dos Núcleos causa dano nos personagens da equipe também (menos que nos inimigos), sendo recomendado levar um Healer para melhorar a sobrevivência.
-                    </p>
-                </div>
-                <div class="set">
-                    <div class="comp-nome">
-                        <h4>Germinação (Burgeon)</h4>
-                    </div>
-                    <div class="comp">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Hydro.png">
-                        <img class="fundo-generico" src="/img/icones/Pyro.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Nahida, Hydro, Pyro e Flex</p>
-                    <p>Germinação, ou Burgeon, é basicamente o Superflorescimento com dano em uma área considerável. Assim como a variação com Electro, aqui o nível e Proficiência do personagem Pyro que determinam o dano das sementes. Vale ressaltar que a explosão causada pela Germinação atinge também os personagens da equipe (com menor dano), sendo recomendado levar um Escudo ou Healer para melhorar a sobrevivência.
-                    </p>
-                </div>
-                <div class="set">
-                    <div class="comp-nome">
-                        <h4>Queimadura / Fusão (Melt) com Queimadura</h4>
-                    </div>
-                    <div class="comp">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Pyro.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Nahida, Pyro, Flex e Flex</p>
-                    <div class="comp">
-                        <img class="fundo-generico" src="/img/icones/Cryo.png">
-                        <img class="t5" src="/img/personagens/Nahida.png">
-                        <img class="fundo-generico" src="/img/icones/Pyro.png">
-                        <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                    </div>
-                    <p>Cryo, Nahida, Pyro e Flex</p>
-                    <p>Queimadura é possivelmente a mais fraca das reações Dendro atualmente. Consiste em um dano contínuo nos inimigos que foram atingidos por Dendro e Pyro, aplicando constantemente a aura Pyro neles. Por esse motivo, e pela alta aplicação Dendro da Nahida, é possível usar dessa reação para que DPS Cryo fundam (meltem) seus hits, algo que é potencializado pelo Buff de Proficiência da Kusanali. Vale lembrar que, se seu personagem entrar em contato com um inimigo afetado por Queimadura ele ficará afetado também, sendo bastante problemático para sobrevivência. Por esse motivo, recomenda-se usar um Escudo ou Healer em times que envolvem essa reação.</p>
-                </div>
-                
-            </div>
-            <div class="constelacoes" id="constelacoes">
-                <h2>Constelações</h2>
-                <div class="explicacao-nota">
-                    <p>
-                        As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de
-                        dano.
-                    </p>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head">
-                        <h1>C1</h1><img loading="lazy" src="/img/guias/nahida/c1.png">
-                    </div>
-                    <div>
-                        <h3>Quando o Santuário de Maya é lançado e conta os tipos elementais dos personagens na equipe, será contabilizado 1 personagem Pyro, Electro e Hydro a mais.</h3>
-                    </div>
-                    <div>
-                        <p>Uma constelação bastante medíocre na grande maioria dos casos, podendo ser inclusive uma diminuição de DPS em times como Hyperbloom. Em times de Florescimento com Nilou, essa constelação representa um bom aumento de dano por possibilitar mais sementes, mas, no geral, é só um caminho para C2.
-                        </p>
-                    </div>
-                    <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div></div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head">
-                        <h1>C2</h1><img loading="lazy" src="/img/guias/nahida/c2.png">
-                    </div>
-                    <div>
-                        <h3>Oponentes marcados pelas Sementes Skandha aplicadas pela própria Nahida serão afetados pelos seguintes efeitos: · Dano de Queimadura, Florescimento, Superflorescimento e Germinação pode causar CRIT. Taxa CRIT e Dano CRIT estão fixados em 20% e 100% respectivamente. · Dentro de 8s após terem sido afetados por Aceleração, Intensificação e Propagação, a DEF diminui em 30%.</h3>
-                    </div>
-                    <div>
-                        <p>Sendo uma das melhores constelações do jogo, a C2 da Nahida aumenta ainda mais o dano de reações já extremamente fortes. Hyperbloom, Burgeon, Bloom e Queimadura agora tem 20% de chance de causar Dano Crítico. Se essas reações já eram fortes antes, com a C2 da arconte Dendro tornam-se muito mais.</p>
-                    </div>
-                    <div>
-                        <p>Além disso, inimigos afetados por Aceleração e seus derivados tem suas Defesas reduzidas em 30% por 8 segundos, um buff extremamente valioso para o dano de qualquer DPS, tornando a Nahida viável em times que nem sequer focam em reações Dendro, desde que consigam cumprir com essas condições. Uma incrível segunda constelação que com certeza vale seu custo.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div></div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head">
-                        <h1>C3</h1><img loading="lazy" src="/img/guias/nahida/c3.png">
-                    </div>
-                    <div>
-                        <h3>Aumenta a Habilidade Elemental em 3 níveis.</h3>
-                    </div>
-                    <div>
-                        <p>Uma boa constelação para times em que o dano pessoal da Nahida é importante, sem muitos segredos.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div>
-                    </div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head">
-                        <h1>C4</h1><img loading="lazy" src="/img/guias/nahida/c4.png">
-                    </div>
-                    <div>
-                        <h3>Quando houverem 1/2/3/4 ou mais inimigos próximos sob o estado Semente Skandha e de Esquemas Universais, a Proficiência Elemental de Nahida aumenta em 100/120/140/160. </h3>
-                    </div>
-                    <div>
-                        <p>Buff interessante de Proficiência para a arconte, aumentando seu dano pessoal e precisando de menos proficiência para atingir o máximo de conversão para seu Buff caso não haja um personagem buildado para tal na equipe. </p>
-                    </div>
-                    <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
-                    </div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head">
-                        <h1>C5</h1><img loading="lazy" src="/img/guias/nahida/c5.png">
-                    </div>
-                    <div>
-                        <h3>Aumenta o Supremo em 3 níveis.</h3>
-                    </div>
-                    <div>
-                        <p>Os efeitos do Supremo da Nahida são de longe a parte menos útil do seu kit. 3 níveis a mais nele muda pouco ou nada no dano da personagem.
-                        </p>
-                    </div>
-                    <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div>
-                    </div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head">
-                        <h1>C6</h1><img loading="lazy" src="/img/guias/nahida/c6.png">
-                    </div>
-                    <div>
-                        <h3>Depois de lançar Coração Ilusório, quando Nahida acerta um oponente afetado pela Semente Skandha de Esquemas Universais com um Ataque Normal ou Ataque Carregado, ela lançará Purificação Tricármica: Eliminação do Carma nesse oponente e em todos os oponentes conectados, causando Dano Dendro com base em 200% do ATQ de Nahida e em 400% de sua Proficiência Elemental. O Dano causado por Purificação Tricármica: Eliminação do Carma é considerado Dano de Habilidade Elemental e pode ser acionado uma vez a cada 0.2s. Esse efeito pode durar até 10s e será removido depois que Nahida liberar 6 instâncias de Purificação Tricármica: Eliminação do Carma</h3>
-                    </div>
-                    <div>
-                        <p>A sexta constelação da Nahida é bem similar à sexta constelação da Yelan, dando a ela 6 instâncias de dano em área ativadas por seus Ataques Normais e Carregados (são considerados dano de Habilidade Elemental). Essa constelação consolida Nahida como uma ótima DPS em campo, sendo capaz de limpar facilmente qualquer conteúdo do jogo. </p>
-                    </div>
-                    <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div></div>
-                </div>
-                <div class="gif-div banner-fim">
-                    <img loading="lazy" src="/img/guias/nahida/Ending_Banner.gif">
-                </div>
-                <div class="flex footer">
-                    <div class="contato2">
-                        <p>Tire dúvidas:</p>
-                        <div class="flex">
-                            <img src="/img/icones/discord.png">
-                            <p>quinnzin & yurionosu</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="fim"></div>
-            </div>
-        </section>
-        <nav class="contato">
-            <p>Tire dúvidas:</p>
-            <div class="flex">
-                <img loading="lazy" src="/img/icones/discord.png">
-                <p class="text-nowrap">quinnzin & yurionosu</p>
-            </div>
-        </nav>
-        <nav class="nav flex">
-            <div class="links">
-                <div class="flex">
-                    <a href="#topo">Introdução</a>
-                    <a href="#faq">Dúvidas Frequentes</a>
-                    <a href="#talentos">Talentos</a>
-                    <a href="#habilidade" class="sublink">Habilidade</a>
-                    <a href="#supremo" class="sublink">Supremo</a>
-                    <a href="#artefatos">Artefatos</a>
-                    <a href="#armas">Armas</a>
-                    <a href="#composicoes">Composições</a>
-                    <a href="#constelacoes">Constelações</a>
-                </div>
+    <div>
+        <header>
+            <div>
+                <a href="/" class="home">
+                    <img src="/img/logo/Dandelions.png">
+                    <h1>Dandelions</h1>
+                </a>
             </div>
             <div>
-                <p class="autoria">By: Quinn, Yuri & Jean</p>
+                <h1>Guia rápido da Nahida</h1>
             </div>
-        </nav>
-    </main>
-    <div class="nav-mobile">
-        <a href="#talentos">Kit Geral</a>
-        <a href="#artefatos">Artefatos</a>
-        <a href="#armas">Armas</a>
-        <a href="#composicoes">Comps</a>
+            <div class="counterside"></div>
+        </header>
+        <main class="flex">
+            <section class="topo">
+                <div class="irtopo" id="topo"></div>
+                <div class="banner anima">
+                    <div class="banner-c">
+                        <small class="creditos">mangaka: enmmm</small>
+                    </div>
+                    <img id="banner" src="/img/guias/nahida/Banner.png">
+                </div>
+                <div class="autoria-mobile flex">
+                    <p class="autoria2 anima2">By: Quinn, Yuri & Jean</p>
+                    <div class="bgcolor flex">
+                        <div class="botao2">
+                            <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
+                            <label for="bblue" class="bblue flex animabotao">
+                                <img class="botao-img sun" src="/img/icones/sun.webp">
+                                <div class="ball"></div>
+                                <img class="botao-img moon" src="/img/icones/moon.webp">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div id="introducao" class="intro intro-anima">
+                    <p>Nahida é uma Suporte/DPS fora de campo Dendro usuária de catalisador. Seus maiores destaques são sua enorme aplicação elemental e seu generoso buff de Proficiência.</p>
+                </div>
+                <div class="razoes anima3">
+                    <h2>Por que pegar ou skipar?</h2>
+                    <div class="pros">
+                        <button id="pros">
+                            <h3>Prós:</h3>
+                        </button>
+                        <div class="txtpros">
+                            <p>Altíssima e duradoura aplicação Dendro dentro e fora de campo em área;</p>
+                            <p>Possui um bom dano tanto contra alvos únicos quanto múltiplos inimigos;</p>
+                            <p>Uma das únicas e melhores buffers de Proficiência Elemental do jogo;</p>
+                            <p>Ótima, se não a melhor, opção em qualquer time que use reações Dendro;</p>
+                            <p>Grande variedade de armas, com ótimas opções de fácil obtenção;</p>
+                            <p>Pode coletar flores e frutos a distância com sua Habilidade Elemental… e quem sabe algo mais.</p>
+                        </div>
+                    </div>
+    
+                    <div class="contras">
+                        <button id="contras">
+                            <h3>Contras:</h3>
+                        </button>
+                        <div class="txtcontras">
+                            <p>Pouca/nenhuma utilidade em times que não sejam focados em reações Dendro, com exceção de fusão (melt);</p>
+                            <p>Requer que a marca da Purificação Tricármica (Habilidade Elemental) seja reaplicada todas as vezes que uma nova horda de inimigos surgir, o que pode ser um problema para personagens que precisam ficar em campo, como Cyno e Al Haitham.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="faq" id="faq">
+                        <h2>Dúvidas Frequentes:</h2>
+                        <div>
+                            <h3>Nahida da pouco dano? Só o buff do seu Supremo é relevante?</h3>
+                            <p>Para responder essa pergunta adequadamente, é preciso primeiro entender que dano não é apenas os números que o personagem causa, mas também sua contribuição para com o time. Nahida, no geral, só tem um dano pessoal significativo em composições que conseguem manter a reação de “Propagação” (reação de Dendro em cima de “Aceleração”, que é Dendro com Electro), porém, vale lembrar que times como Superflorescimento (Hyperbloom) e Germinação (Burgeon) se beneficiam muito da alta aplicação Dendro da Nahida, a qual permite gerar mais sementes e consequentemente causar mais dano. A contribuição para o DPS do time sempre é significativa por parte da Nahida, seja direta ou indiretamente.</p>
+                        </div>
+                        <div>
+                            <h3>Quanta diferença Nahida faz nas composições de reações Dendro?</h3>
+                            <p>Em times focados nas reações de Dendro, se a função do slot que ela disputa for aplicação e/ou dano fora de campo, então Nahida é certamente a melhor opção para aquele Slot. O seu impacto em relação às demais opções depende do time, de quais partes de seu Kit (se seu dano,  aplicação, ou ambos) terão preponderância naquele arquétipo e contra quem ela está sendo comparada. Em alguns times, a adição da Kusanali pode representar 40% de aumento de dano, em outros, somente 4%. Em suma, pode-se dizer que seu impacto é quase sempre positivo, mas nem sempre significativo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="talentos" class="talentos-1 anima4">
+                    <h2 class="analise-c">Talentos</h2>
+                    <div class="talento-titulo flex">
+                        <img loading="lazy" class="icone" src="/img/guias/nahida/atknormal.png" width="40" height="40">
+                        <span class="talento "> Ataque Normal: <span class="talento-nome">Akara</span></span>
+                    </div>
+                    <p>Diferente do resto do seu kit, o Ataque Normal da Nahida escala unicamente com Ataque, um atributo que possui pouco valor para ela. Mesmo em times que a Kusanali fica em campo, upar ou não o AA é irrelevante.</p>
+                    <div class="talento-img">
+                        <img src="/img/guias/nahida/atknormal_gif.webp">
+                    </div>
+                    <div class="talento-titulo flex" id="habilidade">
+                        <img loading="lazy" class="icone" src="/img/guias/nahida/skill.png" width="40" height="40">
+                        <span class="talento ">Habilidade Elemental: <span class="talento-nome">Esquemas Universais</span></span>
+                    </div>
+                    <p>A principal e basicamente única fonte de dano da Nahida. Sua Habilidade Elemental possui dois modos: Pressionar e segurar. Ao pressionar, causa um pequeno dano Dendro em uma pequena área, marcando até 8 inimigos que estejam próximos à Arconte.</p>
+                    <div class="talento-img">
+                        <img src="/img/guias/nahida/skill_gif.webp">
+                    </div>
+                    <p>Ao manter pressionado, Nahida entra no modo de mira e marca até 8 oponentes, os quais podem estar próximos ou distantes. O modo pressionado garante imunidade à interrupção e permite que Kusanali gire para marcar os inimigos ao redor.</p>
+                    <div class="talento-img">
+                        <img src="/img/guias/nahida/skill_hold_gif.webp">
+                    </div>
+                    <p>Após marcá-los, quando eles forem atingidos por uma Reação Elemental (seja ela qual for, até mesmo Cristalização) ou quando recebem dano de Núcleos Dendro (seja de Florescimento, Germinação ou Superflorescimento), essas marcações aplicarão Dendro e causarão dano baseado no Ataque (uma porcentagem praticamente irrelevante) e Proficiência da Nahida. Inicialmente, esse efeito pode ser ativado uma vez a cada 2,5 segundos, porém, esse cooldown interno pode ser diminuído, algo que será abordado abaixo na explicação do seu Supremo. As marcas duram 25 segundos em qualquer modo de aplicação.</p>
+                    <div class="talento-titulo flex" id="supremo">
+                        <img loading="lazy" class="icone" src="/img/guias/nahida/ult.png" width="40" height="40">
+                        <span class="talento">Supremo: <span class="talento-nome">Coração Ilusório</span></span>
+                    </div>
+                    <p>Apesar de não causar dano, o Supremo da arconte Dendro possui várias mecânicas diferentes. Ao invocar o Santuário de Maya, Nahida ganha efeitos diversos dependendo dos personagens da sua equipe. Quanto mais personagens do mesmo elemento, mais intensos são os efeitos do Supremo, sendo eles:
+                    </p>
+                    <div class="talento-lista">
+                        <ul>
+                            <li>Se a equipe tiver personagens Pyro, aumenta o dano da Habilidade Elemental;</li>
+                            <li>Se a equipe tiver personagens Electro, reduz o cooldown de ativação da Habilidade Elemental da Nahida, ou seja, ela causará dano em menos de 2,5 segundos;
+                            </li>
+                            <li>Se a equipe tiver personagens Hydro, aumenta a duração do Santuário invocado pelo Supremo.</li>
+                        </ul>
+                    </div>
+                    <p>Esses buffs, no geral, não representam um grande aumento de Dano, sendo bastante negligenciáveis na maioria dos casos. O grande valor do Supremo da arconte está na sua primeira Passiva de Ascensão, a qual será explicada abaixo.</p>
+                    <div class="talento-img">
+                        <img src="/img/guias/nahida/ult_gif.gif">
+                    </div>
+                    <div class="prioridades">
+                        <p class="prioridade-txt"><span>Prioridade de Talentos</span></p>
+                        <div class="flex-row">
+                            <div class="flex-column">
+                                <img loading="lazy" src="/img/guias/nahida/skill.png" width="45" height="45">
+                                <p>Skill</p>
+                            </div>
+                            <div class="comparacao c1"> >> </div>
+                            <div class="flex-column">
+                                <img loading="lazy" src="/img/guias/nahida/ult.png" width="45" height="45">
+                                <p>Ult</p>
+                            </div>
+                            <div class="comparacao"> > </div>
+                            <div class="flex-column">
+                                <img loading="lazy" src="/img/guias/nahida/atknormal.png" width="45" height="45">
+                                <p>AA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set passivas">
+                        <h3 class="subtituloh3">Passivas</h3>
+                        <div>
+                            <div class="talento-titulo flex">
+                                <img loading="lazy" class="icone" src="/img/guias/nahida/ascensao1.png" width="40" height="40">
+                                <span class="talento">Ascensão 1: <span class="talento-nome">Compaixão Iluminada</span></span>
+                            </div>
+                            <p><b>Ao lançar Coração Ilusório, o Santuário de Maya obterá os seguintes efeitos: Aumenta a Proficiência Elemental (PE) do personagem ativo no campo de batalha dentro da AdE baseado em 25% da Proficiência Elemental do personagem da equipe com maior Proficiência Elemental. É possível obter um aumento de até 250 pontos de Proficiência Elemental desta forma.</b></p>
+                            <p>A primeira passiva da Nahida é o seu buff, sendo baseado no personagem com a maior PE do time, e não necessariamente nos status da arconte. Por isso, se algum personagem da equipe já estiver buildado com muita Proficiência, não é necessário fazer o mesmo com a Kusanali, principalmente se for um time que foca nos derivados da Aceleração, onde o dano dela é considerável.  </p>
+                        </div>
+                        <div class="rot-sep"></div>
+                        <div>
+                            <div class="talento-titulo flex">
+                                <img loading="lazy" class="icone" src="/img/guias/nahida/ascensao4.png" width="40" height="40">
+                                <span class="talento">Ascensão 4: <span class="talento-nome">Despertar da Sabedoria</span></span>
+                            </div>
+                            <p><b>Cada 1 ponto de Proficiência Elemental de Nahida que ultrapasse 200 aumentará o Dano infligido por Purificação Tricármica de Esquemas Universais em 0.1% e a Taxa CRIT em 0.03%. É possível aumentar o Dano em até 80% e a Taxa CRIT em até 24% dessa forma.
+                            </b></p>
+                            <p>A segunda passiva da Nahida, apesar de valorizar ainda mais o status de Proficiência na Arconte, não significa que você deve utilizar apenas isso nela. É um bom bônus de Dano% e Taxa, mas não necessariamente supera outros status principais obtíveis nos artefatos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="artefatos">
+                    <h2>Artefatos</h2>
+                    <div class="set b9">
+                        <div class="artefato-img">
+                            <img loading="lazy" src="/img/artefatos/Memorias_da_Floresta.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Memórias da Floresta</h4>
+                        </div>
+                        <p><b>2 peças:</b> Bônus de Dano Dendro +15%</p>
+                        <p><b>4 peças:</b> Depois que as Habilidades Elementais ou Supremos acertam os oponentes, a Resistência Dendro dos alvos serão reduzidas em 30% por 8s. Esse efeito pode ser desencadeado mesmo se o personagem equipando este conjunto não estiver em campo</p>
+                        <div class="rot-sep"></div>
+                        <p>No geral, é a melhor opção de set para a Nahida em times onde o dano Dendro (seja de um DPS ou de sementes) for relevante. Por depender de acertos de Habilidade Elemental ou Supremo para aplicar seu efeito de 4 peças e diminuir a resistência Dendro (algo extremamente relevante), Kusanali torna-se uma exemplar ativadora do conjunto, contribuindo tanto para seu dano pessoal quanto para o do time.</p>
+                    </div>
+                    <div class="set b9">
+                        <div class="artefato-img2pc">
+                            <img loading="lazy" src="/img/artefatos/Trupe Dourada.webp">
+                            <img loading="lazy" src="/img/artefatos/Sonhos_Dourados.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Trupe Dourada ou Sonhos Dourados</h4>
+                        </div>
+                        <p>Existem algumas raras exceções de times em que a Nahida não precisa usar Memórias da Floresta por já existir outro personagem com o set na equipe. Se o dano da Nahida for relevante nesse time, 4 peças 
+                        do Trupe Dourada é a melhor opção para ela off field, seguido de Sonhos Dourados, que pode ganhar se a Nahida permanecer mais tempo em campo que a passiva do Trupe permite. 
+                        </p>
+                    </div>
+                    <div class="set b9">
+                        <div class="artefato-img">
+                            <img loading="lazy" src="/img/artefatos/Instrutor.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Instrutor</h4>
+                        </div>
+                        <p><b>2 peças:</b> Aumenta a Proficiência elemental em 80</p>
+                        <p><b>4 peças:</b> Após realizar uma reação elemental, aumenta a Proficiência de toda a equipe em 120 por 8 segundos</p>
+                        <div class="rot-sep"></div>
+                        <p>No geral, em times em que a Nahida serve apenas para aplicar Dendro e buffar o personagem em campo com seu Supremo, o qual não é um DPS Dendro que precise do Memórias da Floresta, Instrutor torna-se seu melhor set, buffando o dano das reações elementais da equipe.</p>
+                        <p>Apesar da situação citada acima parecer bastante específica, é o caso de times de Fusão (Melt) ou Intensificação (Yae Miko, Keqing, Lisa, Fischl, etc.), onde o dano da Nahida não é muito relevante e buffar os outros personagens é mais valioso.</p>
+                    </div>
+                    <div class="set b9">
+                        <div class="artefato-img">
+                            <img loading="lazy" src="/img/artefatos/Millelith.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Millelith Firmes</h4>
+                        </div>
+                        <p><b>2 peças:</b> Vida +20%</p>
+                        <p><b>4 peças:</b> Quando a Habilidade Elemental atinge um oponente, o ATQ de todos os membros da equipe próximos aumenta em 20% e sua Força do Escudo aumenta em 30% por 3s. Esse efeito ainda pode ser ativado mesmo quando o personagem que está usando esse conjunto de Artefatos não está em campo.</p>
+                        <div class="rot-sep"></div>
+                        <p>Outra opção de set para a Nahida em times que apenas sua aplicação/buff são relevantes e o DPS se beneficia do Ataque que o efeito de 4 peças proporciona. Com Nahida C2, é comum utilizá-la não só com DPS de reações Dendro, mas com outros personagens pela redução de Defesa. Se esse personagem escalar com Ataque, 4 Millelith Firmes é uma opção bastante válida. </p>
+                    </div>
+                    <div class="flex status">
+                        <div class="cards">
+                            <div class="artefato-card flor">
+                                <div>
+                                    <h4>Vida</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Flor.webp">   
+                                <div class="stat-icon">
+                                    <img src="/img/icones/HP.png"> 
+                                </div>                        
+                            </div>
+                            <div class="artefato-card pena">
+                                <div>
+                                    <h4>Ataque</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Pena.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Ataque.png"> 
+                                </div>
+                            </div>
+                            <div class="artefato-card ampu">
+                                <div>
+                                    <h4 class="prof">Proficiência</h4>
+                                    <h4 class="prof2">Prof.</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Ampulheta.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/EM.webp"> 
+                                </div>
+                            </div>                                        
+                            <div class="artefato-card calice">
+                                <div>
+                                    <h4 class="prof">Proficiência</h4>    
+                                    <h4 class="prof">ou</h4>  
+                                    <h4 class="prof">Dano Dendro</h4>
+                                    <h4 class="prof2">Prof.</h4>  
+                                    <h4 class="prof2">Dendro</h4>
+                                </div>
+                                <img src="/img/icones/Calice.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/EM.webp"> 
+                                    <img src="/img/icones/Dendro.png"> 
+                                </div>
+                            </div>
+                            <div class="artefato-card coroa">
+                                <div>
+                                    <h4 class="prof">Proficiência</h4>
+                                    <h4 class="prof2">Prof.</h4>
+                                    <h4 class="prof">ou Crítico</h4>
+                                    <h4 class="prof2">Crit.</h4>
+                                </div>
+                                <img src="/img/icones/Coroa.webp"> 
+                                <div class="stat-icon">
+                                    <img src="/img/icones/EM.webp"> 
+                                    <img src="/img/icones/Taxa_crit.png">
+                                </div>                         
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="set">
+                        <h3 class="subtituloh3">Status Principais</h3>
+                        <p>Nahida não tem uma prioridade fixa de atributos principais. Esses podem variar dependendo da arma, do set, do time e de outros buffs. Em geral, dentre as opções disponíveis, use a que tiver melhores substats, <span>dando preferência aos status principais de Proficiência</span> quando ela estiver sendo jogada <span>fora de campo</span> (até entre 900-1000), e Dendro%/Taxa/Dano Crítico quando estiver <span>em campo</span> (supondo que esteja usufruindo significativamente de sua passiva de Ascenção 1). Utilize o Genshin Optimizer para obter a melhor build definitiva dependendo de cada situação particular.</p>
+                    </div>
+                </div>
+                <div class="armas">
+                    <h2 id="armas">Armas</h2>
+                    <div class="set">
+                        <p>A escolha de armas para Nahida costuma ser bem direta ao ponto, armas com substatus ofensivos para o dano pessoal ou Proficiência para aumentar o buff.</p>
+                    </div>
+                    <h3 class="subtituloh3">Tabela com propagação</h3>
+                    <div class="imgtabela">
+                        <img src="/img/guias/nahida/armas_com_spread.png">
+                    </div>
+                    <h3 class="subtituloh3">Tabela sem propagação</h3>
+                    <div class="imgtabela">
+                        <img src="/img/guias/nahida/armas_sem_spread.png">
+                    </div>
+                    <div class="tabela-link">
+                        <a href="https://docs.google.com/spreadsheets/d/1n48Xsik5BSWeZKrc9zKCujlPI4oYY3VIHQqWgc0li34/edit?usp=drivesdk">🔗 Créditos ao Kaguu</a>
+                    </div>
+                    <div>
+                        <h4 class="subtitulo-armas">
+                            <span>Menção Honrosa</span>
+                        </h4>
+                    </div>
+                    <div class="arma">
+                        <div class="img-div">
+                            <img src="/img/armas/catalisador/Anel_Hakushin.png">
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>
+                                Anel de Hakushin
+                            </h3>
+                            <p>
+                                Apesar de ser meio inútil para o dano pessoal da Nahida, é uma ótima opções para times onde ela está presente exclusivamente pelo buff e aplicação. Uma arma fabricável que proporciona um ótimo bônus de dano para DPS elementais. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="arma">
+                        <div class="img-div">
+                            <img src="/img/armas/catalisador/historias.png">
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>
+                                Histórias Extraordinárias dos Caçadores de Dragões
+                            </h3>
+                            <p>
+                                Assim como o Anel de Hakushin, é bastante inútil para o dano da Nahida, mas uma ótima opção por aumentar o Ataque do próximo personagem a entrar em campo em 48% (R5).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="arma">
+                        <div class="img-div">
+                            <img src="/img/armas/catalisador/Codex_de_Favonius.webp">
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>
+                                Codex de Favonius
+                            </h3>
+                            <p>
+                                Em times cujo dano da Nahida for pouco relevante e ela estiver pareada com personagens que possuem Supremos caros, o Catalisador de Favonius torna-se uma boa opção por reduzir as necessidades de Recarga da equipe, aumentando o dano geral. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="arma">
+                        <div class="img-div">
+                            <img src="/img/armas/catalisador/Prototipo_Ambar.png">
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>
+                                Protótipo Âmbar
+                            </h3>
+                            <p>
+                                Se estiver tendo dificuldades de sobreviver em times sem Healer/com muito dano de sementes, nos quais o dano pessoal da Nahida for irrelevante, o Protótipo é uma opção válida, dando mais conforto ao jogador.
+                            </p>
+                            <h4 class="statusbase"></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="times">
+                    <h2 id="composicoes">Composições</h2>
+                    <p>Como dito anteriormente, Nahida é a melhor opção para praticamente qualquer time de reações Dendro. Abaixo, alguns exemplos de times e o foco deles:</p>
+                    <div class="set">
+                        <div class="comp-nome">
+                            <h4>Superflorescimento (Hyperbloom)</h4>
+                        </div>
+                        <div class="comp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Hydro.png">
+                            <img class="fundo-generico" src="/img/icones/Electro.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Nahida, Hydro, Electro e Flex</p>
+                        <p>Times de Superflorescimento, mais conhecidos como HB, são opções extremamente fortes para situações de alvos únicos. O foco do time está no dano das sementes, que escalam com o nível do personagem Electro, o ativador da reação, e a Proficiência dele. No geral, são times extremamente baratos e eficientes, a única desvantagem é o fato das sementes acertarem apenas um alvo por vez, diminuindo a eficiência contra vários inimigos.</p>
+                    </div>
+                    <div class="set">
+                        <div class="comp-nome">
+                            <h4>Aceleração (Quicken)</h4>
+                        </div>
+                        <div class="comp">
+                            <img class="fundo-generico" src="/img/icones/Dendro.png">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Electro.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Dendro, Nahida, Electro e Flex</p>
+                        <div class="comp">
+                            <img class="fundo-generico" src="/img/icones/Electro.png">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Electro, Nahida, Flex e Flex</p>
+                        <p>Times de Aceleração envolvem duas variantes, sendo times de Propagação (Com um DPS Dendro) ou de Intensificação (Com um DPS Electro). Ambas variações envolvem o uso da aura de Aceleração, desencadeando o máximo de Intensificações/Propagações possíveis. Os slots flexíveis variam de acordo com as necessidades do DPS, apenas tenha em mente que aplicação Hydro ou Pyro irá remover a aura de Aceleração, perdendo consistência de dano nessas equipes.
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp-nome">
+                            <h4>Acelerar + Hyperbloom (Quickbloom)</h4>
+                        </div>
+                        <div class="comp">
+                            <img class="t5" src="/img/personagens/Alhaitham.webp">
+                            <img class="fundo-generico" src="/img/icones/Hydro.png">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Electro.png">
+                        </div>
+                        <p>Al Haitham, Hydro, Nahida e Electro</p>
+                        <div class="comp">
+                            <img class="t5" src="/img/personagens/Cyno.webp">
+                            <img class="fundo-generico" src="/img/icones/Hydro.png">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Cyno, Hydro, Nahida e Flex</p>
+                        <p>Diferente do Hyperbloom, times de Quickbloom buscam fazer uso tanto das sementes quanto das reações aditivas de dano derivadas da Aceleração (Intensificar e Propagação), aumentando o dano de um potencial DPS Electro ou Dendro. Para que tal feito seja possível, é necessário um aplicador de Hydro lento, pois o excesso de aplicação remove a aura de Aceleração, que possibilita as outras duas reações. São exemplos de aplicadores lentos de Hydro: Furina, Yelan C0 e Kokomi.</p>
+                    </div>
+                    <div class="set">
+                        <div class="comp-nome">
+                            <h4>Florescimento (Bloom)</h4>
+                        </div>
+                        <div class="comp">
+                            <img class="t5" src="/img/personagens/Nilou.webp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Nilou, Nahida, Flex e Flex</p>
+                        <div class="comp">
+                            <img class="t4" src="/img/personagens/Kaveh.webp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Kaveh, Nahida, Flex e Flex</p>
+                        <p>Times de Florescimento focam no dano dos Núcleos Dendro sem nenhuma outra reação em cima deles. Por serem naturalmente mais fracos que a versão com Electro ou Pyro, times de Bloom geralmente levam algum suporte que aumente o dano dessas sementes brutas, sendo eles o Kaveh e a Nilou, que muda a reação. Vale ressaltar que a explosão dos Núcleos causa dano nos personagens da equipe também (menos que nos inimigos), sendo recomendado levar um Healer para melhorar a sobrevivência.
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp-nome">
+                            <h4>Germinação (Burgeon)</h4>
+                        </div>
+                        <div class="comp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Hydro.png">
+                            <img class="fundo-generico" src="/img/icones/Pyro.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Nahida, Hydro, Pyro e Flex</p>
+                        <p>Germinação, ou Burgeon, é basicamente o Superflorescimento com dano em uma área considerável. Assim como a variação com Electro, aqui o nível e Proficiência do personagem Pyro que determinam o dano das sementes. Vale ressaltar que a explosão causada pela Germinação atinge também os personagens da equipe (com menor dano), sendo recomendado levar um Escudo ou Healer para melhorar a sobrevivência.
+                        </p>
+                    </div>
+                    <div class="set">
+                        <div class="comp-nome">
+                            <h4>Queimadura / Fusão (Melt) com Queimadura</h4>
+                        </div>
+                        <div class="comp">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Pyro.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Nahida, Pyro, Flex e Flex</p>
+                        <div class="comp">
+                            <img class="fundo-generico" src="/img/icones/Cryo.png">
+                            <img class="t5" src="/img/personagens/Nahida.png">
+                            <img class="fundo-generico" src="/img/icones/Pyro.png">
+                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                        </div>
+                        <p>Cryo, Nahida, Pyro e Flex</p>
+                        <p>Queimadura é possivelmente a mais fraca das reações Dendro atualmente. Consiste em um dano contínuo nos inimigos que foram atingidos por Dendro e Pyro, aplicando constantemente a aura Pyro neles. Por esse motivo, e pela alta aplicação Dendro da Nahida, é possível usar dessa reação para que DPS Cryo fundam (meltem) seus hits, algo que é potencializado pelo Buff de Proficiência da Kusanali. Vale lembrar que, se seu personagem entrar em contato com um inimigo afetado por Queimadura ele ficará afetado também, sendo bastante problemático para sobrevivência. Por esse motivo, recomenda-se usar um Escudo ou Healer em times que envolvem essa reação.</p>
+                    </div>
+                    
+                </div>
+                <div class="constelacoes" id="constelacoes">
+                    <h2>Constelações</h2>
+                    <div class="explicacao-nota">
+                        <p>
+                            As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de
+                            dano.
+                        </p>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head">
+                            <h1>C1</h1><img loading="lazy" src="/img/guias/nahida/c1.png">
+                        </div>
+                        <div>
+                            <h3>Quando o Santuário de Maya é lançado e conta os tipos elementais dos personagens na equipe, será contabilizado 1 personagem Pyro, Electro e Hydro a mais.</h3>
+                        </div>
+                        <div>
+                            <p>Uma constelação bastante medíocre na grande maioria dos casos, podendo ser inclusive uma diminuição de DPS em times como Hyperbloom. Em times de Florescimento com Nilou, essa constelação representa um bom aumento de dano por possibilitar mais sementes, mas, no geral, é só um caminho para C2.
+                            </p>
+                        </div>
+                        <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head">
+                            <h1>C2</h1><img loading="lazy" src="/img/guias/nahida/c2.png">
+                        </div>
+                        <div>
+                            <h3>Oponentes marcados pelas Sementes Skandha aplicadas pela própria Nahida serão afetados pelos seguintes efeitos: · Dano de Queimadura, Florescimento, Superflorescimento e Germinação pode causar CRIT. Taxa CRIT e Dano CRIT estão fixados em 20% e 100% respectivamente. · Dentro de 8s após terem sido afetados por Aceleração, Intensificação e Propagação, a DEF diminui em 30%.</h3>
+                        </div>
+                        <div>
+                            <p>Sendo uma das melhores constelações do jogo, a C2 da Nahida aumenta ainda mais o dano de reações já extremamente fortes. Hyperbloom, Burgeon, Bloom e Queimadura agora tem 20% de chance de causar Dano Crítico. Se essas reações já eram fortes antes, com a C2 da arconte Dendro tornam-se muito mais.</p>
+                        </div>
+                        <div>
+                            <p>Além disso, inimigos afetados por Aceleração e seus derivados tem suas Defesas reduzidas em 30% por 8 segundos, um buff extremamente valioso para o dano de qualquer DPS, tornando a Nahida viável em times que nem sequer focam em reações Dendro, desde que consigam cumprir com essas condições. Uma incrível segunda constelação que com certeza vale seu custo.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head">
+                            <h1>C3</h1><img loading="lazy" src="/img/guias/nahida/c3.png">
+                        </div>
+                        <div>
+                            <h3>Aumenta a Habilidade Elemental em 3 níveis.</h3>
+                        </div>
+                        <div>
+                            <p>Uma boa constelação para times em que o dano pessoal da Nahida é importante, sem muitos segredos.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div>
+                        </div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head">
+                            <h1>C4</h1><img loading="lazy" src="/img/guias/nahida/c4.png">
+                        </div>
+                        <div>
+                            <h3>Quando houverem 1/2/3/4 ou mais inimigos próximos sob o estado Semente Skandha e de Esquemas Universais, a Proficiência Elemental de Nahida aumenta em 100/120/140/160. </h3>
+                        </div>
+                        <div>
+                            <p>Buff interessante de Proficiência para a arconte, aumentando seu dano pessoal e precisando de menos proficiência para atingir o máximo de conversão para seu Buff caso não haja um personagem buildado para tal na equipe. </p>
+                        </div>
+                        <div class="nota">⭐⭐<div class="transparente">⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head">
+                            <h1>C5</h1><img loading="lazy" src="/img/guias/nahida/c5.png">
+                        </div>
+                        <div>
+                            <h3>Aumenta o Supremo em 3 níveis.</h3>
+                        </div>
+                        <div>
+                            <p>Os efeitos do Supremo da Nahida são de longe a parte menos útil do seu kit. 3 níveis a mais nele muda pouco ou nada no dano da personagem.
+                            </p>
+                        </div>
+                        <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head">
+                            <h1>C6</h1><img loading="lazy" src="/img/guias/nahida/c6.png">
+                        </div>
+                        <div>
+                            <h3>Depois de lançar Coração Ilusório, quando Nahida acerta um oponente afetado pela Semente Skandha de Esquemas Universais com um Ataque Normal ou Ataque Carregado, ela lançará Purificação Tricármica: Eliminação do Carma nesse oponente e em todos os oponentes conectados, causando Dano Dendro com base em 200% do ATQ de Nahida e em 400% de sua Proficiência Elemental. O Dano causado por Purificação Tricármica: Eliminação do Carma é considerado Dano de Habilidade Elemental e pode ser acionado uma vez a cada 0.2s. Esse efeito pode durar até 10s e será removido depois que Nahida liberar 6 instâncias de Purificação Tricármica: Eliminação do Carma</h3>
+                        </div>
+                        <div>
+                            <p>A sexta constelação da Nahida é bem similar à sexta constelação da Yelan, dando a ela 6 instâncias de dano em área ativadas por seus Ataques Normais e Carregados (são considerados dano de Habilidade Elemental). Essa constelação consolida Nahida como uma ótima DPS em campo, sendo capaz de limpar facilmente qualquer conteúdo do jogo. </p>
+                        </div>
+                        <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div></div>
+                    </div>
+                    <div class="gif-div banner-fim">
+                        <img loading="lazy" src="/img/guias/nahida/Ending_Banner.gif">
+                    </div>
+                    <div class="flex footer">
+                        <div class="contato2">
+                            <p>Tire dúvidas:</p>
+                            <div class="flex">
+                                <img src="/img/icones/discord.png">
+                                <p>quinnzin & yurionosu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fim"></div>
+                </div>
+            </section>
+            <nav class="contato">
+                <p>Tire dúvidas:</p>
+                <div class="flex">
+                    <img loading="lazy" src="/img/icones/discord.png">
+                    <p class="text-nowrap">quinnzin & yurionosu</p>
+                </div>
+            </nav>
+            <nav class="nav flex">
+                <div class="links">
+                    <div class="flex">
+                        <a href="#topo">Introdução</a>
+                        <a href="#faq">Dúvidas Frequentes</a>
+                        <a href="#talentos">Talentos</a>
+                        <a href="#habilidade" class="sublink">Habilidade</a>
+                        <a href="#supremo" class="sublink">Supremo</a>
+                        <a href="#artefatos">Artefatos</a>
+                        <a href="#armas">Armas</a>
+                        <a href="#composicoes">Composições</a>
+                        <a href="#constelacoes">Constelações</a>
+                    </div>
+                </div>
+                <div>
+                    <p class="autoria">By: Quinn, Yuri & Jean</p>
+                </div>
+            </nav>
+        </main>
+        <div class="nav-mobile">
+            <a href="#talentos">Kit Geral</a>
+            <a href="#artefatos">Artefatos</a>
+            <a href="#armas">Armas</a>
+            <a href="#composicoes">Comps</a>
+        </div>
     </div>
 </body>
 

@@ -47,9 +47,6 @@ main {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    height: 100%;
-    padding-top: 80px !important;
-    overflow: hidden;
 }
 main section {
     display: flex;
@@ -358,7 +355,8 @@ header {
     height: 80px;
     padding: 0 26px 0 13px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.151);
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 10;
     background: var(--bg-header-color);
     backdrop-filter: blur(10px);
@@ -406,18 +404,31 @@ nav {
     flex-flow: column nowrap;
     border-right: 1px solid var(--main-border-color);
     padding: 20px 15px;
-    order: 1
+    order: 1;
+    max-height: calc(100vh - 80px);
+    position: sticky;
+    top: 80px;
 }
 .nav .links {
-    margin-top: 20px;
     flex-grow: 1;
 }
+
+.contato {
+    max-height: calc(100vh - 80px);
+    top: 80px;
+    position: sticky;
+    margin-left: auto;
+}
+
 .nav .links div {
     flex-flow: column nowrap;
     justify-content: space-between;
     padding: 10px 15px;
     border: 3px solid var(--nav-border);
     border-radius: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .contato {
     order: 3;
