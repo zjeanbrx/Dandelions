@@ -6,9 +6,6 @@
     color: white;
     border: 0;
 }
-::-webkit-scrollbar {
-    width: 0;
-}
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;

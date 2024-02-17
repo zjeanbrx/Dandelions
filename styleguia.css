@@ -55,7 +55,6 @@ main section {
     width: 760px;
     flex: 0 1 auto;
     padding: 0px 30px;
-    overflow-y: scroll;
     border-right: 1px solid var(--main-border-color);
     background-color: var(--bg-color);
     transition: all 0.5s;
@@ -65,9 +64,6 @@ main section > div, .times {
     display: flex;
     flex-flow: column nowrap;
     gap: 20px
-}
-::-webkit-scrollbar {
-    width: 0;
 }
 a {
     width: fit-content;
