@@ -34,655 +34,624 @@
 </head> 
 <body>
     <script defer src="/script.js"></script> 
-    <header>
-        <div>
-            <a href="https://dandelions.vercel.app/" class="home">
-                <img src="/img/logo/Dandelions.png">
-                <h1>Dandelions</h1>
-            </a>
-        </div>
-        <div>
-            <h1>Guia completo da Yelan</h1>
-        </div>
-        <div class="counterside">
-
-        </div>
-    </header>
-    <main class="flex">  
-       
-        <section class="topo">
-            <div class="irtopo" id="topo"></div>
-            <div class="banner anima">
-                <img id="banner" src="/img/guias/yelan/Banner_Yelan.webp">
+    <div>
+        <header>
+            <div>
+                <a href="https://dandelions.vercel.app/" class="home">
+                    <img src="/img/logo/Dandelions.png">
+                    <h1>Dandelions</h1>
+                </a>
             </div>
-            <div class="autoria-mobile flex">
-                <p class="autoria2 anima2">By: Quinn, Yuri & Jean</p>
-                <div class="bgcolor flex">
-                    <div class="botao2">    
-                        <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
-                        <label for="bblue" class="bblue flex animabotao">
-                            <img class="botao-img sun" src="/img/icones/sun.webp">
-                            <div class="ball"></div>
-                            <img class="botao-img moon" src="/img/icones/moon.webp">
-                        </label>
-                    </div>
-                </div>    
+            <div>
+                <h1>Guia completo da Yelan</h1>
             </div>
-            <div id="introducao" class="intro intro-anima">
-                <p>Yelan é uma DPS Hydro usuária de Arco, predominantemente utilizada fora de campo, mas não limitada a isso. Sua boa aplicação Hydro, Buff e dano pessoal são seus maiores destaques.</p>
+            <div class="counterside">
+    
             </div>
-            <div class="razoes anima3">
-                <h2>Por que pegar ou skipar?</h2>
-                <div class="pros">
-                    <button id="pros">
-                        <h3>Prós:</h3>
-                    </button>
-                    <div class="txtpros">
-                        <p>Bom dano pessoal e aplicação Hydro. Seu Supremo é uma das maiores fontes de dano em alvo único fora de campo no jogo.</p>
-                        <p>Extremamente versátil, se encaixando em diversas composições. Assim como o Xingqiu, ela se encaixa em qualquer time que requeira dano ou aplicação Hydro fora de campo.</p>
-                        <p>Forma junto com o Xingqiu o núcleo conhecido como Double Hydro, uma das combinações mais poderosas do jogo.</p>
-                        <p>Amigável para jogadores iniciantes. Seu scaling puro em Vida faz com que alguns arcos 3 e 4 estrelas sejam melhores que vários 5 estrelas.</p>
-                        <p>Possui um Buff interessante. Propicia em grande medida o Buff de uma Status quase universal: Bônus de Dano %.</p>
-                        <p>Sua Habilidade Elemental é ótima para exploração.</p>                    
-                    </div>
+        </header>
+        <main class="flex">  
+           
+            <section class="topo">
+                <div class="irtopo" id="topo"></div>
+                <div class="banner anima">
+                    <img id="banner" src="/img/guias/yelan/Banner_Yelan.webp">
                 </div>
-                
-                <div class="contras">
-                    <button id="contras">
-                        <h3>Contras:</h3>
-                    </button>
-                    <div class="txtcontras">
-                        <p>Apesar da sua boa aplicação Hydro, ela pode ser inferior ao Xingqiu (C6) em alguns arquétipos.</p>                                                        
-                        <p>Seus multiplicadores baseados em Vida não permitem muitas formas de Buff para o seu dano pessoal. Já sua alta aplicação inviabiliza que ela abuse de reações amplificadoras no seu Supremo (vaporização). 
-                        </p>                                                        
-                        <p>Alto requerimento de Recarga quando não acompanhada de outro personagem Hydro, reduzindo consideravelmente seu potencial de dano.</p>                                                        
-                        <p>Diferente do Xingqiu, não possui em seu kit mecânicas defensivas (ex.: cura e aumento de resistência à interrupção).</p>   
-                    </div>
-                </div> 
-                <div class="faq" id="faq">
-                    <h2>Dúvidas Frequentes:</h2>                  
-                    <div>
-                        <h3><span>Como funcionam os multiplicadores baseados em Vida da Yelan?</span></h3>                     
-                        <p>Diferente da Hu Tao que converte Vida em Ataque, ou do Itto que converte Defesa em Ataque, a Yelan não possui nenhuma conversão em seu Kit, escalando puramente com Vida. Ou seja, tanto o Ataque Base das Armas quanto atributos de Ataque são completamente irrelevantes para seu dano, sendo Vida, Crítico (Taxa e Dano), Bônus (elementais ou de talentos) e Recarga de Energia os únicos status relevantes.</p> 
-                    </div>
-                    <div>
-                        <h3><span>Devo usar a mecânica <a href="#ruptura" class="ruptura">"Flecha de Ruptura"?</a></span></h3>
-                        <p>A Flecha de Ruptura é uma mecânica única dentro do Ataque Normal da Yelan que permite disparar uma flecha de Dano Hydro instantânea. A maior utilidade desse disparo é aplicar Hydro nos inimigos sem usar a Habilidade ou Supremo, sendo no geral uma perda de DPS utilizar esse Ataque Carregado no meio de um combo. Em algumas situações, pode ser usada para finalizar inimigos no final da rotação.</p>
-                    </div>                                                      
-                    <div>
-                        <h3><span>C1 ou Aqua Simulacra?</span></h3>
-                        <p>Aqua é melhor que a C1 em potencial de dano. O arco é extremamente valioso para ela, mas também pode ser muito útil para outros arqueiros da conta pelos 88% de Dano Crítico e 20% de Bônus de dano. Por outro lado, a C1 é, no geral, mais barata de se obter, além de ser extremamente útil na exploração. Se puder, Aqua Simulacra é o mais útil e seria melhor obtê-lo antes da primeira Constelação.</p>
-                    </div>
-                    <div>
-                        <h3><span>Yelan é mais forte que Xingqiu?</span></h3>
-                        <p>Em cenários em que eles são os únicos personagens Hydro de cada equipe, o dano dos dois é muito parecido pela alta necessidade de Recarga de ambos. As maiores diferenças estão no restante do kit, sendo o Xingqiu uma opção com mais aplicação e mais defensiva, tendo uma pequena cura, resistência à interrupção e redução de dano recebido, enquanto a Yelan é uma opção mais ofensiva, fornecendo Buff para o personagem ativo.</p>
-                        <br />
-                        <p>Entretanto, o verdadeiro potencial da Yelan está em equipes com mais de um personagem Hydro. Seja com Xingqiu ou com Furina, as necessidades de Recarga da Yelan são drasticamente reduzidas em equipes com outro gerador de partículas Hydro, o que aumenta muito seu potencial de dano e consolida ela como uma unidade ofensiva consideravelmente mais forte que o Xingqiu, principalmente em alto investimento.</p>
-                    </div>
+                <div class="autoria-mobile flex">
+                    <p class="autoria2 anima2">By: Quinn, Yuri & Jean</p>
+                    <div class="bgcolor flex">
+                        <div class="botao2">    
+                            <input type="checkbox" name="bg-color" class="bgblue" id="bblue">
+                            <label for="bblue" class="bblue flex animabotao">
+                                <img class="botao-img sun" src="/img/icones/sun.webp">
+                                <div class="ball"></div>
+                                <img class="botao-img moon" src="/img/icones/moon.webp">
+                            </label>
+                        </div>
+                    </div>    
                 </div>
-            </div>
-            <div id="talentos" class="talentos-1 anima4">
-                <h2 class="analise-c">Talentos</h2>
-                <div class="talento-titulo flex">
-                    <img class="icone" src="/img/guias/yelan/atk_normal.png"> 
-                    <span class="talento "> Ataque Normal: <span class="talento-nome">Flecha Oculta </span></span>
+                <div id="introducao" class="intro intro-anima">
+                    <p>Yelan é uma DPS Hydro usuária de Arco, predominantemente utilizada fora de campo, mas não limitada a isso. Sua boa aplicação Hydro, Buff e dano pessoal são seus maiores destaques.</p>
                 </div>
-                <p>  
-                    Um talento praticamente irrelevante antes da C6, exceto pela mecânica de tiro carregado instantâneo que será abordado à frente.
-                </p>
-                <div class="talento-titulo flex">
-                    <img class="icone" src="/img/guias/yelan/skill.png"> 
-                    <span class="talento "> Habilidade Elemental: <span class="talento-nome">Rede da Vida Salvadora</span></span> 
-                </div>
-                <p> 
-                    Representa cerca de 13% do dano de uma Yelan C0, consistindo basicamente numa corrida rápida que marca os inimigos próximos.
-                </p>
-                <div class="talento-titulo flex">
-                    <img class="icone" src="/img/guias/yelan/ult.png">
-                    <span class="talento "> Supremo: <span class="talento-nome">Dado das Profundezas Claras</span></span> 
+                <div class="razoes anima3">
+                    <h2>Por que pegar ou skipar?</h2>
+                    <div class="pros">
+                        <button id="pros">
+                            <h3>Prós:</h3>
+                        </button>
+                        <div class="txtpros">
+                            <p>Bom dano pessoal e aplicação Hydro. Seu Supremo é uma das maiores fontes de dano em alvo único fora de campo no jogo.</p>
+                            <p>Extremamente versátil, se encaixando em diversas composições. Assim como o Xingqiu, ela se encaixa em qualquer time que requeira dano ou aplicação Hydro fora de campo.</p>
+                            <p>Forma junto com o Xingqiu o núcleo conhecido como Double Hydro, uma das combinações mais poderosas do jogo.</p>
+                            <p>Amigável para jogadores iniciantes. Seu scaling puro em Vida faz com que alguns arcos 3 e 4 estrelas sejam melhores que vários 5 estrelas.</p>
+                            <p>Possui um Buff interessante. Propicia em grande medida o Buff de uma Status quase universal: Bônus de Dano %.</p>
+                            <p>Sua Habilidade Elemental é ótima para exploração.</p>                    
+                        </div>
+                    </div>
                     
-                </div>
-                <p> 
-                    A principal fonte de dano da Yelan, representando cerca de 87% do seu dano por rotação. É com o Supremo que a Yelan Buffa o personagem ativo em campo, além de aplicar Hydro fora de campo. Sem dúvidas um talento que vale maximizar. 
-                </p>
-                <div class="prioridades">
-                    <p class="prioridade-txt"><span>Prioridade de Talentos</span></p>
-                    <div class="flex-row">
-                        <div class="flex-column">
-                            <img src="/img/guias/yelan/ult.png">
-                            <p>ULT</p>
+                    <div class="contras">
+                        <button id="contras">
+                            <h3>Contras:</h3>
+                        </button>
+                        <div class="txtcontras">
+                            <p>Apesar da sua boa aplicação Hydro, ela pode ser inferior ao Xingqiu (C6) em alguns arquétipos.</p>                                                        
+                            <p>Seus multiplicadores baseados em Vida não permitem muitas formas de Buff para o seu dano pessoal. Já sua alta aplicação inviabiliza que ela abuse de reações amplificadoras no seu Supremo (vaporização). 
+                            </p>                                                        
+                            <p>Alto requerimento de Recarga quando não acompanhada de outro personagem Hydro, reduzindo consideravelmente seu potencial de dano.</p>                                                        
+                            <p>Diferente do Xingqiu, não possui em seu kit mecânicas defensivas (ex.: cura e aumento de resistência à interrupção).</p>   
                         </div>
-                        <div class="comparacao c1"> >> </div>
-                        <div class="flex-column">
-                            <img src="/img/guias/yelan/skill.png">
-                            <p>SKILL</p>
-                        </div>
-                        <div class="comparacao"> > </div>
-                        <div class="flex-column">
-                            <img src="/img/guias/yelan/atk_normal.png">
-                            <p>AA</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="set passivas">
-                    <h3>Passivas</h3>
-                    <div id="crisalida">
-                        <div class="talento-titulo flex">
-                            <img class="icone" src="/img/guias/yelan/passiva_1.png">
-                            <span class="talento">Ascensão 1: <span class="talento-nome">Estratégia Controlada</span></span>
-                        </div>
-                        <p><span>Quando há 1/2/3/4 personagens de tipos elementais diferentes, a Vida Máxima de Yelan aumenta 6%/12%/18%/30% respectivamente.</span></p>    
-                        <p>Quanto mais personagens de elementos diferentes na equipe, mais a vida da Yelan aumentará, mas vale ressaltar que a ressonância Hydro sobressai essa passiva, sendo vantajoso utilizar outro personagem Hydro para receber os 25% de vida da ressonância.
-                        </p>
-                    </div>
-                    <div class="rot-sep"></div>
-                    <div id="sangue-fervendo">
-                        <div class="talento-titulo flex">
-                            <img class="icone" src="/img/guias/yelan/passiva_4.png">
-                            <span class="talento">Ascensão 4: <span class="talento-nome">Adaptação Esperta</span></span>
-                        </div>
-                        <p><span>Enquanto o Dado Misterioso existir, aumenta o Dano do personagem ativo no campo de batalha em 1%, e a cada 1s aumenta em 3.5%. Permite aumentar o Dano infligido pela personagem em até 50%.</span></p>
-                        <p>Essa passiva faz com que, ao utilizar o Supremo da Yelan e invocar seu dado, o personagem ativo receba um bônus de dano que aumenta conforme o tempo passa. Esse Buff acumula a cada segundo em que o Supremo esteja ativo, aumentando em 3.5% o bônus de dano, ou seja, após 7 segundos (metade da duração do dado da Yelan) o personagem ativo em campo terá 25,5% de bônus, e após 14 segundos, ele terá o Buff máximo de 50%. Esse Buff não reseta ao trocar de personagem e será removido após o fim da duração do Supremo da Yelan.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="anima5">
-                <h2>Entendendo o Kit:</h2>
-                <h4 class="subtitulo" id="ruptura">
-                    <span>Como funciona seu Ataque Normal?</span>
-                </h4> 
-                <p>Diferente de todo o resto de seu kit, o Ataque Normal da Yelan escala com ataque, o que torna seu dano irrelevante.
-                </p>
-                <p>Porém, ela possui uma mecânica especial chamada “Flecha de Ruptura” que consiste em um Ataque Carregado instantâneo cujo dano escala somente com sua Vida. Essa flecha pode ser disparada se a Yelan ficar 5 segundos ou mais fora de batalha, ou seja, sem nenhum inimigo próximo. É possível saber se a Yelan tem um disparo de ruptura pronto pelo brilho de seu bracelete ou pelo símbolo que aparece acima de sua cabeça quando ele está pronto.</p> 
-                <div class="talento-img">
-                    <img loading="lazy" src="/img/guias/yelan/gif_atknormal.gif">
-                </div>           
-            </div>
-            <div>
-                <h4 class="subtitulo" id="habilidade">
-                    <span>Como funciona sua Habilidade Elemental?</span>
-                </h4>  
-                <p>A Habilidade Elemental da Yelan pode ser tanto pressionada quanto segurada. Ao pressionar, ela correrá uma curta distância, causando Dano Hydro no inimigo mais próximo. Ao segurar, Yelan permanecerá no estado de corrida por até 3s, se deslocando rapidamente pelo campo de batalha e marcando cada inimigo próximo a ela. No fim da corrida, os inimigos marcados receberão Dano Hydro. O cooldown da Habilidade independe do modo de uso e começa a ser contabilizado no momento em que a Yelan sai do estado de corrida.
-                </p>      
-                <p>A Habilidade Elemental da Yelan é também uma ativadora do seu Supremo, fazendo com que, ao atingir um inimigo, o Dado dispare imediatamente 3 flechas de Dano Hydro, independentemente do cooldown interno de ativação. Basicamente, cada uso da Habilidade te garante uma wave extra do Supremo dela.
-                </p>  
-                <p>Vale ainda ressaltar que, a cada inimigo atingido pela Habilidade Elemental da Yelan, existe 34% de chance de carregar uma Flecha de Ruptura. Além disso, essa Habilidade possui outra mecânica única de pseudo controle de grupo, derrubando alguns tipos de inimigos após a marca da sua Habilidade explodir.</p>   
-                <div class="talento-img">
-                    <img loading="lazy" src="/img/guias/yelan/gif_skill.gif">
-                </div>  
-            </div>
-            <div>
-                <h4 class="subtitulo" id="supremo">
-                    <span>Como funciona seu Supremo?</span>
-                </h4>
-                <p>O Supremo da Yelan invoca um “Dado Misterioso” que realiza ataques coordenados com o personagem em campo. Ou seja, ao desferir um Ataque Normal, o Dado Misterioso realizará 3 disparos de Dano Hydro, no máximo 1 vez por segundo, durante 15 segundos. O Dado permanece ativo mesmo durante a troca de personagens, mas não possui snapshot, dependendo exclusivamente dos Buffs ativos na Yelan.
-                </p>
-                <div class="talento-img">
-                    <img loading="lazy" src="/img/guias/yelan/gif_supremo.gif">
-                </div>  
-            </div>
-            <div id="atributos" class="atributos">
-                <h2>Artefatos / DPS fora de campo</h2>
-                <div class="set b9">
-                    <div class="artefato-img">
-                        <img src="/img/artefatos/Selo_da_Insulacao.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Selo da Insulação</h4>
-                    </div>
-                    <p><span>2 peças: </span>Recarga de Energia +20%.</p>
-                    <p><span>4 peças: </span>Aumenta o Dano do Supremo em 25% da Recarga de Energia. No máximo é possível obter 75% de aumento de Dano dessa maneira.</p>
-                    <div class="rot-sep"></div>
-                    <p>É sem dúvidas a combinação mais forte para Yelan. Fornece Recarga adicional que facilita sua build e Buffa consideravelmente sua principal fonte de dano. Com Yelan fora de campo essa é sua única e definitiva opção.</p>
-                </div>          
-                <div class="flex status">
-                    <div class="cards">
-                        <div class="artefato-card flor">
-                            <div>
-                                <h4>Vida</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Flor.webp">   
-                            <div class="stat-icon">
-                                <img src="/img/icones/HP.png"> 
-                            </div>                        
-                        </div>
-                        <div class="artefato-card pena">
-                            <div>
-                                <h4>Ataque</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Pena.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/Ataque.png"> 
-                            </div>
-                        </div>
-                        <div class="artefato-card ampu">
-                            <div>
-                                <h4>Vida</h4>
-                                <h4>Recarga</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Ampulheta.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/HP.png"> 
-                            </div>
-                        </div>                                        
-                        <div class="artefato-card calice">
-                            <div>
-                                <h4>Dano Hydro</h4>                                                               
-                            </div>
-                            <img src="/img/icones/Calice.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/Hydro.png"> 
-                            </div>
-                        </div>
-                        <div class="artefato-card coroa">
-                            <div>
-                                <h4 class="prof">Taxa Crítica</h4>
-                                <h4 class="prof2">Taxa</h4>
-                                <h4 class="prof">Dano Crítico</h4>
-                                <h4 class="prof2">Dano</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Coroa.webp"> 
-                            <div class="stat-icon">
-                                <img src="/img/icones/Taxa_crit.png"> 
-                            </div>                         
-                        </div>
-                    </div>                  
-                </div>
-                <div class="set statusprincipais">
-                    <h3 class="subtituloh3">Status Principais</h3>
-                    <div class="rot-sep"></div>
-                    <div class="artefato-img">
-                        <img src="/img/icones/Ampulheta.webp">
-                    </div>
-                    <div class="principais-icon">
+                    </div> 
+                    <div class="faq" id="faq">
+                        <h2>Dúvidas Frequentes:</h2>                  
                         <div>
-                            <h3>Relógio de Vida</h3>
-                            <img src="/img/icones/HP.png">
+                            <h3><span>Como funcionam os multiplicadores baseados em Vida da Yelan?</span></h3>                     
+                            <p>Diferente da Hu Tao que converte Vida em Ataque, ou do Itto que converte Defesa em Ataque, a Yelan não possui nenhuma conversão em seu Kit, escalando puramente com Vida. Ou seja, tanto o Ataque Base das Armas quanto atributos de Ataque são completamente irrelevantes para seu dano, sendo Vida, Crítico (Taxa e Dano), Bônus (elementais ou de talentos) e Recarga de Energia os únicos status relevantes.</p> 
                         </div>
                         <div>
-                            <h3>ou Recarga</h3>
-                            <img src="/img/icones/ER.png">
-                        </div>
-                        <p>Se for possível se manter dentro dos requerimentos de recarga, utilize Relógio de Vida, caso contrário Recarga. Segue abaixo uma tabela com os requerimentos de recarga da Yelan em diferentes situações:</p>
-                    </div>
-                    <h4 class="reqt">Requerimento de Recarga sem Favonius na equipe</h4>
-                    <div class="yelan-er">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>1 Skill</th>
-                                    <th>2 Skill</th>
-                                </tr>                      
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Outro</td>                                
-                                    <td>324%</td>
-                                    <td>208%</td>
-                                </tr>
-                                <tr>
-                                    <td>Favonius</td>                                
-                                    <td>253%</td>
-                                    <td>176%</td>
-                                </tr>
-                                <tr>
-                                    <td>Sacrifício</td>                                
-                                    <td>208%</td>
-                                    <td>153%</td>
-                                </tr>
-                                <tr>
-                                    <td>Raiden</td>                                
-                                    <td>190%</td>
-                                    <td>178%</td>
-                                </tr>
-                                <tr>
-                                    <td>2° Hydro</td>                                
-                                    <td>229%</td>
-                                    <td>173%</td>
-                                </tr>
-                                <tr>
-                                    <td>2° Hydro + Favonius</td>                                
-                                    <td>191%</td>
-                                    <td>150%</td>
-                                </tr>
-                                <tr>
-                                    <td>2° Hydro + Sacrifício</td>                                
-                                    <td>164%</td>
-                                    <td>133%</td>
-                                </tr>                        
-                            </tbody>
-                        </table>
-                    </div>
-                    <small>Cálculos feitos por: Saber#9529</small>
-                    <h4 class="reqt">Requerimento de Recarga com 1 Favonius na equipe</h4>
-                    <div class="yelan-er">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>1 Skill</th>
-                                    <th>2 Skill</th>
-                                </tr>                      
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Outro</td>                                
-                                    <td>277%</td>
-                                    <td>188%</td>
-                                </tr>
-                                <tr>
-                                    <td>Favonius</td>                                
-                                    <td>224%</td>
-                                    <td>162%</td>
-                                </tr>
-                                <tr>
-                                    <td>Sacrifício</td>                                
-                                    <td>188%</td>
-                                    <td>142%</td>
-                                </tr>
-                                <tr>
-                                    <td>Raiden</td>                                
-                                    <td>167%</td>
-                                    <td>157%</td>
-                                </tr>
-                                <tr>
-                                    <td>2° Hydro</td>                                
-                                    <td>205%</td>
-                                    <td>159%</td>
-                                </tr>
-                                <tr>
-                                    <td>2° Hydro + Favonius</td>                                
-                                    <td>174%</td>
-                                    <td>139%</td>
-                                </tr>
-                                <tr>
-                                    <td>2° Hydro + Sacrifício</td>                                
-                                    <td>151%</td>
-                                    <td>124%</td>
-                                </tr>                        
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="rot-sep"></div>
-                    <div class="artefato-img">
-                        <img src="/img/icones/Calice.webp">
-                    </div>
-                    <div class="principais-icon">
+                            <h3><span>Devo usar a mecânica <a href="#ruptura" class="ruptura">"Flecha de Ruptura"?</a></span></h3>
+                            <p>A Flecha de Ruptura é uma mecânica única dentro do Ataque Normal da Yelan que permite disparar uma flecha de Dano Hydro instantânea. A maior utilidade desse disparo é aplicar Hydro nos inimigos sem usar a Habilidade ou Supremo, sendo no geral uma perda de DPS utilizar esse Ataque Carregado no meio de um combo. Em algumas situações, pode ser usada para finalizar inimigos no final da rotação.</p>
+                        </div>                                                      
                         <div>
-                            <h3>Cálice de Dano Hydro</h3>
-                            <img src="/img/icones/Hydro.png">
+                            <h3><span>C1 ou Aqua Simulacra?</span></h3>
+                            <p>Aqua é melhor que a C1 em potencial de dano. O arco é extremamente valioso para ela, mas também pode ser muito útil para outros arqueiros da conta pelos 88% de Dano Crítico e 20% de Bônus de dano. Por outro lado, a C1 é, no geral, mais barata de se obter, além de ser extremamente útil na exploração. Se puder, Aqua Simulacra é o mais útil e seria melhor obtê-lo antes da primeira Constelação.</p>
                         </div>
                         <div>
-                            <h3>ou Vida</h3>
-                            <img src="/img/icones/HP.png">
+                            <h3><span>Yelan é mais forte que Xingqiu?</span></h3>
+                            <p>Em cenários em que eles são os únicos personagens Hydro de cada equipe, o dano dos dois é muito parecido pela alta necessidade de Recarga de ambos. As maiores diferenças estão no restante do kit, sendo o Xingqiu uma opção com mais aplicação e mais defensiva, tendo uma pequena cura, resistência à interrupção e redução de dano recebido, enquanto a Yelan é uma opção mais ofensiva, fornecendo Buff para o personagem ativo.</p>
+                            <br />
+                            <p>Entretanto, o verdadeiro potencial da Yelan está em equipes com mais de um personagem Hydro. Seja com Xingqiu ou com Furina, as necessidades de Recarga da Yelan são drasticamente reduzidas em equipes com outro gerador de partículas Hydro, o que aumenta muito seu potencial de dano e consolida ela como uma unidade ofensiva consideravelmente mais forte que o Xingqiu, principalmente em alto investimento.</p>
                         </div>
-                        <p>O Cálice deve ser, essencialmente, de Dano Hydro, mas Vida pode ser utilizado como quebra galho.</p>
                     </div>
-                    <div class="rot-sep"></div>
-                    <div class="artefato-img">
-                        <img src="/img/icones/Coroa.webp">
-                    </div>
-                    <div class="principais-icon">
-                        <div>
-                            <h3>Coroa de Taxa Crítica</h3>
-                            <img src="/img/icones/Taxa_crit.png">
-                        </div>
-                        <div>
-                            <h3>ou Dano Crítico</h3>
-                            <img src="/img/icones/Dano_crit.png">
-                        </div>
-                        <div>
-                            <h3>ou Vida</h3>
-                            <img src="/img/icones/HP.png">
-                        </div>
-                        <p>
-                            Crítico é normalmente a melhor opção, mas Vida, desde que consiga manter uma boa proporção de Dano/Taxa, não fica muito atrás. Se torna uma boa opção se seu chapéu de Vida for muito superior ao seu chapéu de Crítico.
-                        </p>
-                    </div>
-                                     
                 </div>
-                <div class="column" id="status-medios">
-                    <h3 class="subtituloh3">Status médios recomendados</h3>
-                    <p>A tabela abaixo demonstra uma meta base de status para a Yelan com diferentes necessidades de Recarga. Considerando 3 elementos diferentes na equipe para a passiva dela, 4 peças do Selo da Insulação e 40 substatus médios (KQMS).</p>
-                </div>
-                <table class="b109"><thead><tr><th>Armas</th><th>Recarga</th><th>Vida</th><th>Crítico</th></tr></thead><tbody><tr><td>Favonius</td><td>220%</td><td>31k</td><td>71/130</td></tr><tr><td>Aqua Simulacra</td><td>200%</td><td>29k</td><td>88/184</td></tr><tr><td>Favonius</td><td>180%</td><td>32k</td><td>88/130</td></tr><tr><td>Aqua Simulacra</td><td>180%</td><td>32k</td><td>88/178</td></tr><tr><td>Aqua Simulacra</td><td>150% (Double Hydro)</td><td>36k</td><td>88/205</td></tr></tbody></table>
-            </div>
-            <div class="armas" id="armas">
-                <h2>Melhores Armas / DPS fora de campo</h2>
-                <div class="set">
-                    <div class="passivas">
-                        <span>Yelan C0 / Solo Hydro</span>
+                <div id="talentos" class="talentos-1 anima4">
+                    <h2 class="analise-c">Talentos</h2>
+                    <div class="talento-titulo flex">
+                        <img class="icone" src="/img/guias/yelan/atk_normal.png"> 
+                        <span class="talento "> Ataque Normal: <span class="talento-nome">Flecha Oculta </span></span>
                     </div>
-                    <img class="tabela" src="/img/guias/yelan/armas1.png">
-                </div>
-                <div class="set">
-                    <div class="passivas">
-                        <span>Yelan C0 / Com Xingqiu</span>
+                    <p>  
+                        Um talento praticamente irrelevante antes da C6, exceto pela mecânica de tiro carregado instantâneo que será abordado à frente.
+                    </p>
+                    <div class="talento-titulo flex">
+                        <img class="icone" src="/img/guias/yelan/skill.png"> 
+                        <span class="talento "> Habilidade Elemental: <span class="talento-nome">Rede da Vida Salvadora</span></span> 
                     </div>
-                    <img class="tabela" src="/img/guias/yelan/armas2.png">
-                </div>         
-                <div class="tabela-link">
-                    <a href="https://docs.google.com/spreadsheets/d/1uTuqJPISNKStsHTwxZm631ndi5yMsy9WNzx3YXEWD8c/edit#gid=661246444" target="_blank">🔗 Créditos ao Kaguu</a>
-                </div>              
+                    <p> 
+                        Representa cerca de 13% do dano de uma Yelan C0, consistindo basicamente numa corrida rápida que marca os inimigos próximos.
+                    </p>
+                    <div class="talento-titulo flex">
+                        <img class="icone" src="/img/guias/yelan/ult.png">
+                        <span class="talento "> Supremo: <span class="talento-nome">Dado das Profundezas Claras</span></span> 
+                        
+                    </div>
+                    <p> 
+                        A principal fonte de dano da Yelan, representando cerca de 87% do seu dano por rotação. É com o Supremo que a Yelan Buffa o personagem ativo em campo, além de aplicar Hydro fora de campo. Sem dúvidas um talento que vale maximizar. 
+                    </p>
+                    <div class="prioridades">
+                        <p class="prioridade-txt"><span>Prioridade de Talentos</span></p>
+                        <div class="flex-row">
+                            <div class="flex-column">
+                                <img src="/img/guias/yelan/ult.png">
+                                <p>ULT</p>
+                            </div>
+                            <div class="comparacao c1"> >> </div>
+                            <div class="flex-column">
+                                <img src="/img/guias/yelan/skill.png">
+                                <p>SKILL</p>
+                            </div>
+                            <div class="comparacao"> > </div>
+                            <div class="flex-column">
+                                <img src="/img/guias/yelan/atk_normal.png">
+                                <p>AA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set passivas">
+                        <h3>Passivas</h3>
+                        <div id="crisalida">
+                            <div class="talento-titulo flex">
+                                <img class="icone" src="/img/guias/yelan/passiva_1.png">
+                                <span class="talento">Ascensão 1: <span class="talento-nome">Estratégia Controlada</span></span>
+                            </div>
+                            <p><span>Quando há 1/2/3/4 personagens de tipos elementais diferentes, a Vida Máxima de Yelan aumenta 6%/12%/18%/30% respectivamente.</span></p>    
+                            <p>Quanto mais personagens de elementos diferentes na equipe, mais a vida da Yelan aumentará, mas vale ressaltar que a ressonância Hydro sobressai essa passiva, sendo vantajoso utilizar outro personagem Hydro para receber os 25% de vida da ressonância.
+                            </p>
+                        </div>
+                        <div class="rot-sep"></div>
+                        <div id="sangue-fervendo">
+                            <div class="talento-titulo flex">
+                                <img class="icone" src="/img/guias/yelan/passiva_4.png">
+                                <span class="talento">Ascensão 4: <span class="talento-nome">Adaptação Esperta</span></span>
+                            </div>
+                            <p><span>Enquanto o Dado Misterioso existir, aumenta o Dano do personagem ativo no campo de batalha em 1%, e a cada 1s aumenta em 3.5%. Permite aumentar o Dano infligido pela personagem em até 50%.</span></p>
+                            <p>Essa passiva faz com que, ao utilizar o Supremo da Yelan e invocar seu dado, o personagem ativo receba um bônus de dano que aumenta conforme o tempo passa. Esse Buff acumula a cada segundo em que o Supremo esteja ativo, aumentando em 3.5% o bônus de dano, ou seja, após 7 segundos (metade da duração do dado da Yelan) o personagem ativo em campo terá 25,5% de bônus, e após 14 segundos, ele terá o Buff máximo de 50%. Esse Buff não reseta ao trocar de personagem e será removido após o fim da duração do Supremo da Yelan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="anima5">
+                    <h2>Entendendo o Kit:</h2>
+                    <h4 class="subtitulo" id="ruptura">
+                        <span>Como funciona seu Ataque Normal?</span>
+                    </h4> 
+                    <p>Diferente de todo o resto de seu kit, o Ataque Normal da Yelan escala com ataque, o que torna seu dano irrelevante.
+                    </p>
+                    <p>Porém, ela possui uma mecânica especial chamada “Flecha de Ruptura” que consiste em um Ataque Carregado instantâneo cujo dano escala somente com sua Vida. Essa flecha pode ser disparada se a Yelan ficar 5 segundos ou mais fora de batalha, ou seja, sem nenhum inimigo próximo. É possível saber se a Yelan tem um disparo de ruptura pronto pelo brilho de seu bracelete ou pelo símbolo que aparece acima de sua cabeça quando ele está pronto.</p> 
+                    <div class="talento-img">
+                        <img loading="lazy" src="/img/guias/yelan/gif_atknormal.gif">
+                    </div>           
+                </div>
                 <div>
-                    <h4 class="subtitulo-armas">
+                    <h4 class="subtitulo" id="habilidade">
+                        <span>Como funciona sua Habilidade Elemental?</span>
+                    </h4>  
+                    <p>A Habilidade Elemental da Yelan pode ser tanto pressionada quanto segurada. Ao pressionar, ela correrá uma curta distância, causando Dano Hydro no inimigo mais próximo. Ao segurar, Yelan permanecerá no estado de corrida por até 3s, se deslocando rapidamente pelo campo de batalha e marcando cada inimigo próximo a ela. No fim da corrida, os inimigos marcados receberão Dano Hydro. O cooldown da Habilidade independe do modo de uso e começa a ser contabilizado no momento em que a Yelan sai do estado de corrida.
+                    </p>      
+                    <p>A Habilidade Elemental da Yelan é também uma ativadora do seu Supremo, fazendo com que, ao atingir um inimigo, o Dado dispare imediatamente 3 flechas de Dano Hydro, independentemente do cooldown interno de ativação. Basicamente, cada uso da Habilidade te garante uma wave extra do Supremo dela.
+                    </p>  
+                    <p>Vale ainda ressaltar que, a cada inimigo atingido pela Habilidade Elemental da Yelan, existe 34% de chance de carregar uma Flecha de Ruptura. Além disso, essa Habilidade possui outra mecânica única de pseudo controle de grupo, derrubando alguns tipos de inimigos após a marca da sua Habilidade explodir.</p>   
+                    <div class="talento-img">
+                        <img loading="lazy" src="/img/guias/yelan/gif_skill.gif">
+                    </div>  
+                </div>
+                <div>
+                    <h4 class="subtitulo" id="supremo">
+                        <span>Como funciona seu Supremo?</span>
+                    </h4>
+                    <p>O Supremo da Yelan invoca um “Dado Misterioso” que realiza ataques coordenados com o personagem em campo. Ou seja, ao desferir um Ataque Normal, o Dado Misterioso realizará 3 disparos de Dano Hydro, no máximo 1 vez por segundo, durante 15 segundos. O Dado permanece ativo mesmo durante a troca de personagens, mas não possui snapshot, dependendo exclusivamente dos Buffs ativos na Yelan.
+                    </p>
+                    <div class="talento-img">
+                        <img loading="lazy" src="/img/guias/yelan/gif_supremo.gif">
+                    </div>  
+                </div>
+                <div id="atributos" class="atributos">
+                    <h2>Artefatos / DPS fora de campo</h2>
+                    <div class="set b9">
+                        <div class="artefato-img">
+                            <img src="/img/artefatos/Selo_da_Insulacao.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Selo da Insulação</h4>
+                        </div>
+                        <p><span>2 peças: </span>Recarga de Energia +20%.</p>
+                        <p><span>4 peças: </span>Aumenta o Dano do Supremo em 25% da Recarga de Energia. No máximo é possível obter 75% de aumento de Dano dessa maneira.</p>
+                        <div class="rot-sep"></div>
+                        <p>É sem dúvidas a combinação mais forte para Yelan. Fornece Recarga adicional que facilita sua build e Buffa consideravelmente sua principal fonte de dano. Com Yelan fora de campo essa é sua única e definitiva opção.</p>
+                    </div>          
+                    <div class="flex status">
+                        <div class="cards">
+                            <div class="artefato-card flor">
+                                <div>
+                                    <h4>Vida</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Flor.webp">   
+                                <div class="stat-icon">
+                                    <img src="/img/icones/HP.png"> 
+                                </div>                        
+                            </div>
+                            <div class="artefato-card pena">
+                                <div>
+                                    <h4>Ataque</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Pena.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Ataque.png"> 
+                                </div>
+                            </div>
+                            <div class="artefato-card ampu">
+                                <div>
+                                    <h4>Vida</h4>
+                                    <h4>Recarga</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Ampulheta.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/HP.png"> 
+                                </div>
+                            </div>                                        
+                            <div class="artefato-card calice">
+                                <div>
+                                    <h4>Dano Hydro</h4>                                                               
+                                </div>
+                                <img src="/img/icones/Calice.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Hydro.png"> 
+                                </div>
+                            </div>
+                            <div class="artefato-card coroa">
+                                <div>
+                                    <h4 class="prof">Taxa Crítica</h4>
+                                    <h4 class="prof2">Taxa</h4>
+                                    <h4 class="prof">Dano Crítico</h4>
+                                    <h4 class="prof2">Dano</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Coroa.webp"> 
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Taxa_crit.png"> 
+                                </div>                         
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="set statusprincipais">
+                        <h3 class="subtituloh3">Status Principais</h3>
+                        <div class="rot-sep"></div>
+                        <div class="artefato-img">
+                            <img src="/img/icones/Ampulheta.webp">
+                        </div>
+                        <div class="principais-icon">
+                            <div>
+                                <h3>Relógio de Vida</h3>
+                                <img src="/img/icones/HP.png">
+                            </div>
+                            <div>
+                                <h3>ou Recarga</h3>
+                                <img src="/img/icones/ER.png">
+                            </div>
+                            <p>Se for possível se manter dentro dos requerimentos de recarga, utilize Relógio de Vida, caso contrário Recarga. Segue abaixo uma tabela com os requerimentos de recarga da Yelan em diferentes situações:</p>
+                        </div>
+                        <h4 class="reqt">Requerimento de Recarga sem Favonius na equipe</h4>
+                        <div class="yelan-er">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>1 Skill</th>
+                                        <th>2 Skill</th>
+                                    </tr>                      
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Outro</td>                                
+                                        <td>324%</td>
+                                        <td>208%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Favonius</td>                                
+                                        <td>253%</td>
+                                        <td>176%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sacrifício</td>                                
+                                        <td>208%</td>
+                                        <td>153%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Raiden</td>                                
+                                        <td>190%</td>
+                                        <td>178%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2° Hydro</td>                                
+                                        <td>229%</td>
+                                        <td>173%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2° Hydro + Favonius</td>                                
+                                        <td>191%</td>
+                                        <td>150%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2° Hydro + Sacrifício</td>                                
+                                        <td>164%</td>
+                                        <td>133%</td>
+                                    </tr>                        
+                                </tbody>
+                            </table>
+                        </div>
+                        <small>Cálculos feitos por: Saber#9529</small>
+                        <h4 class="reqt">Requerimento de Recarga com 1 Favonius na equipe</h4>
+                        <div class="yelan-er">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>1 Skill</th>
+                                        <th>2 Skill</th>
+                                    </tr>                      
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Outro</td>                                
+                                        <td>277%</td>
+                                        <td>188%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Favonius</td>                                
+                                        <td>224%</td>
+                                        <td>162%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sacrifício</td>                                
+                                        <td>188%</td>
+                                        <td>142%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Raiden</td>                                
+                                        <td>167%</td>
+                                        <td>157%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2° Hydro</td>                                
+                                        <td>205%</td>
+                                        <td>159%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2° Hydro + Favonius</td>                                
+                                        <td>174%</td>
+                                        <td>139%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2° Hydro + Sacrifício</td>                                
+                                        <td>151%</td>
+                                        <td>124%</td>
+                                    </tr>                        
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="rot-sep"></div>
+                        <div class="artefato-img">
+                            <img src="/img/icones/Calice.webp">
+                        </div>
+                        <div class="principais-icon">
+                            <div>
+                                <h3>Cálice de Dano Hydro</h3>
+                                <img src="/img/icones/Hydro.png">
+                            </div>
+                            <div>
+                                <h3>ou Vida</h3>
+                                <img src="/img/icones/HP.png">
+                            </div>
+                            <p>O Cálice deve ser, essencialmente, de Dano Hydro, mas Vida pode ser utilizado como quebra galho.</p>
+                        </div>
+                        <div class="rot-sep"></div>
+                        <div class="artefato-img">
+                            <img src="/img/icones/Coroa.webp">
+                        </div>
+                        <div class="principais-icon">
+                            <div>
+                                <h3>Coroa de Taxa Crítica</h3>
+                                <img src="/img/icones/Taxa_crit.png">
+                            </div>
+                            <div>
+                                <h3>ou Dano Crítico</h3>
+                                <img src="/img/icones/Dano_crit.png">
+                            </div>
+                            <div>
+                                <h3>ou Vida</h3>
+                                <img src="/img/icones/HP.png">
+                            </div>
+                            <p>
+                                Crítico é normalmente a melhor opção, mas Vida, desde que consiga manter uma boa proporção de Dano/Taxa, não fica muito atrás. Se torna uma boa opção se seu chapéu de Vida for muito superior ao seu chapéu de Crítico.
+                            </p>
+                        </div>
+                                         
+                    </div>
+                    <div class="column" id="status-medios">
+                        <h3 class="subtituloh3">Status médios recomendados</h3>
+                        <p>A tabela abaixo demonstra uma meta base de status para a Yelan com diferentes necessidades de Recarga. Considerando 3 elementos diferentes na equipe para a passiva dela, 4 peças do Selo da Insulação e 40 substatus médios (KQMS).</p>
+                    </div>
+                    <table class="b109"><thead><tr><th>Armas</th><th>Recarga</th><th>Vida</th><th>Crítico</th></tr></thead><tbody><tr><td>Favonius</td><td>220%</td><td>31k</td><td>71/130</td></tr><tr><td>Aqua Simulacra</td><td>200%</td><td>29k</td><td>88/184</td></tr><tr><td>Favonius</td><td>180%</td><td>32k</td><td>88/130</td></tr><tr><td>Aqua Simulacra</td><td>180%</td><td>32k</td><td>88/178</td></tr><tr><td>Aqua Simulacra</td><td>150% (Double Hydro)</td><td>36k</td><td>88/205</td></tr></tbody></table>
+                </div>
+                <div class="armas" id="armas">
+                    <h2>Melhores Armas / DPS fora de campo</h2>
+                    <div class="set">
+                        <div class="passivas">
+                            <span>Yelan C0 / Solo Hydro</span>
+                        </div>
+                        <img class="tabela" src="/img/guias/yelan/armas1.png">
+                    </div>
+                    <div class="set">
+                        <div class="passivas">
+                            <span>Yelan C0 / Com Xingqiu</span>
+                        </div>
+                        <img class="tabela" src="/img/guias/yelan/armas2.png">
+                    </div>         
+                    <div class="tabela-link">
+                        <a href="https://docs.google.com/spreadsheets/d/1uTuqJPISNKStsHTwxZm631ndi5yMsy9WNzx3YXEWD8c/edit#gid=661246444" target="_blank">🔗 Créditos ao Kaguu</a>
+                    </div>              
+                    <div>
+                        <h4 class="subtitulo-armas">
+                            <span>
+                                Análise das melhores opções:
+                            </span>
+                        </h4>
+                    </div>
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Aqua_Simulacra.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Aqua Simulacra</h3>
+                            <p>
+                                É sua Arma assinatura, e uma das poucas Armas as quais ela aproveita toda sua passiva e atributo secundário. Para seu dano pessoal, é sem dúvidas sua melhor opção.
+                            </p>
+                            <h4 class="statusbase">Dano Crítico: 88.2%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Elegia_do_Suspiro_Final.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Elegia do Suspiro Final</h3>
+                            <p>
+                                Em geral, é a melhor arma para a Yelan quando ela estiver sendo usada em times de vaporizar ou em qualquer time que se utiliza dos Buffs de Ataque e Proficiência.
+                            </p>
+                            <h4 class="statusbase">Recarga de Energia: 55.1%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Arco_de_Favonius.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Arco de Favonius</h3>
+                            <p>
+                                Geralmente a melhor Arma para ela quando as opções acima não estiverem disponíveis e/ou quando ela e o time necessitarem da Recarga que ela fornece. Seu atributo secundário e sua passiva diminuem tanto seus requerimentos que muitas vezes essa arma sozinha é o suficiente para suprir toda sua Energia.
+                            </p>
+                            <h4 class="statusbase">Recarga de Energia: 61.3%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Lua_de_Mouun.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Lua de Mouun</h3>
+                            <p>
+                                É o Arco 4 estrelas mais forte em opções de baixo requerimento de Recarga. Não precisa ser upado já que seu atributo secundário e Ataque Base são irrelevantes para Yelan.
+                            </p>
+                            <h4 class="statusbase">Ataque: 27.6%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Estilingue.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Estilingue</h3>
+                            <p>
+                                Melhor arma de banner não limitado em situações de baixo requerimento de Recarga. Seu generoso sub-atributo de Taxa Crítica ajuda no equilíbrio de status, além de ser um Arco 3 estrelas, demandando menos materiais para sua ascensão. 
+                            </p>
+                            <h4 class="statusbase">Taxa Crítica: 31.2%</h4>
+                        </div>
+                    </div>       
+                </div> 
+    
+                <div class="composicoes" id="composicoes">
+                    <h2>Composições / DPS fora de campo</h2>
+                    <h4 class="subtitulo">
                         <span>
-                            Análise das melhores opções:
+                            Exemplos de Times:
                         </span>
                     </h4>
+                    <div class="times">
+                        <div class="set">
+                            <div class="comp-nome">
+                                <h4>National</h4>
+                            </div>
+                            <div class="comp">
+                                <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img class="t4" src="/img/personagens/Xiangling.webp">
+                                <img class="t4" src="/img/personagens/Bennett.webp">
+                            </div>
+                        
+                        </div>                                                                         
+                        <div class="set">
+                            <div class="comp-nome">
+                                <h4>Vaporizar</h4>
+                            </div>
+                            <div class="comp">
+                                <img src="/img/icones/Pyro.png">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img src="/img/icones/Anemo.png">
+                                <img class="t4" src="/img/personagens/Bennett.webp">
+                            </div>
+                        </div>                                                                         
+                        <div class="set">
+                            <div class="comp-nome">
+                                <h4>Hyperbloom / Quickbloom</h4>
+                            </div>
+                            <div class="comp">
+                                <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img src="/img/icones/Dendro.png">
+                                <img src="/img/icones/Electro.png">
+                            </div> 
+                        </div>                                                                         
+                        <div class="set">
+                            <div class="comp-nome">
+                                <h4>Freeze</h4>
+                            </div>
+                            <div class="comp">
+                                <img src="/img/icones/Cryo.png">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img src="/img/icones/Anemo.png">
+                                <img src="/img/icones/Cryo.png">
+                            </div>
+                        
+                        </div>                                                                         
+                        <div class="set">
+                            <div class="comp-nome">
+                                <h4>Mono Hydro</h4>
+                            </div>
+                            <div class="comp">
+                                <img src="/img/icones/Hydro.png">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img src="/img/icones/Hydro.png">
+                                <img src="/img/icones/Anemo.png">
+                            </div>  
+                        </div>                                                                         
+                        <div class="set">                   
+                            <div class="comp-nome">
+                                <h4>Double Hydro</h4>
+                            </div>
+                            <div class="comp">
+                                <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img class="t4" src="/img/personagens/Xingqiu.webp">
+                                <img class="fundo-generico" src="/img/icones/Icon_Character.png">
+                            </div>
+                        </div>                                                                         
+                    </div>               
                 </div>
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Aqua_Simulacra.webp">                       
+                <div id="maindps">
+                    <h2>Yelan DPS em campo</h2>
+                    <div class="imgfull">
+                        <img src="/img/guias/yelan/yelan-art.png" style="max-width: 300px;">
                     </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Aqua Simulacra</h3>
-                        <p>
-                            É sua Arma assinatura, e uma das poucas Armas as quais ela aproveita toda sua passiva e atributo secundário. Para seu dano pessoal, é sem dúvidas sua melhor opção.
-                        </p>
-                        <h4 class="statusbase">Dano Crítico: 88.2%</h4>
+                </div>
+                <div class="m20" id="faq2">
+                    <h2>Dúvidas Frequentes:</h2>                 
+                    <div>
+                        <h3><span>Por que usar a Yelan como DPS em campo?</span></h3>                     
+                        <p>Apesar da maioria das pessoas usarem a Yelan fora de campo, ela pode sim ser uma DPS on field bastante forte. Seu potencial de dano contra alvos únicos é bem significativo. Pense nela como uma Yoimiya, porém, com uma Habilidade Elemental com AOE, além de uma melhor mobilidade.</p> 
                     </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Elegia_do_Suspiro_Final.webp">                       
+                    <div>
+                        <h3><span>Yelan só é Main DPS na C6?</span></h3>                     
+                        <p>A sexta Constelação garante a ela uma infusão elemental com dano em área durante 5 Ataques Normais, mas, curiosamente, esses ataques representam apenas ~30% do dano de uma Yelan C6. Seu Supremo e Skill permanecem como a maior fonte de dano, algo presente no seu kit desde a C0. O potencial de dano da Yelan sem constelações é equiparável a outros DPS em situações de alvo único, muitas vezes inclusive se sobressaindo em relação a personagens sem esse foco.</p> 
                     </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Elegia do Suspiro Final</h3>
-                        <p>
-                            Em geral, é a melhor arma para a Yelan quando ela estiver sendo usada em times de vaporizar ou em qualquer time que se utiliza dos Buffs de Ataque e Proficiência.
-                        </p>
-                        <h4 class="statusbase">Recarga de Energia: 55.1%</h4>
+                    <div>
+                        <h3><span>O que muda deixando a Yelan em campo?</span></h3>                     
+                        <p>Ela escala muito bem com seu Buff próprio, além de reduzir consideravelmente sua necessidade de Recarga de Energia e abusar da mecânica da sua Habilidade Elemental, a qual ativa seu Supremo. Considerando que uma Yelan C0 utilize sua Habilidade Elemental duas vezes por rotação, são 6 procs a mais para o seu Supremo (9 com C1).</p> 
                     </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Arco_de_Favonius.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Arco de Favonius</h3>
-                        <p>
-                            Geralmente a melhor Arma para ela quando as opções acima não estiverem disponíveis e/ou quando ela e o time necessitarem da Recarga que ela fornece. Seu atributo secundário e sua passiva diminuem tanto seus requerimentos que muitas vezes essa arma sozinha é o suficiente para suprir toda sua Energia.
-                        </p>
-                        <h4 class="statusbase">Recarga de Energia: 61.3%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Lua_de_Mouun.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Lua de Mouun</h3>
-                        <p>
-                            É o Arco 4 estrelas mais forte em opções de baixo requerimento de Recarga. Não precisa ser upado já que seu atributo secundário e Ataque Base são irrelevantes para Yelan.
-                        </p>
-                        <h4 class="statusbase">Ataque: 27.6%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Estilingue.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Estilingue</h3>
-                        <p>
-                            Melhor arma de banner não limitado em situações de baixo requerimento de Recarga. Seu generoso sub-atributo de Taxa Crítica ajuda no equilíbrio de status, além de ser um Arco 3 estrelas, demandando menos materiais para sua ascensão. 
-                        </p>
-                        <h4 class="statusbase">Taxa Crítica: 31.2%</h4>
-                    </div>
-                </div>       
-            </div> 
-
-            <div class="composicoes" id="composicoes">
-                <h2>Composições / DPS fora de campo</h2>
-                <h4 class="subtitulo">
-                    <span>
-                        Exemplos de Times:
-                    </span>
-                </h4>
-                <div class="times">
+                                                                                   
+                </div>
+                <div id="atributos2" class="atributos">
+                    <h2>Artefatos / DPS em campo</h2>
                     <div class="set">
-                        <div class="comp-nome">
-                            <h4>National</h4>
-                        </div>
-                        <div class="comp">
-                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img class="t4" src="/img/personagens/Xiangling.webp">
-                            <img class="t4" src="/img/personagens/Bennett.webp">
-                        </div>
-                    
-                    </div>                                                                         
-                    <div class="set">
-                        <div class="comp-nome">
-                            <h4>Vaporizar</h4>
-                        </div>
-                        <div class="comp">
-                            <img src="/img/icones/Pyro.png">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img src="/img/icones/Anemo.png">
-                            <img class="t4" src="/img/personagens/Bennett.webp">
-                        </div>
-                    </div>                                                                         
-                    <div class="set">
-                        <div class="comp-nome">
-                            <h4>Hyperbloom / Quickbloom</h4>
-                        </div>
-                        <div class="comp">
-                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img src="/img/icones/Dendro.png">
-                            <img src="/img/icones/Electro.png">
-                        </div> 
-                    </div>                                                                         
-                    <div class="set">
-                        <div class="comp-nome">
-                            <h4>Freeze</h4>
-                        </div>
-                        <div class="comp">
-                            <img src="/img/icones/Cryo.png">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img src="/img/icones/Anemo.png">
-                            <img src="/img/icones/Cryo.png">
-                        </div>
-                    
-                    </div>                                                                         
-                    <div class="set">
-                        <div class="comp-nome">
-                            <h4>Mono Hydro</h4>
-                        </div>
-                        <div class="comp">
-                            <img src="/img/icones/Hydro.png">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img src="/img/icones/Hydro.png">
-                            <img src="/img/icones/Anemo.png">
-                        </div>  
-                    </div>                                                                         
-                    <div class="set">                   
-                        <div class="comp-nome">
-                            <h4>Double Hydro</h4>
-                        </div>
-                        <div class="comp">
-                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img class="t4" src="/img/personagens/Xingqiu.webp">
-                            <img class="fundo-generico" src="/img/icones/Icon_Character.png">
-                        </div>
-                    </div>                                                                         
-                </div>               
-            </div>
-            <div id="maindps">
-                <h2>Yelan DPS em campo</h2>
-                <div class="imgfull">
-                    <img src="/img/guias/yelan/yelan-art.png" style="max-width: 300px;">
-                </div>
-            </div>
-            <div class="m20" id="faq2">
-                <h2>Dúvidas Frequentes:</h2>                 
-                <div>
-                    <h3><span>Por que usar a Yelan como DPS em campo?</span></h3>                     
-                    <p>Apesar da maioria das pessoas usarem a Yelan fora de campo, ela pode sim ser uma DPS on field bastante forte. Seu potencial de dano contra alvos únicos é bem significativo. Pense nela como uma Yoimiya, porém, com uma Habilidade Elemental com AOE, além de uma melhor mobilidade.</p> 
-                </div>
-                <div>
-                    <h3><span>Yelan só é Main DPS na C6?</span></h3>                     
-                    <p>A sexta Constelação garante a ela uma infusão elemental com dano em área durante 5 Ataques Normais, mas, curiosamente, esses ataques representam apenas ~30% do dano de uma Yelan C6. Seu Supremo e Skill permanecem como a maior fonte de dano, algo presente no seu kit desde a C0. O potencial de dano da Yelan sem constelações é equiparável a outros DPS em situações de alvo único, muitas vezes inclusive se sobressaindo em relação a personagens sem esse foco.</p> 
-                </div>
-                <div>
-                    <h3><span>O que muda deixando a Yelan em campo?</span></h3>                     
-                    <p>Ela escala muito bem com seu Buff próprio, além de reduzir consideravelmente sua necessidade de Recarga de Energia e abusar da mecânica da sua Habilidade Elemental, a qual ativa seu Supremo. Considerando que uma Yelan C0 utilize sua Habilidade Elemental duas vezes por rotação, são 6 procs a mais para o seu Supremo (9 com C1).</p> 
-                </div>
-                                                                               
-            </div>
-            <div id="atributos2" class="atributos">
-                <h2>Artefatos / DPS em campo</h2>
-                <div class="set">
-                    <p><span>A escolha de set da Yelan On Field depende de vários fatores, como necessidade de Recarga, companheiros de equipe e substatus. Abaixo, a classificação dos conjuntos de artefatos considerando a máxima otimização de substatus em cada opção.</span></p>
-                </div>
-                <div></div>
-                <h3 class="subtituloh3">Yelan C0 sem Furina</h3>
-                <table class="b100">
-                    <thead>
-                        <tr>            
-                            <th>Artefato</th>
-                            <th>% de Dano</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>                     
-                            <td>4 Selo da Insulação</td>
-                            <td>100%</td>
-                        </tr>
-                        <tr>                     
-                            <td>2 HP / 2 HP</td>
-                            <td>96.34 %</td>
-                        </tr>
-                        <tr>                     
-                            <td>2 HP / 2 SELO</td>
-                            <td>96.28 %</td>
-                        </tr>
-                        <tr>                     
-                            <td>2 HP / 2 RITUAL</td>
-                            <td>96.16 %</td>
-                        </tr>
-                        <tr>                     
-                            <td>2 HP / 2 HYDRO</td>
-                            <td>95.5 %</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h3 class="subtituloh3">Yelan C1 sem Furina</h3>
-                <div>
-                    <table>
+                        <p><span>A escolha de set da Yelan On Field depende de vários fatores, como necessidade de Recarga, companheiros de equipe e substatus. Abaixo, a classificação dos conjuntos de artefatos considerando a máxima otimização de substatus em cada opção.</span></p>
+                    </div>
+                    <div></div>
+                    <h3 class="subtituloh3">Yelan C0 sem Furina</h3>
+                    <table class="b100">
                         <thead>
                             <tr>            
                                 <th>Artefato</th>
@@ -691,587 +660,620 @@
                         </thead>
                         <tbody>
                             <tr>                     
-                                <td>2 HP / 2 HP</td>
-                                <td>100.2 % </td>
-                            </tr>
-                            <tr>                     
-                                <td>4 Selo da Insulação</td>
-                                <td>100 % (130 ER)</td>
-                            </tr>
-                            <tr>                     
-                                <td>2 HP / 2 RITUAL</td>
-                                <td>99.75 %</td>
-                            </tr>
-                            <tr>                     
-                                <td>2 HP / 2 HYDRO</td>
-                                <td>99.5 %</td>
-                            </tr>
-                            <tr>                     
-                                <td>2 HP / 2 SELO</td>
-                                <td>97 %</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p><small>Yelan 9/9/9, 8 stacks do buff, Kazuha com 950 de Prof VV, Xingqiu C2+, Zhongli de Pedra Arcaica. Q 15 PROCS + 2 E.</small></p>
-                </div>
-                <h3 class="subtituloh3">Yelan com Furina</h3>
-                <div>
-                    <table>
-                        <thead>
-                            <tr>            
-                                <th>Artefato</th>
-                                <th>% de Dano</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>                     
-                                <td>4 Caçador</td>
-                                <td>113,2% </td>
-                            </tr>
-                            <tr>                     
-                                <td>2 HP / 2 HP</td>
-                                <td>105%</td>
-                            </tr>
-                            <tr>                     
-                                <td>2 HP / 2 NO</td>
-                                <td>103,5%</td>
-                            </tr>
-                            <tr>
-                                <td>2HP / 2HYDRO</td>
-                                <td>103%</td>
-                            </tr>
-                            <tr>
-                                <td>2 HYDRO / 2 NO</td>
-                                <td>101,5%</td>
-                            </tr>
-                            <tr>
-                                <td>2 / 2 HYDRO</td>
-                                <td>100,9%</td>
-                            </tr>
-                            <tr>
                                 <td>4 Selo da Insulação</td>
                                 <td>100%</td>
                             </tr>
-                        </tbody>
-                    </table>
-                    <p><small>9/9/9, 8 stacks do buff, Furina C0 T9 250 fanfarras, Xingqiu C2+, Jean VV. Q 15 PROCS + 2 E.</small></p>
-                </div>
-                <div id="set" class="set b9">
-                    <div class="artefato-img">
-                        <img src="/img/artefatos/Cacador_das_Sombras.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Caçador das Sombras</h4>
-                    </div>
-                    <p><span>2 peças: </span>Aumenta o dano do Ataque Normal e do Ataque Carregado em 15%.</p>
-                    <p><span>4 peças: </span>Quando a Vida atual aumenta ou diminui, aumenta a Taxa CRIT em 12%. Esse efeito dura 5s e pode ser acumulado até 3 vezes</p>
-                    <div class="rot-sep"></div>
-                    <p>É a melhor opção de artefato para Yelan On Field com Furina. Com 3 stacks do efeito de 4 peças garante 36% de Taxa Crítica para o usuário, algo extremamente valioso para a Yelan, que possui uma arma assinatura com 88% de Dano Crítico, dificultando o equilíbrio de status. Com o conjunto do Caçador é possivel atingir facilmente os 100% de Taxa nela, melhorando muito o dano médio, o que consolida esse set como a melhor opção para Yelan On Field (desde que esteja com um personagem que drene Vida).</p>
-                </div>
-
-                <div id="set" class="set b9">
-                    <div class="artefato-img">
-                        <img src="/img/artefatos/Selo_da_Insulacao.webp">
-                    </div>
-                    <div class="artefato-nome">
-                        <h4>Selo da Insulação</h4>
-                    </div>
-                    <p><span>2 peças: </span>Recarga de Energia +20%</p>
-                    <p><span>4 peças: </span>Aumenta o Dano do Supremo em 25% da Recarga de Energia. No máximo é possível obter 75% de aumento de Dano dessa maneira.</p>
-                    <div class="rot-sep"></div>
-                    <p>Por proporcionar 20% de recarga com seu efeito de 2 peças e um bom bônus de dano no Supremo com o efeito de 4 peças, o conjunto do Selo é a melhor opção na C0 em times sem Furina, ajudando no equilíbrio de status e Buffando a principal fonte de dano da Yelan. </p>
-                </div>
-                <div class="set b9">
-                    <div class="artefato-img2pc">
-                        <img src="/img/artefatos/Selo_da_Insulacao.webp">
-                        <img src="/img/artefatos/Ritual_Real.webp">
-                        <img src="/img/artefatos/Sonho_da_Ninfa.webp">
-                        <img src="/img/artefatos/Millelith.webp">
-                        <img src="/img/artefatos/Profundezas.webp">
-                        <img src="/img/artefatos/Brilho_Vourukasha.webp">
-                    </div>                   
-                    <div class="artefato-nome">
-                        <h4>Combinações de 2 sets</h4>
-                    </div>  
-                    <div class="rot-sep"></div>     
-                    <p>Por ser utilizada em campo e não precisar de tanta recarga, usar 2 peças de diferentes conjuntos se torna uma opção viável ou até mesmo superior a 4 peças do selo dependendo da qualidade de suas peças, principalmente quando pareada com a Furina. A diferença de dano entre as combinações é negligenciável e pode ser compensada em substatus.</p>         
-                </div>         
-                <div class="flex status">
-                    <div class="cards">
-                        <div class="artefato-card flor">
-                            <div>
-                                <h4>Vida</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Flor.webp">   
-                            <div class="stat-icon">
-                                <img src="/img/icones/HP.png"> 
-                            </div>                        
-                        </div>
-                        <div class="artefato-card pena">
-                            <div>
-                                <h4>Ataque</h4>
-                                
-                            </div>
-                            <img src="/img/icones/Pena.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/Ataque.png"> 
-                            </div>
-                        </div>
-                        <div class="artefato-card ampu">
-                            <div>
-                                <h4>Vida</h4>
-                            </div>
-                            <img src="/img/icones/Ampulheta.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/HP.png"> 
-                            </div>
-                        </div>                                        
-                        <div class="artefato-card calice">
-                            <div>
-                                <h4>Dano Hydro</h4>                                                               
-                            </div>
-                            <img src="/img/icones/Calice.webp">
-                            <div class="stat-icon">
-                                <img src="/img/icones/Hydro.png"> 
-                            </div>
-                        </div>
-                        <div class="artefato-card coroa">
-                            <div>
-                                <h4 class="prof">Taxa Crítica</h4>
-                                <h4 class="prof2">Taxa</h4>
-                                <h4 class="prof">Dano Crítico</h4>
-                                <h4 class="prof2">Dano</h4>
-                            </div>
-                            <img src="/img/icones/Coroa.webp"> 
-                            <div class="stat-icon">
-                                <img src="/img/icones/Taxa_crit.png"> 
-                            </div>                         
-                        </div>
-                    </div>                  
-                </div>
-                <div class="recarga-dps">
-                    <div class="set column">
-                        <h3 class="subtituloh3">Recarga de Energia:</h3>
-                        <p><span>A necessidade de recarga da Yelan em campo é consideravelmente menor que fora, porém, ainda é altamente dependente do time e bateria Hydro utilizada.</span></p>
-                    </div>
-                    <table class="table-emcampo">
-                        <thead>
-                            <tr>
-                                <th>Constelação</th>
-                                <th>Equipe</th>
-                                <th>Recarga</th>
+                            <tr>                     
+                                <td>2 HP / 2 HP</td>
+                                <td>96.34 %</td>
                             </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>C0</td>
-                                <td>Yelan, Xingqiu de Fav, Kazuha e Zhong de Fav/Fischl</td>
-                                <td>122%</td>
+                            <tr>                     
+                                <td>2 HP / 2 SELO</td>
+                                <td>96.28 %</td>
                             </tr>
-                            <tr>
-                                <td>C0</td>
-                                <td>Yelan, Furina, Xingqiu e Jean de Fav</td>
-                                <td>110%</td>
+                            <tr>                     
+                                <td>2 HP / 2 RITUAL</td>
+                                <td>96.16 %</td>
                             </tr>
-                            <tr>
-                                <td>C1</td>
-                                <td>Yelan, Xingqiu de Fav, Kazuha e Zhong de Fav/Fischl</td>
-                                <td>111%</td>
-                            </tr>
-                            <tr>
-                                <td>C1</td>
-                                <td>Yelan, Furina, Xingqiu e Jean de Fav</td>
-                                <td>105%</td>
+                            <tr>                     
+                                <td>2 HP / 2 HYDRO</td>
+                                <td>95.5 %</td>
                             </tr>
                         </tbody>
                     </table>
-                </div>
-            </div>
-            <div class="armas" id="armas2">
-                <h2>Melhores Armas / DPS em campo</h2>
-                <div class="set">
-                    <div class="passivas">
-                        <span>Yelan C0 / Com Xingqiu</span>
+                    <h3 class="subtituloh3">Yelan C1 sem Furina</h3>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>            
+                                    <th>Artefato</th>
+                                    <th>% de Dano</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>                     
+                                    <td>2 HP / 2 HP</td>
+                                    <td>100.2 % </td>
+                                </tr>
+                                <tr>                     
+                                    <td>4 Selo da Insulação</td>
+                                    <td>100 % (130 ER)</td>
+                                </tr>
+                                <tr>                     
+                                    <td>2 HP / 2 RITUAL</td>
+                                    <td>99.75 %</td>
+                                </tr>
+                                <tr>                     
+                                    <td>2 HP / 2 HYDRO</td>
+                                    <td>99.5 %</td>
+                                </tr>
+                                <tr>                     
+                                    <td>2 HP / 2 SELO</td>
+                                    <td>97 %</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p><small>Yelan 9/9/9, 8 stacks do buff, Kazuha com 950 de Prof VV, Xingqiu C2+, Zhongli de Pedra Arcaica. Q 15 PROCS + 2 E.</small></p>
                     </div>
-                    <img class="tabela" src="/img/guias/yelan/armas3.png">
-                </div>        
-                <div class="tabela-link">
-                    <a href="https://docs.google.com/spreadsheets/d/1uTuqJPISNKStsHTwxZm631ndi5yMsy9WNzx3YXEWD8c/edit#gid=661246444" target="_blank">🔗 Créditos ao Kaguu</a>
-                </div>              
-                <div>
-                    <h4 class="subtitulo-armas">
+                    <h3 class="subtituloh3">Yelan com Furina</h3>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>            
+                                    <th>Artefato</th>
+                                    <th>% de Dano</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>                     
+                                    <td>4 Caçador</td>
+                                    <td>113,2% </td>
+                                </tr>
+                                <tr>                     
+                                    <td>2 HP / 2 HP</td>
+                                    <td>105%</td>
+                                </tr>
+                                <tr>                     
+                                    <td>2 HP / 2 NO</td>
+                                    <td>103,5%</td>
+                                </tr>
+                                <tr>
+                                    <td>2HP / 2HYDRO</td>
+                                    <td>103%</td>
+                                </tr>
+                                <tr>
+                                    <td>2 HYDRO / 2 NO</td>
+                                    <td>101,5%</td>
+                                </tr>
+                                <tr>
+                                    <td>2 / 2 HYDRO</td>
+                                    <td>100,9%</td>
+                                </tr>
+                                <tr>
+                                    <td>4 Selo da Insulação</td>
+                                    <td>100%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p><small>9/9/9, 8 stacks do buff, Furina C0 T9 250 fanfarras, Xingqiu C2+, Jean VV. Q 15 PROCS + 2 E.</small></p>
+                    </div>
+                    <div id="set" class="set b9">
+                        <div class="artefato-img">
+                            <img src="/img/artefatos/Cacador_das_Sombras.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Caçador das Sombras</h4>
+                        </div>
+                        <p><span>2 peças: </span>Aumenta o dano do Ataque Normal e do Ataque Carregado em 15%.</p>
+                        <p><span>4 peças: </span>Quando a Vida atual aumenta ou diminui, aumenta a Taxa CRIT em 12%. Esse efeito dura 5s e pode ser acumulado até 3 vezes</p>
+                        <div class="rot-sep"></div>
+                        <p>É a melhor opção de artefato para Yelan On Field com Furina. Com 3 stacks do efeito de 4 peças garante 36% de Taxa Crítica para o usuário, algo extremamente valioso para a Yelan, que possui uma arma assinatura com 88% de Dano Crítico, dificultando o equilíbrio de status. Com o conjunto do Caçador é possivel atingir facilmente os 100% de Taxa nela, melhorando muito o dano médio, o que consolida esse set como a melhor opção para Yelan On Field (desde que esteja com um personagem que drene Vida).</p>
+                    </div>
+    
+                    <div id="set" class="set b9">
+                        <div class="artefato-img">
+                            <img src="/img/artefatos/Selo_da_Insulacao.webp">
+                        </div>
+                        <div class="artefato-nome">
+                            <h4>Selo da Insulação</h4>
+                        </div>
+                        <p><span>2 peças: </span>Recarga de Energia +20%</p>
+                        <p><span>4 peças: </span>Aumenta o Dano do Supremo em 25% da Recarga de Energia. No máximo é possível obter 75% de aumento de Dano dessa maneira.</p>
+                        <div class="rot-sep"></div>
+                        <p>Por proporcionar 20% de recarga com seu efeito de 2 peças e um bom bônus de dano no Supremo com o efeito de 4 peças, o conjunto do Selo é a melhor opção na C0 em times sem Furina, ajudando no equilíbrio de status e Buffando a principal fonte de dano da Yelan. </p>
+                    </div>
+                    <div class="set b9">
+                        <div class="artefato-img2pc">
+                            <img src="/img/artefatos/Selo_da_Insulacao.webp">
+                            <img src="/img/artefatos/Ritual_Real.webp">
+                            <img src="/img/artefatos/Sonho_da_Ninfa.webp">
+                            <img src="/img/artefatos/Millelith.webp">
+                            <img src="/img/artefatos/Profundezas.webp">
+                            <img src="/img/artefatos/Brilho_Vourukasha.webp">
+                        </div>                   
+                        <div class="artefato-nome">
+                            <h4>Combinações de 2 sets</h4>
+                        </div>  
+                        <div class="rot-sep"></div>     
+                        <p>Por ser utilizada em campo e não precisar de tanta recarga, usar 2 peças de diferentes conjuntos se torna uma opção viável ou até mesmo superior a 4 peças do selo dependendo da qualidade de suas peças, principalmente quando pareada com a Furina. A diferença de dano entre as combinações é negligenciável e pode ser compensada em substatus.</p>         
+                    </div>         
+                    <div class="flex status">
+                        <div class="cards">
+                            <div class="artefato-card flor">
+                                <div>
+                                    <h4>Vida</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Flor.webp">   
+                                <div class="stat-icon">
+                                    <img src="/img/icones/HP.png"> 
+                                </div>                        
+                            </div>
+                            <div class="artefato-card pena">
+                                <div>
+                                    <h4>Ataque</h4>
+                                    
+                                </div>
+                                <img src="/img/icones/Pena.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Ataque.png"> 
+                                </div>
+                            </div>
+                            <div class="artefato-card ampu">
+                                <div>
+                                    <h4>Vida</h4>
+                                </div>
+                                <img src="/img/icones/Ampulheta.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/HP.png"> 
+                                </div>
+                            </div>                                        
+                            <div class="artefato-card calice">
+                                <div>
+                                    <h4>Dano Hydro</h4>                                                               
+                                </div>
+                                <img src="/img/icones/Calice.webp">
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Hydro.png"> 
+                                </div>
+                            </div>
+                            <div class="artefato-card coroa">
+                                <div>
+                                    <h4 class="prof">Taxa Crítica</h4>
+                                    <h4 class="prof2">Taxa</h4>
+                                    <h4 class="prof">Dano Crítico</h4>
+                                    <h4 class="prof2">Dano</h4>
+                                </div>
+                                <img src="/img/icones/Coroa.webp"> 
+                                <div class="stat-icon">
+                                    <img src="/img/icones/Taxa_crit.png"> 
+                                </div>                         
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="recarga-dps">
+                        <div class="set column">
+                            <h3 class="subtituloh3">Recarga de Energia:</h3>
+                            <p><span>A necessidade de recarga da Yelan em campo é consideravelmente menor que fora, porém, ainda é altamente dependente do time e bateria Hydro utilizada.</span></p>
+                        </div>
+                        <table class="table-emcampo">
+                            <thead>
+                                <tr>
+                                    <th>Constelação</th>
+                                    <th>Equipe</th>
+                                    <th>Recarga</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>C0</td>
+                                    <td>Yelan, Xingqiu de Fav, Kazuha e Zhong de Fav/Fischl</td>
+                                    <td>122%</td>
+                                </tr>
+                                <tr>
+                                    <td>C0</td>
+                                    <td>Yelan, Furina, Xingqiu e Jean de Fav</td>
+                                    <td>110%</td>
+                                </tr>
+                                <tr>
+                                    <td>C1</td>
+                                    <td>Yelan, Xingqiu de Fav, Kazuha e Zhong de Fav/Fischl</td>
+                                    <td>111%</td>
+                                </tr>
+                                <tr>
+                                    <td>C1</td>
+                                    <td>Yelan, Furina, Xingqiu e Jean de Fav</td>
+                                    <td>105%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="armas" id="armas2">
+                    <h2>Melhores Armas / DPS em campo</h2>
+                    <div class="set">
+                        <div class="passivas">
+                            <span>Yelan C0 / Com Xingqiu</span>
+                        </div>
+                        <img class="tabela" src="/img/guias/yelan/armas3.png">
+                    </div>        
+                    <div class="tabela-link">
+                        <a href="https://docs.google.com/spreadsheets/d/1uTuqJPISNKStsHTwxZm631ndi5yMsy9WNzx3YXEWD8c/edit#gid=661246444" target="_blank">🔗 Créditos ao Kaguu</a>
+                    </div>              
+                    <div>
+                        <h4 class="subtitulo-armas">
+                            <span>
+                                Análise das melhores opções:
+                            </span>
+                        </h4>
+                    </div>
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Aqua_Simulacra.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Aqua Simulacra</h3>
+                            <p>
+                                Disparado a melhor opção, sendo um dos únicos arcos do jogo que a Yelan se aproveita 100%. Com seus insanos 88% de Dano Crítico, Dano Bônus% e Vida%, é sem sombra de dúvidas o arco que trará melhores resultados para o dano pessoal da Yelan, sendo extremamente mais forte que as demais opções.
+                            </p>
+                            <h4 class="statusbase">Dano Crítico: 88.2%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Caminho_do_Cacador.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Caminho do Caçador</h3>
+                            <p>
+                                O arco do Tighnari é tecnicamente a segunda opção mais forte, mas é um arco extremamente raro e que a Yelan não usa absolutamente nada da passiva. Ainda assim, 44% de Taxa Crítica é um subatributo extremamente relevante e a opção mais próxima do Aqua Simulacra. 
+                            </p>
+                            <h4 class="statusbase">Taxa Crítica: 44.1%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Estrela_Invernal.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Estrela Polar</h3>
+                            <p>
+                                Um Estilingue premium, que da Bônus de Dano em Habilidade Elemental e Supremo. Infelizmente, Yelan acaba desperdiçando todo o resto da passiva desse arco por não fazer uso de Atk%.
+                            </p>
+                            <h4 class="statusbase">Taxa Crítica: 33.1%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Harpa_celestial.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Harpa Celestial</h3>
+                            <p>
+                                Outro arco que a Yelan apenas faz uso do Crítico. Infelizmente o alto Ataque Base é completamente desperdiçado, mas ainda assim, é uma opção.
+                            </p>
+                            <h4 class="statusbase">Taxa Crítica: 22.1%</h4>
+                        </div>
+                    </div>   
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Estilingue.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Estilingue</h3>
+                            <p>
+                                Por mais que existam opções levemente mais fortes que o Estilingue, é relevante citar que, por ser um Arco 3 estrelas, ele é extremamente fácil de se obter e extremamente barato de upar. Apesar da passiva ser inútil, os incríveis 31% de Taxa Crítica tornam esse arco uma boa opção para Yelan DPS.
+                            </p>
+                            <h4 class="statusbase">Taxa Crítica: 31.2%</h4>
+                        </div>
+                    </div>     
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Recurvado.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Arco Recurvado</h3>
+                            <p>
+                                O único arco com subatributo de Vida% do jogo. É também um 3 estrelas como o Estilingue, mas levemente inferior. Possui uma passiva interessante que cura o usuário com base nos inimigos derrotados.
+                            </p>
+                            <h4 class="statusbase">Vida: 46.9%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Lua_de_Mouun.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Lua de Mouun</h3>
+                            <p>
+                                No refinamento 5, é um bom arco pelo aumento de dano no Supremo. Por mais que a Yelan não faça uso do subatributo de Atk%, a passiva pode compensar seu uso. 
+                            </p>
+                            <h4 class="statusbase">Ataque: 27.6%</h4>
+                        </div>
+                    </div>       
+                    <div class="arma">
+                        <div class="img-div">                      
+                            <img src="/img/armas/arco/Ultimo_Acorde.webp">                       
+                        </div>
+                        <div class="arma-linha"></div>
+                        <div class="arma-texto">
+                            <h3>Último Acorde</h3>
+                            <p>
+                                Aumenta o dano do Supremo e Habilidade Elemental em 48% no refinamento 5, o que é bastante significativo. Por ter um subatributo inútil para ela, o arco pode ficar até mesmo no nível 1.
+                            </p>
+                            <h4 class="statusbase">Proficiência: 165</h4>
+                        </div>
+                    </div>       
+                          
+                </div>  
+                <div id="sinergias" class="sinergia">
+                    <h2>Sinergias</h2>
+                    <div class="personagem xingqiu hydro-background" id="furina">
+                        <img src="/img/personagens/Furina.webp">
+                        <div>
+                            <h4>Furina (DPS fora de campo e Buffer)
+                            </h4>
+                            <p>A arconte Hydro revolucionou no quesito buffs para personagens que não escalam com Ataque, garantindo um bônus massivo de Dano% para toda a equipe. A vantagem de se utilizar a Furina com a Yelan é reduzir consideravelmente a necessidade de recarga de ambas, viabilizando o uso de armas mais ofensivas na Furina e potencializando seu dano pessoal. É com certeza a melhor companheira de equipe para a Yelan Main DPS.</p>
+                        </div>
+                    </div>
+                    <div class="personagem xingqiu hydro-background" id="xingqiu">
+                        <img src="/img/personagens/Xingqiu.webp">
+                        <div>
+                            <h4> Xingqiu (DPS fora de campo, Buffer, Bateria e Sobrevivência)
+                            </h4>
+                            <p>Xingqiu é um dos melhores companheiros da Yelan. Garante a ressonância Hydro, reduz resistência Hydro com sua C2, gera uma quantidade massiva de partículas e ainda possui um bom dano pessoal, cura e redução de dano recebido. A única desvantagem de colocar os dois juntos é que, se seu outro time precisa de um aplicador Hydro, as opções ficam reduzidas.</p>
+                        </div>
+                    </div>
+                    <div class="personagem mona hydro-background" id="mona">
+                        <img src="/img/personagens/Mona.webp">
+                        <div>
+                            <h4>Mona (Buffer e Bateria)</h4>
+                            <p>Mona é uma das melhores buffers para o dano pessoal da Yelan. Seu supremo garante um bônus massivo de dano por um intervalo de tempo considerável, além de uma modesta geração de partículas com sua Habilidade Elemental, podendo usar o Catalisador de Favonius para melhorar suas capacidades de bateria.</p>
+                        </div>
+                    </div>
+                    <div class="personagem barbruh hydro-background" id="barbruh">
+                        <img src="/img/personagens/Barbara.webp">
+                        <div>
+                            <h4>Barbara (Buffer e Sobrevivência)</h4>
+                            <p>Com a chegada da Furina, Barbara se tornou uma opção interessante de quarto slot por curar toda a equipe na ativação do seu Supremo. Além disso, a C2 dela concede 15% de bônus de dano Hydro ao personagem ativo durante a duração da sua Habilidade Elemental.</p>
+                        </div>
+                    </div>
+                    <div class="personagem kazuha anemo-background" id="jean">
+                        <img src="/img/personagens/Jean.webp" alt="Jean">
+                        <div>
+                            <h4>Jean (Sobrevivência)</h4>
+                            <p>Jean ganhou muito valor em times com a Furina por ser tanto a healer quanto usuária de Sombra Verde no mesmo slot, permitindo o uso de mais causadores de dano. Sem muitos segredos no seu caso, possui um Supremo com cura massiva na ativação e uma boa cura ao longo do tempo. Pode utilizar a Espada de Favonius para contribuir com a Energia do time.</p>
+                        </div>
+                    </div>
+                    <div class="personagem kazuha anemo-background" id="kazuha">
+                        <img src="/img/personagens/Kazuha.webp">
+                        <div>
+                            <h4> Kazuha (Buffer)</h4>
+                            <p> Kazuha é a melhor unidade anemo para se usar com a Yelan. A alta aplicação hydro dela não permite o abuso de reações amplificadoras, tornando o Buff de dano elemental do Kazuha extremamente relevante para Yelan DPS e seus times.</p>
+                        </div>
+                    </div>
+                    <div class="personagem zhongli geo-background" id="zhongli">
+                        <img src="/img/personagens/Zhongli.webp">
+                        <div>
+                            <h4> Zhongli (Buffer e Sobrevivência)
+                            </h4>
+                            <p> Zhongli é um dos poucos personagens de quarto slot que Buffam a Yelan. Com a redução de resistência universal do seu escudo, proporciona um aumento interessante de dano, além de poder usar 4 peças do conjunto Pedra Arcaica, garantindo 35% de bônus de dano Hydro para o time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="personagem fischl electro-background" id="fischl">
+                        <img src="/img/personagens/Fischl.webp">
+                        <div>
+                            <h4> Fischl (DPS fora de campo)
+                            </h4>
+                            <p> Fischl é uma boa pedida pros times de Yelan, com um grande potencial de dano off field e alta aplicação electro, além de alguma geração de energia para a equipe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="composicoes" id="composicoes2">
+                    <h2>Composições / DPS em campo</h2>
+                    <h4 class="subtitulo">
                         <span>
-                            Análise das melhores opções:
+                            Exemplos de Times:
                         </span>
                     </h4>
-                </div>
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Aqua_Simulacra.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Aqua Simulacra</h3>
-                        <p>
-                            Disparado a melhor opção, sendo um dos únicos arcos do jogo que a Yelan se aproveita 100%. Com seus insanos 88% de Dano Crítico, Dano Bônus% e Vida%, é sem sombra de dúvidas o arco que trará melhores resultados para o dano pessoal da Yelan, sendo extremamente mais forte que as demais opções.
-                        </p>
-                        <h4 class="statusbase">Dano Crítico: 88.2%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Caminho_do_Cacador.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Caminho do Caçador</h3>
-                        <p>
-                            O arco do Tighnari é tecnicamente a segunda opção mais forte, mas é um arco extremamente raro e que a Yelan não usa absolutamente nada da passiva. Ainda assim, 44% de Taxa Crítica é um subatributo extremamente relevante e a opção mais próxima do Aqua Simulacra. 
-                        </p>
-                        <h4 class="statusbase">Taxa Crítica: 44.1%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Estrela_Invernal.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Estrela Polar</h3>
-                        <p>
-                            Um Estilingue premium, que da Bônus de Dano em Habilidade Elemental e Supremo. Infelizmente, Yelan acaba desperdiçando todo o resto da passiva desse arco por não fazer uso de Atk%.
-                        </p>
-                        <h4 class="statusbase">Taxa Crítica: 33.1%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Harpa_celestial.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Harpa Celestial</h3>
-                        <p>
-                            Outro arco que a Yelan apenas faz uso do Crítico. Infelizmente o alto Ataque Base é completamente desperdiçado, mas ainda assim, é uma opção.
-                        </p>
-                        <h4 class="statusbase">Taxa Crítica: 22.1%</h4>
-                    </div>
-                </div>   
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Estilingue.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Estilingue</h3>
-                        <p>
-                            Por mais que existam opções levemente mais fortes que o Estilingue, é relevante citar que, por ser um Arco 3 estrelas, ele é extremamente fácil de se obter e extremamente barato de upar. Apesar da passiva ser inútil, os incríveis 31% de Taxa Crítica tornam esse arco uma boa opção para Yelan DPS.
-                        </p>
-                        <h4 class="statusbase">Taxa Crítica: 31.2%</h4>
-                    </div>
-                </div>     
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Recurvado.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Arco Recurvado</h3>
-                        <p>
-                            O único arco com subatributo de Vida% do jogo. É também um 3 estrelas como o Estilingue, mas levemente inferior. Possui uma passiva interessante que cura o usuário com base nos inimigos derrotados.
-                        </p>
-                        <h4 class="statusbase">Vida: 46.9%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Lua_de_Mouun.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Lua de Mouun</h3>
-                        <p>
-                            No refinamento 5, é um bom arco pelo aumento de dano no Supremo. Por mais que a Yelan não faça uso do subatributo de Atk%, a passiva pode compensar seu uso. 
-                        </p>
-                        <h4 class="statusbase">Ataque: 27.6%</h4>
-                    </div>
-                </div>       
-                <div class="arma">
-                    <div class="img-div">                      
-                        <img src="/img/armas/arco/Ultimo_Acorde.webp">                       
-                    </div>
-                    <div class="arma-linha"></div>
-                    <div class="arma-texto">
-                        <h3>Último Acorde</h3>
-                        <p>
-                            Aumenta o dano do Supremo e Habilidade Elemental em 48% no refinamento 5, o que é bastante significativo. Por ter um subatributo inútil para ela, o arco pode ficar até mesmo no nível 1.
-                        </p>
-                        <h4 class="statusbase">Proficiência: 165</h4>
-                    </div>
-                </div>       
-                      
-            </div>  
-            <div id="sinergias" class="sinergia">
-                <h2>Sinergias</h2>
-                <div class="personagem xingqiu hydro-background" id="furina">
-                    <img src="/img/personagens/Furina.webp">
-                    <div>
-                        <h4>Furina (DPS fora de campo e Buffer)
-                        </h4>
-                        <p>A arconte Hydro revolucionou no quesito buffs para personagens que não escalam com Ataque, garantindo um bônus massivo de Dano% para toda a equipe. A vantagem de se utilizar a Furina com a Yelan é reduzir consideravelmente a necessidade de recarga de ambas, viabilizando o uso de armas mais ofensivas na Furina e potencializando seu dano pessoal. É com certeza a melhor companheira de equipe para a Yelan Main DPS.</p>
-                    </div>
-                </div>
-                <div class="personagem xingqiu hydro-background" id="xingqiu">
-                    <img src="/img/personagens/Xingqiu.webp">
-                    <div>
-                        <h4> Xingqiu (DPS fora de campo, Buffer, Bateria e Sobrevivência)
-                        </h4>
-                        <p>Xingqiu é um dos melhores companheiros da Yelan. Garante a ressonância Hydro, reduz resistência Hydro com sua C2, gera uma quantidade massiva de partículas e ainda possui um bom dano pessoal, cura e redução de dano recebido. A única desvantagem de colocar os dois juntos é que, se seu outro time precisa de um aplicador Hydro, as opções ficam reduzidas.</p>
-                    </div>
-                </div>
-                <div class="personagem mona hydro-background" id="mona">
-                    <img src="/img/personagens/Mona.webp">
-                    <div>
-                        <h4>Mona (Buffer e Bateria)</h4>
-                        <p>Mona é uma das melhores buffers para o dano pessoal da Yelan. Seu supremo garante um bônus massivo de dano por um intervalo de tempo considerável, além de uma modesta geração de partículas com sua Habilidade Elemental, podendo usar o Catalisador de Favonius para melhorar suas capacidades de bateria.</p>
-                    </div>
-                </div>
-                <div class="personagem barbruh hydro-background" id="barbruh">
-                    <img src="/img/personagens/Barbara.webp">
-                    <div>
-                        <h4>Barbara (Buffer e Sobrevivência)</h4>
-                        <p>Com a chegada da Furina, Barbara se tornou uma opção interessante de quarto slot por curar toda a equipe na ativação do seu Supremo. Além disso, a C2 dela concede 15% de bônus de dano Hydro ao personagem ativo durante a duração da sua Habilidade Elemental.</p>
-                    </div>
-                </div>
-                <div class="personagem kazuha anemo-background" id="jean">
-                    <img src="/img/personagens/Jean.webp" alt="Jean">
-                    <div>
-                        <h4>Jean (Sobrevivência)</h4>
-                        <p>Jean ganhou muito valor em times com a Furina por ser tanto a healer quanto usuária de Sombra Verde no mesmo slot, permitindo o uso de mais causadores de dano. Sem muitos segredos no seu caso, possui um Supremo com cura massiva na ativação e uma boa cura ao longo do tempo. Pode utilizar a Espada de Favonius para contribuir com a Energia do time.</p>
-                    </div>
-                </div>
-                <div class="personagem kazuha anemo-background" id="kazuha">
-                    <img src="/img/personagens/Kazuha.webp">
-                    <div>
-                        <h4> Kazuha (Buffer)</h4>
-                        <p> Kazuha é a melhor unidade anemo para se usar com a Yelan. A alta aplicação hydro dela não permite o abuso de reações amplificadoras, tornando o Buff de dano elemental do Kazuha extremamente relevante para Yelan DPS e seus times.</p>
-                    </div>
-                </div>
-                <div class="personagem zhongli geo-background" id="zhongli">
-                    <img src="/img/personagens/Zhongli.webp">
-                    <div>
-                        <h4> Zhongli (Buffer e Sobrevivência)
-                        </h4>
-                        <p> Zhongli é um dos poucos personagens de quarto slot que Buffam a Yelan. Com a redução de resistência universal do seu escudo, proporciona um aumento interessante de dano, além de poder usar 4 peças do conjunto Pedra Arcaica, garantindo 35% de bônus de dano Hydro para o time.
-                        </p>
-                    </div>
-                </div>
-                <div class="personagem fischl electro-background" id="fischl">
-                    <img src="/img/personagens/Fischl.webp">
-                    <div>
-                        <h4> Fischl (DPS fora de campo)
-                        </h4>
-                        <p> Fischl é uma boa pedida pros times de Yelan, com um grande potencial de dano off field e alta aplicação electro, além de alguma geração de energia para a equipe.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="composicoes" id="composicoes2">
-                <h2>Composições / DPS em campo</h2>
-                <h4 class="subtitulo">
-                    <span>
-                        Exemplos de Times:
-                    </span>
-                </h4>
-                <div class="set">
-                    <p>Yelan como DPS on field não possui muitas variações de time, sendo a estrutura básica um personagem Hydro para ressonância, um Anemo para reduzir resistência/buffar e um slot Flex.</p>
-                </div>
-                <div class="times">
                     <div class="set">
-                        <div class="comp-nome">
-                            <h4>Yelan Main DPS</h4>
+                        <p>Yelan como DPS on field não possui muitas variações de time, sendo a estrutura básica um personagem Hydro para ressonância, um Anemo para reduzir resistência/buffar e um slot Flex.</p>
+                    </div>
+                    <div class="times">
+                        <div class="set">
+                            <div class="comp-nome">
+                                <h4>Yelan Main DPS</h4>
+                            </div>
+                            <div class="comp cima">
+                                <img class="inv">
+                                <img class="inv">
+                                <img class="t5" src="/img/personagens/Mona.webp">
+                                <img class="inv">
+                            </div>
+                            <div class="comp meio">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img class="t5" src="/img/personagens/Furina.webp">
+                                <img class="t4" src="/img/personagens/Xingqiu.webp">
+                                <img class="t5" src="/img/personagens/Jean.webp">
+                            </div>
+                            <div class="comp baixo">
+                                <img class="inv">
+                                <img class="inv">
+                                <img class="t4" src="/img/personagens/Fischl.webp">
+                                <img class="inv">
+                            </div>
+                            <br/>
+                            <p>
+                                <b>Rotação com Yelan, Furina, Xingqiu e Jean:</b> Furina E > Jean E > Xingqiu Q N1 E D > Furina Q > Yelan N1 Q N1 > Jean Q N1 E > Yelan N1 E N8 > Jean N1 E N1 > Yelan N8 E
+                            </p>
+                            <br/>
+                            <div class="rot-sep"></div>
+                            <br/>
+                            <div class="comp meio">
+                                <img class="t5" src="/img/personagens/Yelan.webp">
+                                <img class="t4" src="/img/personagens/Xingqiu.webp">
+                                <img class="t5" src="/img/personagens/Kazuha.webp">
+                                <img class="t5" src="/img/personagens/Zhongli.webp">
+                            </div>
+                            <div class="comp baixo">
+                                <img class="inv">
+                                <img class="t5" src="/img/personagens/Mona.webp">
+                                <img class="inv">
+                                <img class="t4" src="/img/personagens/Fischl.webp">
+                            </div>
+                            <br/>
+                            <p>
+                                <b>Rotação com Yelan, Xingqiu, Kazuha e Zhongli:</b> Yelan CA > Kazuha E > Zhongli N1 E D > Xingqiu Q N1 > Yelan Q N1 E N5 > Kazuha E > Xingqiu N1 E D > Yelan N4 D N4 E N4 D N4
+                            </p>
                         </div>
-                        <div class="comp cima">
-                            <img class="inv">
-                            <img class="inv">
-                            <img class="t5" src="/img/personagens/Mona.webp">
-                            <img class="inv">
-                        </div>
-                        <div class="comp meio">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img class="t5" src="/img/personagens/Furina.webp">
-                            <img class="t4" src="/img/personagens/Xingqiu.webp">
-                            <img class="t5" src="/img/personagens/Jean.webp">
-                        </div>
-                        <div class="comp baixo">
-                            <img class="inv">
-                            <img class="inv">
-                            <img class="t4" src="/img/personagens/Fischl.webp">
-                            <img class="inv">
-                        </div>
-                        <br/>
+                    </div>               
+                </div>       
+                <div class="constelacoes" id="constelacoes">
+                    <h2>Constelações</h2>
+                    <div class="explicacao-nota">
                         <p>
-                            <b>Rotação com Yelan, Furina, Xingqiu e Jean:</b> Furina E > Jean E > Xingqiu Q N1 E D > Furina Q > Yelan N1 Q N1 > Jean Q N1 E > Yelan N1 E N8 > Jean N1 E N1 > Yelan N8 E
-                        </p>
-                        <br/>
-                        <div class="rot-sep"></div>
-                        <br/>
-                        <div class="comp meio">
-                            <img class="t5" src="/img/personagens/Yelan.webp">
-                            <img class="t4" src="/img/personagens/Xingqiu.webp">
-                            <img class="t5" src="/img/personagens/Kazuha.webp">
-                            <img class="t5" src="/img/personagens/Zhongli.webp">
-                        </div>
-                        <div class="comp baixo">
-                            <img class="inv">
-                            <img class="t5" src="/img/personagens/Mona.webp">
-                            <img class="inv">
-                            <img class="t4" src="/img/personagens/Fischl.webp">
-                        </div>
-                        <br/>
-                        <p>
-                            <b>Rotação com Yelan, Xingqiu, Kazuha e Zhongli:</b> Yelan CA > Kazuha E > Zhongli N1 E D > Xingqiu Q N1 > Yelan Q N1 E N5 > Kazuha E > Xingqiu N1 E D > Yelan N4 D N4 E N4 D N4
+                            As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de dano.
                         </p>
                     </div>
-                </div>               
-            </div>       
-            <div class="constelacoes" id="constelacoes">
-                <h2>Constelações</h2>
-                <div class="explicacao-nota">
-                    <p>
-                        As constelações serão classificadas de 1 a 5 estrelas, considerando a utilidade e aumento de dano.
-                    </p>
+                    <div class="set cons flex">
+                        <div class="cons-head"><h1>C1</h1><img src="/img/guias/yelan/constellation_1.png"></div>
+                        <div>
+                            <h3>A Habilidade Elemental da Yelan ganha uma carga extra.</h3>
+                        </div>
+                        <div>
+                            <p>Reduz sua necessidade de recarga, o que permite trocar por status ofensivos, além de, ao usar mais uma Habilidade Elemental em sua rotação, ganha mais uma wave do seu supremo.</p>
+                            <p>Vale ressaltar também o incrível valor dessa Constelação para exploração, permitindo percorrer grandes distâncias rapidamente e reduzindo o tempo de uso entre uma Habilidade e outra.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head"><h1>C2</h1><img src="/img/guias/yelan/constellation_2.png"></div>
+                        <div>
+                            <h3>O Supremo da Yelan agora dispara uma flecha extra com ICD próprio a cada 1,8 segundos.</h3>
+                        </div>
+                        <div>
+                            <p>É um ótimo ponto de parada, aumentando tanto o dano quanto aplicação Hydro da Yelan. Esse tiro extra tem um scaling maior que os normais de seu Supremo, além de também ser ativado por sua Habilidade Elemental.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head"><h1>C3</h1><img src="/img/guias/yelan/constellation_3.png"></div>
+                        <div>
+                            <h3>Aumenta o Supremo em 3 níveis.</h3>
+                        </div>
+                        <div>
+                            <p>Uma boa constelação tendo em vista que 87% do seu dano vem do supremo, porém, o aumento de dano não é tão significativo por não alterar os multiplicadores do tiro extra de sua C2.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head"><h1>C4</h1><img src="/img/guias/yelan/constellation_4.png"></div>
+                        <div>
+                            <h3>Aumenta a Vida de toda equipe em 10% após atingir um inimigo com sua Habilidade Elemental. O máximo de aumento é 40%, e a duração desse Buff é de 25 segundos, sendo reiniciado a cada novo acúmulo.</h3>
+                        </div>
+                        <div>
+                            <p>Atualmente o único Buff direto de Vida do jogo, sendo bem interessante tanto para a Yelan quanto para um potencial companheiro de equipe que também escale com Vida. Mesmo estando em situações de alvo único, é muito fácil pegar rapidamente 20% de Vida, pois agora sua Habilidade possui duas cargas.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head"><h1>C5</h1><img src="/img/guias/yelan/constellation_5.png"></div>
+                        <div>
+                            <h3>Aumenta a Habilidade Elemental em 3 níveis.</h3>
+                        </div>
+                        <div>
+                            <p>A Habilidade Elemental não representa uma grande parcela do dano da Yelan, logo essa Constelação também não.</p>
+                        </div>
+                        <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div></div>
+                    </div>
+                    <div class="set cons flex">
+                        <div class="cons-head"><h1>C6</h1><img src="/img/guias/yelan/constellation_6.png"></div>
+                        <div>
+                            <h3>Após usar seu Supremo, os próximos 5 Ataques Normais da Yelan serão convertidos em Flechas de Ruptura especiais, causando 156% do dano das Flechas de Ruptura normais.</h3>
+                        </div>
+                        <div>
+                            <p>O Gran Finale. Essa constelação garante 5 disparos de dano Hydro em área, fazendo com que Yelan ganhe mais AOE, e claro, mais dano. Prepare-se para dar onephase em qualquer coisa.</p>
+                        </div>
+                        <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div></div>
+                    </div>
+                    
                 </div>
-                <div class="set cons flex">
-                    <div class="cons-head"><h1>C1</h1><img src="/img/guias/yelan/constellation_1.png"></div>
-                    <div>
-                        <h3>A Habilidade Elemental da Yelan ganha uma carga extra.</h3>
-                    </div>
-                    <div>
-                        <p>Reduz sua necessidade de recarga, o que permite trocar por status ofensivos, além de, ao usar mais uma Habilidade Elemental em sua rotação, ganha mais uma wave do seu supremo.</p>
-                        <p>Vale ressaltar também o incrível valor dessa Constelação para exploração, permitindo percorrer grandes distâncias rapidamente e reduzindo o tempo de uso entre uma Habilidade e outra.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div></div>
+                    
+                <div class="banner-fim">
+                    <img src="/img/guias/yelan/Ending_Yelan.gif">
                 </div>
-                <div class="set cons flex">
-                    <div class="cons-head"><h1>C2</h1><img src="/img/guias/yelan/constellation_2.png"></div>
-                    <div>
-                        <h3>O Supremo da Yelan agora dispara uma flecha extra com ICD próprio a cada 1,8 segundos.</h3>
-                    </div>
-                    <div>
-                        <p>É um ótimo ponto de parada, aumentando tanto o dano quanto aplicação Hydro da Yelan. Esse tiro extra tem um scaling maior que os normais de seu Supremo, além de também ser ativado por sua Habilidade Elemental.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div></div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head"><h1>C3</h1><img src="/img/guias/yelan/constellation_3.png"></div>
-                    <div>
-                        <h3>Aumenta o Supremo em 3 níveis.</h3>
-                    </div>
-                    <div>
-                        <p>Uma boa constelação tendo em vista que 87% do seu dano vem do supremo, porém, o aumento de dano não é tão significativo por não alterar os multiplicadores do tiro extra de sua C2.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐<div class="transparente">⭐⭐</div></div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head"><h1>C4</h1><img src="/img/guias/yelan/constellation_4.png"></div>
-                    <div>
-                        <h3>Aumenta a Vida de toda equipe em 10% após atingir um inimigo com sua Habilidade Elemental. O máximo de aumento é 40%, e a duração desse Buff é de 25 segundos, sendo reiniciado a cada novo acúmulo.</h3>
-                    </div>
-                    <div>
-                        <p>Atualmente o único Buff direto de Vida do jogo, sendo bem interessante tanto para a Yelan quanto para um potencial companheiro de equipe que também escale com Vida. Mesmo estando em situações de alvo único, é muito fácil pegar rapidamente 20% de Vida, pois agora sua Habilidade possui duas cargas.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐⭐<div class="transparente">⭐</div></div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head"><h1>C5</h1><img src="/img/guias/yelan/constellation_5.png"></div>
-                    <div>
-                        <h3>Aumenta a Habilidade Elemental em 3 níveis.</h3>
-                    </div>
-                    <div>
-                        <p>A Habilidade Elemental não representa uma grande parcela do dano da Yelan, logo essa Constelação também não.</p>
-                    </div>
-                    <div class="nota">⭐<div class="transparente">⭐⭐⭐⭐</div></div>
-                </div>
-                <div class="set cons flex">
-                    <div class="cons-head"><h1>C6</h1><img src="/img/guias/yelan/constellation_6.png"></div>
-                    <div>
-                        <h3>Após usar seu Supremo, os próximos 5 Ataques Normais da Yelan serão convertidos em Flechas de Ruptura especiais, causando 156% do dano das Flechas de Ruptura normais.</h3>
-                    </div>
-                    <div>
-                        <p>O Gran Finale. Essa constelação garante 5 disparos de dano Hydro em área, fazendo com que Yelan ganhe mais AOE, e claro, mais dano. Prepare-se para dar onephase em qualquer coisa.</p>
-                    </div>
-                    <div class="nota">⭐⭐⭐⭐⭐<div class="transparente"></div></div>
-                </div>
-                
-            </div>
-                
-            <div class="banner-fim">
-                <img src="/img/guias/yelan/Ending_Yelan.gif">
-            </div>
-            <div class="flex footer">
-                <div class="contato2">
-                    <p>Tire dúvidas:</p>
-                    <div class="flex">
-                        <img src="/img/icones/discord.png">
-                        <p>Jean2051 & quinnzin</p>
+                <div class="flex footer">
+                    <div class="contato2">
+                        <p>Tire dúvidas:</p>
+                        <div class="flex">
+                            <img src="/img/icones/discord.png">
+                            <p>Jean2051 & quinnzin</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="fim">
-
-            </div>                            
-        </section>
-        <nav class="contato">
-            <p>Tire dúvidas:</p>
-            <div class="flex">
-                <img src="/img/icones/discord.png"> 
-                <p>Jean2051 & quinnzin</p>
-            </div>
-        </nav>
-        <nav class="nav flex">
-            <div class="links">
+                <div class="fim">
+    
+                </div>                            
+            </section>
+            <nav class="contato">
+                <p>Tire dúvidas:</p>
                 <div class="flex">
-                    <a href="#topo">Introdução</a>
-                    <a href="#faq">Dúvidas Frequentes</a>
-                    <a href="#talentos">Talentos</a>
-                    <a href="#habilidade" class="sublink">Habilidade</a>
-                    <a href="#supremo" class="sublink">Supremo</a>
-                    <a href="#status-medios">Status</a>
-                    <a href="#atributos">DPS fora de campo</a> 
-                    <a href="#atributos" class="sublink">Artefatos</a>                   
-                    <a href="#armas" class="sublink">Armas</a>                   
-                    <a href="#composicoes" class="sublink">Composições</a>              
-                    <a href="#maindps">DPS em campo</a> 
-                    <a href="#faq2" class="sublink">Dúvidas Frequentes</a>                   
-                    <a href="#atributos2" class="sublink">Artefatos</a>                   
-                    <a href="#armas2" class="sublink">Armas</a>                   
-                    <a href="#sinergias" class="sublink">Sinergias</a>              
-                    <a href="#composicoes2" class="sublink">Composições</a>              
-                    <a href="#constelacoes">Constelações</a>
+                    <img src="/img/icones/discord.png"> 
+                    <p>Jean2051 & quinnzin</p>
                 </div>
-            </div>
-            <div>
-                <p class="autoria">By: Quinn, Yuri & Jean</p>
-            </div>
-        </nav>
-    </main>
-    <div class="nav-mobile">        
-        <a href="#talentos">               
-            Kit Geral                   
-        </a>
-        <a href="#atributos">               
-            Artefatos                 
-        </a>
-        <a href="#armas">               
-            Armas                 
-        </a>
-        <a href="#composicoes">             
-            Equipes              
-        </a>
-        <a href="#maindps">
-            Main DPS
-        </a>
-    </div> 
+            </nav>
+            <nav class="nav flex">
+                <div class="links">
+                    <div class="flex">
+                        <a href="#topo">Introdução</a>
+                        <a href="#faq">Dúvidas Frequentes</a>
+                        <a href="#talentos">Talentos</a>
+                        <a href="#habilidade" class="sublink">Habilidade</a>
+                        <a href="#supremo" class="sublink">Supremo</a>
+                        <a href="#status-medios">Status</a>
+                        <a href="#atributos">DPS fora de campo</a> 
+                        <a href="#atributos" class="sublink">Artefatos</a>                   
+                        <a href="#armas" class="sublink">Armas</a>                   
+                        <a href="#composicoes" class="sublink">Composições</a>              
+                        <a href="#maindps">DPS em campo</a> 
+                        <a href="#faq2" class="sublink">Dúvidas Frequentes</a>                   
+                        <a href="#atributos2" class="sublink">Artefatos</a>                   
+                        <a href="#armas2" class="sublink">Armas</a>                   
+                        <a href="#sinergias" class="sublink">Sinergias</a>              
+                        <a href="#composicoes2" class="sublink">Composições</a>              
+                        <a href="#constelacoes">Constelações</a>
+                    </div>
+                </div>
+                <div>
+                    <p class="autoria">By: Quinn, Yuri & Jean</p>
+                </div>
+            </nav>
+        </main>
+        <div class="nav-mobile">        
+            <a href="#talentos">               
+                Kit Geral                   
+            </a>
+            <a href="#atributos">               
+                Artefatos                 
+            </a>
+            <a href="#armas">               
+                Armas                 
+            </a>
+            <a href="#composicoes">             
+                Equipes              
+            </a>
+            <a href="#maindps">
+                Main DPS
+            </a>
+        </div> 
+    </div>
 </body>
 </html>
