@@ -36,6 +36,7 @@ h4 {
 }
 html {
     background-color: var(--black-color);
+    color-scheme: dark;
 }
 main section, html {
     scroll-behavior: smooth;
