@@ -1,3 +1,6 @@
+import "@floating-ui/core";
+import "@floating-ui/dom";
+
 const input = document.querySelector('input')
 const cards = document.querySelectorAll('main .card')
 const error = document.querySelector('main .error')
